@@ -144,7 +144,7 @@ Two ways to encode
 | Type       | Smooth | Example             | $S$                                                                                                                                                                                                                                                                            |                                                         |                                                                |
 | ---------- | ------ | ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------- | -------------------------------------------------------------- |
 | Binary     | ❌      | Dummy               | $\{0, 1\}$                                                                                                                                                                                                                                                                     |                                                         |                                                                |
-| Continuous | ✅      | Cyclic Linear Basis | $\exp{\left[\dfrac{- 1}{2 \alpha^2} (x_i - \text{pivot})^2\right]}$<br />- Pivot is the center of the curve                                                                                                                                                                    | Preferred, as more control over amplitude and bandwidth | ![image-20231203140320362](assets/image-20231203140320362.png) |
+| Continuous | ✅      | Cyclic Linear Basis | $\exp{\left[\dfrac{- 1}{2 \alpha^2} (x_i - \text{pivot})^2\right]}$<br />- Pivot is the center of the curve                                                                                                                                                                    | Preferred, as more control over amplitude and bandwidth | ![image-20231203140320362](assets/image-20231203140320362.png){ loading=lazy } |
 |            | ✅      | Fourier series      | $\alpha \cos \left(\dfrac{2 \pi}{\nu} t + \phi \right) + \beta \sin \left( \dfrac{2 \pi}{\nu} t + \phi\right)$<br><br>Usually $\alpha, \beta = 1$<br><br>$\nu =$ Frequency of seasonality<br>- Quarterly = 4<br>- Monthly = 12<br>- Daily = 365.25<br><br>$\phi$ is the offset |                                                         |                                                                |
 
 ### Volatility
@@ -281,7 +281,7 @@ $$
 | $(0, 1)$<br />(Fractional differencing) | ✅            | ✅      |
 | 1                                       | ✅            | ❌      |
 
-![image-20240312122111883](assets/image-20240312122111883.png)
+![image-20240312122111883](assets/image-20240312122111883.png){ loading=lazy }
 
 ### Fractional Differencing/Un-differencing
 

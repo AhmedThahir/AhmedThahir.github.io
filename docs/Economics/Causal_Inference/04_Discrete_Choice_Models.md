@@ -114,7 +114,7 @@ u_{ib} &= \mu_a + \epsilon_{ib} \\
 $$
 Estimate $\Delta \tilde \mu_b = \alpha(\mu_b - \mu_a)$, which is the scaled difference between $\mu_a$ and $\mu_b$, by normalize the level and scale of utility.
 
-![rum_framework_estimation](assets/rum_framework_estimation.png)
+![rum_framework_estimation](assets/rum_framework_estimation.png){ loading=lazy }
 
 ## Probit Regression
 
@@ -177,7 +177,7 @@ $$
 \end{aligned}
 $$
 
-![image-20240223144944353](assets/image-20240223144944353.png)
+![image-20240223144944353](assets/image-20240223144944353.png){ loading=lazy }
 
 Multinomial probit models do not have the IIA property as they allow correlated errors
 
@@ -230,7 +230,7 @@ Proportional substitution is a manifestation of the IIA property of the logistic
 
 Binary Logistic regression $\approx$ Binary probit regression
 
-![Binary_probit_regression_vs_Binary_Logistic_regression](assets/Binary_probit_regression_vs_Binary_Logistic_regression.png)
+![Binary_probit_regression_vs_Binary_Logistic_regression](assets/Binary_probit_regression_vs_Binary_Logistic_regression.png){ loading=lazy }
 
 |                                       | Logistic Regression                    | Probit                                                                        |
 | ------------------------------------- | -------------------------------------- | ----------------------------------------------------------------------------- |
@@ -241,7 +241,7 @@ Binary Logistic regression $\approx$ Binary probit regression
 
 Example
 
-![observed_market_share](assets/observed_market_share.png)
+![observed_market_share](assets/observed_market_share.png){ loading=lazy }
 
 ## Marginal Effects
 
@@ -267,7 +267,7 @@ $$
 
 ## Tobit Regression
 
-![](assets/tobit_regression.png)
+![](assets/tobit_regression.png){ loading=lazy }
 
 Applicable for
 - Censored

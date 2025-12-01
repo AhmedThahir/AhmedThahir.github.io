@@ -1,11 +1,11 @@
-site_url: https://uni-notes.netlify.app
-site_name: Uni Notes
+site_url: https://AhmedThahir.github.io
+site_name: Ahmed Thahir
 site_author: Ahmed Thahir
 site_description: >-
-  Ahmed Thahir's notes taken over the years, now featuring others' as well :)
+  Ahmed Thahir's personal website, with notes taken over the years - now featuring others' as well :)
 # Repository
-repo_name: Uni Notes
-repo_url: https://github.com/uni-notes/uni-notes
+repo_name: AhmedThahir
+repo_url: https://github.com/AhmedThahir/AhmedThahir.github.io
 edit_uri: edit/main/docs/
 
 # Copyright
@@ -79,13 +79,13 @@ plugins:
       branch: main
       token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
       exclude:
-        - index.md
+        - README.md
         - CONTRIBUTING.md
   - git-revision-date-localized:
       type: timeago
       custom_format: "%d. %B %Y"
       exclude:
-        - index.md
+        - README.md
         - CONTRIBUTING.md
 
 # Customization

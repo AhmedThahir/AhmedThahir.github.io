@@ -10,7 +10,7 @@ Immediately after the pandemic, there is a sudden growth as:
 
 ### Phases of economy
 
-![](assets/economy_cycle.png)
+![](assets/economy_cycle.png){ loading=lazy }
 
 | Phase     | Indicator                                          | Unemployment     | Inflation          | Policy:<br>Incentivize | Policy:<br>Action                                                                                                                    |
 | --------- | -------------------------------------------------- | ---------------- | ------------------ | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------ |

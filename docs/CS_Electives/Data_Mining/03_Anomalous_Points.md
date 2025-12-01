@@ -108,7 +108,7 @@ Mostly used when $n<20$ and where calculating SD is difficult
 
 Masking (what if there are multiple outliers)
 
-![image-20240609225714943](./assets/image-20240609225714943.png)
+![image-20240609225714943](./assets/image-20240609225714943.png){ loading=lazy }
 
 ### Grubbs’ Test
 

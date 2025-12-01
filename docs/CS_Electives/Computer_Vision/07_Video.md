@@ -4,9 +4,9 @@ Continuous stream of images
 ## Before deep learning
 they used 'tracklets'
 
-![](assets/dense_trajectories.png)
+![](assets/dense_trajectories.png){ loading=lazy }
 
-![](assets/motion_boundary_descriptors.png)
+![](assets/motion_boundary_descriptors.png){ loading=lazy }
 
 ## Generalizing CNNs
 

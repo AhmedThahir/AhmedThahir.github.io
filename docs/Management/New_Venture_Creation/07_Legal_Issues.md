@@ -2,7 +2,7 @@
 
 ## Lifecycle
 
-![image-20240210172044853](assets/image-20240210172044853.png)
+![image-20240210172044853](assets/image-20240210172044853.png){ loading=lazy }
 
 ## IDK
 
@@ -101,7 +101,7 @@ If you ever want to enforce the patent, claims is the part that matters. Hence t
     - How to overcome
       - Separate the time when stock is issued to you from the investment by others, ie incorporate earlier, issue stock & make 83(b) election
 - S corporation is preferable over a regular corporation, to avoid double taxation
-  - ![image-20240210202858496](assets/image-20240210202858496.png)
+  - ![image-20240210202858496](assets/image-20240210202858496.png){ loading=lazy }
 
 ## Forms of Equity Compensation
 

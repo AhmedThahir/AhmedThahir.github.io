@@ -27,7 +27,7 @@
 - Genomics
 - Wearable sensors
 
-![image-20240526155227535](./assets/image-20240526155227535.png)
+![image-20240526155227535](./assets/image-20240526155227535.png){ loading=lazy }
 
  ### Standardization
 
@@ -37,7 +37,7 @@
 
 OMOP
 
-![image-20240526155934757](./assets/image-20240526155934757.png)
+![image-20240526155934757](./assets/image-20240526155934757.png){ loading=lazy }
 
 ### Machine Learning
 
@@ -49,7 +49,7 @@ OMOP
 
 ## Overview
 
-![image-20240526162513566](./assets/image-20240526162513566.png)
+![image-20240526162513566](./assets/image-20240526162513566.png){ loading=lazy }
 
 Emergency department
 

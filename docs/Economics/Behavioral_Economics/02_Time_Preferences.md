@@ -37,7 +37,7 @@ where
 |Advantages | Not affected by awareness issue | - Separate short & long-run discounting<br />- Great patience for tradeoffs in the future than for tradeoff in present<br />- Deals with preference reversals|
 |Limitation | Constant discount rate<br /><br />1. Short vs Long-Run impatience<br />2. Preference reversals<br />3. Commitment devices                   | Affected by awareness issue |
 
-![image-20240212112607560](assets/image-20240212112607560.png)
+![image-20240212112607560](assets/image-20240212112607560.png){ loading=lazy }
 
 ### Estimating $\delta$
 
@@ -134,7 +134,7 @@ When you know that your future preferences will be different from present prefer
 
 Consider the following table showing the utilities associated with watching a movie
 
-![image-20240212122705997](assets/image-20240212122705997.png)
+![image-20240212122705997](assets/image-20240212122705997.png){ loading=lazy }
 
 |                    | Naïveté                                                      | Sophistication                                               |
 | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |

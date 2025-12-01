@@ -4,7 +4,7 @@ Does being poor keep you poor?
 
 ## The S-curve
 
-![image-20231114015353984](assets/image-20231114015353984.png)
+![image-20231114015353984](assets/image-20231114015353984.png){ loading=lazy }
 
 This clearly shows that where you start affects where you end.
 
@@ -22,7 +22,7 @@ Relationship between work capacity and income.
 
 > Piece-rate, or piecemeal pay, means that employees are paid by the unit when completing a particular task, for instance, bushels harvested, trees pruned, or acres mowed. In this case, a worker is compensated by individual output and **not** by an hourly rate
 
-![image-20231128234939043](assets/image-20231128234939043.png)
+![image-20231128234939043](assets/image-20231128234939043.png){ loading=lazy }
 
 Higher the income, more food calories. The first few calories are required as a minimum to function actively; however, after a certain point, there is decreased return.
 
@@ -32,21 +32,21 @@ $v^*$ represents the smallest possible wage at which people meaningful work. It 
 
 Involuntary unemployment occurs when the economics forces maintain equilibrium due to balancing labor demand and labor supply.
 
-![image-20231128235122367](assets/image-20231128235122367.png)
+![image-20231128235122367](assets/image-20231128235122367.png){ loading=lazy }
 
-![image-20231128235946954](assets/image-20231128235946954.png)
+![image-20231128235946954](assets/image-20231128235946954.png){ loading=lazy }
 
-![image-20231129011729098](assets/image-20231129011729098.png)
+![image-20231129011729098](assets/image-20231129011729098.png){ loading=lazy }
 
 The capacity curve changes whether or not the person had food the previous day. So, we can conclude that being today’s employment helps in continued employment tomorrow.
 
 ## Distribution of Land
 
-![image-20231128235957355](assets/image-20231128235957355.png)
+![image-20231128235957355](assets/image-20231128235957355.png){ loading=lazy }
 
 ## Effective Reservation Wage
 
-![image-20231129000201786](assets/image-20231129000201786.png)
+![image-20231129000201786](assets/image-20231129000201786.png){ loading=lazy }
 
 The thick curve is the effective reservation wage, as you need to be
 
@@ -55,7 +55,7 @@ The thick curve is the effective reservation wage, as you need to be
 
 ## Equilibria
 
-![image-20231129000326719](assets/image-20231129000326719.png)
+![image-20231129000326719](assets/image-20231129000326719.png){ loading=lazy }
 
 When the wage is very low, very few people can work
 
@@ -97,7 +97,7 @@ $$
 \end{aligned}
 $$
 
-![image-20231129013325529](assets/image-20231129013325529.png)
+![image-20231129013325529](assets/image-20231129013325529.png){ loading=lazy }
 
 $$
 y_{t+1} = (f \circ g)(y_t)
@@ -131,15 +131,15 @@ In some cases, food is affordable, so $g$ won’t be steep.
 
 ### India
 
-![Local Regression at different points of log(calories) vs log(per capita expenditure)](assets/image-20231129014424156.png)
+![Local Regression at different points of log(calories) vs log(per capita expenditure)](assets/image-20231129014424156.png){ loading=lazy }
 
 As you can see, as people get richer, they eat more expensive calories. This means that they don’t feel the pain of poverty trap, as they would rather than get **more calories** rather than expensive calories, with the same budget.
 
-![Elasticity of per capita calories to per capita expenditure](assets/image-20231129014601506.png)
+![Elasticity of per capita calories to per capita expenditure](assets/image-20231129014601506.png){ loading=lazy }
 
-![Log(price per calorie) vs log(per capita expenditure)](assets/image-20231129014815124.png)
+![Log(price per calorie) vs log(per capita expenditure)](assets/image-20231129014815124.png){ loading=lazy }
 
-![image-20231129015443758](assets/image-20231129015443758.png)
+![image-20231129015443758](assets/image-20231129015443758.png){ loading=lazy }
 
 Even though the number of extremely poor people has gone down in India, the per capita consumption has not increased, as the Calorie Engel curve has moved rightward.
 

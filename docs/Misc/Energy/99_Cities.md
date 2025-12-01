@@ -6,9 +6,9 @@ Intersection of Tech, Policies, Markets
 
 Urban population has the major concentration of populations, and it is continuously increasing
 
-![urban-rural proportion 1](./assets/urban-rural_proportion_1.png)
+![urban-rural proportion 1](./assets/urban-rural_proportion_1.png){ loading=lazy }
 
-![urban-rural proportion 2](./assets/urban-rural_proportion_2.png)
+![urban-rural proportion 2](./assets/urban-rural_proportion_2.png){ loading=lazy }
 
 ## ‘The Balance Sheet’
 
@@ -71,7 +71,7 @@ Energy Consumption vs **Sustainable** Energy Production
 
 Usually shown using Sankey diagrams
 
-![image-20240217185501479](./assets/image-20240217185501479.png)
+![image-20240217185501479](./assets/image-20240217185501479.png){ loading=lazy }
 
 Rejected energy is the by-product of energy generation that is not used (energy lost due to heat loss, air resistance, etc)
 
@@ -79,7 +79,7 @@ Rejected energy is the by-product of energy generation that is not used (energy 
 
 Goal of getting to net-zero emissions by 2050
 
-![deep_decarbonization_2050_Sankey_Diagram](./assets/deep_decarbonization_2050_Sankey_Diagram.png)
+![deep_decarbonization_2050_Sankey_Diagram](./assets/deep_decarbonization_2050_Sankey_Diagram.png){ loading=lazy }
 
 ## Aspects of Urban Energy Planning
 
@@ -128,7 +128,7 @@ Energy justice
 
 ### Just Framework
 
-![image-20240217201316631](./assets/image-20240217201316631.png)
+![image-20240217201316631](./assets/image-20240217201316631.png){ loading=lazy }
 
 ## Importance of land uses and land cover
 

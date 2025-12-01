@@ -74,7 +74,7 @@ $$
 | Tested model and final model are same<br />Small $E_\text{out}(\hat f) - E_\text{out}(\hat f_\text{test})$ |                      ✅                      |                    ❌                     |
 | Extreme case<br />Model performance reporting                | “with no certainty, the model is excellent” | “with high certainty, the model is crap” |
 
-![image-20240627171759662](./assets/image-20240627171759662.png)
+![image-20240627171759662](./assets/image-20240627171759662.png){ loading=lazy }
 
 ## Usage
 
@@ -97,7 +97,7 @@ Single metric
 - Use RMS (Root Mean Squared) of train and dev error estimate to compare models
   - Harmonic mean not applicable as it gives more weight to smaller value
 
-![image-20240627171239687](./assets/image-20240627171239687.png)
+![image-20240627171239687](./assets/image-20240627171239687.png){ loading=lazy }
 
 ## Sampling Types
 
@@ -121,21 +121,21 @@ Hence, these help address the issue of a simple validation: Results can be highl
 
 |                                  |                                                              | Purpose                                                      | Comment                                   |
 | -------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------- |
-| Regular $k$ fold                 | ![img](./assets/1*1L9DQtU1b7AHp8Bk4vr6QQ.png)                | Obtain uncertainty of evaluation estimates                   | Higher $k$ recommended for small datasets |
+| Regular $k$ fold                 | ![img](./assets/1*1L9DQtU1b7AHp8Bk4vr6QQ.png){ loading=lazy }                | Obtain uncertainty of evaluation estimates                   | Higher $k$ recommended for small datasets |
 | Leave-One-Out                    |                                                              | For very small datasets<br />$n < 20$                        | $k=n$                                     |
-| Shuffled                         | ![img](./assets/1*SUZHoDzHqYobxgtIZxRjrQ.png)                |                                                              |                                           |
-| Random Permutation               | ![img](./assets/1*DD6nnhiXEpCZK406avyn6Q.png)                |                                                              |                                           |
-| Stratified                       | ![](./assets/1*_Q298WoataU8CAhytaRAZA.png)                   | Ensures that Train, Validation & Test sets have same distribution |                                           |
-| Stratified Shuffle               | ![img](./assets/1*c0fZiiLBNxHtw7-X7PJSGA.png)                |                                                              |                                           |
-| Grouped                          | ![img](./assets/1*c1-TwkOsV_SwQWa-6qzKAg.png)<br />![](./assets/1*9v76vZK6lThlz0iehGd3vw.png) |                                                              |                                           |
-| Grouped - Leave One Group Out    | ![img](./assets/1*sbITCGXoQEHSSm0xfjLD1A.png)                |                                                              |                                           |
-| Grouped with Random Permutation  | ![img](./assets/1*oTIxF_Pjp13Y22ykDLLyKA.png)                |                                                              |                                           |
-| Walk-Forward Expanding Window    | ![image-20240312120935236](./assets/image-20240312120935236.png)<br />![img](./assets/1*eVzEdnVo9BBAU33yM04ylA.png) |                                                              |                                           |
-| Walk-Forward Rolling Window      | ![image-20240312120950200](./assets/image-20240312120950200.png) |                                                              |                                           |
-| Blocking                         | ![img](./assets/1*MZ984wDUzAfWk6N8NNs9Rg.png)                |                                                              |                                           |
-| Purging                          | ![img](./assets/1*rmkHSTJghRCa45lWCf9H_A.png)<br />![purged_cv](./assets/purged_cv.png)<br />![image-20240312120912110](./assets/image-20240312120912110.png) | Remove train obs whose labels overlap in time with test labels |                                           |
-| Purging & Embargo                | ![img](./assets/1*a6x2YNDJkrwZD8VfV-YyPA.png)                | Prevent data leakage due to serial correlation $x_{\text{train}_{-1}} \approx x_{\text{test}_{0}}$<br />$y_{\text{train}_{-1}} \approx y_{\text{test}_{0}}$ |                                           |
-| CPCV<br />(Combinatorial Purged) | ![image-20240312121125929](./assets/image-20240312121125929.png) |                                                              |                                           |
+| Shuffled                         | ![img](./assets/1*SUZHoDzHqYobxgtIZxRjrQ.png){ loading=lazy }                |                                                              |                                           |
+| Random Permutation               | ![img](./assets/1*DD6nnhiXEpCZK406avyn6Q.png){ loading=lazy }                |                                                              |                                           |
+| Stratified                       | ![](./assets/1*_Q298WoataU8CAhytaRAZA.png){ loading=lazy }                   | Ensures that Train, Validation & Test sets have same distribution |                                           |
+| Stratified Shuffle               | ![img](./assets/1*c0fZiiLBNxHtw7-X7PJSGA.png){ loading=lazy }                |                                                              |                                           |
+| Grouped                          | ![img](./assets/1*c1-TwkOsV_SwQWa-6qzKAg.png){ loading=lazy }<br />![](./assets/1*9v76vZK6lThlz0iehGd3vw.png){ loading=lazy } |                                                              |                                           |
+| Grouped - Leave One Group Out    | ![img](./assets/1*sbITCGXoQEHSSm0xfjLD1A.png){ loading=lazy }                |                                                              |                                           |
+| Grouped with Random Permutation  | ![img](./assets/1*oTIxF_Pjp13Y22ykDLLyKA.png){ loading=lazy }                |                                                              |                                           |
+| Walk-Forward Expanding Window    | ![image-20240312120935236](./assets/image-20240312120935236.png){ loading=lazy }<br />![img](./assets/1*eVzEdnVo9BBAU33yM04ylA.png){ loading=lazy } |                                                              |                                           |
+| Walk-Forward Rolling Window      | ![image-20240312120950200](./assets/image-20240312120950200.png){ loading=lazy } |                                                              |                                           |
+| Blocking                         | ![img](./assets/1*MZ984wDUzAfWk6N8NNs9Rg.png){ loading=lazy }                |                                                              |                                           |
+| Purging                          | ![img](./assets/1*rmkHSTJghRCa45lWCf9H_A.png){ loading=lazy }<br />![purged_cv](./assets/purged_cv.png){ loading=lazy }<br />![image-20240312120912110](./assets/image-20240312120912110.png){ loading=lazy } | Remove train obs whose labels overlap in time with test labels |                                           |
+| Purging & Embargo                | ![img](./assets/1*a6x2YNDJkrwZD8VfV-YyPA.png){ loading=lazy }                | Prevent data leakage due to serial correlation $x_{\text{train}_{-1}} \approx x_{\text{test}_{0}}$<br />$y_{\text{train}_{-1}} \approx y_{\text{test}_{0}}$ |                                           |
+| CPCV<br />(Combinatorial Purged) | ![image-20240312121125929](./assets/image-20240312121125929.png){ loading=lazy } |                                                              |                                           |
 
 ### Bootstrapping Types
 
@@ -143,7 +143,7 @@ Hence, these help address the issue of a simple validation: Results can be highl
 | -------------------------------- | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------- | -------------------------------------------------------- |
 | Random sampling with replacement | IID            |                                                                                                                                                   |                                       |                                                          |
 | ARIMA Bootstrap                  | Parametric     |                                                                                                                                                   |                                       |                                                          |
-| Moving Block Bootstrap           | Non-parametric | ![image-20240312121539820](./assets/image-20240312121539820.png)                                                                                  |                                       |                                                          |
+| Moving Block Bootstrap           | Non-parametric | ![image-20240312121539820](./assets/image-20240312121539820.png){ loading=lazy }                                                                                  |                                       |                                                          |
 | Circular Block Bootstrap         | Non-parametric |                                                                                                                                                   |                                       |                                                          |
 | Stationary Bootstrap             | Non-parametric |                                                                                                                                                   |                                       |                                                          |
 | Test-Set Bootstrap               |                | Only bootstrap the out-of-sample set (dev, val, test)<br>                                                                                         | No refitting: Great for Deep Learning | Large out-of-sample size required for good bootstrapping |
@@ -154,11 +154,11 @@ Hence, these help address the issue of a simple validation: Results can be highl
 
 | Type                     |                                             Cross-Sectional                                             |                                    Time Series                                    | Comment                                                                                                                                                   |
 | ------------------------ | :-----------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Holdout                  |                           ![train_test_split](./assets/train_test_split.svg)                            |                ![train_test_split](./assets/train_test_split.svg)                 |                                                                                                                                                           |
-| $k$- Fold                |          ![k_fold_cross_validation](./assets/k_fold_cross_validation_cross_sectional_data.svg)          | ![k_fold_cross_validation](./assets/k_fold_cross_validation_time_series_data.svg) | 1. Split dataset into $k$ subsets<br/>2. Train model on $(k-1)$ subsets<br />3. Evaluate performance on $1$ subset<br/>4. Summary stats of all iterations |
-| Repeated $k$-Fold        | ![repeated_k_fold_cross_validation](./assets/repeated_k_fold_cross_validation_cross_sectional_data.svg) |                                         ❌                                         | Repeat $k$ fold with different splits and random seed                                                                                                     |
-| Nested $k$-Fold          |           ![nested_k_fold_cross_validation](./assets/nested_k_fold_cross_sectional_data.svg)            |  ![nested_k_fold_cross_validation](./assets/nested_k_fold_time_series_data.svg)   |                                                                                                                                                           |
-| Nested Repeated $k$-Fold |  ![nested_repeated_k_fold_cross_validation](./assets/nested_repeated_k_fold_cross_sectional_data.svg)   |                                         ❌                                         |                                                                                                                                                           |
+| Holdout                  |                           ![train_test_split](./assets/train_test_split.svg){ loading=lazy }                            |                ![train_test_split](./assets/train_test_split.svg){ loading=lazy }                 |                                                                                                                                                           |
+| $k$- Fold                |          ![k_fold_cross_validation](./assets/k_fold_cross_validation_cross_sectional_data.svg){ loading=lazy }          | ![k_fold_cross_validation](./assets/k_fold_cross_validation_time_series_data.svg){ loading=lazy } | 1. Split dataset into $k$ subsets<br/>2. Train model on $(k-1)$ subsets<br />3. Evaluate performance on $1$ subset<br/>4. Summary stats of all iterations |
+| Repeated $k$-Fold        | ![repeated_k_fold_cross_validation](./assets/repeated_k_fold_cross_validation_cross_sectional_data.svg){ loading=lazy } |                                         ❌                                         | Repeat $k$ fold with different splits and random seed                                                                                                     |
+| Nested $k$-Fold          |           ![nested_k_fold_cross_validation](./assets/nested_k_fold_cross_sectional_data.svg){ loading=lazy }            |  ![nested_k_fold_cross_validation](./assets/nested_k_fold_time_series_data.svg){ loading=lazy }   |                                                                                                                                                           |
+| Nested Repeated $k$-Fold |  ![nested_repeated_k_fold_cross_validation](./assets/nested_repeated_k_fold_cross_sectional_data.svg){ loading=lazy }   |                                         ❌                                         |                                                                                                                                                           |
 
 For
 - cross-sectional data
@@ -188,7 +188,7 @@ Usually $k$ is taken
 - Small dataset: 10
 - Tiny dataset: $k=n$ , ie LOOCV (Leave-One-Out CV)
 
-![image-20240627180121829](./assets/image-20240627180121829.png)
+![image-20240627180121829](./assets/image-20240627180121829.png){ loading=lazy }
 
 ## Data Leakage
 

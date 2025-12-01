@@ -15,5 +15,5 @@ It is an op-amp (operation amplifier)
 - Ground
 - VCC
 
-![LM358](./assets/LM358.png)
+![LM358](./assets/LM358.png){ loading=lazy }
 

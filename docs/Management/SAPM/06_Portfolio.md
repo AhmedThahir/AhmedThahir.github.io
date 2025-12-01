@@ -60,9 +60,9 @@ w_1^* &= \dfrac{\sigma_2^2 - \sigma_1 \sigma_2 \rho_{12}}{\sigma_1^2 + \sigma_2^
 \end{aligned}
 $$
 
-![image-20240530155412932](assets/image-20240530155412932.png)
+![image-20240530155412932](assets/image-20240530155412932.png){ loading=lazy }
 
-![image-20240530155927706](assets/image-20240530155927706.png)
+![image-20240530155927706](assets/image-20240530155927706.png){ loading=lazy }
 
 ## Types of Portfolios
 

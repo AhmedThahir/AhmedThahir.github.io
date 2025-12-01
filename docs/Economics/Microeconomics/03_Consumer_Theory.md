@@ -12,8 +12,8 @@ At any point on the curve, the combination of the two will leave the consumer eq
 
 |                                  | Shows all combinations of __ that provide the same utility | Slope gives |                                                                |
 | -------------------------------- | ---------------------------------------------------------- | ----------- | -------------------------------------------------------------- |
-| Goods-Indifference Curve         | two commodities at the same time point                     | MRS         | ![](./assets/indifference_curves.png)                          |
-| Fisher’s Time-Indifference Curve | same commodity at different time points                    |             | ![time_indifference_curve](assets/time_indifference_curve.png) |
+| Goods-Indifference Curve         | two commodities at the same time point                     | MRS         | ![](./assets/indifference_curves.png){ loading=lazy }                          |
+| Fisher’s Time-Indifference Curve | same commodity at different time points                    |             | ![time_indifference_curve](assets/time_indifference_curve.png){ loading=lazy } |
 
 ### Properties
 
@@ -86,7 +86,7 @@ where
 
 ### Budget Line
 
-![](assets/budget_line.png)
+![](assets/budget_line.png){ loading=lazy }
 
 ### Opportunity Set
 
@@ -111,13 +111,13 @@ $$
 
 | Change | Outcome             | Example                    |                                                |
 | ------ | ------------------- | -------------------------- | ---------------------------------------------- |
-| Cost   | Change in Slope     | Increase in price of pizza | ![](assets/budget_line_increase_in_price.png)  |
-| Budget | Change in intercept | Decrease in income         | ![](assets/budget_line_decrease_in_income.png) |
+| Cost   | Change in Slope     | Increase in price of pizza | ![](assets/budget_line_increase_in_price.png){ loading=lazy }  |
+| Budget | Change in intercept | Decrease in income         | ![](assets/budget_line_decrease_in_income.png){ loading=lazy } |
 ## Choice
 
 Highest indifference curve achievable given the budget: the tangency
 
-![](assets/choice_curve.png)
+![](assets/choice_curve.png){ loading=lazy }
 
 Point at which MRT = MRS
 
@@ -130,6 +130,6 @@ Cash Transfer vs Food Stamps
 
 |            | Cash Transfer                                       | Food Stamps                                         |
 | ---------- | --------------------------------------------------- | --------------------------------------------------- |
-|            | ![](assets/cash_transfer.png)                       | ![](./assets/food_stamps.png)                       |
+|            | ![](assets/cash_transfer.png){ loading=lazy }                       | ![](./assets/food_stamps.png){ loading=lazy }                       |
 | Belief     | Everyone is responsible and makes the right choices | Paternalism: Economist knows better than the person |
 | Limitation |                                                     | May lead to black market                            |

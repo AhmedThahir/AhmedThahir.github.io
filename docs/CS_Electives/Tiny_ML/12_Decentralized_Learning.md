@@ -22,7 +22,7 @@
 | Limitations          |                     | - poor privacy<br/>- worse scalability                       | Not fully private: ==You can recover data from model parameters/gradient updates==<br />Consumes higher total energy |                                                              |
 | Challenges           |                     |                                                              | Poor network                                                 | All challenges of FL                                         |
 | Example              |                     | Google Photos                                                |                                                              |                                                              |
-|                      |                     |                                                              | ![Federated learning - Wikipedia](./assets/Centralized_federated_learning_protocol-20240518105026703.png) |                                                              |
+|                      |                     |                                                              | ![Federated learning - Wikipedia](./assets/Centralized_federated_learning_protocol-20240518105026703.png){ loading=lazy } |                                                              |
 
 ### Terms
 
@@ -55,7 +55,7 @@ Prune gradients based magnitude and compress zeroes
 
 ### Single GPU-system
 
-![image-20240517234025669](./assets/image-20240517234025669.png)
+![image-20240517234025669](./assets/image-20240517234025669.png){ loading=lazy }
 
 ### Model Parallelism
 
@@ -63,7 +63,7 @@ All workers train on same batch
 
 Workers communicate as frequently as network allows
 
-![image-20240517234511422](./assets/image-20240517234511422.png)
+![image-20240517234511422](./assets/image-20240517234511422.png){ loading=lazy }
 
 Necessary for models that do not fit on a single GPU
 
@@ -92,11 +92,11 @@ Workers communicate as frequently as network allows
 
 |                           |                                                                  |                                                                                                     | Communication Overhead                | Advantage                                           | Limitation|
 |---                        | ---                                                              | ---                                                                                                 | ---                                   | ---                                                 | ---|
-|Single-GPU                 | ![image-20240517235009471](./assets/image-20240517235009471.png) |                                                                                                     |                                       |                                                     | |
-|Multiple GPU               | ![image-20240517235030466](./assets/image-20240517235030466.png) | Average gradients across minibatch on all GPUs<br />Over PCIe, ethernet, NVLink depending on system | $kn(n-1)$                             |                                                     | High communication overhead|
-|Parameter Server           | ![image-20240517235720628](./assets/image-20240517235720628.png) |                                                                                                     |                                       |                                                     | |
-|Parallel Parameter Sharing | ![image-20240517235936682](./assets/image-20240517235936682.png) |                                                                                                     | $k$ per worker<br />$kn/s$ for server |                                                     | |
-|Ring Allreduce             | ![image-20240518000314126](./assets/image-20240518000314126.png) | Each GPU has different chunks of the mini-batch | $2k\dfrac{n-1}{n}$                    | Scalable<br />Communication cost independent of $n$ | |
+|Single-GPU                 | ![image-20240517235009471](./assets/image-20240517235009471.png){ loading=lazy } |                                                                                                     |                                       |                                                     | |
+|Multiple GPU               | ![image-20240517235030466](./assets/image-20240517235030466.png){ loading=lazy } | Average gradients across minibatch on all GPUs<br />Over PCIe, ethernet, NVLink depending on system | $kn(n-1)$                             |                                                     | High communication overhead|
+|Parameter Server           | ![image-20240517235720628](./assets/image-20240517235720628.png){ loading=lazy } |                                                                                                     |                                       |                                                     | |
+|Parallel Parameter Sharing | ![image-20240517235936682](./assets/image-20240517235936682.png){ loading=lazy } |                                                                                                     | $k$ per worker<br />$kn/s$ for server |                                                     | |
+|Ring Allreduce             | ![image-20240518000314126](./assets/image-20240518000314126.png){ loading=lazy } | Each GPU has different chunks of the mini-batch | $2k\dfrac{n-1}{n}$                    | Scalable<br />Communication cost independent of $n$ | |
 
 where
 - $n=$ no of client GPUs
@@ -105,17 +105,17 @@ where
 
 #### Ring-Allreduce
 
-![image-20240518000113085](./assets/image-20240518000113085.png)
+![image-20240518000113085](./assets/image-20240518000113085.png){ loading=lazy }
 
 ##### Step 1: Reduce-Scatter
 
-![image-20240518081322299](./assets/image-20240518081322299.png)
+![image-20240518081322299](./assets/image-20240518081322299.png){ loading=lazy }
 
-![image-20240518081334451](./assets/image-20240518081334451.png)
+![image-20240518081334451](./assets/image-20240518081334451.png){ loading=lazy }
 
 ##### Step 2: Allgather
 
-![image-20240518081605306](./assets/image-20240518081605306.png)
+![image-20240518081605306](./assets/image-20240518081605306.png){ loading=lazy }
 
 ### Weight Updates Types
 
@@ -125,11 +125,11 @@ where
 | Speed per epoch      | Slow        | Fast                                                         |
 | Training convergence | Fast        | Slow                                                         |
 | Accuracy             | Better      | Worse                                                        |
-|                      |             | ![image-20240518082907733](./assets/image-20240518082907733.png) |
+|                      |             | ![image-20240518082907733](./assets/image-20240518082907733.png){ loading=lazy } |
 
 ### Pipeline Parallelism
 
-![image-20240518084125383](./assets/image-20240518084125383.png)
+![image-20240518084125383](./assets/image-20240518084125383.png){ loading=lazy }
 
 ## Federated Learning
 
@@ -159,12 +159,12 @@ Each iteration of this loop is called “round” of learning
 
 |             |                                                              | Handling Stragglers | Handling Data Imbalance                                      |                                                              |
 | ----------- | ------------------------------------------------------------ | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| FedAvg      | The more data points a device has, the higher weight of device in updating global model | Drop                | Poor                                                         | ![image-20240518090015465](./assets/image-20240518090015465.png) |
+| FedAvg      | The more data points a device has, the higher weight of device in updating global model | Drop                | Poor                                                         | ![image-20240518090015465](./assets/image-20240518090015465.png){ loading=lazy } |
 | FedProx     |                                                              | Use partial results | Discourage large weight updates through regularization<br />$\lambda {\vert \vert w' - w \vert \vert}^2$<br />$w=$ Weight of single device |                                                              |
 | q-fed-avg   |                                                              |                     | Discourage large weight updates for any single device        |                                                              |
 | per-per-avg |                                                              |                     |                                                              |                                                              |
 
-![image-20240518091433814](./assets/image-20240518091433814.png)
+![image-20240518091433814](./assets/image-20240518091433814.png){ loading=lazy }
 
 ### Data Labelling
 
@@ -178,6 +178,6 @@ How to get labels
 
 |            |                                                              |
 | ---------- | ------------------------------------------------------------ |
-| Horizontal | ![img](./assets/Classification-of-federated-learning.png)    |
-| Vertical   | ![Classification-of-federated-learning copy](./assets/Classification-of-federated-learning%20copy.png) |
-| Transfer   | ![Classification-of-federated-learning copy 2](./assets/Classification-of-federated-learning%20copy%202.png) |
+| Horizontal | ![img](./assets/Classification-of-federated-learning.png){ loading=lazy }    |
+| Vertical   | ![Classification-of-federated-learning copy](./assets/Classification-of-federated-learning%20copy.png){ loading=lazy } |
+| Transfer   | ![Classification-of-federated-learning copy 2](./assets/Classification-of-federated-learning%20copy%202.png){ loading=lazy } |

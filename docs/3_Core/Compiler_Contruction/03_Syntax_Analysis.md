@@ -85,7 +85,7 @@ E
 
 Parse tree is same for both
 
-![image-20230402172958728](./assets/image-20230402172958728.png)
+![image-20230402172958728](./assets/image-20230402172958728.png){ loading=lazy }
 
 ## Grammar
 
@@ -161,7 +161,7 @@ E
 → id + id + id
 ```
 
-![image-20230402175516254](./assets/image-20230402175516254.png)
+![image-20230402175516254](./assets/image-20230402175516254.png){ loading=lazy }
 
 ### `if` statement
 
@@ -177,7 +177,7 @@ This has two leftmost derivations for
 if E1 then if E2 then S1 else S2
 ```
 
-![image-20230402180051577](./assets/image-20230402180051577.png)
+![image-20230402180051577](./assets/image-20230402180051577.png){ loading=lazy }
 
 ## Disambiguation
 
@@ -247,7 +247,7 @@ L → L,E  | E
 | :--------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 |  Alternate Name  |                     Concrete Syntax Tree                     |                     Abstract Syntax Tree                     |
 | Grammar symbols? |                              ✅                               |                   ❌<br />(only terminals)                    |
-|     Example      | ![image-20230402182927760](./assets/image-20230402182927760.png) | ![image-20230402182946212](./assets/image-20230402182946212.png) |
+|     Example      | ![image-20230402182927760](./assets/image-20230402182927760.png){ loading=lazy } | ![image-20230402182946212](./assets/image-20230402182946212.png){ loading=lazy } |
 
 ## Parsing
 
@@ -340,7 +340,7 @@ If a shift-reduce parser cannot be used for a grammar, that grammar is called as
 
 
 
-![image-20230402214150960](./assets/image-20230402214150960.png)
+![image-20230402214150960](./assets/image-20230402214150960.png){ loading=lazy }
 
 ### Conflicts
 
@@ -362,7 +362,7 @@ If a shift-reduce parser cannot be used for a grammar, that grammar is called as
 | ----- | --------- | ------ |
 | `$`   | somethign |        |
 
-![image-20230402211548157](./assets/image-20230402211548157.png)
+![image-20230402211548157](./assets/image-20230402211548157.png){ loading=lazy }
 
 ## LR($k$) Parsing
 
@@ -414,7 +414,7 @@ The parser action is determined by $S_m$, $a_i$, and parsing action table
 
 Parse `id*id+id$` using
 
-![image-20230402221537675](./assets/image-20230402221537675.png)
+![image-20230402221537675](./assets/image-20230402221537675.png){ loading=lazy }
 
-![image-20230402221817795](./assets/image-20230402221817795.png)
+![image-20230402221817795](./assets/image-20230402221817795.png){ loading=lazy }
 

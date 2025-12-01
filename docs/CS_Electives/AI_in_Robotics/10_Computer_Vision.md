@@ -124,7 +124,7 @@ Thresholding: $\vert \vert \nabla f \vert \vert$ are compared with 2 threshold v
 - All other pixels are marked as “weak” edges, and become candidates for final edge map
   - If weak pixels are connected to solid pixels, they are also included in final edge map
 
-![image-20240220224536634](./assets/image-20240220224536634.png)
+![image-20240220224536634](./assets/image-20240220224536634.png){ loading=lazy }
 
 ## Camera Calibration
 
@@ -175,13 +175,13 @@ where
 |         | Allows mapping between pixel coordinates and camera coordinates in the image frame | Describe orientation and location of camera                  |
 | Example | Optical center<br />Focal length<br />Radial distortion of coefficients of lens | Rotation of camera<br />Translation of camera<br /><br />wrt world coordinate system |
 
-![image-20240220225710132](./assets/image-20240220225710132.png)
+![image-20240220225710132](./assets/image-20240220225710132.png){ loading=lazy }
 
 ### Pinhole Camera Model
 
 Basic camera model without a lens. Light passes through aperture and projects an inverted image on the opposite side of the camera.
 
-![image-20240220230309883](./assets/image-20240220230309883.png)
+![image-20240220230309883](./assets/image-20240220230309883.png){ loading=lazy }
 
 Visualize the virtual image plane in front of the camera and assume that it is containing the upright image of the scene
 $$
@@ -211,7 +211,7 @@ where
   - non-zero if image axes are not perpendicular
 - 1 pixel $\approx 1/96 \text{inch}$
 
-![image-20240220230900540](./assets/image-20240220230900540.png)
+![image-20240220230900540](./assets/image-20240220230900540.png){ loading=lazy }
 
 ### Distortion
 
@@ -219,8 +219,8 @@ where
 | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Meaning | Straight lines of actual world appear curved outward         | Straight lines of actual world appear curved inward          | Image appears to slanted & stretched                         |
 |         | -ve radial displacement                                      | +ve radial displacement                                      |                                                              |
-| Cause   | Unequal light bending<br />(rays bent more at lens’ border than at center)<br />Before hitting the image sensor, the light ray is shifted radial inward/outward from its optimal point | Unequal light bending<br />(rays bent more at lens’ border than at center)<br />Before hitting the image sensor, the light ray is shifted radial inward/outward from its optimal point | Picture screen/sensor is at an angle wrt lens<br />![image-20240220232407780](./assets/image-20240220232407780.png) |
-| Example | ![barrel distortion](./assets/barrel_distortion.png)         | ![pincuishon distortion](./assets/pincushion_distortion.png) | ![image-20240220231659029](./assets/tangential_distortion.png) |
+| Cause   | Unequal light bending<br />(rays bent more at lens’ border than at center)<br />Before hitting the image sensor, the light ray is shifted radial inward/outward from its optimal point | Unequal light bending<br />(rays bent more at lens’ border than at center)<br />Before hitting the image sensor, the light ray is shifted radial inward/outward from its optimal point | Picture screen/sensor is at an angle wrt lens<br />![image-20240220232407780](./assets/image-20240220232407780.png){ loading=lazy } |
+| Example | ![barrel distortion](./assets/barrel_distortion.png){ loading=lazy }         | ![pincuishon distortion](./assets/pincushion_distortion.png){ loading=lazy } | ![image-20240220231659029](./assets/tangential_distortion.png){ loading=lazy } |
 
 #### Radial distortion coefficients model
 

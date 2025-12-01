@@ -19,11 +19,11 @@
 |                     Softmax                     |   $\dfrac{e^{x_i}}{\sum_{j=1}^k e^{x_j}}$<br />where $k=$ no of classes<br />such that $\dfrac{\sum p_i}{k} = 1$   |                                                                       | Discrete-Continuous |      $[0, 1]$       |                                  |       ❌       |                                                                                                                                                                     |
 |            Softmax with Temperature             |                           $\dfrac{e^{x_i/{\small T}}}{\sum_{j=1}^k e^{x_j/{\small T}}}$                            |                                                                       | Discrete-Continuous |                     |                                  |       ❌       | Exposes more “dark knowledge”                                                                                                                                       |
 
-![activation_functions.svg](./assets/activation_functions.svg)
+![activation_functions.svg](./assets/activation_functions.svg){ loading=lazy }
 
 ### Softmax with temperature
 
-![image-20240516164505175](./assets/image-20240516164505175.png)
+![image-20240516164505175](./assets/image-20240516164505175.png){ loading=lazy }
 
 ## Why use activation function for hidden layers?
 

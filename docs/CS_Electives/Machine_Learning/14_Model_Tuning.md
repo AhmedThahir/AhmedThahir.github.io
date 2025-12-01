@@ -11,7 +11,7 @@ Methods that constrain the complexity of a model
 - Goal: Improve out-of-sample error by reducing overfitting & variance
 - Tradeoff: Compromising on an increased bias
 
-![image-20240627121428597](./assets/image-20240627121428597.png)
+![image-20240627121428597](./assets/image-20240627121428597.png){ loading=lazy }
 
 Regularization allows a continuous spectrum of model complexity, rather than discrete jumps
 
@@ -132,7 +132,7 @@ Hence, $E_\text{aug}$ is a better proxy for $E_\text{out}$ than $E_\text{in}$
 | Entropy                                                           | $\sum \limits_{j=1}^k - P(\beta_j) \ln P(\beta_j)$                                                                                           | Encourage parameters to be different<br />Encourages sparsity<br />Cause high variation in between parameters |                    |                  |                                                                                            |                                                                                                                                                                                                                      |                                                                                                                          |                         |
 | SR3<br />(Sparse Relaxed)                                         |                                                                                                                                              |                                                                                                               |                    |                  |                                                                                            |                                                                                                                                                                                                                      |                                                                                                                          |                         |
 | Max                                                               | $\max \{ \vert \beta_j \vert \}$                                                                                                             |                                                                                                               |                    |                  |                                                                                            |                                                                                                                                                                                                                      |                                                                                                                          |                         |
-| Lipschitz                                                         | $\prod_j^k \vert \vert \beta_j \vert \vert_p$<br><br>Smaller $p \implies$ smoother function                                                  | Enforce smooth function and gradients<br>Robust to noise                                                      |                    |                  | ![](assets/lipschitz_1.png)<br>![](assets/lipschitz_2.png)                                 |                                                                                                                                                                                                                      |                                                                                                                          |                         |
+| Lipschitz                                                         | $\prod_j^k \vert \vert \beta_j \vert \vert_p$<br><br>Smaller $p \implies$ smoother function                                                  | Enforce smooth function and gradients<br>Robust to noise                                                      |                    |                  | ![](assets/lipschitz_1.png){ loading=lazy }<br>![](assets/lipschitz_2.png){ loading=lazy }                                 |                                                                                                                                                                                                                      |                                                                                                                          |                         |
 | Gradient of Loss                                                  | $\vert \vert \nabla_{\!\! \beta} \ L \vert \vert_p$<br>$p=2$ usually<br><br>Regularization Penalty = Norm of gradient of loss wrt to weights | Enforce smooth function and gradients                                                                         |                    |                  |                                                                                            |                                                                                                                                                                                                                      |                                                                                                                          |                         |
 
 where
@@ -161,21 +161,21 @@ Example
 | $\beta x$ |      0       |
 | $x^\beta$ |      1       |
 
-![image-20240302115750062](./assets/image-20240302115750062.png)
+![image-20240302115750062](./assets/image-20240302115750062.png){ loading=lazy }
 
 ### IDK
 
-![image-20240229182413966](./assets/image-20240229182413966.png)
+![image-20240229182413966](./assets/image-20240229182413966.png){ loading=lazy }
 
 ### Contours of Regularizers
 
-![image-20240302112223183](./assets/image-20240302112223183.png)
+![image-20240302112223183](./assets/image-20240302112223183.png){ loading=lazy }
 
-![image-20240302112234507](./assets/image-20240302112234507.png)
+![image-20240302112234507](./assets/image-20240302112234507.png){ loading=lazy }
 
-![image](./assets/a3bde8dd-8d3d-4b34-b5b8-cfee29c7c464.png)
+![image](./assets/a3bde8dd-8d3d-4b34-b5b8-cfee29c7c464.png){ loading=lazy }
 
-![image-20240301174943189](./assets/image-20240301174943189.png)
+![image-20240301174943189](./assets/image-20240301174943189.png){ loading=lazy }
 
 ### Limitations
 
@@ -188,17 +188,17 @@ Magnitude of parameters may not always be the best estimate of complexity, espec
 
 ### Feature Selection Paths
 
-![image-20240302112458493](./assets/image-20240302112458493.png)
+![image-20240302112458493](./assets/image-20240302112458493.png){ loading=lazy }
 
 ### Penalty Coefficient Magnitude
 
-![image-20240301174314836](./assets/image-20240301174314836.png)
+![image-20240301174314836](./assets/image-20240301174314836.png){ loading=lazy }
 
 ### Penalty Coefficient vs Noise
 
 | Stochastic Noise                                                 | Deterministic Noise                                              |
 | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
-| ![image-20240627131737675](./assets/image-20240627131737675.png) | ![image-20240627131852100](./assets/image-20240627131852100.png) |
+| ![image-20240627131737675](./assets/image-20240627131737675.png){ loading=lazy } | ![image-20240627131852100](./assets/image-20240627131852100.png){ loading=lazy } |
 
 $$
 \begin{aligned}
@@ -283,7 +283,7 @@ Refer to PINNs for more information
 
 ## IDK
 
-![image-20240106160827581](./assets/image-20240106160827581.png)
+![image-20240106160827581](./assets/image-20240106160827581.png){ loading=lazy }
 
 ## Early Stopping
 
@@ -299,7 +299,7 @@ Refer to PINNs for more information
 
 Dropout is applied on the output of hidden fully-connected layers
 
-![image-20240214175258654](./assets/image-20240214175258654.png)
+![image-20240214175258654](./assets/image-20240214175258654.png){ loading=lazy }
 
 Advantages
 - Forces network to have redundant representation
@@ -385,9 +385,9 @@ end
 
 ## Neural Network
 
-![image-20240409112121923](./assets/image-20240409112121923.png)
+![image-20240409112121923](./assets/image-20240409112121923.png){ loading=lazy }
 
-![image-20240409112108442](./assets/image-20240409112108442.png)
+![image-20240409112108442](./assets/image-20240409112108442.png){ loading=lazy }
 
 | Phase | Hessian | Mode Connectivity | Model Similarity | Treatment             |
 | ----- | ------- | ----------------- | ---------------- | --------------------- |

@@ -9,7 +9,7 @@
 | Risk                       | Lower                                                        | Higher                                                       |
 | Clustered<br />(meaning??) | ❌                                                            | ✅                                                            |
 | Usually                    | Service-Based                                                |                                                              |
-| Annual cashflow with time  | Stable and then levels off<br /><br />![image-20240821180252170](assets/image-20240821180252170.png) | <br /><br />![image-20240821180446004](assets/image-20240821180446004.png) |
+| Annual cashflow with time  | Stable and then levels off<br /><br />![image-20240821180252170](assets/image-20240821180252170.png){ loading=lazy } | <br /><br />![image-20240821180446004](assets/image-20240821180446004.png){ loading=lazy } |
 
 ## Innovation
 
@@ -36,7 +36,7 @@ $$
 - Adjacent/Lateral
 - Transformational/Disruptive
 
-![](assets/innovation_categories.png)
+![](assets/innovation_categories.png){ loading=lazy }
 
 ## Ways to Start a Company
 

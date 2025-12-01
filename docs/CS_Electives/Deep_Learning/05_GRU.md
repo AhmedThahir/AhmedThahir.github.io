@@ -13,11 +13,11 @@ Not all observations are equally relevant, so we need a mechanism to
 
 ## Operations
 
-![image-20230527180221519](./../assets/image-20230527180221519.png)
+![image-20230527180221519](./../assets/image-20230527180221519.png){ loading=lazy }
 
 ## Gating
 
-![image-20230527180548856](./../assets/image-20230527180548856.png)
+![image-20230527180548856](./../assets/image-20230527180548856.png){ loading=lazy }
 
 $$
 \begin{aligned}

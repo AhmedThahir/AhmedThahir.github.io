@@ -34,17 +34,17 @@ Chile > UK > Scandinavia > California (crisis, shortage, Enron)
 
 |                 |  | |
 |---              | --- | ---|
-|Monopoly         |  | ![image-20240408115024152](./assets/image-20240408115024152.png)|
-|Purchasing Agent |  | ![image-20240408115141082](./assets/image-20240408115141082.png)|
-|Wholesale Market |  | ![image-20240408115320054](./assets/image-20240408115320054.png)|
-|Retail Market | | ![](./assets/image-20240408115440160.png) |
-|Consumer-Centric | Peer-Peer Model<br />Micro-Grids | ![image-20240408115637222](./assets/image-20240408115637222.png) |
+|Monopoly         |  | ![image-20240408115024152](./assets/image-20240408115024152.png){ loading=lazy }|
+|Purchasing Agent |  | ![image-20240408115141082](./assets/image-20240408115141082.png){ loading=lazy }|
+|Wholesale Market |  | ![image-20240408115320054](./assets/image-20240408115320054.png){ loading=lazy }|
+|Retail Market | | ![](./assets/image-20240408115440160.png){ loading=lazy } |
+|Consumer-Centric | Peer-Peer Model<br />Micro-Grids | ![image-20240408115637222](./assets/image-20240408115637222.png){ loading=lazy } |
 
 |                | Supplier-Centric                                          | Consumer-Centric                                          |
 | -------------- | --------------------------------------------------------- | --------------------------------------------------------- |
 | Characteristic | Hierarchical                                              | Decentralized                                             |
 |                |                                                           | “Prosumers”                                               |
-|                | ![image-20240408113917925](./assets/supplier_centric.png) | ![image-20240408114037615](./assets/consumer_centric.png) |
+|                | ![image-20240408113917925](./assets/supplier_centric.png){ loading=lazy } | ![image-20240408114037615](./assets/consumer_centric.png){ loading=lazy } |
 
 ## Markets
 
@@ -65,14 +65,14 @@ Chile > UK > Scandinavia > California (crisis, shortage, Enron)
 | Balancing      | Close to real-time operator for system operator to ensure power system balance |
 | Intra-day      | Continuous trading platform between day-ahead and balancing<br />Allows to correct original schedules (when plant outages/changes in wind power generation) |
 
-![image-20240408120541925](./assets/image-20240408120541925.png)
+![image-20240408120541925](./assets/image-20240408120541925.png){ loading=lazy }
 
 ## Challenges
 
 |                                                              |                                                                  |
 | ------------------------------------------------------------ | ---------------------------------------------------------------- |
-| Variable energy demand<br />“Duck Curve”                     | ![image-20240408120910623](./assets/image-20240408120910623.png) |
-| Renewable energy generation is variable and non-dispatchable | ![](./assets/image-20240408121115323.png)                        |
+| Variable energy demand<br />“Duck Curve”                     | ![image-20240408120910623](./assets/image-20240408120910623.png){ loading=lazy } |
+| Renewable energy generation is variable and non-dispatchable | ![](./assets/image-20240408121115323.png){ loading=lazy }                        |
 | Renewable energy generation is hard to forecast              |                                                                  |
 
 ## Economic impact of renewable energy

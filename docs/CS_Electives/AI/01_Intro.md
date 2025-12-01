@@ -2,13 +2,13 @@
 
 Branch of computer science which designs ‘intelligent’ machines capable of behaving, thinking and making decisions like a human.
 
-![img](./../assets/overview_ai_ml_dl_ds.svg)
+![img](./../assets/overview_ai_ml_dl_ds.svg){ loading=lazy }
 
 ## Rapid Rise
 
 Due to data availability from digitalization
 
-![image-20240716180909429](./assets/image-20240716180909429.png)
+![image-20240716180909429](./assets/image-20240716180909429.png){ loading=lazy }
 
 ## Key Areas
 

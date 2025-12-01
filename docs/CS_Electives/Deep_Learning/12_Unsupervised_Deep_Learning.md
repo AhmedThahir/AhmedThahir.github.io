@@ -22,7 +22,7 @@ Error function will be $u_i = x_i - \hat x_i$
 - Bayesian
 - Useful to generate new data
 
-![](assets/variational_autoencoder.png)
+![](assets/variational_autoencoder.png){ loading=lazy }
 
 ## GAN
 
@@ -39,8 +39,8 @@ rf{Real/Fake} -.->
 
 ### Multiscale
 
-![](assets/multi_scale_gan.png)
+![](assets/multi_scale_gan.png){ loading=lazy }
 
 ### Vector Math
 
-![](assets/GAN_Vector_Math.png)
+![](assets/GAN_Vector_Math.png){ loading=lazy }

@@ -47,7 +47,7 @@ Every project should have the following
 		- [ ] Data Engineer, IT, etc...
 		- [ ] End-Users: Clients, Company users
 	- [ ] Plot
-		- [ ] ![](assets/Power_Interest_Grid.png)
+		- [ ] ![](assets/Power_Interest_Grid.png){ loading=lazy }
 - [ ] Valuation
 	- [ ] IRR
 	- [ ] NPV
@@ -236,7 +236,7 @@ Compare against feature size
 
 ### Backlog to Tasklist
 
-![image-20240127231326318](assets/image-20240127231326318.png)
+![image-20240127231326318](assets/image-20240127231326318.png){ loading=lazy }
 
 By breaking up story into tasks, you can understand all dependencies & potential overloading of individuals
 
@@ -252,7 +252,7 @@ By breaking up story into tasks, you can understand all dependencies & potential
 | Completed        |
 | Cancelled        |
 
-![image-20240127232714105](assets/image-20240127232714105.png)
+![image-20240127232714105](assets/image-20240127232714105.png){ loading=lazy }
 
 ## Software Engineering
 

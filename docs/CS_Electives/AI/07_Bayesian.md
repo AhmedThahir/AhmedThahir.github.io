@@ -187,7 +187,7 @@ Adding arcs increases set of distributions but has several costs
 
 Full conditioning can encode any distribution
 
-![image-20240527181111129](./assets/image-20240527181111129.png)
+![image-20240527181111129](./assets/image-20240527181111129.png){ loading=lazy }
 
 ## Building a Bayes Net
 

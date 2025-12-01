@@ -17,13 +17,13 @@ $[0, 65535]$
 	- Universal port numbers
 	- used for servers
 
-![image-20230531075535914](./assets/image-20230531075535914.png)
+![image-20230531075535914](./assets/image-20230531075535914.png){ loading=lazy }
 
 ## ICANN
 
 Internet Corporation for Assigned Names and Numbers (ICANN) Ranges
 
-![image-20230531075708454](./assets/image-20230531075708454.png)
+![image-20230531075708454](./assets/image-20230531075708454.png){ loading=lazy }
 
 
 
@@ -48,7 +48,7 @@ Eg: $200.23.56.8:69$
 | Entity accepts items from  more than one source | Entity deliver items to more  than one source |
 |                                                 |                                               |
 
-![image-20230531085055896](./assets/image-20230531085055896.png)
+![image-20230531085055896](./assets/image-20230531085055896.png){ loading=lazy }
 
 ## Delivery
 
@@ -57,7 +57,7 @@ Delivery of items from a producer to a consumer
 	- Pushing : sender delivers items whenever they produced
 	- Pulling : producer delivers the items after the consumer has requested
 
-![image-20230531085343161](./assets/image-20230531085343161.png)
+![image-20230531085343161](./assets/image-20230531085343161.png){ loading=lazy }
 
 
 
@@ -72,7 +72,7 @@ Normally we use two buffers for flow control
 1. at sending transport layer
 2. at receiving transport layer
 
-![image-20230531085611321](./assets/image-20230531085611321.png)
+![image-20230531085611321](./assets/image-20230531085611321.png){ loading=lazy }
 
 ## Error Control
 
@@ -81,7 +81,7 @@ Normally we use two buffers for flow control
 3. Recognize duplicate segments and discard them
 4. Buffer out-of-order segments until the missing segments arrive
 
-![image-20230531090220648](./assets/image-20230531090220648.png)
+![image-20230531090220648](./assets/image-20230531090220648.png){ loading=lazy }
 
 ### Sequence Number
 
@@ -127,7 +127,7 @@ These two requirements can be combined by using **two numbered buffers**, one at
 
 | Linear Format                                                | Circular Format                                              |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![image-20230531091211314](./assets/image-20230531091211314.png) | ![image-20230531091142965](./assets/image-20230531091142965.png) |
+| ![image-20230531091211314](./assets/image-20230531091211314.png){ loading=lazy } | ![image-20230531091142965](./assets/image-20230531091142965.png){ loading=lazy } |
 
 ## Incomplete
 

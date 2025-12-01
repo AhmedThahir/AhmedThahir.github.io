@@ -63,7 +63,7 @@ Chooses a distribution $p(x)$ that maximizes the (log) likelihood function for $
 
 Below example shows MLE for a single point
 
-![image-20240214234007807](./assets/mle.png)
+![image-20240214234007807](./assets/mle.png){ loading=lazy }
 
 ### MLE for Regression
 
@@ -190,7 +190,7 @@ $P(\theta) = P(\theta \vert I)$, where $I=$ all info we have before data collect
 | Uninformative/<br />Objective/<br />Baseline | If we have no prior knowledge, then $P(\theta \vert I)=$ constant<br /><br />Hence, $P(\hat \theta \vert D) = P(D \vert \hat \theta)$, so might as well perform MLE instead<br /><br />eg: Uniform dist over expected range of possible values |
 | Informative/<br />Substantive                | Based on previous data, experiments, knowledge<br /><br />One can assume that the prior for each parameter is independent of others $P(\theta)=P(\beta) P(\sigma^2)$, but usually a joint dist is required<br /><br />Setting prior to delta function fixes parameter independent of data (never done in practice, as it ignores the point of data) |
 
-![image-20240628173423479](./assets/image-20240628173423479.png)
+![image-20240628173423479](./assets/image-20240628173423479.png){ loading=lazy }
 
 #### Reparametrization
 
@@ -237,7 +237,7 @@ We need to summarize the distribution
 
 Posterior distribution describes how much the data has changed our prior beliefs
 
-![image-20240620180936746](./assets/image-20240620180936746.png)
+![image-20240620180936746](./assets/image-20240620180936746.png){ loading=lazy }
 
 #### Bernstein-von Mises Theorem
 

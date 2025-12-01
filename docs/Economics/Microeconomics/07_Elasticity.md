@@ -278,9 +278,9 @@ $$
 
 Engel Curve
 
-![](assets/engel_curve.png)
+![](assets/engel_curve.png){ loading=lazy }
 
-![](assets/engel_curve_2.png)
+![](assets/engel_curve_2.png){ loading=lazy }
 
 | Goods        | Elasticity         |
 | ------------ | ------------------ |

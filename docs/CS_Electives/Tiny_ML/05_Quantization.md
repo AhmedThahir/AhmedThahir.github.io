@@ -2,7 +2,7 @@
 
 Mapping input values from a large set (often continuous) to output values in a (countable) smaller set (often discrete)
 
-![](assets/quantization.png)
+![](assets/quantization.png){ loading=lazy }
 
 ## Advantages
 
@@ -14,7 +14,7 @@ Mapping input values from a large set (often continuous) to output values in a (
 
 ## Disadvantages
 - Loss in accuracy
-	- ![](assets/quantization_loss_in_accuracy.png)
+	- ![](assets/quantization_loss_in_accuracy.png){ loading=lazy }
 - Decompressing back to FP32
 	- Loss in resolution of weights
 	- Loss in accuracy of weights
@@ -116,7 +116,7 @@ Solution
 
 ### Post Training
 
-![](assets/quantization-1.png)
+![](assets/quantization-1.png){ loading=lazy }
 
 - Training –> Quantization
 - Weights
@@ -134,9 +134,9 @@ How to find scale and zero-point
 
 Emulate inference-time quantization during training to improve model robustness, and then use Post Training Quantization
 
-![](assets/post_training_quantization_cause_of_problems.png)
+![](assets/post_training_quantization_cause_of_problems.png){ loading=lazy }
 
-![](assets/quantization_aware_training.png)
+![](assets/quantization_aware_training.png){ loading=lazy }
 
 “Fake quantization” nodes
 
@@ -148,11 +148,11 @@ Emulate inference-time quantization during training to improve model robustness,
 - Result
   - Floats that are clip and rounded like ints
 
-![image-20240509080112022](./assets/image-20240509080112022.png)
+![image-20240509080112022](./assets/image-20240509080112022.png){ loading=lazy }
 
 ## Non-Linear Quantization
 
-![image-20240509092558271](./assets/image-20240509092558271.png)
+![image-20240509092558271](./assets/image-20240509092558271.png){ loading=lazy }
 
 K-means clustering
 
@@ -160,7 +160,7 @@ K-means clustering
 - Choose how many clusters you want
 - For $k$ Clusters, you need $\log_2 k$ bits to represent centroids
 
-![image-20240509092736660](./assets/image-20240509092736660.png)
+![image-20240509092736660](./assets/image-20240509092736660.png){ loading=lazy }
 
 De-quantization function: Lookup table
 
@@ -170,7 +170,7 @@ De-quantization function: Lookup table
 | 1             | 0.223          |
 | …             | …              |
 
-![image-20240509094336515](./assets/image-20240509094336515.png)
+![image-20240509094336515](./assets/image-20240509094336515.png){ loading=lazy }
 
 Advantages
 
@@ -184,7 +184,7 @@ Disadvantages
 
 Outliers in LLM quantization
 
-![outliers_in_llm_quantization](./assets/image-20240509094650200.png)
+![outliers_in_llm_quantization](./assets/image-20240509094650200.png){ loading=lazy }
 
 ### Product Quantization
 
@@ -205,5 +205,5 @@ Steps
    - Use the indices and tables to lookup the estimated partial $a^T b$ in each subspace
    - Sum the results across all $C$ subspaces
 
-![image-20240509095023766](./assets/image-20240509095023766.png)
+![image-20240509095023766](./assets/image-20240509095023766.png){ loading=lazy }
 

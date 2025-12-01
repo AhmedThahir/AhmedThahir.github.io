@@ -46,7 +46,7 @@ $Action(LeftShoe, PRECOND:LeftSockOn, EFFECT:LeftShoeOn)$
 $Action(LeftSock, EFFECT:LeftSockOn)$
 
 
-![POP graph](../assets/pop.png)
+![POP graph](../assets/pop.png){ loading=lazy }
 
 Actions - ${RightSock, RightShoe, LeftSock, LeftShoe, Start, Finish}$  
 Orderings - ${RightSock ≺ RightShoe, LeftSock ≺ LeftShoe}$  
@@ -84,7 +84,7 @@ $Action(Bake(Cake)$
 $\quad$ $PRECOND: ¬ Have(Cake)$  
 $\quad$ $EFFECT: Have(Cake))$  
 
-![Planning graph](../assets/planning%20graph.png)
+![Planning graph](../assets/planning%20graph.png){ loading=lazy }
 
 In the above graph rectangles indicate actions, small squares indicate persistence actions and straight lines
 indicate preconditions and effects. Mutex links are shown as curved gray lines.

@@ -36,4 +36,4 @@ Auto-refresh page every 5sec
 </datalist>
 ```
 
-![image-20240422165900064](./assets/image-20240422165900064.png)
+![image-20240422165900064](./assets/image-20240422165900064.png){ loading=lazy }

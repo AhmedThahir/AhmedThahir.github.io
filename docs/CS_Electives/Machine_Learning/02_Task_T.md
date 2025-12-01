@@ -29,11 +29,11 @@ learning system should process an instance (collection of features), which is us
 
 | Type         | Diagram                          |                                                                 |
 | ------------ | -------------------------------- | --------------------------------------------------------------- |
-| One-to-one   | ![](./assets/one_to_one.png)     | Regression<br>Classification                                    |
-| One-to-many  | ![](./assets/one_to_many.png)    | Image captioning<br>Object detection                            |
-| Many-to-one  | ![](./assets/many_to_one.png)    | Sentiment classification                                        |
-| Many-to-many | ![](./assets/many_to_many_a.png) | Machine translation                                             |
-| Many-to-many | ![](./assets/many_to_many_b.png) | Video object classification<br>Video frame-level classification |
+| One-to-one   | ![](./assets/one_to_one.png){ loading=lazy }     | Regression<br>Classification                                    |
+| One-to-many  | ![](./assets/one_to_many.png){ loading=lazy }    | Image captioning<br>Object detection                            |
+| Many-to-one  | ![](./assets/many_to_one.png){ loading=lazy }    | Sentiment classification                                        |
+| Many-to-many | ![](./assets/many_to_many_a.png){ loading=lazy } | Machine translation                                             |
+| Many-to-many | ![](./assets/many_to_many_b.png){ loading=lazy } | Video object classification<br>Video frame-level classification |
 
 ## Types of Predictions
 
@@ -136,13 +136,13 @@ $$
 |    XOR     |          ❌          | Linearly separable if we add $(x \cdot y)$ as a feature |
 |    XNOR    |          ❌          | Linearly separable if we add $(x \cdot y)$ as a feature |
 
-![Linear Separability of Logic Gates](./assets/linear_separability.svg)
+![Linear Separability of Logic Gates](./assets/linear_separability.svg){ loading=lazy }
 
 ### Linearly Non-Separable
 
 |                             Slightly                             |                            Seriously                             |
 | :--------------------------------------------------------------: | :--------------------------------------------------------------: |
-| ![image-20240628000728483](./assets/image-20240628000728483.png) | ![image-20240628000744288](./assets/image-20240628000744288.png) |
+| ![image-20240628000728483](./assets/image-20240628000728483.png){ loading=lazy } | ![image-20240628000744288](./assets/image-20240628000744288.png){ loading=lazy } |
 
 ### Discriminant Function
 

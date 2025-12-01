@@ -75,7 +75,7 @@ $$
 
 OLS fit $\hat y$ is the projection of $y$ onto the linear space spanned by $\{ 1, x_1, \dots , x_k \}$
 
-![OLS Geometric Interpretation](./assets/ols_geometric_interpretation.png)
+![OLS Geometric Interpretation](./assets/ols_geometric_interpretation.png){ loading=lazy }
 
 Projection/Hat Matrix
 $$
@@ -148,4 +148,4 @@ Note: you can use any regression algorithm that supports weighting: WLS, Ridge, 
 
 Minimizes error ensuring increasing/decreasing trend only
 
-![image-20231218182034326](./assets/image-20231218182034326.png)
+![image-20231218182034326](./assets/image-20231218182034326.png){ loading=lazy }

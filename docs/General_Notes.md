@@ -36,7 +36,7 @@
 		- [ ] Plan decisions for potential scenarios in advance as much as possible
 		- [ ] Spontaneous decisions are prone to biases
 	- [ ] Time Management
-		- [ ] ![](assets/eisenhover_matrix.png)
+		- [ ] ![](assets/eisenhover_matrix.png){ loading=lazy }
 	- [ ] Never directly trust anything you read; always do the derivations & test everything for yourself
 	- [ ] [How to read a paper](https://cseweb.ucsd.edu/~dstefan/cse227-spring19/papers/keshav:how.pdf)
 	- [ ] Always be prepared; new opportunities may arise any time
@@ -47,13 +47,13 @@
 
 Technology adoption cycle
 
-![image-20240603131423970](./assets/image-20240603131423970.png)
+![image-20240603131423970](./assets/image-20240603131423970.png){ loading=lazy }
 
 Venture Capitalists know that 9/10 investments fail, but expect at least 1/10 makes enough money to compensate for the others
 
 ## General Tasks involved in Job Roles
 
-[O*Net](https://www.onetonline.org/)
+[O*Net](https://www.onetonline.org/){ loading=lazy }
 
 ## Parts of Profile
 

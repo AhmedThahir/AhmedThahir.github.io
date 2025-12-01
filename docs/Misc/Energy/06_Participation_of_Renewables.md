@@ -68,9 +68,9 @@ n^* = \hat F^{-1}(\hat \alpha^*) \\
 \implies n_t^* = \hat F_t^{-1}(\hat \alpha_t^*)
 $$
 
-![image-20240522114753083](./assets/image-20240522114753083.png)
+![image-20240522114753083](./assets/image-20240522114753083.png){ loading=lazy }
 
-![image-20240522115353488](./assets/image-20240522115353488.png)
+![image-20240522115353488](./assets/image-20240522115353488.png){ loading=lazy }
 
 ### Notes
 

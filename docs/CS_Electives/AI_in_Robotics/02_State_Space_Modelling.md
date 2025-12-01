@@ -99,7 +99,7 @@ $$
 z_k = H x_k + v_k
 $$
 
-![image-20240212193715764](./assets/image-20240212193715764.png)
+![image-20240212193715764](./assets/image-20240212193715764.png){ loading=lazy }
 
-![image-20240212194243408](./assets/image-20240212194243408.png)
+![image-20240212194243408](./assets/image-20240212194243408.png){ loading=lazy }
 

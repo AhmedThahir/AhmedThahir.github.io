@@ -102,7 +102,7 @@ Arrangement of nodes in a network
 |Example       | [Ethernet](#Ethernet)                             |                                                                                         |                                                                 | Between ISP routers                                                  | |
 |Duplex/Half-Duplex links  | 1 | 0 | $n$ | $\frac{n(n-1)}{2}$                                                  | |
 |Simplex links | 0 | 1 | $2n$ | $n(n-1)$                                                          | |
-|Diagram | ![image-20230403084200131](./assets/image-20230403084200131.png) | ![image-20230403084507147](./assets/image-20230403084507147.png) | ![image-20230403102605664](./assets/image-20230403102605664.png) | ![image-20230403103256383](./assets/image-20230403103256383.png) | ![image-20230403103435171](./assets/image-20230403103435171.png) |
+|Diagram | ![image-20230403084200131](./assets/image-20230403084200131.png){ loading=lazy } | ![image-20230403084507147](./assets/image-20230403084507147.png){ loading=lazy } | ![image-20230403102605664](./assets/image-20230403102605664.png){ loading=lazy } | ![image-20230403103256383](./assets/image-20230403103256383.png){ loading=lazy } | ![image-20230403103435171](./assets/image-20230403103435171.png){ loading=lazy } |
 
 ## Network Devices
 
@@ -116,7 +116,7 @@ Arrangement of nodes in a network
 | Repeater         | Repeats [Token](#Token) in a round-robin fashion<br />Helps overcome signal attenuation |
 | Hub              | Device without any intelligence<br/>Multi-port repeater<br/>Not used much anymore<br/>It will just broadcast every packet, as it cannot select devices. |
 
-![Network symbols | vijayababuj](./assets/network_devices.jpg)
+![Network symbols | vijayababuj](./assets/network_devices.jpg){ loading=lazy }
 
 ## Network Rules
 
@@ -205,7 +205,7 @@ For eg
 
 Time Division Multiplexing
 
-![image-20230405104158746](./assets/image-20230405104158746.png)
+![image-20230405104158746](./assets/image-20230405104158746.png){ loading=lazy }
 
 ## Subnet Mask
 

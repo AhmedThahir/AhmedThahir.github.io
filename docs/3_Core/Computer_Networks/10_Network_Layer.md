@@ -2,15 +2,15 @@
 
 ### Network Layer @ Source
 
-![image-20230529105007115](./assets/image-20230529105007115.png)
+![image-20230529105007115](./assets/image-20230529105007115.png){ loading=lazy }
 
 ### Network Layer @ Router
 
-![image-20230529105029516](./assets/image-20230529105029516.png)
+![image-20230529105029516](./assets/image-20230529105029516.png){ loading=lazy }
 
 ### Network Layer @ Destination
 
-![image-20230529105051054](./assets/image-20230529105051054.png)
+![image-20230529105051054](./assets/image-20230529105051054.png){ loading=lazy }
 
 ## Packetization
 
@@ -39,10 +39,10 @@ Context already given in [Introduction](./01_Introduction.md)
 | Packets not lost                                             | ❌<br />(due to lack of resources; upper layers ask for retransmission) |                                                              |
 | Re-order packets and recover from missing packets            | Receiver                                                     |                                                              |
 | Example                                                      | The Internet                                                 | X.25, Frame Relay, ATM                                       |
-| Routing Table                                                | ![image-20230529110936729](./assets/image-20230529110936729.png) | ![image-20230530102544160](./assets/image-20230530102544160.png) |
-| Single Channel                                               | ![Datagram Approach with Single Channel](./assets/image-20230529110547632.png) | ![image-20230530102655441](./assets/image-20230530102655441.png) |
-| Multiple Channels                                            | ![Datagram Approach with Multiple Channels](./assets/image-20230529110604325.png) |                                                              |
-| Delays                                                       | $3 T + 3 \tau + w_1 + w_2$<br />![image-20230530103258579](./assets/image-20230530103258579.png) | $\text{delay}_\text{tot} = \text{delay}_\text{trans} + \text{delay}_\text{prop} + \text{setup delay} + \text{teardown delay}$<br />![image-20230530103243632](./assets/image-20230530103243632.png) |
+| Routing Table                                                | ![image-20230529110936729](./assets/image-20230529110936729.png){ loading=lazy } | ![image-20230530102544160](./assets/image-20230530102544160.png){ loading=lazy } |
+| Single Channel                                               | ![Datagram Approach with Single Channel](./assets/image-20230529110547632.png){ loading=lazy } | ![image-20230530102655441](./assets/image-20230530102655441.png){ loading=lazy } |
+| Multiple Channels                                            | ![Datagram Approach with Multiple Channels](./assets/image-20230529110604325.png){ loading=lazy } |                                                              |
+| Delays                                                       | $3 T + 3 \tau + w_1 + w_2$<br />![image-20230530103258579](./assets/image-20230530103258579.png){ loading=lazy } | $\text{delay}_\text{tot} = \text{delay}_\text{trans} + \text{delay}_\text{prop} + \text{setup delay} + \text{teardown delay}$<br />![image-20230530103243632](./assets/image-20230530103243632.png){ loading=lazy } |
 
 ## IP Addressing
 
@@ -93,7 +93,7 @@ The outside world recognizes the network via network address, not the individual
 
 ### Categories of Addresses
 
-![image-20230530111454086](./assets/image-20230530111454086.png)
+![image-20230530111454086](./assets/image-20230530111454086.png){ loading=lazy }
 
 Packet with loopback address does not leave the device (will not reach the network)
 
@@ -104,7 +104,7 @@ Assigned for private use and not recognized globally, used in
 - Isolation
 - Connection with network address translation
 
-![image-20230530111948286](./assets/image-20230530111948286.png)
+![image-20230530111948286](./assets/image-20230530111948286.png){ loading=lazy }
 
 ### Modified Networks
 
@@ -135,7 +135,7 @@ Only the network administrator knows about the network address and subnet addres
 
 Also called as CIDR (classless inter-domain routing) Notation
 
-![image-20230530120405512](./assets/image-20230530120405512.png)
+![image-20230530120405512](./assets/image-20230530120405512.png){ loading=lazy }
 
 Where $n=$ no of 1s in mask (starting from the left side)
 
@@ -192,5 +192,5 @@ Graphical representation of network with
 | Type | Static                                                                                                                                                                                                                                                                                                                                                                             | Static | Dynamic | Dynamic |
 | Steps | Packet sent by node to every neighbor<br />Incoming packets retransmitted on every link (except incoming link)<br />Eventually $\ge 1$ copies arrive at destinatin<br />Each packet is uniquely number, so duplicates are discarded<br />Nodes can remember packets already forwarded to keep network load in bounds<br />Can include hop count in packets | Solve single-source shortest path problem using Dijkstra’s Algo<br />Produces “tree” of routes from source to all points<br />Construct forwarding table containing next hop | Each router reliably floods information about its neighbors to every other router<br />Each router independently calculates the shortest path from itself to every other router, using Dijkstra’s Algo | Each router only knows links to neighbors; does not flood entire network<br />Each router has provisional shortest path (reach B with cost 11 via next hop router D)<br />Routers exchange this information only with neighbors<br />Update best path using info from neighbors<br />Bellman-Ford Algo |
 | Advantages | No network info required<br />Robust: All possible routes are tried<br />Can be used for virtual circuit: At least one packet will have taken minimum hop count route<br />All nodes are visited: Useful to distribute information | | |  |
-| Diagram | ![image-20230530205111020](./assets/image-20230530205111020.png)                                                                                                                                                                                                                                                                                                                           | ![image-20230530211642143](./assets/image-20230530211642143.png) | |  |
+| Diagram | ![image-20230530205111020](./assets/image-20230530205111020.png){ loading=lazy }                                                                                                                                                                                                                                                                                                                           | ![image-20230530211642143](./assets/image-20230530211642143.png){ loading=lazy } | |  |
 | Works well for |  |  | Large networks | Smaller networks<br />Max hop limit of 15 |

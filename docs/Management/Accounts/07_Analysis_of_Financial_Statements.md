@@ -287,7 +287,7 @@ An operating lease is a contract that permits the use of an asset without transf
 
 ## Margin vs Markup
 
-![Difference Between Markup And Margin Online Buy, Save 49% | jlcatj.gob.mx](assets/SutantoPoster-MarkupMargin-20230601114626049.jpg)
+![Difference Between Markup And Margin Online Buy, Save 49% | jlcatj.gob.mx](assets/SutantoPoster-MarkupMargin-20230601114626049.jpg){ loading=lazy }
 
 ## Return vs Yield
 

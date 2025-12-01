@@ -47,7 +47,7 @@ F(1) = 1
 F(i) = F(i-1) + F(i-2), for i ≥ 2
 ```
 
-![image-20230603165518975](./assets/image-20230603165518975.png)
+![image-20230603165518975](./assets/image-20230603165518975.png){ loading=lazy }
 
 ### Non-Parallel
 
@@ -101,10 +101,10 @@ Consider a computation DAG (Directed Acyclic Graph) $G=(V, E)$
 
 We assume an ideal parallel computer with sequentially-consistent memory: it behaves as if instructions are executed sequentially in some full ordering consistent with orderings within each thread (consistent with partial-ordering of computation DAG)
 
-![image-20230603170716999](./assets/image-20230603170716999.png)
+![image-20230603170716999](./assets/image-20230603170716999.png){ loading=lazy }
 
 Rounded rectangles are not part of the formal model, but they help organize the visualization by collecting together all strands for a given call
 
 The colors are specific to this example and indicate the corresponding code: black indicates that the strand is for lines 1-3; grey for line 4; and white for lines 5-6
 
-![image-20230603170810969](./assets/image-20230603170810969.png)
+![image-20230603170810969](./assets/image-20230603170810969.png){ loading=lazy }

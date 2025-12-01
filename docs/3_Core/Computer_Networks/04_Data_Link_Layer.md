@@ -69,7 +69,7 @@ There is no way to detect every possible error
 | Block         | Divide data into set of $k$-bit blocks (called datawords) <br />Extra info attached to each block<br />Combined blocks called codewords |      $r$       |        $k+r$        | ✅                                               |
 | Convolutional | Treats data a series of bits<br />Computes code over continuous series |                |                     | ❌<br />(Code depends on current & previous i/p) |
 
-![image-20230404220718845](./assets/image-20230404220718845.png)
+![image-20230404220718845](./assets/image-20230404220718845.png){ loading=lazy }
 
 ```mermaid
 flowchart TB
@@ -101,7 +101,7 @@ If syndrome = 0 at the receiver, there is no error
 |                    | Use an odd/even parity bit                                   | Use parity bit vertically and horizontally                   | Add $r$ zeros to right of dividend, where $r=$no of redundant bits = length of divisor - 1<br />Long division using **XOR** | (used in network layer)<br />Find sum of digits<br />If overflow, perform padding<br />Take 1s complement |
 | Errors detectable  | $\{1, 3, \dots, 2n+1 \}$<br />(odd no of errors)             | $\{1, 2, 3, 5, 6, 7, \dots \} \implies R - \{4n\}$           | All                                                          | All                                                          |
 | Can correct error? | ❌<br />(error can be in any position<br />including parity bit itself) |                                                              |                                                              |                                                              |
-|                    | ![image-20230404221704670](./assets/image-20230404221704670.png) | ![image-20230404222907397](./assets/image-20230404222907397.png) | ![image-20230404223404139](./assets/image-20230404223404139.png) |                                                              |
+|                    | ![image-20230404221704670](./assets/image-20230404221704670.png){ loading=lazy } | ![image-20230404222907397](./assets/image-20230404222907397.png){ loading=lazy } | ![image-20230404223404139](./assets/image-20230404223404139.png){ loading=lazy } |                                                              |
 
 ### Simple Parity
 

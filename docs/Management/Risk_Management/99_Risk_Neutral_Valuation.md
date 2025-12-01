@@ -4,7 +4,7 @@ Suppose our economy includes stock $S$, riskless money market account $B$ with i
 
 Assuming there’s only 2 possible outcomes at time $dt$
 
-![image-20240313102130100](assets/image-20240313102130100.png)
+![image-20240313102130100](assets/image-20240313102130100.png){ loading=lazy }
 
 ### Naive Approach
 

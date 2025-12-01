@@ -84,7 +84,7 @@ When the next lexeme is determined, the following steps are taken:
 - Record the lexeme as the attribute of the token
 - `lexemeBegin` is set to the character immediately after the lexeme just found
 
-![image-20230308191609933](assets/image-20230308191609933.png)
+![image-20230308191609933](assets/image-20230308191609933.png){ loading=lazy }
 
 Advancing forward requires checking if end of a buffer is reached. 
 
@@ -182,19 +182,19 @@ Reg Exprs are translated into transition diagrams (representing Finite State Mac
 
 ### Relational Operators
 
-![image-20230308203151573](assets/image-20230308203151573.png)
+![image-20230308203151573](assets/image-20230308203151573.png){ loading=lazy }
 
 ### Reserved Words/Identifiers
 
-![image-20230308203224443](assets/image-20230308203224443.png)
+![image-20230308203224443](assets/image-20230308203224443.png){ loading=lazy }
 
 ### Unsigned Numbers
 
-![image-20230308203352614](assets/image-20230308203352614.png)
+![image-20230308203352614](assets/image-20230308203352614.png){ loading=lazy }
 
 ### Whitespace
 
-![image-20230308203450769](assets/image-20230308203450769.png)
+![image-20230308203450769](assets/image-20230308203450769.png){ loading=lazy }
 
 ## Conflict Resolution
 

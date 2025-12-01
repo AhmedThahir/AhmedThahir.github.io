@@ -43,7 +43,7 @@ Human Development Index
 
 ### IDk
 
-![human-development-index](./assets/human-development-index.svg)
+![human-development-index](./assets/human-development-index.svg){ loading=lazy }
 
 ## Welfare States
 

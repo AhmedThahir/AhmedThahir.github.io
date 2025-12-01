@@ -50,7 +50,7 @@ delete temp
 
 ## Symbol Table Tree Representation
 
-![image-20230525184913838](./assets/image-20230525184913838.png)
+![image-20230525184913838](./assets/image-20230525184913838.png){ loading=lazy }
 
-![image-20230525184930203](./assets/image-20230525184930203.png)
+![image-20230525184930203](./assets/image-20230525184930203.png){ loading=lazy }
 

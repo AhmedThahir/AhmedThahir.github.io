@@ -1,4 +1,4 @@
-![image-20230526133827780](./assets/image-20230526133827780.png)
+![image-20230526133827780](./assets/image-20230526133827780.png){ loading=lazy }
 
 The problem is undecidable and most of  those subproblems, intractable ($\not \exists$ efficient algorithms to solve them)
 
@@ -38,37 +38,37 @@ The problem is undecidable and most of  those subproblems, intractable ($\not \e
 x = y - z
 ```
 
-![image-20230526154426420](./assets/image-20230526154426420.png)
+![image-20230526154426420](./assets/image-20230526154426420.png){ loading=lazy }
 
 ```
 b = a[i]
 ```
 
-![image-20230526154605671](./assets/image-20230526154605671.png)
+![image-20230526154605671](./assets/image-20230526154605671.png){ loading=lazy }
 
 ```
 a[j] = c
 ```
 
-![image-20230526154713831](./assets/image-20230526154713831.png)
+![image-20230526154713831](./assets/image-20230526154713831.png){ loading=lazy }
 
 ```
 x = *p
 ```
 
-![image-20230526154841060](./assets/image-20230526154841060.png)
+![image-20230526154841060](./assets/image-20230526154841060.png){ loading=lazy }
 
 ```
 *p = y
 ```
 
-![image-20230526154957795](./assets/image-20230526154957795.png)
+![image-20230526154957795](./assets/image-20230526154957795.png){ loading=lazy }
 
 ```
 if x < y goto M
 ```
 
-![image-20230526155153914](./assets/image-20230526155153914.png)
+![image-20230526155153914](./assets/image-20230526155153914.png){ loading=lazy }
 
 ```
 y = *q
@@ -118,7 +118,7 @@ L1: LD R1, i
 
 ## Memory Representation
 
-![image-20230526160110010](./assets/image-20230526160110010.png)
+![image-20230526160110010](./assets/image-20230526160110010.png){ loading=lazy }
 
 ## Liveness
 
@@ -137,7 +137,7 @@ Two Data structures
 
 Assume the symbol table shows all non-temporary variables as live on exit and “no next use”
 
-![image-20230526172019630](./assets/image-20230526172019630.png)
+![image-20230526172019630](./assets/image-20230526172019630.png){ loading=lazy }
 
 Input: Basic block B of three-address statements
 
@@ -156,7 +156,7 @@ POPL
 
 ### Usage counts
 
-![image-20230526200634937](./assets/image-20230526200634937.png)
+![image-20230526200634937](./assets/image-20230526200634937.png){ loading=lazy }
 
 - use(x, B) is 1 if x is used in block B prior to any definition of x
 - use (x, B) is 0 otherwise

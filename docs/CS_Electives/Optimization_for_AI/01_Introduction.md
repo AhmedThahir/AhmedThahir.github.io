@@ -6,7 +6,7 @@ $$
 \underset{\theta}{\arg \min} \ L( \ y, \hat f_\theta(D) \ )
 $$
 
-![Loss Landscape Intuition](./assets/Loss_Landscape_Intuition.png)
+![Loss Landscape Intuition](./assets/Loss_Landscape_Intuition.png){ loading=lazy }
 
 ## IDK
 
@@ -41,7 +41,7 @@ An objective function has a unique global minimum if it is
 - differentiable
 - convex
 
-![image-20240216005549032](./assets/image-20240216005549032.png)
+![image-20240216005549032](./assets/image-20240216005549032.png){ loading=lazy }
 
 ### Hard Constraints and Bounds
 
@@ -61,7 +61,7 @@ where $B$ can be
 - Exponential barrier: $\pm \exp \{ m (\beta - k) \}$
   - where $m=$ barrier coefficient
 
-![image-20240413120123186](./assets/image-20240413120123186.png)
+![image-20240413120123186](./assets/image-20240413120123186.png){ loading=lazy }
 
 ### Soft Constraints: Regularization
 
@@ -153,7 +153,7 @@ $$
 
 ## Learning Rate
 
-![img](./assets/1*rcmvCjQvsxrJi8Y4HpGcCw.png)
+![img](./assets/1*rcmvCjQvsxrJi8Y4HpGcCw.png){ loading=lazy }
 
 ## Convex Function
 
@@ -167,7 +167,7 @@ $$
 
 ## Robust Optimization
 
-![image-20240211220341621](./assets/image-20240211220341621.png)
+![image-20240211220341621](./assets/image-20240211220341621.png){ loading=lazy }
 
 ### Limitations
 
@@ -201,9 +201,9 @@ $$
 $$
 The noise from smaller batch size helps escape suboptimal local minimum
 
-![img](./assets/1*5mHkZw3FpuR2hBNFlRxZ-A.png)
+![img](./assets/1*5mHkZw3FpuR2hBNFlRxZ-A.png){ loading=lazy }
 
-![img](./assets/1*PV-fcUsNlD9EgTIc61h-Ig.png)
+![img](./assets/1*PV-fcUsNlD9EgTIc61h-Ig.png){ loading=lazy }
 
 ### Learning Rate
 
@@ -247,8 +247,8 @@ Poor initialization can lead to vanishing gradients
 
 | Problem   | Visualization                              |
 | --------- | ------------------------------------------ |
-| Vanishing | ![](assets/layers_vanishing_gradients.png) |
-| Exploding | ![](assets/layers_exploding_gradients.png) |
+| Vanishing | ![](assets/layers_vanishing_gradients.png){ loading=lazy } |
+| Exploding | ![](assets/layers_exploding_gradients.png){ loading=lazy } |
 
 
 The choice of $\sigma^2$ will affect
@@ -262,7 +262,7 @@ The choice of $\sigma^2$ will affect
 | Optimal    | Right     |
 | Too high   | Exploding |
 
-![image-20240525155739867](./assets/image-20240525155739867.png)
+![image-20240525155739867](./assets/image-20240525155739867.png){ loading=lazy }
 
 Here $n=$ no of neurons
 
@@ -275,19 +275,19 @@ Here $n=$ no of neurons
 
 Even when trained successfully, the effects/scales present at initialization persist throughout training
 
-![image-20240525163200403](./assets/image-20240525163200403.png)
+![image-20240525163200403](./assets/image-20240525163200403.png){ loading=lazy }
 
 ### Solution
 Normalization just before activation function 
 
-![img](./assets/1*vXpodxSx-nslMSpOELhovg.png)
+![img](./assets/1*vXpodxSx-nslMSpOELhovg.png){ loading=lazy }
 
 |                          | Batch<br />Normalization                                                                                                                                                                                                                                   | Layer<br />Normalization                                                                         | Group<br />Normalization |
 | ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------ |
 | Normalize activations of | each feature across all inputs at a layer in a mini-batch                                                                                                                                                                                                  | each input across all features at a layer in a mini-batch                                        |                          |
 | $\hat w_{i}$             | $\tilde w_i = \dfrac{w_{i} - E_b[w_{i}]}{\sqrt{\sigma^2_b(w_{i}) + \epsilon}}$<br />$\gamma_i \tilde w_i + \beta_i$: allows network to learn optimal distribution for activation function, and/or undo batch norm                                          | $\dfrac{w_{i} - E_i[w_{i}]}{\sqrt{\sigma^2_i(w_{i}) + \epsilon}}$                                |                          |
-| Visualization            | ![image-20240525165203016](./assets/image-20240525165203016.png)                                                                                                                                                                                           | ![image-20240525165138330](./assets/image-20240525165138330.png)                                 |                          |
-|                          |                                                                                                                                                                                                                                                            | ![image-20240525164536090](./assets/image-20240525164536090.png)                                 |                          |
+| Visualization            | ![image-20240525165203016](./assets/image-20240525165203016.png){ loading=lazy }                                                                                                                                                                                           | ![image-20240525165138330](./assets/image-20240525165138330.png){ loading=lazy }                                 |                          |
+|                          |                                                                                                                                                                                                                                                            | ![image-20240525164536090](./assets/image-20240525164536090.png){ loading=lazy }                                 |                          |
 | Advantages               | - Improves gradient flow through network<br>- Allows for higher learning rates<br>- Reduces strong dependence on initialization<br>- Acts as a form of regularization due to stochastic inter-dependence of samples, and slightly reduces need for dropout |                                                                                                  |                          |
 | Limitation               | Inter-dependence of training samples causes unwanted effects (Soln: below)                                                                                                                                                                                 | Harder to train standard FCN to low loss, because the relative sizes between activations is lost |                          |
 

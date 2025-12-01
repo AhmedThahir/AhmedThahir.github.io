@@ -6,7 +6,7 @@ Predict when some event will happen
 
 Focus on right-censored data
 
-![image-20240528164506085](./assets/image-20240528164506085.png)
+![image-20240528164506085](./assets/image-20240528164506085.png){ loading=lazy }
 
 Always finite time period: start & end time period
 
@@ -20,7 +20,7 @@ Always finite time period: start & end time period
 | within time period | Discontinued study                      | ❌                                   |
 | within time period | Unexpected event                        | ❌                                   |
 
-![image-20240528171004542](./assets/image-20240528171004542.png)
+![image-20240528171004542](./assets/image-20240528171004542.png){ loading=lazy }
 
 ## Challenges to classification
 
@@ -54,7 +54,7 @@ s(t)
 \end{aligned}
 $$
 
-![image-20240528165554099](./assets/image-20240528165554099.png)
+![image-20240528165554099](./assets/image-20240528165554099.png){ loading=lazy }
 
 ## Methods
 
@@ -65,7 +65,7 @@ Graphical representation of survival function
 - Non-parametric model
 - Good for unconditional density estimation
 
-![image-20240528165744089](./assets/image-20240528165744089.png)
+![image-20240528165744089](./assets/image-20240528165744089.png){ loading=lazy }
 
 - $d(t)=$ no of events at time $t$
 - $n(t)=$ no of individuals alive and uncensored at time $t$
@@ -105,7 +105,7 @@ Equivalent to AUC for binary classification without censoring
 $$
 \hat c = \dfrac{1}{n} \sum_{i: b_i=0} \sum_{j: y_i < y_j} I \Big[ S(\hat y_j \vert X_j) > S(\hat y_i \vert X_i) \Big]
 $$
-![image-20240530134221231](./assets/image-20240530134221231.png)
+![image-20240530134221231](./assets/image-20240530134221231.png){ loading=lazy }
 
 ### Mean-Squared Error for uncensored individuals
 

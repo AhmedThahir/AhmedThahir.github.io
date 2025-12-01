@@ -4,15 +4,15 @@ Electromagnetic switch
 
 Working principle: Electromagnetic induction
 
-![Relay Module – ROBO CY](./assets/RelayModule.png)
+![Relay Module – ROBO CY](./assets/RelayModule.png){ loading=lazy }
 
 Be careful when working with relays, as they may short-circuit. Don’t touch the back side and don’t keep it near other conductors and electronics
 
 ## Pins
 
-![image-20240222003224138](./assets/relay_module_pin_diagram.png)
+![image-20240222003224138](./assets/relay_module_pin_diagram.png){ loading=lazy }
 
-![image-20240222004049737](./assets/relay_module_wiring_diagram.png)
+![image-20240222004049737](./assets/relay_module_wiring_diagram.png){ loading=lazy }
 
 - VCC: +5v
 - GND

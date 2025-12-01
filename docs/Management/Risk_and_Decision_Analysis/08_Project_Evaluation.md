@@ -22,7 +22,7 @@ $V(x)$ is a means of ranking the relative preference of an individual for a bund
 
 ### Diminishing marginal utility curve
 
-![image-20240201215653668](assets/image-20240201215653668.png)
+![image-20240201215653668](assets/image-20240201215653668.png){ loading=lazy }
 
 ### Exceptions to Diminishing Marginal Utility
 
@@ -42,7 +42,7 @@ Very common in real life
 2. Transitivity: $V(a)>V(b) \ \land \ V(b)>V(c) \implies V(a)>V(c)$
    - General true for individuals
    - Not necessarily true for groups; not all group members share the same preferences 
-     - ![image-20240201225315043](assets/image-20240201225315043.png)
+     - ![image-20240201225315043](assets/image-20240201225315043.png){ loading=lazy }
    - Ellsberg Paradox: Under ambiguity, transitivity does not always hold, as people will want to choose the non-ambiguous option usually
    - Allais Paradox: 
 3. Monotonicity/Archimedean Principle
@@ -87,7 +87,7 @@ Dominated alternatives can be discarded
 
 Feasible region or “Trade Space” is area under & left of the curve
 
-![image-20240201230949309](assets/image-20240201230949309.png)
+![image-20240201230949309](assets/image-20240201230949309.png){ loading=lazy }
 
 ## Metrics
 
@@ -109,7 +109,7 @@ Robust design is a product whose performance is minimally-sensitive to factors c
 
 Robustness measured by standard deviation of distribution of outcomes
 
-![image-20240201233033845](assets/image-20240201233033845.png)
+![image-20240201233033845](assets/image-20240201233033845.png){ loading=lazy }
 
 Preferred when we particular result
 
@@ -121,5 +121,5 @@ However, this is **not necessarily value maximizing**. We would prefer to
 - limit downside
 - maximize upside
 
-![image-20240201233230356](assets/image-20240201233230356.png)
+![image-20240201233230356](assets/image-20240201233230356.png){ loading=lazy }
 

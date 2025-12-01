@@ -48,12 +48,12 @@ Responsibility to be positive and ensure everyone’s safety
 
   - |                         | They will use                                                |                                                              |
     | ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-    | Highways                | Fast lane                                                    | ![image-20240817193414663](./assets/image-20240817193414663.png) |
-    | Congested highways      | Emergency yellow area                                        | ![image-20240817193427166](./assets/image-20240817193427166.png) |
-    | Internal roads          | Between vehicles                                             | ![](./assets/image-20240817193207577.png)                    |
-    | Junction                | Between vehicles                                             | ![image-20240817193550787](./assets/image-20240817193550787.png) |
-    | Junction with red light | Move to the side without crossing the signal                 | ![image-20240817193623323](./assets/image-20240817193623323.png) |
-    | Roundabouts             | Do not enter<br />If you are already inside, keep moving and move to the right lane once exited | ![image-20240817193711871](./assets/image-20240817193711871.png)<br />![image-20240817193841819](./assets/image-20240817193841819.png) |
+    | Highways                | Fast lane                                                    | ![image-20240817193414663](./assets/image-20240817193414663.png){ loading=lazy } |
+    | Congested highways      | Emergency yellow area                                        | ![image-20240817193427166](./assets/image-20240817193427166.png){ loading=lazy } |
+    | Internal roads          | Between vehicles                                             | ![](./assets/image-20240817193207577.png){ loading=lazy }                    |
+    | Junction                | Between vehicles                                             | ![image-20240817193550787](./assets/image-20240817193550787.png){ loading=lazy } |
+    | Junction with red light | Move to the side without crossing the signal                 | ![image-20240817193623323](./assets/image-20240817193623323.png){ loading=lazy } |
+    | Roundabouts             | Do not enter<br />If you are already inside, keep moving and move to the right lane once exited | ![image-20240817193711871](./assets/image-20240817193711871.png){ loading=lazy }<br />![image-20240817193841819](./assets/image-20240817193841819.png){ loading=lazy } |
 
 - Tram
 
@@ -99,11 +99,11 @@ Slip lane: free-right separated from main road by a traffic island
 
 ‘Bicycle Shared Starting’ Marking’
 
-![image-20240817201105033](./assets/image-20240817201105033.png)
+![image-20240817201105033](./assets/image-20240817201105033.png){ loading=lazy }
 
 ‘Bicycle Shared Ending Marking’
 
-![image-20240817201116698](./assets/image-20240817201116698.png)
+![image-20240817201116698](./assets/image-20240817201116698.png){ loading=lazy }
 
 ## Insurance
 

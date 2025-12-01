@@ -36,9 +36,9 @@
 | Solution                  | Sequence of actions that help go from initial state to goal state |                                                           |
 | Solution cost             | Cost associated to perform solution                          |                                                           |
 | Search                    | Process of looking for solution                              |                                                           |
-| State Space               | Set of all states that are possible and can be reached in an environment/system. | ![State space graph](../assets/State%20space%20graph.png) |
+| State Space               | Set of all states that are possible and can be reached in an environment/system. | ![State space graph](../assets/State%20space%20graph.png){ loading=lazy } |
 | State space size          | Total number of states. Counted using fundamental counting principle. |                                                           |
-| Search Tree               | Tree representation of search problem.                       | ![Search tree](./assets/Search%20tree.png)                |
+| Search Tree               | Tree representation of search problem.                       | ![Search tree](./assets/Search%20tree.png){ loading=lazy }                |
 
 ## Search Type
 
@@ -46,8 +46,8 @@
 
 | Type           |                         | Path is relevant? | Direction         |                                                              |
 | -------------- | ----------------------- | ----------------- | ----------------- | ------------------------------------------------------------ |
-| Planning       | Sequence of actions     | ✅                 | Backward chaining | ![](./assets/image-20240327140955725.png)                    |
-| Diagonosis     |                         | ✅                 | Forward chaining  | ![image-20240327140950063](./assets/image-20240327140950063.png) |
+| Planning       | Sequence of actions     | ✅                 | Backward chaining | ![](./assets/image-20240327140955725.png){ loading=lazy }                    |
+| Diagonosis     |                         | ✅                 | Forward chaining  | ![image-20240327140950063](./assets/image-20240327140950063.png){ loading=lazy } |
 | Identification | Assignment to variables | ❌                 |                   |                                                              |
 
 ### Information
@@ -89,7 +89,7 @@ Consider
 | Semi-lattice of heuristics    | $\max(h_1, h_2)$ is admissible                               |                                                              |                                                              |
 | Trivial heuristic             | Bottom of lattice is zero heuristic $\implies$ top of lattice is exact heuristic |                                                              |                                                              |
 
-![image-20240330144337026](./assets/image-20240330144337026.png)
+![image-20240330144337026](./assets/image-20240330144337026.png){ loading=lazy }
 
 ## Search Algorithms
 
@@ -132,7 +132,7 @@ Appropriate when only reaching goal state is required; solution path is irreleva
 
 ### IDK
 
-![image-20240330143832692](./assets/image-20240330143832692.png)
+![image-20240330143832692](./assets/image-20240330143832692.png){ loading=lazy }
 
 ## Graph Search
 

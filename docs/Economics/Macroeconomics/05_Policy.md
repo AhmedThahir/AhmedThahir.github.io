@@ -68,7 +68,7 @@ for eg, in UAE Dirham, the Central Bank of UAE
 
 ### Demand for Money
 
-![](assets/demand_for_money.png)
+![](assets/demand_for_money.png){ loading=lazy }
 
 Tradeoff
 - Hold more money: ease of transactions, but opportunity cost of missing return
@@ -92,9 +92,9 @@ In reality, $M_d$ is very volatile
 
 | Nominal Income | Interest Rates | $\implies$ | Money Supply | Interest Rates |                                              |
 | -------------- | -------------- | :--------: | ------------ | -------------- | -------------------------------------------- |
-| Constant       | Constant       |            | Constant     | Constant       | ![](assets/equilibrium_interest_rate.png)    |
-| Constant       | Decrease       |            | Increase     |                | ![](assets/increase_in_money_supply.png)     |
-| Increase       |                |            | Constant     | Increase       | ![](./assets/increase_in_nominal_income.png) |
+| Constant       | Constant       |            | Constant     | Constant       | ![](assets/equilibrium_interest_rate.png){ loading=lazy }    |
+| Constant       | Decrease       |            | Increase     |                | ![](assets/increase_in_money_supply.png){ loading=lazy }     |
+| Increase       |                |            | Constant     | Increase       | ![](./assets/increase_in_nominal_income.png){ loading=lazy } |
 
 Money supply changed through trade of bonds
 - Central bank buying bonds

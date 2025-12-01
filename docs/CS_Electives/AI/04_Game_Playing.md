@@ -45,7 +45,7 @@ Opponent behaves optimally, ie always perform the move that is worst for us
 - At each MAX node, pick move w/ max utility
 - At each MIN node, pick move w/ min utility
 
-![Mini-max](../assets/mini-max.png)
+![Mini-max](../assets/mini-max.png){ loading=lazy }
 
 ### Limitations
 
@@ -72,7 +72,7 @@ Alpha Beta Pruning
 - Prune (skip) a subtree once it is known to be worse than current $\alpha$ or $\beta$
 - If $\alpha > \beta$, stop evaluating children
 
-![Alpha beta pruning](../assets/alpha-beta-pruning-steps.png)
+![Alpha beta pruning](../assets/alpha-beta-pruning-steps.png){ loading=lazy }
 
 ### Implications
 
@@ -84,7 +84,7 @@ Alpha Beta Pruning
 - Cutoff search tree before terminal state reached
 - Use heuristic of minimax value at leaves, instead of utility
 
-![image-20240330153236873](./assets/image-20240330153236873.png)
+![image-20240330153236873](./assets/image-20240330153236873.png){ loading=lazy }
 
 ## Deep Blue
 

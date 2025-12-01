@@ -24,9 +24,9 @@ No polarity, as resistors don’t have any polarity
 
 ## Connection
 
-![ldr_wiring_diagram](./assets/ldr_wiring_diagram.png)
+![ldr_wiring_diagram](./assets/ldr_wiring_diagram.png){ loading=lazy }
 
-![ldr_wiring_diagram_arduino](./assets/ldr_wiring_diagram_arduino.png)
+![ldr_wiring_diagram_arduino](./assets/ldr_wiring_diagram_arduino.png){ loading=lazy }
 
 ## Code
 

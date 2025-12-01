@@ -31,7 +31,7 @@ For handling multi-collinearity
 	- Similar: Pairwise Correlation/Mutual information/VIF
 	- Clustering: Hierarchical is preferred over centroid-based
 	- Include random noise feature to understand what is significant relationship
-	- ![](assets/mutual_information_hierarchical_clustering.png)
+	- ![](assets/mutual_information_hierarchical_clustering.png){ loading=lazy }
 - Modify feature selection to handle clusters, by choosing one of the below
 	- ==**Don't**== choose one feature per cluster, as one of the correlated features may have important interaction
 	- Cluster MDI: sum of MDIs of features in each cluster

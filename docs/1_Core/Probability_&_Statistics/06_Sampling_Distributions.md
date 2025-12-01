@@ -57,13 +57,13 @@ Reasoning
 
 ### For Different Distributions
 
-![image-20240128195458648](./assets/image-20240128195458648.png)
+![image-20240128195458648](./assets/image-20240128195458648.png){ loading=lazy }
 
 Higher the skew of population distribution, larger the sample size required to approximate the sample size to the population
 
 ### For the different population size
 
-![image-20240128195800706](./assets/image-20240128195800706.png)
+![image-20240128195800706](./assets/image-20240128195800706.png){ loading=lazy }
 
 Sample vs Population SD does not depend on population size
 

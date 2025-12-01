@@ -31,7 +31,7 @@ $$
 - $T=$ Taxes
 - $(I-T)=$ disposable income
 
-![](assets/consumption_propensity.png)
+![](assets/consumption_propensity.png){ loading=lazy }
 
 ## IDk
 
@@ -40,8 +40,8 @@ $$
 | Equilibrium Output Factors               | - Aggregate Demand<br>- Production<br>- Income                                                                  |            |          |
 | Equilibrium Condition                    | $\text{Aggregate Demand} = \text{Aggregate Income}$<br>$\text{Aggregate Investment} = \text{Aggregate Savings}$ |            |          |
 | Equilibrium Output                       | $\dfrac{1}{1-c_1} (c_0 - T + I + G)$                                                                            |            |          |
-|                                          | ![](./assets/equilibrium_output.png)                                                                            |            |          |
-| Increase in autonomous consumption $c_0$ | ![](assets/equilibrium_output_increase_in_base_consumption.png)                                                 |            |          |
+|                                          | ![](./assets/equilibrium_output.png){ loading=lazy }                                                                            |            |          |
+| Increase in autonomous consumption $c_0$ | ![](assets/equilibrium_output_increase_in_base_consumption.png){ loading=lazy }                                                 |            |          |
 
 ### Output Multiplier
 
@@ -81,7 +81,7 @@ If savings $S(Y)$ increase due to decrease in $c_1$
 
 where $Y =$ Real output
 
-![](assets/paradox_of_saving.png)
+![](assets/paradox_of_saving.png){ loading=lazy }
 
 This is why drastic contractionary fiscal policy is detrimental
 - introducing high GST/VAT

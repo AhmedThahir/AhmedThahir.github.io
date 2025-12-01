@@ -47,8 +47,8 @@ Market action determines everything
 
 |                   |                                                              |                                                              |
 | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| OHLC              |                                                              | ![image-20240529170028277](assets/image-20240529170028277.png) |
-| Candlestick chart | Candle color:<br />Red/black: close>open<br />Green/Blue: close>open | ![image-20240529170107135](assets/image-20240529170107135.png) |
+| OHLC              |                                                              | ![image-20240529170028277](assets/image-20240529170028277.png){ loading=lazy } |
+| Candlestick chart | Candle color:<br />Red/black: close>open<br />Green/Blue: close>open | ![image-20240529170107135](assets/image-20240529170107135.png){ loading=lazy } |
 
 ## Dow Theory
 
@@ -146,8 +146,8 @@ Use-case
 
 |         |                                                              |
 | ------- | ------------------------------------------------------------ |
-| Bullish | ![image-20240529175113518](assets/image-20240529175113518.png) |
-| Bearish | ![image-20240529175154194](assets/image-20240529175154194.png) |
+| Bullish | ![image-20240529175113518](assets/image-20240529175113518.png){ loading=lazy } |
+| Bearish | ![image-20240529175154194](assets/image-20240529175154194.png){ loading=lazy } |
 
 ### Envelops
 
@@ -163,7 +163,7 @@ Envelops consist of points of maximum and minimum divergence from some moving av
 - Upper band: $\text{MA} + z_{\alpha/2} * \sigma (\text{close}, w)$
 - Lower band: $\text{MA} - z_{\alpha/2} * \sigma (\text{close}, w)$
 
-![image-20240529175645650](assets/image-20240529175645650.png)
+![image-20240529175645650](assets/image-20240529175645650.png){ loading=lazy }
 
 Whenever bands narrow, a change in trend occurs: Whenever bands narrow, they have been stable for a while and it is followed by movement which is more volatile and in opposite direction
 
@@ -179,25 +179,25 @@ Support & resistance levels
 - Breakout: prices go outside the support/resistance level
 - Pullback: prices return within support/resistance level
 
-![image-20240529200833863](assets/image-20240529200833863.png)
+![image-20240529200833863](assets/image-20240529200833863.png){ loading=lazy }
 
 ### Patterns
 
 | Pattern                   | Trend     | Signal                  |                                                              |                                                              |
 | ------------------------- | --------- | ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Head & Shoulders          | Uptrend   | Bearish<br />(reversal) | ![image-20240529200902458](assets/image-20240529200902458.png) | ![image-20240529201506077](assets/image-20240529201506077.png) |
-| Inverted head & shoulders | Downtrend | Bullish<br />(reversal) | ![](assets/image-20240529201018721.png)                    | ![image-20240529201535589](assets/image-20240529201535589.png) |
-| Symmetric triangle        | Uptrend   | Bullish                 | ![image-20240529201553435](assets/image-20240529201553435.png) | ![image-20240529201655006](assets/image-20240529201655006.png) |
-| Symmetric triangle        | Downtrend | Bearish                 | ![image-20240529201602540](assets/image-20240529201602540.png) |                                                              |
-| Ascending triangle        | Uptrend   | Bullish                 | ![image-20240529201821596](assets/image-20240529201821596.png) | ![image-20240529201848732](assets/image-20240529201848732.png) |
-| Rectangle                 | Uptrend   | Bullish                 | ![image-20240529201951231](assets/image-20240529201951231.png) | ![image-20240529202040985](assets/image-20240529202040985.png) |
-| Rectangle                 | Downtrend | Bearish                 | ![image-20240529202010595](assets/image-20240529202010595.png) | ![image-20240529202051177](assets/image-20240529202051177.png) |
-| Flag                      | Uptrend   | Bullish                 | ![image-20240529202250442](assets/image-20240529202250442.png) |                                                              |
-| Flag                      | Downtrend | Bearish                 | ![image-20240529202321410](assets/image-20240529202321410.png) |                                                              |
-| Pennant                   | Uptrend   | Bullish                 | ![image-20240529202309127](assets/image-20240529202309127.png) |                                                              |
-| Pennant                   | Downtrend | Bearish                 | ![image-20240529202339470](assets/image-20240529202339470.png) |                                                              |
-| Cup & Handle              |           | Bullish                 | ![image-20240529202814226](assets/image-20240529202814226.png) |                                                              |
-| Inverted Cup & Handle     |           | Bearish                 | ![image-20240529202905035](assets/image-20240529202905035.png) |                                                              |
+| Head & Shoulders          | Uptrend   | Bearish<br />(reversal) | ![image-20240529200902458](assets/image-20240529200902458.png){ loading=lazy } | ![image-20240529201506077](assets/image-20240529201506077.png){ loading=lazy } |
+| Inverted head & shoulders | Downtrend | Bullish<br />(reversal) | ![](assets/image-20240529201018721.png){ loading=lazy }                    | ![image-20240529201535589](assets/image-20240529201535589.png){ loading=lazy } |
+| Symmetric triangle        | Uptrend   | Bullish                 | ![image-20240529201553435](assets/image-20240529201553435.png){ loading=lazy } | ![image-20240529201655006](assets/image-20240529201655006.png){ loading=lazy } |
+| Symmetric triangle        | Downtrend | Bearish                 | ![image-20240529201602540](assets/image-20240529201602540.png){ loading=lazy } |                                                              |
+| Ascending triangle        | Uptrend   | Bullish                 | ![image-20240529201821596](assets/image-20240529201821596.png){ loading=lazy } | ![image-20240529201848732](assets/image-20240529201848732.png){ loading=lazy } |
+| Rectangle                 | Uptrend   | Bullish                 | ![image-20240529201951231](assets/image-20240529201951231.png){ loading=lazy } | ![image-20240529202040985](assets/image-20240529202040985.png){ loading=lazy } |
+| Rectangle                 | Downtrend | Bearish                 | ![image-20240529202010595](assets/image-20240529202010595.png){ loading=lazy } | ![image-20240529202051177](assets/image-20240529202051177.png){ loading=lazy } |
+| Flag                      | Uptrend   | Bullish                 | ![image-20240529202250442](assets/image-20240529202250442.png){ loading=lazy } |                                                              |
+| Flag                      | Downtrend | Bearish                 | ![image-20240529202321410](assets/image-20240529202321410.png){ loading=lazy } |                                                              |
+| Pennant                   | Uptrend   | Bullish                 | ![image-20240529202309127](assets/image-20240529202309127.png){ loading=lazy } |                                                              |
+| Pennant                   | Downtrend | Bearish                 | ![image-20240529202339470](assets/image-20240529202339470.png){ loading=lazy } |                                                              |
+| Cup & Handle              |           | Bullish                 | ![image-20240529202814226](assets/image-20240529202814226.png){ loading=lazy } |                                                              |
+| Inverted Cup & Handle     |           | Bearish                 | ![image-20240529202905035](assets/image-20240529202905035.png){ loading=lazy } |                                                              |
 
 ## Momentum/Oscillator
 
@@ -207,5 +207,5 @@ Measures the velocity of price move
 | ------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | MACD<br />Moving Averages Convergence Divergence | Trend-Deviation                                              | $\dfrac{\text{Faster EMA}}{\text{Slower EMA}}$<br />or<br />$\text{Faster EMA} - \text{Slower EMA}$ |                                                              |
 | Signal                                           | EMA of MACD                                                  |                                                              |                                                              |
-| RSI<br />Relative Strength Index                 | Buying/selling ratio<br /><br />$\text{RSI} > 0.70 \implies$ Overbought<br />$\text{RSI} < 0.30 \implies$ Oversold | $\dfrac{\text{RS}}{1+\text{RS}}$<br />$\text{RS} = \dfrac{\text{Avg(gains)}_w}{\text{Avg(losses)}_w}$<br />where $w=$ window size | ![image-20240529204329480](assets/image-20240529204329480.png) |
+| RSI<br />Relative Strength Index                 | Buying/selling ratio<br /><br />$\text{RSI} > 0.70 \implies$ Overbought<br />$\text{RSI} < 0.30 \implies$ Oversold | $\dfrac{\text{RS}}{1+\text{RS}}$<br />$\text{RS} = \dfrac{\text{Avg(gains)}_w}{\text{Avg(losses)}_w}$<br />where $w=$ window size | ![image-20240529204329480](assets/image-20240529204329480.png){ loading=lazy } |
 

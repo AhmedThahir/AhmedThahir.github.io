@@ -211,7 +211,7 @@ pie
 
 Sukuk is an Islamic instrument that provides the same commercial equivalent to a conventional bond, the difference being that it is structured in a sharia compliant manner and represents proportionate undivided ownership in the underlying asset or investment.
 
-![sukuk](assets/sukuk.png)
+![sukuk](assets/sukuk.png){ loading=lazy }
 
 ```mermaid
 sequenceDiagram

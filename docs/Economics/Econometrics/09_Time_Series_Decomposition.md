@@ -139,13 +139,13 @@ Demonstrates the goodness of fit: local similarity
 
 ## Signals
 
-![image-20240207185701821](assets/image-20240207185701821.png)
+![image-20240207185701821](assets/image-20240207185701821.png){ loading=lazy }
 
 |                   |                                                              | Time Resolution                                              | Frequency Resolution |
 | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------- |
-| Raw Time Series   | ![image-20240203213122515](assets/image-20240203213122515.png) | High                                                         | $\approx 0$          |
-| Fourier Transform | ![image-20240203213109138](assets/image-20240203213109138.png) | $\approx 0$                                                  | High                 |
-| Wavelet Transform | ![image-20240203213047040](assets/image-20240203213047040.png) | Low for small frequencies<br />High for high frequencies<br /><br />This is intuitive, as high freq signals are usually short-lived, and small freq signals are usually long-lived |                      |
+| Raw Time Series   | ![image-20240203213122515](assets/image-20240203213122515.png){ loading=lazy } | High                                                         | $\approx 0$          |
+| Fourier Transform | ![image-20240203213109138](assets/image-20240203213109138.png){ loading=lazy } | $\approx 0$                                                  | High                 |
+| Wavelet Transform | ![image-20240203213047040](assets/image-20240203213047040.png){ loading=lazy } | Low for small frequencies<br />High for high frequencies<br /><br />This is intuitive, as high freq signals are usually short-lived, and small freq signals are usually long-lived |                      |
 
 ## Synthetic Data Generation
 
@@ -195,6 +195,6 @@ df = pd.DataFrame(Y_sim)
 df.corr()
 ```
 
-![](assets/cholensky_decomposition_copula_before.png)
+![](assets/cholensky_decomposition_copula_before.png){ loading=lazy }
 
-![](assets/cholensky_decomposition_copula_after.png)
+![](assets/cholensky_decomposition_copula_after.png){ loading=lazy }

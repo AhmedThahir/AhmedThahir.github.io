@@ -4,7 +4,7 @@
 
 AI systems that can produce high quality unstructured content: text, images, audio
 
-![img](./assets/overview_ai_ml_dl_ds.svg)
+![img](./assets/overview_ai_ml_dl_ds.svg){ loading=lazy }
 
 ## Impact on Jobs
 
@@ -13,11 +13,11 @@ More effect on
 - higher-paid jobs 
 - knowledge workers
 
-![eloundou et al](./assets/image-20240716230105029.png)
+![eloundou et al](./assets/image-20240716230105029.png){ loading=lazy }
 
-![mckinsey](./assets/image-20240716230153933.png)
+![mckinsey](./assets/image-20240716230153933.png){ loading=lazy }
 
-![mckinsey](./assets/image-20240716230320703.png)
+![mckinsey](./assets/image-20240716230320703.png){ loading=lazy }
 
 ## Lifecycle of GenAI Project
 
@@ -45,7 +45,7 @@ Supervised learning to repeatedly predict the next word
   - Summarization
 - Chatting
 
-![image-20240716185200532](./assets/image-20240716185200532.png)
+![image-20240716185200532](./assets/image-20240716185200532.png){ loading=lazy }
 
 Advice for chatbots: Start with internal-facing that works with staff
 
@@ -83,11 +83,11 @@ Helpful, Honest, Harmless
 
 #### Action
 
-![image-20240716203659824](./assets/image-20240716203659824.png)
+![image-20240716203659824](./assets/image-20240716203659824.png){ loading=lazy }
 
 #### Reasoning
 
-![image-20240716203849391](./assets/image-20240716203849391.png)
+![image-20240716203849391](./assets/image-20240716203849391.png){ loading=lazy }
 
 ## Agents
 

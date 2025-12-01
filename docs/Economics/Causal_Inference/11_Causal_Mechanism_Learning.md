@@ -105,11 +105,11 @@ In dynamic models, treatment effects can be time-varying and it’s often useful
 
 Static (single-shot) causal inference
 
-![image-20240420165925566](assets/image-20240420165925566.png)
+![image-20240420165925566](assets/image-20240420165925566.png){ loading=lazy }
 
 Dynamic
 
-![image-20240420170414198](assets/image-20240420170414198.png)
+![image-20240420170414198](assets/image-20240420170414198.png){ loading=lazy }
 
 ### IDK
 
@@ -129,9 +129,9 @@ Problem
 
 ### Crop Supply
 
-![image-20240420170534140](assets/image-20240420170534140.png)
+![image-20240420170534140](assets/image-20240420170534140.png){ loading=lazy }
 
-![image-20240420170553572](assets/image-20240420170553572.png)
+![image-20240420170553572](assets/image-20240420170553572.png){ loading=lazy }
 
 - At the beginning of each period t, each field owner decides whether or not to plant the crop in the current period
 - The decision is based on observed period−t price as well as expectations of future prices.
@@ -145,7 +145,7 @@ Counter-factual simulation
   if farmers are myoptic: if they are not forward-looking?
 - How would crop supply change in response to changes in crop prices if farmers are static: if they are neither forward-looking, nor subject to any re-cultivation costs, so that planting decisions are made entirely based on current prices?
 
-![image-20240421003710770](assets/image-20240421003710770.png)
+![image-20240421003710770](assets/image-20240421003710770.png){ loading=lazy }
 
 In general, if we are interested in the effect of x on y, but x is self-selected based on expectations of y, then without any measures of such expectations, the causal effect cannot be non-parametrically identified and we need to rely on theory to specify how expectations are formed.
 

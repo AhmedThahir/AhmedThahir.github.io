@@ -63,7 +63,7 @@ Decision analysis helps overcome this
   - Probability
   - Uncertainties
 
-![image-20240128202304041](assets/image-20240128202304041.png)
+![image-20240128202304041](assets/image-20240128202304041.png){ loading=lazy }
 
 Goal: Maximize expected value of outcomes
 

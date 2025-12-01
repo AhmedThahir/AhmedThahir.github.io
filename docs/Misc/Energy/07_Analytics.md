@@ -41,7 +41,7 @@ Inputs to these methods are
 - Medium-term (6-96hrs): weather forecasts are more important
 - Long-term (>96hrs): weather forecasts become less important, as long-term weather forecasts are not reliable
 
-![image-20240522121512784](./assets/image-20240522121512784.png)
+![image-20240522121512784](./assets/image-20240522121512784.png){ loading=lazy }
 
 ## Power Curve
 
@@ -49,11 +49,11 @@ Power curve shapes the distribution of prediction errors
 
 | Ideal                                                        | Actual                                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![image-20240522122547221](./assets/image-20240522122547221.png) | ![image-20240522122649481](./assets/image-20240522122649481.png) |
+| ![image-20240522122547221](./assets/image-20240522122547221.png){ loading=lazy } | ![image-20240522122649481](./assets/image-20240522122649481.png){ loading=lazy } |
 
 ### Uncertainty
 
-![image-20240522122756355](./assets/image-20240522122756355.png)
+![image-20240522122756355](./assets/image-20240522122756355.png){ loading=lazy }
 
 ## Causes of Non-Stationarity
 

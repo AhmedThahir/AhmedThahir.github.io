@@ -19,8 +19,8 @@ I already did optimization course, so I’ve skipped a lot.
 - Convert constraint $= k \implies \le k \ \& \ge k$
 - Add slack
 
-![image-20230604004421696](./assets/image-20230604004421696.png)
+![image-20230604004421696](./assets/image-20230604004421696.png){ loading=lazy }
 
-![image-20230604004855884](./assets/image-20230604004855884.png)
+![image-20230604004855884](./assets/image-20230604004855884.png){ loading=lazy }
 
 

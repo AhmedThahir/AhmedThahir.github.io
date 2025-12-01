@@ -8,7 +8,7 @@ Built to fit ML on embedded systems
 - No operating system dependencies, can run on bare metal
 - Designed to be portable across a wide variety of systems
 
-![image-20240507101050664](./assets/image-20240507101050664.png)
+![image-20240507101050664](./assets/image-20240507101050664.png){ loading=lazy }
 
 ## Components
 - Core functionality (< 20 KB)
@@ -90,9 +90,9 @@ Finding ideal size of arena
 
 Ops specification
 
-![image-20240507102746362](./assets/image-20240507102746362.png)
+![image-20240507102746362](./assets/image-20240507102746362.png){ loading=lazy }
 
 ## IDK
 
-![image-20240507100908143](./assets/image-20240507100908143.png)
+![image-20240507100908143](./assets/image-20240507100908143.png){ loading=lazy }
 

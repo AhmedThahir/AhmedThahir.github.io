@@ -45,7 +45,7 @@ $$
 | The upper and lower bound for estimated __ at a given level of significance | $\hat \beta$                                                                                                                                                    | $\hat \mu \vert x_{i, \text{new}}$                                                                                                        | $\hat y \vert x_{i, \text{new}}$<br>$=\hat \mu \vert x_{i, \text{new}} + \hat u \vert x_{i, \text{new}}$                                          |
 | Univariate Linear Regression<br>(Asymptotic Approach)                       | $\left\{ \text{RMSE} \sqrt{\dfrac{1}{n_\text{cal}} + \dfrac{\bar x^2}{n_\text{cal} \sigma^2_x}} , \dfrac{\text{RMSE}}{\sqrt{n_\text{cal} \sigma^2_x} }\right\}$ | $\text{RMSE} \times \sqrt{\dfrac{1}{n_\text{cal}} + \dfrac{(x_{i, \text{new}}- \bar x )^2}{n_\text{cal} \sigma_x^2}}$                     | $\text{RMSE} \times \sqrt{\dfrac{1}{n_\text{cal}} + \dfrac{(x_{i, \text{new}} - \bar x )^2}{n_\text{cal} \sigma_x^2} \ \textcolor{hotpink}{+ 1}}$ |
 | Multivariate Linear Regression<br>(Asymptotic Approach)                     | ${\text{RMSE} \times \sqrt{\text{Cov}_{jj}}}$                                                                                                                   | $\text{RMSE} \times \sqrt{X_{i, \text{new}}^T \cdot \text{Cov} \cdot X_{i, \text{new}} }$                                                 | $\text{RMSE} \times \sqrt{X_{i, \text{new}}^T \cdot \text{Cov} \cdot X_{i, \text{new}}  \ \textcolor{hotpink}{+ 1}}$                              |
-| Multivariate Non-Linear Regression<br>(Asymptotic + Delta Approach)         | ${\text{RMSE} \times \sqrt{\text{IF}_{jj}}}$                                                                                                                    | $\text{RMSE} \times \sqrt{ J_{i, \text{new}}^T \cdot \text{IF} \cdot J_{i, \text{new}} }$<br><br>![](assets/delta_method_uncertainty.png) | $\text{RMSE} \times  \sqrt{J_{i, \text{new}}^T \cdot \text{IF} \cdot J_{i, \text{new}}  \ \textcolor{hotpink}{+ 1} }$                             |
+| Multivariate Non-Linear Regression<br>(Asymptotic + Delta Approach)         | ${\text{RMSE} \times \sqrt{\text{IF}_{jj}}}$                                                                                                                    | $\text{RMSE} \times \sqrt{ J_{i, \text{new}}^T \cdot \text{IF} \cdot J_{i, \text{new}} }$<br><br>![](assets/delta_method_uncertainty.png){ loading=lazy } | $\text{RMSE} \times  \sqrt{J_{i, \text{new}}^T \cdot \text{IF} \cdot J_{i, \text{new}}  \ \textcolor{hotpink}{+ 1} }$                             |
 
 where
 - $\text{Cov}$: Covariance matrix
@@ -66,7 +66,7 @@ Degree of freedom $= n - k - 1$, where
 
 Confidence and prediction intervals are narrowest at $X = \bar X$, and get wider further from this point.
 
-![image-20231129140943148](./assets/image-20231129140943148.png)
+![image-20231129140943148](./assets/image-20231129140943148.png){ loading=lazy }
 
 Under homoskedasticity,
 $$
@@ -94,13 +94,13 @@ For each data point, take __ of multiple models
 
 Describes the full probabilistic distribution $\forall x$
 
-![image-20240522140247341](./assets/image-20240522140247341.png)
+![image-20240522140247341](./assets/image-20240522140247341.png){ loading=lazy }
 
 ## Trajectories/Scenarios
 
 Equally-likely samples of multivariate predictive densities
 
-![image-20240522140752649](./assets/image-20240522140752649.png)
+![image-20240522140752649](./assets/image-20240522140752649.png){ loading=lazy }
 
 ## Uncertainty Propagation
 
@@ -160,7 +160,7 @@ the output, $\sigma_f^2=4\sigma^2_A$ (notice $1-\rho_A=2$ for *f* = *aA*
 - Protect firm against unacceptably large concentrations
 - Quantify potential losses
 
-![image-20240203155439617](./assets/image-20240203155439617.png)
+![image-20240203155439617](./assets/image-20240203155439617.png){ loading=lazy }
 
 1. Collect data
 2. Graph the data to inspect data quality
@@ -175,5 +175,5 @@ $$
 [\text{Bin}(n, p)_{1-\alpha/2}, \text{Bin}(n, p)_{\alpha/2}]
 $$
 
-![](assets/Wilson%20score%20interval.png)
+![](assets/Wilson%20score%20interval.png){ loading=lazy }
 

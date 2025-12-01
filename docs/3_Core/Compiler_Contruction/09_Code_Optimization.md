@@ -42,7 +42,7 @@ Code optimization can be done at the following
 
 ## Generational Garbage Collection
 
-![image-20230526183426759](./assets/image-20230526183426759.png)
+![image-20230526183426759](./assets/image-20230526183426759.png){ loading=lazy }
 
 Generations
 

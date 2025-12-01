@@ -36,18 +36,18 @@ $$
 
 Technically, $\hat \beta_1$ is an "estimate" of ATE via ATT, because the parallel trend assumption assumes what the treated series would be like in the absence of the treatment, not what the control series would be like given the treatment
 
-![](assets/difference_in_difference.png)
+![](assets/difference_in_difference.png){ loading=lazy }
 
-![](assets/did_pokemon_series.png)
-![](assets/did_pokemon_go_treatment.png)
+![](assets/did_pokemon_series.png){ loading=lazy }
+![](assets/did_pokemon_go_treatment.png){ loading=lazy }
 ## Regression Discontinuity Design
 
 Causal effect cannot be obtained directly due to lack of overlap for different $s$, hence we take the neighborhood
 
 Eg: Evaluating the treatment effect of college on students in the neighborhood of college acceptance cutoff, where the selection of students is random
 
-![](./assets/tutor.png)
-![](assets/tutor_2.png)
+![](./assets/tutor.png){ loading=lazy }
+![](assets/tutor_2.png){ loading=lazy }
 
 When a quasi-experiment partially determines the treatment status, the “as if” randomness can be used as an instrument for identifying the causal effect of interest
 
@@ -72,11 +72,11 @@ $$
 Hyperparameters
 - Parametric/Non-Parametric models
 - Bandwidth: Size of neighborhood; far-off observations do not matter very much
-	- ![](assets/bandwidth.png)
+	- ![](assets/bandwidth.png){ loading=lazy }
 	- Check sensitivity of causal effect to bandwidth
 		- double & halve the bandwidth
 - Kernels: Sample importance wrt distance from cutoff
-	- ![](assets/kernel.png)
+	- ![](assets/kernel.png){ loading=lazy }
 	- Check sensitivity of causal effect to kernels
 
 When reporting causal effect, do all possible hyperparameters and then the report the distribution

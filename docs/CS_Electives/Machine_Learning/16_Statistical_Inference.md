@@ -26,9 +26,9 @@ To conduct statistical inference for procedures that involve model selection, su
 
 The problem is essentially the same as those of specification search and data-snooping: an observed correlation of 0.9 between x and y may be noteworthy. However, if x is found by searching over 100 variables looking for the one with the highest observed correlation with y, then the finding is no longer as impressive and could well be due to chance
 
-![image-20240302105204420](./assets/image-20240302105204420.png)
+![image-20240302105204420](./assets/image-20240302105204420.png){ loading=lazy }
 
-![image-20240301164810988](./assets/image-20240301164810988.png)
+![image-20240301164810988](./assets/image-20240301164810988.png){ loading=lazy }
 
 ### Solution: Conditional Coverage
 

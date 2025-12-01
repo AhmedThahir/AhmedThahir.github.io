@@ -26,7 +26,7 @@ Engineering design assumes a fixed forecast!
 
 Find highest value design, by looking at each major design alternative. No  
 
-![image-20231216023518082](assets/image-20231216023518082.png)
+![image-20231216023518082](assets/image-20231216023518082.png){ loading=lazy }
 
 ### Recognizing uncertainty
 
@@ -34,15 +34,15 @@ Costs may be easy to estimate, as contracts will give fixed bids.
 
 However, demand is highly uncertain, especially as we proceed to the future
 
-![image-20231216023943222](assets/image-20231216023943222.png)
+![image-20231216023943222](assets/image-20231216023943222.png){ loading=lazy }
 
 ### Introducing flexibility into design
 
-![image-20231216025125088](assets/image-20231216025125088.png)
+![image-20231216025125088](assets/image-20231216025125088.png){ loading=lazy }
 
 ### Multi-Dimensional Valuation
 
-![image-20231216025511556](assets/image-20231216025511556.png)
+![image-20231216025511556](assets/image-20231216025511556.png){ loading=lazy }
 
 ### Conclusion
 

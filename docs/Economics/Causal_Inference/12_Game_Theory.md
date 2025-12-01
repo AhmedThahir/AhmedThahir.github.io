@@ -78,7 +78,7 @@ where
 
 Estimated marginal cost and demand curves for a market with median income and population
 
-![Estimated marginal cost and demand curves for a market with median income and population](assets/image-20240420145244567.png)
+![Estimated marginal cost and demand curves for a market with median income and population](assets/image-20240420145244567.png){ loading=lazy }
 
 Here, theory helps us to learn the marginal cost function of the monopoly firm as well as the consumer utility function – neither of which is observed and neither can be nonparametrically identified.
 

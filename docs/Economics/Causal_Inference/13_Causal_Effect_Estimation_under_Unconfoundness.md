@@ -43,7 +43,7 @@ Treatment effects can be
 - Homogenous: same for all units
 - Heterogenous: different for all units
 
-![image-20240422202727283](assets/image-20240422202727283.png)
+![image-20240422202727283](assets/image-20240422202727283.png){ loading=lazy }
 
 Alternatively, you can estimate in the following manner
 $$
@@ -58,7 +58,7 @@ $$
 $$
 Where $f_1$ and $f_0$ are completely different models
 
-![image-20240422205546258](assets/image-20240422205546258.png)
+![image-20240422205546258](assets/image-20240422205546258.png){ loading=lazy }
 
 ## Matching
 

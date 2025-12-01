@@ -288,7 +288,7 @@ where
 
 | Cause                           |                                                              |                                                              |
 | ------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| No data: Inappropriate sampling | We only sample regions where predictors are correlated       | ![image-20240618225457951](./assets/image-20240618225457951.png) |
+| No data: Inappropriate sampling | We only sample regions where predictors are correlated       | ![image-20240618225457951](./assets/image-20240618225457951.png){ loading=lazy } |
 | Inappropriate model             | If range of predictors is small: $r(x, x^2) \ne 0$           |                                                              |
 | True Population                 | Collinearity indeed exists in the true population (for eg, height and weight) |                                                              |
 

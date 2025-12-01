@@ -47,7 +47,7 @@ If your data has chance of falsifying your assertion, then it does not provide a
 
 Fit that means nothing: linear regression fit with just 2 data points
 
-![image-20240421093701499](./assets/image-20240421093701499.png)
+![image-20240421093701499](./assets/image-20240421093701499.png){ loading=lazy }
 
 ## Data Snooping
 
@@ -86,7 +86,7 @@ It is possible to find a statistically significant result even if doesn’t exis
 
 For example:
 
-![image-20240624172742562](./assets/image-20240624172742562.png)
+![image-20240624172742562](./assets/image-20240624172742562.png){ loading=lazy }
 
 If you look at the data beforehand
 $$
@@ -129,7 +129,7 @@ $$
 - Documentation
 
 
-![](assets/issues.png)
+![](assets/issues.png){ loading=lazy }
 
 
 ## Validity of Results & Threats to Validity
@@ -309,11 +309,11 @@ Clearly data can be misleading, without understanding the underlying cause
 
 ### Wages
 
-![image-20240418221335444](assets/image-20240418221335444.png)
+![image-20240418221335444](assets/image-20240418221335444.png){ loading=lazy }
 
 ### Credit card default
 
-![image-20240418221506468](assets/image-20240418221506468.png)
+![image-20240418221506468](assets/image-20240418221506468.png){ loading=lazy }
 
 We cannot use the relationship between Income, balance, and default status for credit card holders
 to predict default rate **for a random credit card applicant**, since these people part of the available data have been filtered already as potentially good credit card users

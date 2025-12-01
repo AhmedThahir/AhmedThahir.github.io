@@ -16,7 +16,7 @@ Sources of carbon footprint
 
 Not just the energy cost of running computers, but also energy required to build them
 
-![Untitled](./assets/Untitled.png)
+![Untitled](./assets/Untitled.png){ loading=lazy }
 
 ### Solutions
 
@@ -31,7 +31,7 @@ Not just the energy cost of running computers, but also energy required to build
     - No need for fresh water for cooling
 - Use renewable energy
   - Transitioning to 100% renewables will not eliminate the carbon footprint of chips
-  - ![image-20240518102258790](./assets/image-20240518102258790.png)
+  - ![image-20240518102258790](./assets/image-20240518102258790.png){ loading=lazy }
 - Stop planned obscelence
 
 ### 4 M’s of AI Efficiency

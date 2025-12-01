@@ -12,7 +12,7 @@ YOLO makes more localization errors but is less likely to predict false positive
 
 ## Working
 
-![image-20230528104136452](./../assets/image-20230528104136452.png)
+![image-20230528104136452](./../assets/image-20230528104136452.png){ loading=lazy }
 
 A single convolutional network simultaneously predicts multiple bounding boxes and class probabilities for those boxes. YOLO trains on full images and directly optimizes detection performance.
 
@@ -59,7 +59,7 @@ $$
 
 ## Network Design
 
-![image-20230528110044013](./../assets/image-20230528110044013.png)
+![image-20230528110044013](./../assets/image-20230528110044013.png){ loading=lazy }
 
 Architecture is inspired by the GoogLeNet model for image classification. However, YOLO does not use inception modules used by GoogLeNet
 

@@ -20,11 +20,11 @@
 
 Also generate a distribution of which pixels to look at next
 
-![](assets/soft_attention_for_captioning.png)
+![](assets/soft_attention_for_captioning.png){ loading=lazy }
 
 ## Soft vs Hard Attention
 
-![](assets/attention_flowchart.png)
+![](assets/attention_flowchart.png){ loading=lazy }
 
 |                                        | Soft                                                               | Hard                                                                                                 |
 | -------------------------------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------- |
@@ -32,11 +32,11 @@ Also generate a distribution of which pixels to look at next
 | $z$                                    | $p_a a + p_b b + p_c c + p_d d$                                    | that vector                                                                                          |
 | Advantage                              | Derivative is nice                                                 | Computationally-efficient as we focus on smaller chunks of input                                     |
 | Disadvantage                           | No efficiency improvement as we still need to process entire input | Derivative is zero almost everywhere<br><br>Cannot use gradient descent; need reinforcement learning |
-| ![](./assets/attention_comparison.png) | ![](assets/soft_attention.png)                                     | ![](assets/hard_attention.png)                                                                       |
+| ![](./assets/attention_comparison.png){ loading=lazy } | ![](assets/soft_attention.png){ loading=lazy }                                     | ![](assets/hard_attention.png){ loading=lazy }                                                                       |
 
 ## Self-Attention
 
-![](assets/self_attention.png)
+![](assets/self_attention.png){ loading=lazy }
 
 - No notion of space
 	- Attention simply acts over a set of vectors
@@ -75,6 +75,6 @@ t1  --> t
 
 ### Multi-Head Attention
 
-![](assets/multi_head_attention.png)
+![](assets/multi_head_attention.png){ loading=lazy }
 
 Multiple attention blocks in parallel and then concatenated

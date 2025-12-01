@@ -23,11 +23,11 @@ Generic particle filter estimates the posterior distribution of hidden states us
 
 Working principle: Bayes’ Rule
 
-![image-20240218102102137](./assets/image-20240218102102137.png)
+![image-20240218102102137](./assets/image-20240218102102137.png){ loading=lazy }
 
 ### Requirements
 
-![image-20240218102722597](./assets/image-20240218102722597.png)
+![image-20240218102722597](./assets/image-20240218102722597.png){ loading=lazy }
 
 - Uniformly-distributed particles
 - Landmarks
@@ -56,15 +56,15 @@ Working principle: Bayes’ Rule
 
    Optionally, compute weighted means and covariance of set of particles to get a state estimate
 
-![image-20240218104323656](./assets/image-20240218104323656.png)
+![image-20240218104323656](./assets/image-20240218104323656.png){ loading=lazy }
 
-![image-20240218104445286](./assets/image-20240218104445286.png)
+![image-20240218104445286](./assets/image-20240218104445286.png){ loading=lazy }
 
 ### Convolution
 
 Shifting & flattening of probability distribution of the beliefs
 
-![image-20240218105521600](./assets/image-20240218105521600.png)
+![image-20240218105521600](./assets/image-20240218105521600.png){ loading=lazy }
 
 $$
 P(\hat x_i \vert x_i) = \dfrac{P(x_i \vert \hat x_i) \cdot P(x_i)}{P(\hat x_i)} \\

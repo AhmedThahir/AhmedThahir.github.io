@@ -148,11 +148,11 @@ where
 
 ### Complex
 
-![image-20240723005542406](assets/image-20240723005542406.png)
+![image-20240723005542406](assets/image-20240723005542406.png){ loading=lazy }
 
-![image-20240723005608220](assets/image-20240723005608220.png)
+![image-20240723005608220](assets/image-20240723005608220.png){ loading=lazy }
 
-![image-20240723010222154](assets/image-20240723010222154.png)
+![image-20240723010222154](assets/image-20240723010222154.png){ loading=lazy }
 
 ### Parameters
 
@@ -234,7 +234,7 @@ where
 - $r$ is the measurement uncertainty in variance
 - $p$ is the estimate uncertainty in variance
 
-![image-20240206222058874](assets/image-20240206222058874.png)
+![image-20240206222058874](assets/image-20240206222058874.png){ loading=lazy }
 
 #### Equations
 
@@ -248,8 +248,8 @@ where
 
 | Kalman Gain |                                                              |
 | ----------- | ------------------------------------------------------------ |
-| $\approx 0$ | ![Kalman Gain ~ 0](assets/image-20240206231251816.png)     |
-| $\approx 1$ | ![image-20240206231437980](assets/image-20240206231437980.png) |
+| $\approx 0$ | ![Kalman Gain ~ 0](assets/image-20240206231251816.png){ loading=lazy }     |
+| $\approx 1$ | ![image-20240206231437980](assets/image-20240206231437980.png){ loading=lazy } |
 
 #### Advantages
 
@@ -281,8 +281,8 @@ Performs analytic linearization of the model at each point
 
 |                                                    | $\mu'$                                                       | ${\sigma^2}'$                                     | Estimation uncertainty |                                                              |
 | -------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------- | ---------------------- | ------------------------------------------------------------ |
-| Update Parameter/Measurement<br />Uses Bayes’ rule | $\left( \dfrac{\mu}{\sigma^2} + \dfrac{\nu}{r^2} \right) {\sigma^2}'$ | $\dfrac{1}{\dfrac{1}{r^2} + \dfrac{1}{\sigma^2}}$ | decreases              | ![image-20240211185145199](assets/image-20240211185145199.png) |
-| Predict Motion                                     | $\mu + u$                                                    | ${\sigma^2} + r^2$                                | increases              | ![image-20240211185235518](assets/image-20240211185235518.png) |
+| Update Parameter/Measurement<br />Uses Bayes’ rule | $\left( \dfrac{\mu}{\sigma^2} + \dfrac{\nu}{r^2} \right) {\sigma^2}'$ | $\dfrac{1}{\dfrac{1}{r^2} + \dfrac{1}{\sigma^2}}$ | decreases              | ![image-20240211185145199](assets/image-20240211185145199.png){ loading=lazy } |
+| Predict Motion                                     | $\mu + u$                                                    | ${\sigma^2} + r^2$                                | increases              | ![image-20240211185235518](assets/image-20240211185235518.png){ loading=lazy } |
 ## Other Estimators
 
 ### Median

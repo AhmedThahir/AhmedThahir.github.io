@@ -78,12 +78,12 @@ The graph will be a straight line with a downward slope
 - Similar concept to indifference curves
 - All the assumptions of indifference curves apply
 
-![](assets/production_function.png)
+![](assets/production_function.png){ loading=lazy }
 
 | Inputs                                                      | $q$          |                                                    |                         |
 | ----------------------------------------------------------- | ------------ | -------------------------------------------------- | ----------------------- |
-| Perfectly Substitutable                                     | $l+k$        | ![](assets/perfectly_subsitutable_inputs.png)      |                         |
-| Perfectly Non-Substitutable<br>Leontief Production Function | $\min(l, k)$ | ![](assets/perfectly_non_substitutable_inputs.png) | Computers & Programmers |
+| Perfectly Substitutable                                     | $l+k$        | ![](assets/perfectly_subsitutable_inputs.png){ loading=lazy }      |                         |
+| Perfectly Non-Substitutable<br>Leontief Production Function | $\min(l, k)$ | ![](assets/perfectly_non_substitutable_inputs.png){ loading=lazy } | Computers & Programmers |
 
 ### MRTS
 
@@ -101,7 +101,7 @@ $$
 \end{aligned}
 $$
  
-![](assets/mrts.png)
+![](assets/mrts.png){ loading=lazy }
 
 Diminishing marginal productivity affects this
 
@@ -118,8 +118,8 @@ Not $k$ vs $l$
 | Returns to Scale |       $f(a l, a k)$ | Example                                         |                                             |
 | ---------------- | ------------------: | ----------------------------------------------- | ------------------------------------------- |
 | Constant         |   $a \cdot f(l, k)$ |                                                 |                                             |
-| Increasing       | $> a \cdot f(l, k)$ | Firm with increased inputs can specialize more  | ![](assets/increasing_returns_to_scale.png) |
-| Decreasing       | $< a \cdot f(l, k)$ | Firm with increased inputs means more confusion | ![](assets/decreasing_returns_to_scale.png) |
+| Increasing       | $> a \cdot f(l, k)$ | Firm with increased inputs can specialize more  | ![](assets/increasing_returns_to_scale.png){ loading=lazy } |
+| Decreasing       | $< a \cdot f(l, k)$ | Firm with increased inputs means more confusion | ![](assets/decreasing_returns_to_scale.png){ loading=lazy } |
 
 ### Production Possibility Frontier
 
@@ -220,7 +220,7 @@ Substituting for $k$ or $l$ from the production function will give the relations
 | AFC<br>Average Variable Cost | $\dfrac{c_f}{q}$                 |
 ### Cost Curves
 
-![](assets/cost_curves.png)
+![](assets/cost_curves.png){ loading=lazy }
 
 - AC decreases and then increases
 	- Increasing quantity helps amortize the fixed cost
@@ -233,18 +233,18 @@ Substituting for $k$ or $l$ from the production function will give the relations
 
 ### Isocost Curves
 
-![](assets/isocost_curves.png)
+![](assets/isocost_curves.png){ loading=lazy }
 
 
 ### Efficient Input Mix
 
 Efficient input mix is the tangent of the isocost and isoquant curves
 
-![](assets/optimal_mix.png)
+![](assets/optimal_mix.png){ loading=lazy }
 
 Increase in wages
 
-![](assets/increase_in_wages.png)
+![](assets/increase_in_wages.png){ loading=lazy }
 
 At the optimal input mix
 - MRTS = $-\dfrac{r_l}{r_k}$
@@ -267,23 +267,23 @@ How does cost change with production quantity
 
 |                             |                                                    |
 | --------------------------- | -------------------------------------------------- |
-| $\text{MP}_l = \text{MP}_k$ | ![](assets/long_run_expansion_path_mpl_eq_mpk.png) |
-| $\text{MP}_l > \text{MP}_k$ | ![](assets/long_run_expansion_path_mpl_gt_mpk.png) |
-| $\text{MP}_l < \text{MP}_k$ | ![](assets/long_run_expansion_path_mpl_lt_mpk.png) |
+| $\text{MP}_l = \text{MP}_k$ | ![](assets/long_run_expansion_path_mpl_eq_mpk.png){ loading=lazy } |
+| $\text{MP}_l > \text{MP}_k$ | ![](assets/long_run_expansion_path_mpl_gt_mpk.png){ loading=lazy } |
+| $\text{MP}_l < \text{MP}_k$ | ![](assets/long_run_expansion_path_mpl_lt_mpk.png){ loading=lazy } |
 
 #### Increasing Cost of Inputs
 
 
-![](assets/long_run_shifts_in_labor_market.png)
+![](assets/long_run_shifts_in_labor_market.png){ loading=lazy }
 
-![](assets/idk.png)
+![](assets/idk.png){ loading=lazy }
 
 ### Long-Run vs Short-Run
 
 - Long-run operations are always more efficient than short-run
 	- You can optimize for both cost and capital in the long-run
 
-![](assets/long_run_vs_short_run.png)
+![](assets/long_run_vs_short_run.png){ loading=lazy }
 
 ## Profit
 
@@ -331,9 +331,9 @@ For perfectly-competitive market
 - $\text{MR}(Q)$ = $P(Q)$
 - Hence, at market equilibrium, $q$ for which $\text{MC}(Q) = P$
 
-![](assets/profit_maximization.png)
-![](assets/profit_maximization_2.png)
-![](assets/profit_cost_curves.png)
+![](assets/profit_maximization.png){ loading=lazy }
+![](assets/profit_maximization_2.png){ loading=lazy }
+![](assets/profit_cost_curves.png){ loading=lazy }
 ### Average Profit
 
 $$
@@ -349,7 +349,7 @@ $$
 | ---------------- | --------- | --------------------------------- |
 | Optimal Quantity | No change | Reduced                           |
 | Profit           | Reduced   | Reduced                           |
-| Curves           | No change | ![](assets/profit_with_taxes.png) |
+| Curves           | No change | ![](assets/profit_with_taxes.png){ loading=lazy } |
 
 ### Shutdown Decision
 
@@ -400,7 +400,7 @@ Happens when long-run profit > Barrier of entry
 
 |     | Entry                      | Exit                      |
 | --- | -------------------------- | ------------------------- |
-|     | ![](assets/firm_entry.png) | ![](assets/firm_exit.png) |
+|     | ![](assets/firm_entry.png){ loading=lazy } | ![](assets/firm_exit.png){ loading=lazy } |
 
 ### Outcome of Competition
 
@@ -412,5 +412,5 @@ such that
 - Total profit of market = 0
 
 ### Different Firms
-![](assets/internation_long_run_market_supply.png)
+![](assets/internation_long_run_market_supply.png){ loading=lazy }
 

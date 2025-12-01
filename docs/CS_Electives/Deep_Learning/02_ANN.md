@@ -6,7 +6,7 @@ It is made of layers of [neurons](#neuron), connected in a way that the input of
 
 They are loosely based on how our human brain works: Biological structure -> Biological function
 
-![Neural network visualization](./../assets/neural%20network.png)
+![Neural network visualization](./../assets/neural%20network.png){ loading=lazy }
 
 You can think of a neural network as combining multiple non-linear decision surfaces into a single decision surface.
 
@@ -40,7 +40,7 @@ Most basic unit of an artificial neural network
 
 ### Visual representation
 
-![Neruon diagram](./../assets/neuron.png)
+![Neruon diagram](./../assets/neuron.png){ loading=lazy }
 
 ## MP Neuron
 

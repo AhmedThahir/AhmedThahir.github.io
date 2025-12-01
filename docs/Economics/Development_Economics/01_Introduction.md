@@ -55,7 +55,7 @@ The emergency “special drawing rights” is allocated based on the country’s
 
 ## Poverty
 
-![image-20231113150635744](assets/image-20231113150635744.png)
+![image-20231113150635744](assets/image-20231113150635744.png){ loading=lazy }
 
 ## Poverty Rate
 

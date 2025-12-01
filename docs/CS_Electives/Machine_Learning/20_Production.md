@@ -35,7 +35,7 @@ Check with
 
 ### Speed
 
-![](assets/data_drift_speed.png)
+![](assets/data_drift_speed.png){ loading=lazy }
 
 ## Deployment Checklist
 
@@ -118,13 +118,13 @@ CPU/GPU/Memory
 
 ## Model Serving
 
-![image-20240118224856092](./assets/image-20240118224856092.png)
+![image-20240118224856092](./assets/image-20240118224856092.png){ loading=lazy }
 
 ## Adversarial Attacks
 
 Fool model by adding noise
 
-![](assets/adversarial_attacks_cnn.png)
+![](assets/adversarial_attacks_cnn.png){ loading=lazy }
 
 This is not a problem with Deep Learning and/or ConvNets. Same issue comes up with Neural Networks in any other modalities. Primary cause of neural networks' vulnerability adversarial perturbation is their linear nature (and very high-dimensional, sparsely-populated input spaces).
 
@@ -134,7 +134,7 @@ The exact adversarial noise can easily be learnt
 
 eg: Confidently predicting the class even though it is extrapolating
 
-![](assets/nn_adversarial_reason_classification.png)
+![](assets/nn_adversarial_reason_classification.png){ loading=lazy }
 
 Solution
 - Data augmentation; not sufficient

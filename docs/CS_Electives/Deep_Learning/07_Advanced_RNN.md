@@ -11,7 +11,7 @@ Replace $\phi$ of updates with MLP
 
 Rather than using just 1 hidden layer, we use more hidden layers, ie, each time stamp of RNN has multiple cells
 
-![image-20230527183513296](./../assets/image-20230527183513296.png)
+![image-20230527183513296](./../assets/image-20230527183513296.png){ loading=lazy }
 
 $$
 \begin{aligned}
@@ -38,7 +38,7 @@ Traditional RNNs only look at the past. In interpolation (fill in) we also use t
 - One RNN backward
 - Combine both hidden states for output generation
 
-![image-20230527184227397](./../assets/image-20230527184227397.png)
+![image-20230527184227397](./../assets/image-20230527184227397.png){ loading=lazy }
 
 ### idk
 
@@ -46,7 +46,7 @@ Bi-RNN does not work for sequence generation
 
 | Training                                                     | Testing                                                      |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![image-20230527184327354](./../assets/image-20230527184327354.png) | ![image-20230527184332458](./../assets/image-20230527184332458.png) |
+| ![image-20230527184327354](./../assets/image-20230527184327354.png){ loading=lazy } | ![image-20230527184332458](./../assets/image-20230527184332458.png){ loading=lazy } |
 
 However, we can still use it to encode the sequence
 
@@ -54,7 +54,7 @@ However, we can still use it to encode the sequence
 
 Input of every second layer is also added to its output (residual connection)
 
-![image-20230527184555086](./../assets/image-20230527184555086.png)
+![image-20230527184555086](./../assets/image-20230527184555086.png){ loading=lazy }
 
 $$
 \bar H_t^{(2i)} = H_t^{(2i)} + H_t^{(2i)−1}
@@ -64,7 +64,7 @@ $$
 
 Adding a layer to a model changes function  class.
 
-![image-20230527184430838](./../assets/image-20230527184430838.png)
+![image-20230527184430838](./../assets/image-20230527184430838.png){ loading=lazy }
 
 We want to add to the function class, using Taylor expansion  style parametrization
 
@@ -72,7 +72,7 @@ $$
 f(x) = x + g(x)
 $$
 
-![image-20230527184524255](./../assets/image-20230527184524255.png)
+![image-20230527184524255](./../assets/image-20230527184524255.png){ loading=lazy }
 
 ### Variants
 
@@ -84,7 +84,7 @@ $$
 
 Concatenate outputs of previous layers as input to next layer, with occasional transition layers to reduce dimensionality
 
-![image-20230527195815669](./../assets/image-20230527195815669.png)
+![image-20230527195815669](./../assets/image-20230527195815669.png){ loading=lazy }
 
 $$
 \bar H_t^{(t)} = [H_t^{(t)}, \bar H_t^{t−1}]

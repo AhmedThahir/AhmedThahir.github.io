@@ -223,7 +223,7 @@ $$
 
 $\Sigma_t$ is conditional covariance
 
-![image-20240207110948173](assets/image-20240207110948173.png)
+![image-20240207110948173](assets/image-20240207110948173.png){ loading=lazy }
 
 Advantage
 

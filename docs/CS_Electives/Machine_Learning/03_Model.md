@@ -110,7 +110,7 @@ Every model is only limited to its ‘scope’, which should be clearly document
 | Functional Form assumption      | None                                                         | None                                                         |                               | Assumes functional form with a finite & fixed number of parameters, before data is observed |
 | Advantages                      | Perfect accuracy                                             | - learns complex patterns<br />- in a high-dimensional space<br />- without being specifically directed<br />- learns interactions |                               | Compression of model into a single function                  |
 | Limitation                      | Not possible to obtain                                       | Suffers from curse of dimensionality: Requires large dataset, especially when $k$ is large<br /><br />Black box: Lacks interpretability<br />Large storage cost: Stores all training records<br />Computationally-expensive |                               | Lost information?                                            |
-| Visualization                   | ![image-20240212222001445](./assets/image-20240212222001445.png) | ![image-20240212222208110](./assets/image-20240212222208110.png) |                               |                                                              |
+| Visualization                   | ![image-20240212222001445](./assets/image-20240212222001445.png){ loading=lazy } | ![image-20240212222208110](./assets/image-20240212222208110.png){ loading=lazy } |                               |                                                              |
 | Space Complexity is function of |                                                              | Training set size                                            | Number of function parameters | Number of function parameters                                |
 | Example                         |                                                              | Nearest Neighbor averaging                                   | Spline                        | Linear Regression                                            |
 
@@ -142,7 +142,7 @@ Fundamentally, a parametric model can be though of data compression
 | Example 4: Wage vs Education                                                                                      | Relationship of wage vs education directly                                                                                                                                                                                                                   | Relationship of wage vs education, with understanding of demand-supply curve (ie, effects of supply of college educated students in the market)<br /><br />eg: Kerala                                                                                                                                       |                                            |
 | Example 5: Time-Series Forecasting                                                                                | Univariate model with lags and trends                                                                                                                                                                                                                        | Multi-variate model with lags of $y$ and $x$                                                                                                                                                                                                                                                                |                                            |
 
-![image-20240202174854454](./assets/image-20240202174854454.png)
+![image-20240202174854454](./assets/image-20240202174854454.png){ loading=lazy }
 
 Good compromise
 - Model response with causal factors
@@ -150,9 +150,9 @@ Good compromise
 
 ### Structural vs Reduced-Form
 
-![Structural model vs Reduced form](./assets/image-20240420134857116.png)
+![Structural model vs Reduced form](./assets/image-20240420134857116.png){ loading=lazy }
 
-![img](./assets/69602c1370155fd480bb092161bb963905c5c212.png)
+![img](./assets/69602c1370155fd480bb092161bb963905c5c212.png){ loading=lazy }
 
 ## Number of Variables
 

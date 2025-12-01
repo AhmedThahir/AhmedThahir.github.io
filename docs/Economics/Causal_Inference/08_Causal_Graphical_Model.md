@@ -268,7 +268,7 @@ end
 
 ## Variables
 
-![](assets/causal_graphical_model.svg)
+![](assets/causal_graphical_model.svg){ loading=lazy }
 
 Use dagitty for help
 - https://www.dagitty.net/
@@ -352,7 +352,7 @@ $w$ is a confounder to $x$ and $y$, but we do not need to observe it, as causal 
 
 ### Mediator
 
-![](assets/confounded_mediator.png)
+![](assets/confounded_mediator.png){ loading=lazy }
 
 
 ### Collider
@@ -597,7 +597,7 @@ To ensure that $E(y|x=1) = E(y^1)$, we need to ensure that the population and tr
 
 This allows for removal of unnecessary data
 
-![](assets/matching.png)
+![](assets/matching.png){ loading=lazy }
 
 ### Techniques
 
@@ -694,7 +694,7 @@ Dimensions
 
 | Differential | Dependent |                                                                  | Comment                |
 | ------------ | --------- | ---------------------------------------------------------------- | ---------------------- |
-| ❌            | ❌         | ![](./assets/measurement_errors_nondifferential_independent.png) | No bias under the null |
-| ❌            | ✅         | ![](./assets/measurement_errors_nondifferential_dependent.png)   | Backdoor path          |
-| ✅            | ❌         | ![](assets/measurement_errors_differential_independent.png)      | Backdoor path          |
-| ✅            | ✅         | ![](assets/measurement_errors_differential_dependent.png)        | Backdoor path          |
+| ❌            | ❌         | ![](./assets/measurement_errors_nondifferential_independent.png){ loading=lazy } | No bias under the null |
+| ❌            | ✅         | ![](./assets/measurement_errors_nondifferential_dependent.png){ loading=lazy }   | Backdoor path          |
+| ✅            | ❌         | ![](assets/measurement_errors_differential_independent.png){ loading=lazy }      | Backdoor path          |
+| ✅            | ✅         | ![](assets/measurement_errors_differential_dependent.png){ loading=lazy }        | Backdoor path          |

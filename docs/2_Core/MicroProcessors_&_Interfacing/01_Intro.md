@@ -95,7 +95,7 @@ This is the hardware components
 | Design flexibility            | ✅                                | ❌                                                                   |
 | Use                           | Computer system                  | Embedded system                                                     |
 | Other names                   |                                  | SOC (System on a chip)<br>Embedded controller<br>Computer on a chip |
-|                               | ![](./assets/microprocessor.png) | ![](./assets/microcontroller.png)                                   |
+|                               | ![](./assets/microprocessor.png){ loading=lazy } | ![](./assets/microcontroller.png){ loading=lazy }                                   |
 
 ## Types of Microprocessors
 

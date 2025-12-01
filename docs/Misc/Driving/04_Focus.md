@@ -23,7 +23,7 @@ Braking
 
 Gates
 
-![](assets/driving_gates.png)
+![](assets/driving_gates.png){ loading=lazy }
 
 Always have 2 gates open for emergency
 

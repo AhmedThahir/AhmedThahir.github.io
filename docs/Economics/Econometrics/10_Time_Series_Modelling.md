@@ -195,5 +195,5 @@ Yule-Walker estimates
 
 | Error Type |                                                              |
 | ---------- | ------------------------------------------------------------ |
-| Amplitude  | ![image-20240522143544783](assets/image-20240522143544783.png) |
-| Phase      | ![image-20240522143556031](assets/image-20240522143556031.png) |
+| Amplitude  | ![image-20240522143544783](assets/image-20240522143544783.png){ loading=lazy } |
+| Phase      | ![image-20240522143556031](assets/image-20240522143556031.png){ loading=lazy } |

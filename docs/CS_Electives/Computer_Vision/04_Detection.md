@@ -5,9 +5,9 @@ Perform classification and localization for multiple (unspecified) instances
 Hard to solve with techniques used for localization, as we need variable sized outputs
 
 
-![image-20230401231324425](./../assets/image-20230401231324425.png)
+![image-20230401231324425](./../assets/image-20230401231324425.png){ loading=lazy }
 
-![image-20230401231355386](./../assets/image-20230401231355386.png)
+![image-20230401231355386](./../assets/image-20230401231355386.png){ loading=lazy }
 
 ## Approaches
 

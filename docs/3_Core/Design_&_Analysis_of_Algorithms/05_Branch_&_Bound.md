@@ -93,14 +93,14 @@ r((Root)) -->
 
 ### FIFO
 
-![image-20230409145953463](./assets/image-20230409145953463.png)
+![image-20230409145953463](./assets/image-20230409145953463.png){ loading=lazy }
 
 
 
 ### LIFO
 
-![image-20230409150023271](./assets/image-20230409150023271.png)
+![image-20230409150023271](./assets/image-20230409150023271.png){ loading=lazy }
 
 ### Least Cost
 
-![image-20230409151817648](./assets/image-20230409151817648.png)
+![image-20230409151817648](./assets/image-20230409151817648.png){ loading=lazy }

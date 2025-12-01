@@ -8,7 +8,7 @@
 | $p_x = x \%$ VAR/VAG is values for __ of distribution | Bottom $x \%$                                 | Top $x \%$<br />Bottom $(1-x) \%$ |
 | Probability of __ given level                         | Losses <                                      | Gains >                           |
 | Preferred for                                         | Lending (concerned about receiving repayment) | Investing (interested in gain)    |
-| Example                                               | ![VaR_Graph](assets/VaR_Graph.png)          |                                   |
+| Example                                               | ![VaR_Graph](assets/VaR_Graph.png){ loading=lazy }          |                                   |
 
 Note: Both are ==**one-sided tails**==
 
@@ -18,7 +18,7 @@ Cumulative Distribution of outcomes (rarely frequency distribution)
 
 Goes from VAR % to VAG %
 
-![image-20240222014852101](assets/image-20240222014852101.png)
+![image-20240222014852101](assets/image-20240222014852101.png){ loading=lazy }
 
 ### Dominance
 

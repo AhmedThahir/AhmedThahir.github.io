@@ -35,4 +35,4 @@
 - Optimize
 - Automate
 
-![](./assets/smart_manufacturing.png)
+![](./assets/smart_manufacturing.png){ loading=lazy }

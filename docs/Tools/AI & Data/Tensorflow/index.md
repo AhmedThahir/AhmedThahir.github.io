@@ -1,8 +1,8 @@
 # TensorFlow
 
-![](assets/tensorflow_ecosystem.png)
+![](assets/tensorflow_ecosystem.png){ loading=lazy }
 
-![](assets/tfl_architecture.png)
+![](assets/tfl_architecture.png){ loading=lazy }
 
 |                                    | TensorFlow         | TensorFlow Lite                                                     | TensorFlow Lite Micro          | TensorFlow.js     | TensorFlow<br>Serving |
 | ---------------------------------- | ------------------ | ------------------------------------------------------------------- | ------------------------------ | ----------------- | --------------------- |

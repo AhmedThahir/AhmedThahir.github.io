@@ -31,7 +31,7 @@ Memory-Bound vs Compute-Bound
 
 |                                                              | Memory-Bound                                                 | Compute-Bound                                                |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-|                                                              | ![image-20240416000628306](./assets/image-20240416000628306.png) | ![image-20240416000743523](./assets/image-20240416000743523.png) |
+|                                                              | ![image-20240416000628306](./assets/image-20240416000628306.png){ loading=lazy } | ![image-20240416000743523](./assets/image-20240416000743523.png){ loading=lazy } |
 | Parameters to fetch                                          | Many                                                         | Few                                                          |
 | Stalls other                                                 | Compute                                                      | Memory                                                       |
 | Implication<br /><br />Even if you have the best __, it won’t make a difference | GPU                                                          | RAM, hard drive                                              |
@@ -40,7 +40,7 @@ Memory-Bound vs Compute-Bound
 
 ## Double-Buffering
 
-![image-20240416001333653](./assets/image-20240416001333653.png)
+![image-20240416001333653](./assets/image-20240416001333653.png){ loading=lazy }
 
 DNN “fit” on a processor: DNN’s parameters and activations fit on the processor’s external memory
 

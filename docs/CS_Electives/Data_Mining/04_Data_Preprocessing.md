@@ -86,7 +86,7 @@ Think of all invariances that is important for your model
 - Mixup
   - Convert labels
   - $x' = \lambda x_i + (1-\lambda) x_j; y' = \lambda y_i + (1-\lambda) y_j$
-  - ![image-20240413171509384](./assets/image-20240413171509384.png)
+  - ![image-20240413171509384](./assets/image-20240413171509384.png){ loading=lazy }
 
 - Fit it to a distribution
 
@@ -132,7 +132,7 @@ Notes
 
 ### PCA
 
-![image-20240619005634502](./assets/image-20240619005634502.png)
+![image-20240619005634502](./assets/image-20240619005634502.png){ loading=lazy }
 
 - Eigen Vectors Matrix
 	- Each element represents how much (the weight) each original variable contributes to the corresponding principal component
@@ -395,7 +395,7 @@ $$
   - Lower, sharper
 
 
-![image-20231203141417397](./assets/image-20231203141417397.png)
+![image-20231203141417397](./assets/image-20231203141417397.png){ loading=lazy }
 
 ## LDA
 

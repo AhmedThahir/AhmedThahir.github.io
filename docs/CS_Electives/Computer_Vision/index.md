@@ -4,7 +4,7 @@ Visual recognition using computers
 
 ## Tasks
 
-![](assets/Image_Classification_tasks.png)
+![](assets/Image_Classification_tasks.png){ loading=lazy }
 
 ## References
 

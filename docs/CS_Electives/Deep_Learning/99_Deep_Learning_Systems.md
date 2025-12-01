@@ -2,7 +2,7 @@
 
 Easy-to-use automatic differentiation tools (Keras, Tensorflow, PyTorch) have been the biggest cause of rapid development in DL
 
-![image-20240524174641922](./assets/image-20240524174641922.png)
+![image-20240524174641922](./assets/image-20240524174641922.png){ loading=lazy }
 
 ## Why Learn?
 

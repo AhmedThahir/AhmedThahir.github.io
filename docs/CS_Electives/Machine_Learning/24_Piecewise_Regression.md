@@ -28,7 +28,7 @@ mean of the response values for the training observations in $R_m$
 
 ## Piecewise Polynomial Regression
 
-![image-20240217164329690](./assets/image-20240217164329690.png)
+![image-20240217164329690](./assets/image-20240217164329690.png){ loading=lazy }
 
 ## Splines
 
@@ -43,9 +43,9 @@ where
 - $\beta_0 = \alpha_{10}, \beta_1 = \alpha_{11}, \beta_2 = \alpha_{21}-\alpha_{11}$
 - $(x-\epsilon)_+ = (x-\epsilon) I (x \ge \epsilon)$
 
-![image-20240217164725165](./assets/image-20240217164725165.png)
+![image-20240217164725165](./assets/image-20240217164725165.png){ loading=lazy }
 
-![image-20240217165855212](./assets/image-20240217165855212.png)
+![image-20240217165855212](./assets/image-20240217165855212.png){ loading=lazy }
 
 |                |                                                              |                                               | Limitation                |
 | -------------- | ------------------------------------------------------------ | --------------------------------------------- | ------------------------- |

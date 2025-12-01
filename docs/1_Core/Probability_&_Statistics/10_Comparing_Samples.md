@@ -102,7 +102,7 @@ $$
 
 ## Standard error of mean
 
-![image-20240129172628707](./assets/image-20240129172628707.png)
+![image-20240129172628707](./assets/image-20240129172628707.png){ loading=lazy }
 
 | Error bars overlap | Error bars contain both the sample means | Inference                                                    |
 | ------------------ | ---------------------------------------- | ------------------------------------------------------------ |

@@ -1,38 +1,51 @@
 document$.subscribe(() => {
-	// MathJax.typesetPromise()
-	if (typeof katex !== "undefined") {
-		var maths = document.querySelectorAll('.arithmatex'),
-			tex;
+    if (typeof katex === "undefined") return;
 
-		const no_of_screens_lookahead = 1;
-		const lazyLoadOptions = {
-			threshold: 0,
-			rootMargin: `0px 0px ${no_of_screens_lookahead * window.innerHeight}px 0px`
-		};
+    const maths = document.querySelectorAll('.arithmatex');
 
-		const mathObserver = new IntersectionObserver((entries, observer) => {
-			entries.forEach((entry) => {
-				if (!entry.isIntersecting) return
+    const no_of_screens_lookahead = 1;
+    const lazyLoadOptions = {
+        threshold: 0,
+        rootMargin: `0px 0px ${no_of_screens_lookahead * window.innerHeight}px 0px`
+    };
 
-				const math = entry.target
-				
-				tex = math.textContent || math.innerText;
+    const mathObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+            if (entry.intersectionRatio = 0) return
 
-				if (tex.startsWith('\\(') && tex.endsWith('\\)')) {
-					katex.render(tex.slice(2, -2), math, { 'displayMode': false });
-				} else if (tex.startsWith('\\[') && tex.endsWith('\\]')) {
-					katex.render(tex.slice(2, -2), math, { 'displayMode': true });
-				}
-				math.classList.add("loaded");
-				observer.unobserve(math);
-			});
-		}, lazyLoadOptions)
+            const math = entry.target;
+            let tex = math.textContent || math.innerText;
 
-		maths.forEach((math) => {
-			mathObserver.observe(math);
-		})
-	}
-})
+            if (tex.startsWith('\\(') && tex.endsWith('\\)')) {
+                katex.render(tex.slice(2, -2), math, { displayMode: false });
+            } else if (tex.startsWith('\\[') && tex.endsWith('\\]')) {
+                katex.render(tex.slice(2, -2), math, { displayMode: true });
+            }
+            math.classList.add("loaded");
+            observer.unobserve(math);
+        });
+    }, lazyLoadOptions);
+
+    maths.forEach((math) => {
+        mathObserver.observe(math);
+
+        // If already in or near view at first load, render immediately
+        const rect = math.getBoundingClientRect();
+        const vh = window.innerHeight || document.documentElement.clientHeight;
+        if (rect.top < vh * (1 + no_of_screens_lookahead) && rect.bottom > 0) {
+            // Simulate an intersecting entry
+            let tex = math.textContent || math.innerText;
+            if (tex.startsWith('\\(') && tex.endsWith('\\)')) {
+                katex.render(tex.slice(2, -2), math, { displayMode: false });
+            } else if (tex.startsWith('\\[') && tex.endsWith('\\]')) {
+                katex.render(tex.slice(2, -2), math, { displayMode: true });
+            }
+            math.classList.add("loaded");
+            mathObserver.unobserve(math);
+        }
+    });
+});
+
 
 document$.subscribe(() => {
 	// To move metadata

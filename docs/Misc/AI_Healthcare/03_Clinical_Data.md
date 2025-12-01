@@ -2,11 +2,11 @@
 
 ## Basic Exploration
 
-![image-20240527140629786](./assets/image-20240527140629786.png)
+![image-20240527140629786](./assets/image-20240527140629786.png){ loading=lazy }
 
-![image-20240527140738176](./assets/image-20240527140738176.png)
+![image-20240527140738176](./assets/image-20240527140738176.png){ loading=lazy }
 
-![image-20240527140846118](./assets/image-20240527140846118.png)
+![image-20240527140846118](./assets/image-20240527140846118.png){ loading=lazy }
 
 Who are these 300 yr old people? According to law, you are not supposed to specify age of someone older than 90, as they will be easily identified due to small subpopulation size
 

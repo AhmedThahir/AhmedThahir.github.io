@@ -17,7 +17,7 @@ Any of the following
 
 ## Components
 
-![](assets/Data_Intensive_Applications_Typical_Components.png)
+![](assets/Data_Intensive_Applications_Typical_Components.png){ loading=lazy }
 
 
 |                   |                                           | Tools                         |
@@ -53,7 +53,7 @@ K
 |               | Row-oriented                           | Column-oriented                       |
 | Optimized for | Writes                                 | Reads                                 |
 | Flexibility   | High                                   | Low                                   |
-|               | ![](./assets/oltp.png)                 | ![](./assets/olap.png)                |
+|               | ![](./assets/oltp.png){ loading=lazy }                 | ![](./assets/olap.png){ loading=lazy }                |
 
 ## Structure
 

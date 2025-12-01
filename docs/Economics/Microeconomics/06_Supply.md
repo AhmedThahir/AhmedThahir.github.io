@@ -54,7 +54,7 @@ $$
 \text{Cost} \propto \frac{1}{\text{Scale}} \quad (\because \text{Benefits of Scale})
 $$
 
-![](assets/long_run_firm_supply.png)
+![](assets/long_run_firm_supply.png){ loading=lazy }
 ## Market Supply
 
 Total supply for a commodity in a market at a particular price
@@ -62,8 +62,8 @@ Total supply for a commodity in a market at a particular price
 Summation of supplies of commodity by different firms at particular prices
 
 
-![](assets/market_supply_curve_short_run.png)
-![](assets/market_supply_curve_long_run.png)
+![](assets/market_supply_curve_short_run.png){ loading=lazy }
+![](assets/market_supply_curve_long_run.png){ loading=lazy }
 
 In the long run
 - If any firm prices higher than the long run $P$, they will not able to sell

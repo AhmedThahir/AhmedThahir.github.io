@@ -34,8 +34,8 @@ Part of $y$ we cannot model
 | For a given $x$       | Randomly distributed                                         | Fixed constant                                               |
 | Comment               |                                                              | No point trying to capture it, as you will learn a false pattern, given limited training dataset |
 |                       |                                                              | When teaching a kid, better to use easy-to-understand examples rather than the actual science |
-|                       |                                                              | ![image-20240627013628642](./assets/image-20240627013628642.png) |
-| Effect on overfitting | ![image-20240627013343713](./assets/image-20240627013343713.png) | ![image-20240627013401281](./assets/image-20240627013401281.png) |
+|                       |                                                              | ![image-20240627013628642](./assets/image-20240627013628642.png){ loading=lazy } |
+| Effect on overfitting | ![image-20240627013343713](./assets/image-20240627013343713.png){ loading=lazy } | ![image-20240627013401281](./assets/image-20240627013401281.png){ loading=lazy } |
 
 - For a finite $n$, $H$ tends to fit both stochastic and deterministic noise
 - Deterministic and Stochastic noise affect the Variance by making the model more susceptible to overfitting
@@ -59,9 +59,9 @@ $$
 \text{E}_\text{out} = \text{Bias}^2 + \text{Variance} + \text{Dist Mis} + \text{DN} + \text{SN}
 $$
 
-![image-20240624151256427](./assets/image-20240624151256427.png)
+![image-20240624151256427](./assets/image-20240624151256427.png){ loading=lazy }
 
-![image-20240624151939614](./assets/image-20240624151939614.png)
+![image-20240624151939614](./assets/image-20240624151939614.png){ loading=lazy }
 
 ### Prediction Bias & Variance
 
@@ -69,13 +69,13 @@ We want **low value** of both
 
 If a measurement is biased, the estimate will include a constant systematic error
 
-![image-20240213012828647](./assets/image-20240213012828647.png)
+![image-20240213012828647](./assets/image-20240213012828647.png){ loading=lazy }
 
 ### Bias-Variance Tradeoff
 
 Usually U-Shaped
 
-![image-20240214082637449](./assets/generalization_complexity.svg)
+![image-20240214082637449](./assets/generalization_complexity.svg){ loading=lazy }
 
 Each additional parameter adds the same amount of variance $\sigma^2/n$, regardless of whether its true coefficient is large or small (or zero).
 
@@ -95,7 +95,7 @@ Hence, we can reduce variance by shrinking small coefficients to zero
 
 When using feature selection/LASSO regularization, stop one standard deviation > the optimal point, as even though bias has increased by a small amount, variance can be decreased a lot
 
-![image-20240301152524973](./assets/image-20240301152524973.png)
+![image-20240301152524973](./assets/image-20240301152524973.png){ loading=lazy }
 
 ## VC Analysis
 
@@ -111,7 +111,7 @@ For test data, $\vert H \vert = 1$, as it is not biased and we do **not** choose
 
 ### Pictorial Representation
 
-![image-20240214082859107](./assets/image-20240214082859107.png)
+![image-20240214082859107](./assets/image-20240214082859107.png){ loading=lazy }
 
 ### IDK
 
@@ -204,7 +204,7 @@ $$
 
 But this is a very loose bound (better to loose, than incorrectly tight), as we assume that each hypothesis is disjoint
 
-![image-20240622225616660](./assets/image-20240622225616660.png)
+![image-20240622225616660](./assets/image-20240622225616660.png){ loading=lazy }
 
 ### Vapnik-Chervonenkis Inequality
 
@@ -220,7 +220,7 @@ $\delta$ is like the significance level
 
 #### Why difference from Hoeffding’s?
 
-![image-20240623201819423](./assets/image-20240623201819423.png)
+![image-20240623201819423](./assets/image-20240623201819423.png){ loading=lazy }
 
 Empirical observation: The bounded quantity has the same monotonicity as the bound
 
@@ -286,11 +286,11 @@ Consider true $f = \text{Linear} + u; \quad u \sim N(0, \sigma^2_u)$
 - Expected out-sample error $= \sigma^2_u \left[ 1 + \dfrac{k}{n} \right]$
 - Expected generalization gap $= 2 \sigma^2_u \left( \dfrac{k}{n} \right)$
 
-![image-20240624153241462](./assets/image-20240624153241462.png)
+![image-20240624153241462](./assets/image-20240624153241462.png){ loading=lazy }
 
 ## VC vs Bias-Variance
 
-![image-20240624153423045](./assets/image-20240624153423045.png)
+![image-20240624153423045](./assets/image-20240624153423045.png){ loading=lazy }
 
 ## Scenarios
 
@@ -313,7 +313,7 @@ We can control the fitting of a model, by changing hypothesis space, and hence c
 | Steps to<br />address              | Increase model complexity<br />Increase training data<br />Remove noise from data<br />Inc no of features |                     | Cross-Validation<br />More training data<br />Feature Reduction<br />Early Stopping<br />Regularization |
 | Causes                             |                                                              |                     | - Small train set<br />- Stochastic noise<br />- Deterministic noise<br />- Excessive model capacity |
 
-![image-20230401140853876](./assets/image-20230401140853876.png)
+![image-20230401140853876](./assets/image-20230401140853876.png){ loading=lazy }
 
 The capacity of a model increases with increased [degree of polynomial](#degree-of-polynomial)
 
@@ -321,11 +321,11 @@ The capacity of a model increases with increased [degree of polynomial](#degree-
 
 Even if the target function is known to be of high complexity, for a **small** training dataset, a low capacity model will generalize better.
 
-![image-20240626224516849](./assets/image-20240626224516849.png)
+![image-20240626224516849](./assets/image-20240626224516849.png){ loading=lazy }
 
-![image-20240626223901620](./assets/image-20240626223901620.png)
+![image-20240626223901620](./assets/image-20240626223901620.png){ loading=lazy }
 
-![image-20240626224804260](./assets/image-20240626224804260.png)
+![image-20240626224804260](./assets/image-20240626224804260.png){ loading=lazy }
 
 ## Unsupervised Learning
 
@@ -341,11 +341,11 @@ Overfitting: Fitting small, local clusters rather than the true global clusters
 
 #### Non-Probabilistic
 
-![image-20240711153607677](./assets/image-20240711153607677.png)
+![image-20240711153607677](./assets/image-20240711153607677.png){ loading=lazy }
 
 #### Probabilistic Models
 
 Log likelihood on in-sample and out-sample data
 
-![image-20240712185233818](./assets/image-20240712185233818.png)
+![image-20240712185233818](./assets/image-20240712185233818.png){ loading=lazy }
 

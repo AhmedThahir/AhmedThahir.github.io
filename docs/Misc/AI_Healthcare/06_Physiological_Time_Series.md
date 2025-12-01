@@ -13,9 +13,9 @@
 
 ## Switching linear dynamical systems
 
-![image-20240530143034687](./assets/image-20240530143034687.png)
+![image-20240530143034687](./assets/image-20240530143034687.png){ loading=lazy }
 
 ## Traditional Modelling
 
-![image-20240530143943609](./assets/image-20240530143943609.png)
+![image-20240530143943609](./assets/image-20240530143943609.png){ loading=lazy }
 

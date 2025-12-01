@@ -25,7 +25,7 @@ where
 - $\Sigma_k =$ covariance
 - $p_k =$ probability of $x$
 
-![image-20240707142216242](./assets/image-20240707142216242.png)
+![image-20240707142216242](./assets/image-20240707142216242.png){ loading=lazy }
 
 ## Gaussian Discriminant Analysis
 
@@ -43,7 +43,7 @@ p(x, y)
 $$
 Guessing parameters
 
-![image-20240707144335242](./assets/image-20240707144335242.png)
+![image-20240707144335242](./assets/image-20240707144335242.png){ loading=lazy }
 
 For $C$ Classes, there are $3C$ parameters
 $$

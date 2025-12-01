@@ -29,9 +29,9 @@ $$
 | too small | Overfitting<br />Susceptible to noise                                                            | ✅        | ❌            |
 | too large | Underfitting<br />Susceptible to far-off points: Neighborhood includes points from other classes | ❌        | ✅            |
 
-![knn_decision_boundary](./assets/knn_decision_boundary.png)
+![knn_decision_boundary](./assets/knn_decision_boundary.png){ loading=lazy }
 
-![knn_bias_variance_tradeoff](./assets/knn_bias_variance_tradeoff.png)
+![knn_bias_variance_tradeoff](./assets/knn_bias_variance_tradeoff.png){ loading=lazy }
 
 Finding optimal $k$
 1. Use a test set
@@ -49,7 +49,7 @@ Finding optimal $k$
 | ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | Output | Class label is the majority label of $k$ nearest neighbors                                                                                                                                                    | Predicted value will be the average of the continuous labels of $k$-nearest neighbors |
 | Steps  | - Compute distance between test record and all train records<br>- Identify $k$ neighbors of test records<br>  (Low distance=high similarity)<br>- Use majority voiting to find the class label of test sample |                                                                                       |
-|        | ![knn](./assets/knn.png)                                                                                                                                                                                      |                                                                                       |
+|        | ![knn](./assets/knn.png){ loading=lazy }                                                                                                                                                                                      |                                                                                       |
 
 ## Distance-Weighted KNN
 

@@ -41,7 +41,7 @@ Create a new folder called  `bin`  in  `audio-orchestrator-ffmpeg` .
 Move the  `ffmpeg`  and  `ffprobe`  files from  `Downloads`  into this  `bin`  folder.
 
 You should now have two files,  `ffmpeg`  and  `ffprobe` , in your  `~/audio-orchestrator-ffmpeg/bin/`  folder 
-    ![Screenshot of a Finder window showing the ffmpeg and ffprobe executable files](https://bbc.github.io/bbcat-orchestration-docs/images/installation/ffmpeg.png)**ffmpeg and ffprobe executables with the required folder structure**  
+    ![Screenshot of a Finder window showing the ffmpeg and ffprobe executable files](https://bbc.github.io/bbcat-orchestration-docs/images/installation/ffmpeg.png){ loading=lazy }**ffmpeg and ffprobe executables with the required folder structure**  
 #### Authorise *ffmpeg* and *ffprobe*
 
 Double-click the file called  `ffmpeg` .

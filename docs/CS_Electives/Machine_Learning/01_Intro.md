@@ -1,14 +1,12 @@
 # Introduction
 
-This introductory page is a big long, but that's because all the below concepts are common to every upcoming topic.
-
 ## Machine Learning
 
 > Field of study that enables computers to learn without being explicitly programmed; machine learns how to perform task $T$ from experience $E$ with performance measure $P$.
 
 Machine learning is necessary when it is not possible for us to make rules, ie, easier for the machine to learn the rules on its own
 
-![img](./../assets/overview_ai_ml_dl_ds.svg)
+![img](./../assets/overview_ai_ml_dl_ds.svg){ loading=lazy }
 
 ```mermaid
 flowchart LR
@@ -89,7 +87,7 @@ rwp -->
 
 Given training examples and hypothesis set of candidate models, generate a hypothesis function using a learning algorithm to estimate an unknown target function
 
-![image-20240622173136629](./assets/image-20240622173136629.png)
+![image-20240622173136629](./assets/image-20240622173136629.png){ loading=lazy }
 
 $P(x)$ quantifies relative importance of $x$
 
@@ -115,9 +113,9 @@ Learning model
 | 10  | Inference         | - Model prediction<br>- Model explanation                                   |
 
 
-![](assets/ML_Production_Aspects.png)
+![](assets/ML_Production_Aspects.png){ loading=lazy }
 
-![](assets/AI_Infrastructure.png)
+![](assets/AI_Infrastructure.png){ loading=lazy }
 
 ### Model Engineering
 

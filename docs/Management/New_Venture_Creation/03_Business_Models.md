@@ -8,7 +8,7 @@
 
 
 
-![image-20240210114534312](assets/image-20240210114534312.png)
+![image-20240210114534312](assets/image-20240210114534312.png){ loading=lazy }
 
 Business model $\ne$ Business.
 

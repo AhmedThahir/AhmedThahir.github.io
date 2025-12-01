@@ -148,7 +148,7 @@ fig.colorbar(ax)
 plt.show()
 ```
 
-![brute_force_loss_landscape](./assets/brute_force_loss_landscape.png)
+![brute_force_loss_landscape](./assets/brute_force_loss_landscape.png){ loading=lazy }
 
 #### Most Optimal Parameters
 
@@ -192,9 +192,9 @@ $$
 
 ### Gradients of the Loss Function
 
-![image-20240704165816976](./assets/image-20240704165816976.png)
+![image-20240704165816976](./assets/image-20240704165816976.png){ loading=lazy }
 
-![image-20240704170135799](./assets/image-20240704170135799.png)
+![image-20240704170135799](./assets/image-20240704170135799.png){ loading=lazy }
 
 ### Learning Rate $\eta$
 
@@ -214,4 +214,4 @@ Can be
 	- Exponential: $\alpha_t = \alpha_0 e^{-kt}$
 	- 1/t: $\alpha_t = \alpha_0/(1+kt)$
 
-![image-20240216010116161](./assets/image-20240216010116161.png)
+![image-20240216010116161](./assets/image-20240216010116161.png){ loading=lazy }

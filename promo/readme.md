@@ -2,8 +2,8 @@
 
 ## Mail
 
-![Mail](Mail.png)
+![Mail](Mail.png){ loading=lazy }
 
 # Social Media Post
 
-![Social Media Post](Social_Media.png)
+![Social Media Post](Social_Media.png){ loading=lazy }

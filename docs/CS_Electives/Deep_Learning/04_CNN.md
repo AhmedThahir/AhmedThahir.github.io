@@ -18,7 +18,7 @@ Images are a 3-dimensional array of features: each pixel in the 2-D space contai
 - Pooling
 - Fully-connected
 
-![](assets/example_cnn.png)
+![](assets/example_cnn.png){ loading=lazy }
 
 The first important type of layer that a CNN has is called the Convolution (Conv) layer. It uses parameter sharing and applies the same smaller set of parameters spatially across the image.
 - Number of filters is usually chosen as powers of 2, as many libraries handle these dimensions more efficiently.
@@ -34,9 +34,9 @@ Then we have the pooling layer. The purpose of the pooling layer is to reduce th
 
 We use a fully connected layers at the end of our CNNs. When we reach this stage, we can flatten the neurons into a one-dimensional array of features.
 
-![CNN diagram](./assets/cnn.png)
+![CNN diagram](./assets/cnn.png){ loading=lazy }
 
-![image-20230527225130438](./../assets/image-20230527225130438.png)
+![image-20230527225130438](./../assets/image-20230527225130438.png){ loading=lazy }
 
 We control output shape via padding, strides and channels
 
@@ -118,13 +118,13 @@ $$
 
 The following shows convolution on with 0 padding and stride 1.
 
-![Convolution](./../assets/convolution.gif)
+![Convolution](./../assets/convolution.gif){ loading=lazy }
 
 ### Convolutional Layer
 
 Each filter in the conversation layer produces an “activation map”
 
-![image-20240711122431462](./assets/image-20240711122431462.png)
+![image-20240711122431462](./assets/image-20240711122431462.png){ loading=lazy }
 
 ## Padding & Striding
 
@@ -139,11 +139,11 @@ Each filter in the conversation layer produces an “activation map”
 
 |                          |                                                              |                                                              |
 | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Padding                  | ![image-20240526124051958](./assets/image-20240526124051958.png) |                                                              |
-| Pooling                  | ![image-20240526124109474](./assets/image-20240526124109474.png) | Aggregate information                                        |
-| Striding                 | ![image-20240526124131588](./assets/image-20240526124131588.png) |                                                              |
-| Depth-wise/<br />Grouped | ![image-20240416004743866](./assets/image-20240416004743866.png)<br />![image-20240526123918071](./assets/image-20240526123918071.png) | Group together channels so that groups of channels in output only depend on corresponding groups of channels in input<br />Enforce filter weight matrices to be block-diagonal |
-| Dilations                | ![image-20240526123852770](./assets/image-20240526123852770.png) | Dilate convolution filter so that it covers more of the image<br />Requires padding to ensure same size as input |
+| Padding                  | ![image-20240526124051958](./assets/image-20240526124051958.png){ loading=lazy } |                                                              |
+| Pooling                  | ![image-20240526124109474](./assets/image-20240526124109474.png){ loading=lazy } | Aggregate information                                        |
+| Striding                 | ![image-20240526124131588](./assets/image-20240526124131588.png){ loading=lazy } |                                                              |
+| Depth-wise/<br />Grouped | ![image-20240416004743866](./assets/image-20240416004743866.png){ loading=lazy }<br />![image-20240526123918071](./assets/image-20240526123918071.png){ loading=lazy } | Group together channels so that groups of channels in output only depend on corresponding groups of channels in input<br />Enforce filter weight matrices to be block-diagonal |
+| Dilations                | ![image-20240526123852770](./assets/image-20240526123852770.png){ loading=lazy } | Dilate convolution filter so that it covers more of the image<br />Requires padding to ensure same size as input |
 
 ## Derivative
 
@@ -166,11 +166,11 @@ $$
 
 Edge-Detection example
 
-![image-20240711121250048](./assets/image-20240711121250048.png)
+![image-20240711121250048](./assets/image-20240711121250048.png){ loading=lazy }
 
 Smoothing
 
-![image-20240711121353680](./assets/image-20240711121353680.png)
+![image-20240711121353680](./assets/image-20240711121353680.png){ loading=lazy }
 
 ## Advanced CNN
 
@@ -180,7 +180,7 @@ Smoothing
 | Steps         | 1. Generate category-independent region proposals (~2k)<br />2. Compute 4096-dimensional CNN feature vector from each region proposal<br />3. Classify regions w/ class-specific linear SVMs                                                                               | 1. Produce **single** convolutional feature map with several convolutional & max-pooling layers <br />2. Region of interest (RoI) pooling layer extracts fixed-length feature vector from region feature map | 1. Compute proposals with a deep convolutional Region Proposal Network (RPN)<br />2. Merge RPN and Fast-RCNN into a single network                                                                                                           |
 | Advantages    | Simple<br />Improved mAP compared to RNN                                                                                                                                                                                                                                   | Higher mAP<br />Single end-to-end training stage<br />No disk storage required                                                                                                                               | Cost-free region proposals<br>One network optimizing four losses<br>- RPN classification (anchor good/bad)<br>- RPN regression (anchor -> proposal)<br>- Fast RCNN classification (over classes)<br>- Fast RCNN regression (proposal -> box) |
 | Disadvantages | Slow inference: full forward pass of CNN for each region<br />Multistage pipeline<br />Disk storage required for feature caching<br />Training is expensive<br>Classifiers & regressors are post-hoc: CNN features are not updated in response to classifier and regressor | Proposals generation is computationally expensive                                                                                                                                                            |                                                                                                                                                                                                                                              |
-| Flowchart     | ![RCNN](./../assets/rcnn.png)                                                                                                                                                                                                                                              | ![Fast-RCNN](./../assets/image-20230401232330538.png)                                                                                                                                                        | ![image-20230402000936812](./../assets/image-20230402000936812.png)                                                                                                                                                                          |
+| Flowchart     | ![RCNN](./../assets/rcnn.png){ loading=lazy }                                                                                                                                                                                                                                              | ![Fast-RCNN](./../assets/image-20230401232330538.png){ loading=lazy }                                                                                                                                                        | ![image-20230402000936812](./../assets/image-20230402000936812.png){ loading=lazy }                                                                                                                                                                          |
 
 ## YOLO
 
@@ -241,7 +241,7 @@ Algorithm Non-Max Supression
 	- only interpretable on the first conv layer
 - Visualize representation space from last FC layer before classifier (t-SNE)
 - Occlusion experiments
-	- ![](assets/occlusion_experiments.png)
+	- ![](assets/occlusion_experiments.png){ loading=lazy }
 	- as a function of position of blank pixels
 - Human experiment comparisons
 - Visualize activations
@@ -251,9 +251,9 @@ Algorithm Non-Max Supression
 		3. Set the gradient of the interested neuron to be 1.0, and all other neurons of the layer to be 0.0
 		4. Backward pass to the image
 			- Default backprop
-				- ![](assets/deconv_default_backprop.png)
+				- ![](assets/deconv_default_backprop.png){ loading=lazy }
 			- Guided backprop
-				- ![](assets/deconv_guided_backprop.png)
+				- ![](assets/deconv_guided_backprop.png){ loading=lazy }
 				- Only let the gradients of the neurons with +ve activations and +ve gradients to pass
 			- Deconvnet
 				- Change the backward pass of ReLU: Only let the gradients of the neurons with +ve gradients to pass
@@ -272,22 +272,22 @@ Algorithm Non-Max Supression
 		7. Go to step 2
 		8. Once converged
 			1. Visualize the final image
-				- ![](assets/optimization_over_images.png)
+				- ![](assets/optimization_over_images.png){ loading=lazy }
 			2. Visualize the data gradient
-				- ![](assets/optimization_over_images_data_gradient.png)
+				- ![](assets/optimization_over_images_data_gradient.png){ loading=lazy }
 				- $M_{ij} = \arg \max_c \vert w_{h(i, j, c)} \vert$
 					- At each pixel take the absolute value
 					- Max over all channels
 				- This can be used in `grabcut` for segmentation
-					- ![](assets/grabcut.png)
+					- ![](assets/grabcut.png){ loading=lazy }
 			3. Reconstruction of original image
-				- ![](assets/reconstruction_of_images_from_representation.png)
+				- ![](assets/reconstruction_of_images_from_representation.png){ loading=lazy }
 
 ## Hallucination
 
 ### DeepDream
 
-![](assets/deepdream_grocery_trip.png)
+![](assets/deepdream_grocery_trip.png){ loading=lazy }
 
 Set the gradients of the neurons in the layer you want to hallucinate at to be equal to the activations
 
@@ -295,7 +295,7 @@ Goal: Amplify the neurons which most activates the hallucination
 
 ### NeuralStyle
 
-![](assets/neural_style.png)
+![](assets/neural_style.png){ loading=lazy }
 
 1. Take 2 images
 	1. Content image
@@ -317,7 +317,7 @@ Three 3x3 conv vs one 7x7
 
 ## Deconvolution
 
-![](assets/deconvolution.png)
+![](assets/deconvolution.png){ loading=lazy }
 
 Same as backward pass for regular convolution
 

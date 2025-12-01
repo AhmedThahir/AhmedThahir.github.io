@@ -131,8 +131,8 @@ $$
 | AIC Corrected                                               |                            $\text{AIC} + \dfrac{2k(k+1)}{n-k-1}$                            |          |               | $0$             |                                                                                                                                                                                                                                                  | Encourages feature selection                                                      |                                                                                                                                                                                                    |                                                                                                                 |
 | BIC/SBIC/SC<br />(Schwarz’s Bayesian Information Criterion) |                                    $-2 \ln L + k \ln n$                                     |          |               | $0$             |                                                                                                                                                                                                                                                  | Penalizes predictors more heavily than AIC                                        |                                                                                                                                                                                                    |                                                                                                                 |
 | HQIC<br />Hannan-Quinn Information Criterion                |                            $-2 \ln L + 2k \ln \vert \ln n \vert$                            |          |               | $0$             |                                                                                                                                                                                                                                                  |                                                                                   |                                                                                                                                                                                                    |                                                                                                                 |
-| Calibration                                                 |                        ![](assets/calibration_curve_regression.png)                         |          |               |                 |                                                                                                                                                                                                                                                  |                                                                                   |                                                                                                                                                                                                    |                                                                                                                 |
-| Sharpness                                                   |                            ![](assets/sharpness_regression.png)                             |          |               |                 |                                                                                                                                                                                                                                                  |                                                                                   |                                                                                                                                                                                                    |                                                                                                                 |
+| Calibration                                                 |                        ![](assets/calibration_curve_regression.png){ loading=lazy }                         |          |               |                 |                                                                                                                                                                                                                                                  |                                                                                   |                                                                                                                                                                                                    |                                                                                                                 |
+| Sharpness                                                   |                            ![](assets/sharpness_regression.png){ loading=lazy }                             |          |               |                 |                                                                                                                                                                                                                                                  |                                                                                   |                                                                                                                                                                                                    |                                                                                                                 |
 
 A good regression metric
 - $\text{MAE} + \vert \text{MBE} \vert$, normalized by mean of series
@@ -193,16 +193,16 @@ There is always a tradeoff b/w specificity and sensitivity
 
 | Graph                   |                                                              |                                                              | Preferred                                     |
 | ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------------------------------------- |
-| Error Rate              | ![image-20240220125218210](./assets/image-20240220125218210.png) |                                                              |                                               |
-| ROC Curve               | ![image-20240704131040197](./assets/image-20240704131040197.png) | How does the classifier compare to a classifier that predicts randomly with $p=\text{TPR}$<br />How well model can discriminate between $y=0$ and $y=1$ | Top-Left<br />At least higher than 45deg line |
-| Calibration Graph       | ![image-20240528142438139](./assets/image-20240528142438139.png) | Create bins of different predicted probabilities<br />Calculate the fraction of $y=1$ for each bin<br />Confidence intervals (more uncertainty for bins with fewer samples)<br />Histogram showing fraction of samples in each bin | Along 45deg line                              |
-| Confusion Probabilities | ![image-20240718114749534](./assets/image-20240718114749534.png) |                                                              |                                               |
+| Error Rate              | ![image-20240220125218210](./assets/image-20240220125218210.png){ loading=lazy } |                                                              |                                               |
+| ROC Curve               | ![image-20240704131040197](./assets/image-20240704131040197.png){ loading=lazy } | How does the classifier compare to a classifier that predicts randomly with $p=\text{TPR}$<br />How well model can discriminate between $y=0$ and $y=1$ | Top-Left<br />At least higher than 45deg line |
+| Calibration Graph       | ![image-20240528142438139](./assets/image-20240528142438139.png){ loading=lazy } | Create bins of different predicted probabilities<br />Calculate the fraction of $y=1$ for each bin<br />Confidence intervals (more uncertainty for bins with fewer samples)<br />Histogram showing fraction of samples in each bin | Along 45deg line                              |
+| Confusion Probabilities | ![image-20240718114749534](./assets/image-20240718114749534.png){ loading=lazy } |                                                              |                                               |
 
 ### Tradeoff for Threshold
 
-![image-20240704130932826](./assets/image-20240704130932826.png)
+![image-20240704130932826](./assets/image-20240704130932826.png){ loading=lazy }
 
-![image-20240704130941679](./assets/image-20240704130941679.png)
+![image-20240704130941679](./assets/image-20240704130941679.png){ loading=lazy }
 
 ### Probabilistic Evaluation
 
@@ -216,7 +216,7 @@ For simple metrics that rely on counting successes, such as accuracy, sensitivit
 	- $= \dfrac{1}{k} \sum \limits_i^k \text{Accuracy}_\text{fold}$
 
 
-![image-20240106202910165](./assets/image-20240106202910165.png)
+![image-20240106202910165](./assets/image-20240106202910165.png){ loading=lazy }
 
 
 ### Decision Boundary
@@ -225,7 +225,7 @@ Plot random distribution of values
 
 For eg:
 
-![0](./assets/9bca0d386fe78d1cbd051112ed2f8f1f69a70ee95971fae928749471.png)
+![0](./assets/9bca0d386fe78d1cbd051112ed2f8f1f69a70ee95971fae928749471.png){ loading=lazy }
 
 ### Confusion Matrix
 
@@ -320,11 +320,11 @@ But clearly the fit is not equally optimal
 3. Outlier
 4. Leverage
 
-![image-20240217123508539](./assets/image-20240217123508539.png)
+![image-20240217123508539](./assets/image-20240217123508539.png){ loading=lazy }
 
 which is shown in the residual plot
 
-![image-20240217123916483](./assets/image-20240217123916483.png)
+![image-20240217123916483](./assets/image-20240217123916483.png){ loading=lazy }
 
 ### Aggregated Inspection
 
@@ -357,7 +357,7 @@ Either
 
 Never use test set cuz it's information that's not seen
 
-![](assets/grouping_by_observation.png)
+![](assets/grouping_by_observation.png){ loading=lazy }
 
 ### Diebold-Mariano Test
 
@@ -390,23 +390,23 @@ Based on the slope of the curves, determine if adding more data will help
 
 |                                                              | Conclusion                       |
 | ------------------------------------------------------------ | -------------------------------- |
-| ![image-20240409104640019](./assets/image-20240409104640019.png) | High Bias<br />(Underfitting)    |
-| ![image-20240409104925429](./assets/image-20240409104925429.png) | High Variance<br />(Overfitting) |
-| ![image-20240409105039243](./assets/image-20240409105039243.png) | High Bias<br />High Variance     |
+| ![image-20240409104640019](./assets/image-20240409104640019.png){ loading=lazy } | High Bias<br />(Underfitting)    |
+| ![image-20240409104925429](./assets/image-20240409104925429.png){ loading=lazy } | High Variance<br />(Overfitting) |
+| ![image-20240409105039243](./assets/image-20240409105039243.png){ loading=lazy } | High Bias<br />High Variance     |
 
 ### Loss Curve
 
-![image-20240214082637449](./assets/generalization_complexity.svg)
+![image-20240214082637449](./assets/generalization_complexity.svg){ loading=lazy }
 
-![image-20240409105521534](./assets/image-20240409105521534.png)
+![image-20240409105521534](./assets/image-20240409105521534.png){ loading=lazy }
 
 #### Same Model, Variable Learning Rate
 
-![image-20240409105708117](./assets/image-20240409105708117.png)
+![image-20240409105708117](./assets/image-20240409105708117.png){ loading=lazy }
 
 ### Validation Curve
 
-![image-20240716115219646](./assets/image-20240716115219646.png)
+![image-20240716115219646](./assets/image-20240716115219646.png){ loading=lazy }
 
 ## Neural Network Distributions 
 
@@ -426,7 +426,7 @@ Avoids
 
 ### Example Plot 
 
-![image-20240830152455381](./assets/image-20240830152455381.png)
+![image-20240830152455381](./assets/image-20240830152455381.png){ loading=lazy }
 
 ## Object Detection
 
@@ -438,7 +438,7 @@ Avoids
 
 ## IDK
 
-![](assets/statistical%20tests%20for%20machine%20learning.png)
+![](assets/statistical%20tests%20for%20machine%20learning.png){ loading=lazy }
 
 ## Clustering
 

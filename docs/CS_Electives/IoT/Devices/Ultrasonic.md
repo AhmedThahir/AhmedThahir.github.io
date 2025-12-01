@@ -33,7 +33,7 @@ $$
 - TRIG: Emitter (D3)
 - ECHO: Receiver 
 
-![image-20240222001729823](./assets/ultrasound_pin_diagram.png)
+![image-20240222001729823](./assets/ultrasound_pin_diagram.png){ loading=lazy }
 
 ## Code
 

@@ -310,19 +310,19 @@ Easy example: using area instead of length and breadth.
 |                                                           |                                           | Regression does not work<br />$R^2$ reduces with larger sample sizes |
 |                                                           |                                           | Payoffs diverge from probabilities<br />It’s not just about how often you are right, but also what happens when you’re wrong: Being wrong 1 time can erase the gain of being right 99 times |
 
-![image-20240210110725937](./assets/image-20240210110725937.png)
+![image-20240210110725937](./assets/image-20240210110725937.png){ loading=lazy }
 
 ## “Fat-Tailedness”
 
 Degree to which rare events drive the aggregate statistics of a distribution
 
 - Lower $\alpha \implies$ Fatter tails
-  - ![image-20240210111139587](./assets/image-20240210111139587.png)
+  - ![image-20240210111139587](./assets/image-20240210111139587.png){ loading=lazy }
 - Kurtosis (breaks down for $\alpha \le 4$)
 - Variance of Log-Normal distribution
-  - ![image-20240210111118533](./assets/image-20240210111118533.png)
+  - ![image-20240210111118533](./assets/image-20240210111118533.png){ loading=lazy }
 - Taleb’s $\kappa$ metric
-  - ![image-20240210111052050](./assets/image-20240210111052050.png)
+  - ![image-20240210111052050](./assets/image-20240210111052050.png){ loading=lazy }
 
 ## Leverage
 
@@ -354,7 +354,7 @@ $$
 \end{aligned}
 $$
 
-![](assets/hat_matrix_leverage.png)
+![](assets/hat_matrix_leverage.png){ loading=lazy }
 
 High leverage points have lower variance
 
@@ -362,7 +362,7 @@ $$
 \text{var}(u_i) = \sigma^2_u (1-h_{ii}) \\
 \text{SE}(u_i) = \text{RMSE} \sqrt{1-h_{ii}}
 $$
-![image-20240610224730632](./assets/image-20240610224730632.png)
+![image-20240610224730632](./assets/image-20240610224730632.png){ loading=lazy }
 
 Hence, when doing statistical tests on residuals (Grubbs’ test, skewness, etc.) you should only use externally-studentized residuals 
 
@@ -386,7 +386,7 @@ $$
 
 To inspect for both outliers and high-leverage data, plot the ESR vs Normalized Leverage
 
-![image-20240610224717680](./assets/image-20240610224717680.png)
+![image-20240610224717680](./assets/image-20240610224717680.png){ loading=lazy }
 
 ## Influence
 
@@ -398,7 +398,7 @@ $\hat y_{j(i)}$ is $\hat y_j$ without $i$ in the training set
 
 |                      | Formula                                                      | Criterion<br />$n \le 20$<br />$n > 20$         |                                                              |
 | -------------------- | ------------------------------------------------------------ | ----------------------------------------------- | ------------------------------------------------------------ |
-| Cook’s Distance      | $\begin{aligned} & D_i \\ & = \dfrac{\sum\limits_{j=1}^n (\hat y_{j (i)} - \hat y_j)}{k \times \text{MSE}} \\ &= \dfrac{u_i^2}{k \times \text{MSE}} \times \dfrac{h_{ii}}{(1-h_{ii})^2} \\ &= \dfrac{\text{isr}_i^2}{k} \times \dfrac{h_{ii}}{(1-h_{ii})} \end{aligned}$ | $1$<br />$4/n \quad \approx F(k, n-k)$.inv(0.5) | ![image-20240611114520069](./assets/image-20240611114520069.png) |
+| Cook’s Distance      | $\begin{aligned} & D_i \\ & = \dfrac{\sum\limits_{j=1}^n (\hat y_{j (i)} - \hat y_j)}{k \times \text{MSE}} \\ &= \dfrac{u_i^2}{k \times \text{MSE}} \times \dfrac{h_{ii}}{(1-h_{ii})^2} \\ &= \dfrac{\text{isr}_i^2}{k} \times \dfrac{h_{ii}}{(1-h_{ii})} \end{aligned}$ | $1$<br />$4/n \quad \approx F(k, n-k)$.inv(0.5) | ![image-20240611114520069](./assets/image-20240611114520069.png){ loading=lazy } |
 | Difference in Beta   | $\begin{aligned} & \text{DFBETA}_{i, j} \\ &= \dfrac{\beta_j - \beta_{j(i)}}{\text{SE}(\beta_{k(i)})} \end{aligned}$ | $1$<br />$\sqrt{4/n}$                           |                                                              |
 | Difference in Fit    | $\begin{aligned} &\text{DFFITS}_{i} \\ &= \dfrac{ \hat y - \hat y_{i(i)} }{ s_{u(i)} \sqrt{h_{ii}} } \\ &= \text{esr}_i \sqrt{ \dfrac{h_{ii}}{1-h_{ii}} } \end{aligned}$ | $1$<br />$\sqrt{4k/n}$                          |                                                              |
 | Mahalanobis Distance |                                                              |                                                 |                                                              |
@@ -409,6 +409,6 @@ Also called long data
 
 | Characteristic                   | Visual                                 |
 | -------------------------------- | -------------------------------------- |
-| Each variable has its own column | ![](assets/tiny_data_variables.png)    |
-| Each observation has its own row | ![](assets/tiny_data_observations.png) |
-| Each value has its own cell      | ![](assets/tiny_data_values.png)       |
+| Each variable has its own column | ![](assets/tiny_data_variables.png){ loading=lazy }    |
+| Each observation has its own row | ![](assets/tiny_data_observations.png){ loading=lazy } |
+| Each value has its own cell      | ![](assets/tiny_data_values.png){ loading=lazy }       |

@@ -1,6 +1,6 @@
 # Keyword Spotting
 
-![](assets/keyword_spotting.png)
+![](assets/keyword_spotting.png){ loading=lazy }
 
 ## Keyword Spotting vs Speed Recognition
 
@@ -24,17 +24,17 @@
 |                      | Bandwidth       |                                                                                                 |                                                 |
 | Preserving           | Security        | Safeguarding data being sent to cloud                                                           |                                                 |
 |                      | Privacy         |                                                                                                 |                                                 |
-| Model                | Accuracy        | Listen continuously, but only trigger at the right time<br><br>Pick operating point accordingly | ![](assets/keyword_spotting_accuracy_curve.png) |
+| Model                | Accuracy        | Listen continuously, but only trigger at the right time<br><br>Pick operating point accordingly | ![](assets/keyword_spotting_accuracy_curve.png){ loading=lazy } |
 |                      | Personalization | Trigger only for user, not for other users or for background noise                              |                                                 |
 | Resource constraints | Battery         |                                                                                                 |                                                 |
-|                      | Memory          |                                                                                                 | ![](assets/keyword_spotting_tinymy_memory.png)  |
+|                      | Memory          |                                                                                                 | ![](assets/keyword_spotting_tinymy_memory.png){ loading=lazy }  |
 
 
 ## Model
 
 Spectrogram is just an image
 
-![](assets/keyword_spotting_flowchart.png)
+![](assets/keyword_spotting_flowchart.png){ loading=lazy }
 
 ### TinyConv
 
@@ -52,9 +52,9 @@ Input --> Conv --> FC --> Softmax --> Output
 - Limited UX
 
 ## Cascading
-![](assets/keyword_spotting_cascading.png)
+![](assets/keyword_spotting_cascading.png){ loading=lazy }
 
-![](assets/cascading_operating_curve.png)
+![](assets/cascading_operating_curve.png){ loading=lazy }
 ## Multiple Inferences
 
 - Average inferences across multiple time slices

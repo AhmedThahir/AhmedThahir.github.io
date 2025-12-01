@@ -21,7 +21,7 @@ CSPs are represented as constraint graphs, where nodes represent variables and e
 
 | Problem                          | Contraint Graph                      |
 | -------------------------------- | ------------------------------------ |
-| ![CSP problem](./assets/CSP.png) | ![CSP graph](./assets/CSP_Graph.png) |
+| ![CSP problem](./assets/CSP.png){ loading=lazy } | ![CSP graph](./assets/CSP_Graph.png){ loading=lazy } |
 
 |             |                          |
 | ----------- | ------------------------ |
@@ -35,7 +35,7 @@ CSPs are represented as constraint graphs, where nodes represent variables and e
 | ----------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Variables   | $X_{ij}$                                                     | $Q_k$                                                        |
 | Domain      | $\{ 0, 1 \}$                                                 | $\{ 1, 2, \dots, N \}$                                       |
-| Constraints | $\sum_{i, j} X_{ij} = N$<br />![image-20240331151009697](./assets/image-20240331151009697.png) | Implicit: $\forall i, j$: non threatening $(Q_i, Q_j)$<br />Explicit: $(Q, _1, Q_2) \in \{ (1, 3), (1, 4), \dots \}$ |
+| Constraints | $\sum_{i, j} X_{ij} = N$<br />![image-20240331151009697](./assets/image-20240331151009697.png){ loading=lazy } | Implicit: $\forall i, j$: non threatening $(Q_i, Q_j)$<br />Explicit: $(Q, _1, Q_2) \in \{ (1, 3), (1, 4), \dots \}$ |
 
 ## IDK
 
@@ -89,7 +89,7 @@ States are defined by the values assigned so far (partial assignments)
 
 ## IDK
 
-![image-20240331171828731](./assets/image-20240331171828731.png)
+![image-20240331171828731](./assets/image-20240331171828731.png){ loading=lazy }
 
 ## Backtracking Search
 
@@ -105,9 +105,9 @@ Assumption: assignments are commutative (order of assignment doesn’t matter)
 
 Can solve n-queens for $n \le 25$
 
-![image-20240331171647279](./assets/image-20240331171647279.png)
+![image-20240331171647279](./assets/image-20240331171647279.png){ loading=lazy }
 
-![image-20240331171627201](./assets/image-20240331171627201.png)
+![image-20240331171627201](./assets/image-20240331171627201.png){ loading=lazy }
 
 ## Filtering/Pruning
 
@@ -120,13 +120,13 @@ To improve performance, we can prune subtrees that will inevitably lead to failu
 - Whenever a new variable is assigned, we can run forward checking and prune the domains of unassigned variables adjacent to the newly assigned variable in the constraint graph.
 - Basically we eliminate all the values from the domain of the adjacent variables which could cause violation of any constraint.
 
-![image-20240331164114673](./assets/image-20240331164114673.png)
+![image-20240331164114673](./assets/image-20240331164114673.png){ loading=lazy }
 
 This propagates info from assigned to unassigned vars, but doesn’t provide early detection for all failures
 
 Time Complexity: $O(n^2 d^3)$
 
-![image-20240331174017564](./assets/image-20240331174017564.png)
+![image-20240331174017564](./assets/image-20240331174017564.png){ loading=lazy }
 
 ### Arc Consistency
 

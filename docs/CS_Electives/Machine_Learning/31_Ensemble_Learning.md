@@ -8,7 +8,7 @@ Why do they work
 - Computational: Average local optima
 - Representational: Extend hypothesis space
 
-![image-20240303223125520](./assets/image-20240303223125520.png)
+![image-20240303223125520](./assets/image-20240303223125520.png){ loading=lazy }
 
 ## Advantages
 

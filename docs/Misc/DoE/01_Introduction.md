@@ -62,9 +62,9 @@ u_i
 $$
 One at a time
 
-![image-20240620130857558](assets/image-20240620130857558.png)
+![image-20240620130857558](assets/image-20240620130857558.png){ loading=lazy }
 
-![image-20240620131033568](assets/image-20240620131033568.png)
+![image-20240620131033568](assets/image-20240620131033568.png){ loading=lazy }
 
 ### Properties
 
@@ -110,8 +110,8 @@ Algorithmic approach to searching the design space and pick values of input vars
 
 | Design        |                                                              | Use when                                      | Advantage                       | Disadvantage                   |                                                              |                                $\text{SE}(b_1)$<br />For SLR |
 | ------------- | ------------------------------------------------------------ | --------------------------------------------- | ------------------------------- | ------------------------------ | ------------------------------------------------------------ | -----------------------------------------------------------: |
-| Space-Filling | Evenly spaced out $x$ or $y$                                 | check whether the model is correct            | Intuitive<br />Can verify model | Wasted opportunity cost of SE  | ![image-20240619201100709](assets/image-20240619201100709.png) | $\sqrt{3 \times \dfrac{n-1}{n+1}} \times \dfrac{\text{RMSE}}{\sqrt{n} \left( \dfrac{x_\max - x_\min}{2}  \right)}$ |
-| Dumbbell      | - half data points at the lowest $x$ value<br/>- half data points at the highest $x$ value | structural model already known                | Lowest SE of parameters         | Cannot verify structural model | ![image-20240619201053103](assets/image-20240619201053103.png) | $1 \times \dfrac{\text{RMSE}}{\sqrt{n} \left( \dfrac{x_\max - x_\min}{2}  \right)}$ |
+| Space-Filling | Evenly spaced out $x$ or $y$                                 | check whether the model is correct            | Intuitive<br />Can verify model | Wasted opportunity cost of SE  | ![image-20240619201100709](assets/image-20240619201100709.png){ loading=lazy } | $\sqrt{3 \times \dfrac{n-1}{n+1}} \times \dfrac{\text{RMSE}}{\sqrt{n} \left( \dfrac{x_\max - x_\min}{2}  \right)}$ |
+| Dumbbell      | - half data points at the lowest $x$ value<br/>- half data points at the highest $x$ value | structural model already known                | Lowest SE of parameters         | Cannot verify structural model | ![image-20240619201053103](assets/image-20240619201053103.png){ loading=lazy } | $1 \times \dfrac{\text{RMSE}}{\sqrt{n} \left( \dfrac{x_\max - x_\min}{2}  \right)}$ |
 | Equal-Thirds  | - 1/3 highest<br />- 1/3 middle<br />- 1/3 lowest            | Compromise between space-filling and dumbbell |                                 |                                |                                                              | $\sqrt{\dfrac{3}{2}} \times \dfrac{\text{RMSE}}{\sqrt{n} \left( \dfrac{x_\max - x_\min}{2}  \right)}$ |
 
 ### Principles

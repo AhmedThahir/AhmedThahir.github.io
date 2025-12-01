@@ -47,11 +47,11 @@ Should always be made from the first lane to the last lane
 
 Types
 - Open: Opposite to another road
-	- ![](assets/open_uturn.png)
+	- ![](assets/open_uturn.png){ loading=lazy }
 - Closed: 
-	- ![](assets/closed_uturn.png)
+	- ![](assets/closed_uturn.png){ loading=lazy }
 - Three point u-turn
-	- ![](assets/three_point_uturn.png)
+	- ![](assets/three_point_uturn.png){ loading=lazy }
 - Intersection u-turn
 
 ## Lane Discipline

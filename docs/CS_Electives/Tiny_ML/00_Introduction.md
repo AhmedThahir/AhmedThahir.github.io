@@ -8,15 +8,15 @@ Hardware and systems are essential for the progress of deep learning.
 - Often overlooked
 - Useful to integrate ML with IoT Systems
 
-![](assets/tiny_ml.png)
+![](assets/tiny_ml.png){ loading=lazy }
 
 ### Example
 
-![image-20240507104800241](./assets/image-20240507104800241.png)
+![image-20240507104800241](./assets/image-20240507104800241.png){ loading=lazy }
 
 ### Procedure
 
-![image-20240507102857295](./assets/image-20240507102857295.png)
+![image-20240507102857295](./assets/image-20240507102857295.png){ loading=lazy }
 
 ## Applications
 
@@ -47,13 +47,13 @@ Device with
 
 Nano 33 BLE Sense: AI-enabled ARM-based developmental microcontroller board
 
-![image-20240504184623573](./assets/image-20240504184623573.png)
+![image-20240504184623573](./assets/image-20240504184623573.png){ loading=lazy }
 
 OV 7675 Camera module
 
 TinyML Shield: Alternative to Breadboard
 
-![image-20240504185015606](./assets/image-20240504185015606.png)
+![image-20240504185015606](./assets/image-20240504185015606.png){ loading=lazy }
 
 #### ARM Cortex Processor Profiles
 
@@ -61,11 +61,11 @@ TinyML Shield: Alternative to Breadboard
 - The company (Qualcomm, Apple) bundles it with other design for system-on-chip
 - The company (Google, Samsung, etc) places order to fabrication company (TSMC)
 
-![image-20240504185314157](./assets/image-20240504185314157.png)
+![image-20240504185314157](./assets/image-20240504185314157.png){ loading=lazy }
 
 #### Cortex-M ISA
 
-![image-20240504185440541](./assets/image-20240504185440541.png)
+![image-20240504185440541](./assets/image-20240504185440541.png){ loading=lazy }
 
 ### Embedded Systems OS
 
@@ -92,8 +92,8 @@ No more “free lunch” from material science improvements
 
 |                 | Comment                                                                                                                                       |                                                                  |
 | --------------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| Moore’s law     | Slowing down<br />In 1970-2010, we were able to put more transistors on a chip and get exponentially more performance; but now this is ending | ![Untitled_2](./assets/Untitled_2.png)                           |
-| Dennard scaling | essential stopped                                                                                                                             | ![image-20240413214842554](./assets/image-20240413214842554.png) |
+| Moore’s law     | Slowing down<br />In 1970-2010, we were able to put more transistors on a chip and get exponentially more performance; but now this is ending | ![Untitled_2](./assets/Untitled_2.png){ loading=lazy }                           |
+| Dennard scaling | essential stopped                                                                                                                             | ![image-20240413214842554](./assets/image-20240413214842554.png){ loading=lazy } |
 
 Costly for companies to use cloud-based systems; would prefer edge-computing to reduce their energy consumption
 
@@ -111,14 +111,14 @@ Since products are expected to run for a long duration (months, years)
 
 #### Memory Usage
 
-![image-20240507101607915](./assets/image-20240507101607915.png)
+![image-20240507101607915](./assets/image-20240507101607915.png){ loading=lazy }
 
 - Need to be resource-aware
 - Less compute
 - Less memory
 - Use quantization
 
-![image-20240507100945034](./assets/image-20240507100945034.png)
+![image-20240507100945034](./assets/image-20240507100945034.png){ loading=lazy }
 
 ### Storage
 
@@ -137,7 +137,7 @@ Sometimes there are OS
 
 Example of Android Platform Architecture in general purpose computer
 
-![](assets/android_platform_architecture.png)
+![](assets/android_platform_architecture.png){ loading=lazy }
 
 #### Libraries
 
@@ -152,7 +152,7 @@ There is a tradeoff between Accuracy and
 1. Operations (usually, FLOPS)
 2. Model size (usually, no of parameters)
 
-![](assets/dnn_model_tradeoff.png)
+![](assets/dnn_model_tradeoff.png){ loading=lazy }
 
 Solutions
 - Quantization

@@ -2,7 +2,7 @@
 
 Image --> Bounding box
 
-![](assets/localization.png)
+![](assets/localization.png){ loading=lazy }
 
 1. Train classification model
 2. Attach new fully-connected "regression head"
@@ -17,7 +17,7 @@ Image --> Bounding box
 
 ## Regression Head Position
 
-![](assets/localization_regression_head_position.png)
+![](assets/localization_regression_head_position.png){ loading=lazy }
 
 ## Sliding Window
 
@@ -25,17 +25,17 @@ Image --> Bounding box
 - Run classification + regression head at multiple location on high resolution network
 - Combine classifier and regressor predictions across all scales for final prediction
 
-![](assets/localization_sliding_window.png)
+![](assets/localization_sliding_window.png){ loading=lazy }
 
 ### Efficient
 
 Convert FC layers into conv layers
 
-![](assets/localization_efficient_sliding_window.png)
+![](assets/localization_efficient_sliding_window.png){ loading=lazy }
 
 |                             |                                                      |
 | --------------------------- | ---------------------------------------------------- |
-| Train                       | ![](./assets/efficient_sliding_window_training.png)  |
-| Inference<br>(larger image) | ![](./assets/efficient_sliding_window_inference.png) |
+| Train                       | ![](./assets/efficient_sliding_window_training.png){ loading=lazy }  |
+| Inference<br>(larger image) | ![](./assets/efficient_sliding_window_inference.png){ loading=lazy } |
 
 Advantage: Extra compute only for extra pixels

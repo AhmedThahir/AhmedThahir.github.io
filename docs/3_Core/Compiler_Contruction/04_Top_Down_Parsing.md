@@ -13,7 +13,7 @@
 
 ### Recursive Descent Parsing
 
-![image-20230525172216371](./assets/image-20230525172216371.png)
+![image-20230525172216371](./assets/image-20230525172216371.png){ loading=lazy }
 
 ## Computations
 
@@ -31,7 +31,7 @@ The first symbol accessible;
 | Non-Terminal | $Y_1 Y_2 Y_n$    | $Y_i \to a; Y_{1, \dots, i-1} = \epsilon$ | $\{a\}$            |
 | Non-Terminal | $Y_1 Y_2 Y_n$    | $Y_i \to \epsilon,  \forall i$            | $\{\epsilon\}$     |
 
-![image-20230525173248539](./assets/image-20230525173248539.png)
+![image-20230525173248539](./assets/image-20230525173248539.png){ loading=lazy }
 
 ### Follow(Non-Terminal)
 
@@ -41,7 +41,7 @@ The first symbol accessible;
 | $A \to \alpha B \beta$                                       | Follow(B) $=$ First($\beta$) - $\{\epsilon\}$ |
 | $A \to \alpha B$<br />$A \to \alpha B \beta$, and $\epsilon \in$ First($\beta$) | Follow(B) $\supset$ Follow(A)                 |
 
-![image-20230525175015445](./assets/image-20230525175015445.png)
+![image-20230525175015445](./assets/image-20230525175015445.png){ loading=lazy }
 
 ## LL(1) Grammar
 

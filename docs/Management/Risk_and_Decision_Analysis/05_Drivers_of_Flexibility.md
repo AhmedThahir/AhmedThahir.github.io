@@ -16,7 +16,7 @@ Analytic solution for simple case of constant linear growth
 
 Provides simple demonstration of issues, by giving useful insight into trade-offs
 
-![image-20240128141302941](assets/image-20240128141302941.png)
+![image-20240128141302941](assets/image-20240128141302941.png){ loading=lazy }
 
 - Optimal cycle time = most economical time between additions of capacity modules
 - Cycle time defines model size (years * annual growth)
@@ -29,7 +29,7 @@ Provides simple demonstration of issues, by giving useful insight into trade-off
 
 ### Results
 
-![image-20240128141231808](assets/image-20240128141231808.png)
+![image-20240128141231808](assets/image-20240128141231808.png){ loading=lazy }
 
 Manne’s present cost versus cycle time
 
@@ -38,6 +38,6 @@ Manne’s present cost versus cycle time
 
 ### Learning Effects
 
-![image-20240128141208139](assets/image-20240128141208139.png)
+![image-20240128141208139](assets/image-20240128141208139.png){ loading=lazy }
 
-![image-20240128141824095](assets/image-20240128141824095.png)
+![image-20240128141824095](assets/image-20240128141824095.png){ loading=lazy }

@@ -83,10 +83,10 @@ Item C | N/A | 100
 This is how we insert picture. Caption is produced automatically from the alt text.
 
 ```
-![Aleph 0](images/pandoc.png) 
+![Aleph 0](images/pandoc.png){ loading=lazy } 
 ```
 
-![Aleph 0](images/pandoc.png) 
+![Aleph 0](images/pandoc.png){ loading=lazy } 
 
 ## Two or more pictures in a raw
 
@@ -94,10 +94,10 @@ Here are two pictures in the raw. We can also change two pictures size (height o
 
 ###
 ```
-![](images/pandoc.png){height=10%}\ ![](images/pandoc.png){height=30%} 
+![](images/pandoc.png){ loading=lazy }{height=10%}\ ![](images/pandoc.png){ loading=lazy }{height=30%} 
 ```
 
-![](images/pandoc.png){ height=10% }\ ![](images/pandoc.png){ height=30% }
+![](images/pandoc.png){ loading=lazy }{ height=10% }\ ![](images/pandoc.png){ loading=lazy }{ height=30% }
 
 ## Lists
 
@@ -199,7 +199,7 @@ Right column list:
 
 :::: column
 
-![](images/pandoc.png){height=50%}
+![](images/pandoc.png){ loading=lazy }{height=50%}
 
 ::::
 
@@ -221,7 +221,7 @@ List from the right column:
 
 :::: column
 
-![](images/pandoc.png){height=50%}
+![](images/pandoc.png){ loading=lazy }{height=50%}
 
 ::::
 
@@ -248,13 +248,13 @@ Single reference [@Tartarini2020]
 
 Reference Figure \ref{first} and \ref{second} 
 
-![This is the caption\label{first}](images/pandoc.png){height=50%}
+![This is the caption\label{first}](images/pandoc.png){ loading=lazy }{height=50%}
 
 ## Second figure
 
 Reference Figure \ref{second} and 
 
-![This is the caption\label{second}](images/pandoc.png){height=50%}
+![This is the caption\label{second}](images/pandoc.png){ loading=lazy }{height=50%}
 
 ## Fancy layout
 

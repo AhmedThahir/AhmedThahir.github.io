@@ -10,9 +10,9 @@
 
 ## TS230
 
-![image-20231218132332774](./assets/image-20231218132332774.png)
+![image-20231218132332774](./assets/image-20231218132332774.png){ loading=lazy }
 
-![image-20231218132338018](./assets/image-20231218132338018.png)
+![image-20231218132338018](./assets/image-20231218132338018.png){ loading=lazy }
 
 ### Calibration
 
@@ -279,7 +279,7 @@ int getBluePW() {
 
 ## ISL29125
 
-![image-20231218132400325](./assets/image-20231218132400325.png)
+![image-20231218132400325](./assets/image-20231218132400325.png){ loading=lazy }
 
 ### Calibration
 

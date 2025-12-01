@@ -177,4 +177,4 @@ module circuit_1(I0, I1, S, y);
 
 ## Breadboard
 
-![Breadboard](./assets/Breadboard.svg)
+![Breadboard](./assets/Breadboard.svg){ loading=lazy }

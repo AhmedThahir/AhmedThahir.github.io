@@ -28,9 +28,9 @@ A portfolio A dominates portfolio B if
 
 ### Efficient Frontier
 
-![image-20240309173852371](assets/image-20240309173852371.png)
+![image-20240309173852371](assets/image-20240309173852371.png){ loading=lazy }
 
-![image-20240530164925266](assets/image-20240530164925266.png)
+![image-20240530164925266](assets/image-20240530164925266.png){ loading=lazy }
 
 ### Mean-Variance Analysis
 
@@ -51,7 +51,7 @@ Shows how naive diversification reduces discretion of returns in a stock portfol
 
 |                                                          |                                                              |
 | -------------------------------------------------------- | ------------------------------------------------------------ |
-| $\text{Risk} \propto \dfrac{1}{\text{no of securities}}$ | ![image-20240530165525210](assets/image-20240530165525210.png) |
+| $\text{Risk} \propto \dfrac{1}{\text{no of securities}}$ | ![image-20240530165525210](assets/image-20240530165525210.png){ loading=lazy } |
 | $\text{Marginal Risk Reduction} = -k$                    | Diminishing reduction with no of securities                  |
 | 15-20 securities found to be the most appropriate        |                                                              |
 
@@ -69,7 +69,7 @@ $$
 
 Upon introduction of Risk-Free Asset, Efficient frontier becomes a straight line rising from risk-free rate and tangential to Markowitz Efficient Frontier, called Capital Market Line
 
-![image-20240530174031543](assets/image-20240530174031543.png)
+![image-20240530174031543](assets/image-20240530174031543.png){ loading=lazy }
 
 - Lending portfolio: Portfolio where risk-averse investors in low risk assets
 - Borrowing portfolio: Portfolio where risk-tolerant investors borrow at risk-free rate and invest in risky assets
@@ -134,7 +134,7 @@ Isn’t always $\beta_m = 1$
 
 Slope is the Treynor Ratio
 
-![image-20240530190423590](assets/image-20240530190423590.png)
+![image-20240530190423590](assets/image-20240530190423590.png){ loading=lazy }
 
 ## Arbitrage Pricing Theory
 

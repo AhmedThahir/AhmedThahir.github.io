@@ -16,11 +16,11 @@
 
 ## Medical Cycle
 
-![image-20240526174528678](./assets/image-20240526174528678.png)
+![image-20240526174528678](./assets/image-20240526174528678.png){ loading=lazy }
 
 ## Enterprise-level clinical process automation
 
-![image-20240526180330078](./assets/image-20240526180330078.png)
+![image-20240526180330078](./assets/image-20240526180330078.png){ loading=lazy }
 
 ## How does the Health System Learn
 

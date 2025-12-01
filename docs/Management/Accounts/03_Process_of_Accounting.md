@@ -6,7 +6,7 @@
 | Real     | What comes in     | What goes out  |
 | Nominal  | Expenses & Losses | Income & Gains |
 
-![Screen Shot 2023-03-18 at 8.50.47 PM](assets/Screen Shot 2023-03-18 at 8.50.47 PM.png)
+![Screen Shot 2023-03-18 at 8.50.47 PM](assets/Screen Shot 2023-03-18 at 8.50.47 PM.png){ loading=lazy }
 
 ## Accounting Equation
 
@@ -71,7 +71,7 @@ Summary statement of all the transactions relating to a person, asset, expense o
 
 It is in a ‘T’ form
 
-![T Account - What Is It, Examples, Format, Related Terminologies](assets/T-Account-main-9159215.png)
+![T Account - What Is It, Examples, Format, Related Terminologies](assets/T-Account-main-9159215.png){ loading=lazy }
 
 | Dr         |                 |            | < Account Name > |            | Cr.             |            |
 | ---------- | --------------- | ---------: | ---------------- | ---------- | --------------- | ---------: |

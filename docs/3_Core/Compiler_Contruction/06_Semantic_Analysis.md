@@ -74,31 +74,31 @@ Order of these computations depends on the dependency graph induced by the seman
 
 ### Example: $5+3*4$
 
-![image-20230525195047994](./assets/image-20230525195047994.png)
+![image-20230525195047994](./assets/image-20230525195047994.png){ loading=lazy }
 
-![image-20230525195102564](./assets/image-20230525195102564.png)
+![image-20230525195102564](./assets/image-20230525195102564.png){ loading=lazy }
 
-![image-20230525195449219](./assets/image-20230525195449219.png)
+![image-20230525195449219](./assets/image-20230525195449219.png){ loading=lazy }
 
 #### Dependency Graph
 
 All updward arrows, since this S-Attributed: all parents inherit from child(ren).
 
-![image-20230525195508838](./assets/image-20230525195508838.png)
+![image-20230525195508838](./assets/image-20230525195508838.png){ loading=lazy }
 
 ### Example: `real p, q`
 
-![image-20230525195843952](./assets/image-20230525195843952.png)
+![image-20230525195843952](./assets/image-20230525195843952.png){ loading=lazy }
 
-![image-20230525202132505](./assets/image-20230525202132505.png)
+![image-20230525202132505](./assets/image-20230525202132505.png){ loading=lazy }
 
 ### Example: $3*5$
 
-![image-20230525200658572](./assets/image-20230525200658572.png)
+![image-20230525200658572](./assets/image-20230525200658572.png){ loading=lazy }
 
-![image-20230525200458112](./assets/image-20230525200458112.png)
+![image-20230525200458112](./assets/image-20230525200458112.png){ loading=lazy }
 
-![image-20230525202155168](./assets/image-20230525202155168.png)
+![image-20230525202155168](./assets/image-20230525202155168.png){ loading=lazy }
 
 ## Syntax-Dericted Translation
 
@@ -114,15 +114,15 @@ T → F
 F → num {print num.val;}
 ```
 
-![image-20230525202357082](./assets/image-20230525202357082.png)
+![image-20230525202357082](./assets/image-20230525202357082.png){ loading=lazy }
 
 ### Eg: Conversion of infix to postfix:  $1+2$
 
-![image-20230525202521503](./assets/image-20230525202521503.png)
+![image-20230525202521503](./assets/image-20230525202521503.png){ loading=lazy }
 
-![image-20230525202440345](./assets/image-20230525202440345.png)
+![image-20230525202440345](./assets/image-20230525202440345.png){ loading=lazy }
 
-![image-20230525202540161](./assets/image-20230525202540161.png)
+![image-20230525202540161](./assets/image-20230525202540161.png){ loading=lazy }
 
 ## Coercions
 

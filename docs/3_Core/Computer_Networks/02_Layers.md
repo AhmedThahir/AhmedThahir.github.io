@@ -17,7 +17,7 @@ The upper 3 layers of the OSI model (application, presentation and session—Lay
 
 Lower 4 layers (transport, network, data link and physical —Layers 4, 3, 2, and 1) are concerned with the flow of data from end to end through the network.
 
-![image-20230404174342590](./assets/image-20230404174342590.png)
+![image-20230404174342590](./assets/image-20230404174342590.png){ loading=lazy }
 
 | Type     | Layer        | Description                                                  | [PDU](#PDU)              | Device/Example                         | Address                                | Delivery                                    | Protocols                                                    | Transmission<br />Mode                    | Line<br />Configuration       | Service<br />Type                              |
 | -------- | ------------ | ------------------------------------------------------------ | ------------------------ | -------------------------------------- | -------------------------------------- | ------------------------------------------- | ------------------------------------------------------------ | ----------------------------------------- | ----------------------------- | ---------------------------------------------- |

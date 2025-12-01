@@ -18,7 +18,7 @@ Can be applied for regression and classification
 - Decision regions tend to be highly-fragmented
 - Resulting function (also Decision boundary for classification) is very non-smooth and blocky
 
-![image-20240709120643099](./assets/image-20240709120643099.png)
+![image-20240709120643099](./assets/image-20240709120643099.png){ loading=lazy }
 
 ## Terms
 

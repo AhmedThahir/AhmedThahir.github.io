@@ -6,9 +6,9 @@ Unreliable: Packets might be lost, corrupted, duplicated, or delivered out of or
 
 ## IPv4 Packet Format
 
-![image-20230530224312949](./assets/image-20230530224312949.png)
+![image-20230530224312949](./assets/image-20230530224312949.png){ loading=lazy }
 
-![image-20230530224318093](./assets/image-20230530224318093.png)
+![image-20230530224318093](./assets/image-20230530224318093.png){ loading=lazy }
 
 |                      | Meaning                                                      | Size (bits) | Value                                                        |
 | -------------------- | ------------------------------------------------------------ | ----------- | ------------------------------------------------------------ |
@@ -49,9 +49,9 @@ Final destination host reusables original packet from fragments (if none of them
 4. Continue process, until fragment with more bit value = 0 is reached
 
 
-![image-20230530225837861](./assets/image-20230530225837861.png)
+![image-20230530225837861](./assets/image-20230530225837861.png){ loading=lazy }
 
-![image-20230530225932632](./assets/image-20230530225932632.png)
+![image-20230530225932632](./assets/image-20230530225932632.png){ loading=lazy }
 
 ## Fragmentation Types
 
@@ -62,7 +62,7 @@ IP protocol uses non-transparent fragmentation
 | Steps         | - Router breaks large packet into fragments<br/>- All fragments sent to same exit router<br/>- Reassemble fragments before forwarding to next network | - Router breaks large packet into fragments<br/>- Packet fragments not reassembled at intermediate routers<br />- Each fragment is treated as independent packet by routers<br />- Fragments reassembled at final destination host |
 | Advantages    |                                                              | Multiple exit routers can be used<br />Higher throughput     |
 | Disadvantages | All packets must be routed via same exit router<br />Exit router must know when all pieces have been received<br />Either ‘count’ field or ‘end of packet’ field must be stored in each packet<br />Large overhead: Large packet may fragmented & reassembled repeatedly | When a large packet is fragmented, overhead increases<br />Each fragment must have a header (min 20 bytes) |
-|               | ![image-20230530230652597](./assets/image-20230530230652597.png) | ![image-20230530231035387](./assets/image-20230530231035387.png) |
+|               | ![image-20230530230652597](./assets/image-20230530230652597.png){ loading=lazy } | ![image-20230530231035387](./assets/image-20230530231035387.png){ loading=lazy } |
 
 ## IPv6
 
@@ -89,11 +89,11 @@ Eg: $FEDC:BA98:7654:3210:FEDC:BA98:7664:3210$
 
 ### Packet
 
-![image-20230530232529400](./assets/image-20230530232529400.png)
+![image-20230530232529400](./assets/image-20230530232529400.png){ loading=lazy }
 
 #### Base Header
 
-![image-20230530232553858](./assets/image-20230530232553858.png)
+![image-20230530232553858](./assets/image-20230530232553858.png){ loading=lazy }
 
 ## Mobile IP
 
@@ -106,9 +106,9 @@ Regular IP addressing is based on the assumption that a host is stationary
 
 When a host moves from one network to another, IP addressing structure needs to be modified
 
-![image-20230530233646118](./assets/image-20230530233646118.png)
+![image-20230530233646118](./assets/image-20230530233646118.png){ loading=lazy }
 
-![image-20230530233822638](./assets/image-20230530233822638.png)
+![image-20230530233822638](./assets/image-20230530233822638.png){ loading=lazy }
 
 There are 3 options to deal with device changing networks
 
@@ -132,14 +132,14 @@ Host has
   - When host moves from one network to another, care-of-address changes
   - Mobile host receives its care-of-address during **agent-discovery** & **registration**
 
-![image-20230530233605578](./assets/image-20230530233605578.png)
+![image-20230530233605578](./assets/image-20230530233605578.png){ loading=lazy }
 
 #### Agent Discovery
 
 1. Home Agent’s and Foreign Agent’s broadcast their presence on each network to which they are attached; Beacon messages via ICMP Router Discovery Protocol (IRDP)
 2. Mobile Node’s listen for advertisement and then initiate registration
 
-![image-20230530234328089](./assets/image-20230530234328089.png)
+![image-20230530234328089](./assets/image-20230530234328089.png){ loading=lazy }
 
 Thus,
 
@@ -151,7 +151,7 @@ Thus,
 1. When Mobile Node is away, it registers its COA with its Home Agent, usually through Foreign Agent with strongest signal
 2. Registration control messages are sent via UDP to well-known port
 
-![image-20230530234457640](./assets/image-20230530234457640.png)
+![image-20230530234457640](./assets/image-20230530234457640.png){ loading=lazy }
 
 ### Tables Maintained
 
@@ -177,7 +177,7 @@ Maps Mobile Nodes’s home address to its MAC address & Home Address
 
 ### Indirect (Triangle) Routing
 
-![image-20230530235055303](./assets/image-20230530235055303.png)
+![image-20230530235055303](./assets/image-20230530235055303.png){ loading=lazy }
 
 Mobile Node uses 2 addresses
 
@@ -186,20 +186,20 @@ Mobile Node uses 2 addresses
 
 Foreign agent functions may be done by mobile itself
 
-![image-20230530235424919](./assets/image-20230530235424919.png)
+![image-20230530235424919](./assets/image-20230530235424919.png){ loading=lazy }
 
 #### Data Transfer Tunnelling
 
-![image-20230530235343764](./assets/image-20230530235343764.png)
+![image-20230530235343764](./assets/image-20230530235343764.png){ loading=lazy }
 
 ### Problems with Mobile IP
 
 #### Double Crossing
 
-![image-20230530235533150](./assets/image-20230530235533150.png)
+![image-20230530235533150](./assets/image-20230530235533150.png){ loading=lazy }
 
 #### Triangle routing
 
 Packet travel as two sides of triangle
 
-![image-20230530235607533](./assets/image-20230530235607533.png)
+![image-20230530235607533](./assets/image-20230530235607533.png){ loading=lazy }

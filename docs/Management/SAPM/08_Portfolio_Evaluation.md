@@ -25,19 +25,19 @@ Measured once a new high is reached, because a minimum cannot be measured yet si
 
 ## Sharpe Ratio
 
-![sharpe_ratio](assets/sharpe_ratio.svg)
+![sharpe_ratio](assets/sharpe_ratio.svg){ loading=lazy }
 
 ### Limitations
 
 Non-normality leads to under-estimating the variance in sharpe ratio estimate
 
-![](assets/sharpe_ratio_non_normality.png)
+![](assets/sharpe_ratio_non_normality.png){ loading=lazy }
 
-![](assets/sharpe_ratio_non_normality-1.png)
+![](assets/sharpe_ratio_non_normality-1.png){ loading=lazy }
 
 Selection bias of strategies results in false-positives regarding the success of a strategy
 
-![image-20240312125247782](assets/image-20240312125247782.png)
+![image-20240312125247782](assets/image-20240312125247782.png){ loading=lazy }
 
 ## Non-Normality Adjusted Sharpe Ratio
 
@@ -63,7 +63,7 @@ $$
 - $\widehat{\text{SR}} =$ estimated sharpe ratio of portfolio
 - $\phi=$ cdf of normal distribution
 
-![image-20240312124816425](assets/image-20240312124816425.png)
+![image-20240312124816425](assets/image-20240312124816425.png){ loading=lazy }
 
 Probability that SR is statistically-significant, after controlling for inflationary effect of
 

@@ -136,9 +136,9 @@ Only has 2 solutions
 - $(2, 4, 1, 3)$
 - $(3, 1, 4, 2)$
 
-![image-20230409133241981](./assets/image-20230409133241981.png)
+![image-20230409133241981](./assets/image-20230409133241981.png){ loading=lazy }
 
-![image-20230409133855681](./assets/image-20230409133855681.png)
+![image-20230409133855681](./assets/image-20230409133855681.png){ loading=lazy }
 
 where
 
@@ -164,7 +164,7 @@ The left subtree of the root defines all subsets containing $w_1$ while the righ
 
 Variable-Sized tree with 24 leaf nodes which represent 16 possible tuples.
 
-![image-20230409135620058](./assets/image-20230409135620058.png)
+![image-20230409135620058](./assets/image-20230409135620058.png){ loading=lazy }
 
 ### Using DFS
 
@@ -176,7 +176,7 @@ The tree organizations are independent of the problem instance being solved. Eit
 
 For some problems it is advantageous to use different tree organizations for different problem instances
 
-![image-20230409140141830](./assets/image-20230409140141830.png)
+![image-20230409140141830](./assets/image-20230409140141830.png){ loading=lazy }
 
 ### Algorithm
 

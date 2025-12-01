@@ -86,7 +86,7 @@ $$
 
 ## Spread
 
-![Credit Spread](assets/Credit_Spread.png)
+![Credit Spread](assets/Credit_Spread.png){ loading=lazy }
 $$
 \begin{aligned}
 y_{1t} &= x_t + u_{1t} \\
@@ -100,7 +100,7 @@ $$
 
 This mean-reverting tendency of the spread can be used for “pairs trading”/“statistical arbitrage”
 
-![image-20240207171849884](assets/image-20240207171849884.png)
+![image-20240207171849884](assets/image-20240207171849884.png){ loading=lazy }
 
 ### Estimating $\gamma$
 

@@ -2,7 +2,7 @@
 
 ## Human Perception of Sound
 
-![](assets/Human_Perception_of_Sound.png)
+![](assets/Human_Perception_of_Sound.png){ loading=lazy }
 
 ## Dataset
 
@@ -22,13 +22,13 @@
 	- Recorded as individual words, not sentences
 	- 1000-4000 examples of each word
 
-![](assets/google_speech_commands_dataset.png)
+![](assets/google_speech_commands_dataset.png){ loading=lazy }
  
 ## Good Characteristics of Model
 
 |                   |                                         |
 | ----------------- | --------------------------------------- |
-| Volume Invariance | ![](assets/audio_volume_invariance.png) |
+| Volume Invariance | ![](assets/audio_volume_invariance.png){ loading=lazy } |
 |                   |                                         |
 
 ## Pre-Processing
@@ -45,11 +45,11 @@ What aspects of the signal should you sent to the neural network
 
 | Word | Volume | Waveform                           | Spectrogram                           | MFCC                          |
 | ---- | ------ | ---------------------------------- | ------------------------------------- | ----------------------------- |
-| Yes  | Loud   | ![](assets/yes_loud_waveform.png)  | ![](assets/yes_loud_spectrogram.png)  | ![](assets/yes_loud_mfcc.png) |
-|      | Quiet  | ![](assets/yes_quiet_waveform.png) | ![](assets/yes_quiet_spectrogram.png) |                               |
-| No   | Loud   | ![](assets/no_loud_waveform.png)   | ![](assets/no_loud_spectrogram.png)   | ![](assets/no_loud_mfcc.png)  |
-|      | Quiet  | ![](assets/no_quiet_waveform.png)  | ![](assets/no_quiet_spectrogram.png)  |                               |
+| Yes  | Loud   | ![](assets/yes_loud_waveform.png){ loading=lazy }  | ![](assets/yes_loud_spectrogram.png){ loading=lazy }  | ![](assets/yes_loud_mfcc.png){ loading=lazy } |
+|      | Quiet  | ![](assets/yes_quiet_waveform.png){ loading=lazy } | ![](assets/yes_quiet_spectrogram.png){ loading=lazy } |                               |
+| No   | Loud   | ![](assets/no_loud_waveform.png){ loading=lazy }   | ![](assets/no_loud_spectrogram.png){ loading=lazy }   | ![](assets/no_loud_mfcc.png){ loading=lazy }  |
+|      | Quiet  | ![](assets/no_quiet_waveform.png){ loading=lazy }  | ![](assets/no_quiet_spectrogram.png){ loading=lazy }  |                               |
 
 ### Mel Filterbanks
 
-![](assets/mel_filter_banks.png)
+![](assets/mel_filter_banks.png){ loading=lazy }

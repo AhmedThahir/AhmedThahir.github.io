@@ -30,7 +30,7 @@ Working principle: Reflection of light
 
 ## Circuit Diagram
 
-![ir_sensor_circuit_diagram](./assets/ir_sensor_circuit_diagram.png)
+![ir_sensor_circuit_diagram](./assets/ir_sensor_circuit_diagram.png){ loading=lazy }
 
 ## Code
 

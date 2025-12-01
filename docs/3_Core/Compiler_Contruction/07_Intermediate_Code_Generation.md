@@ -1,6 +1,6 @@
 Ideally the details of source language are confined to the front end and the details of target machines to the back end.
 
-![image-20230526094032063](./assets/image-20230526094032063.png)
+![image-20230526094032063](./assets/image-20230526094032063.png){ loading=lazy }
 
 ## Why IC?
 
@@ -30,7 +30,7 @@ Binary tree where
 
 ### Eg: $a+a*(b-c) +(b-c)*d$
 
-![image-20230526094444295](./assets/image-20230526094444295.png)
+![image-20230526094444295](./assets/image-20230526094444295.png){ loading=lazy }
 
 ## Directed Acyclic Graph (DAG)
 
@@ -40,11 +40,11 @@ This helps the compiler generate more efficient code.
 
 ### Eg: $a+a*(b-c)+(b-c)*d$
 
-![image-20230526095142127](./assets/image-20230526095142127.png)
+![image-20230526095142127](./assets/image-20230526095142127.png){ loading=lazy }
 
 ### Eg: $i=i+10$
 
-![image-20230526095917209](./assets/image-20230526095917209.png)
+![image-20230526095917209](./assets/image-20230526095917209.png){ loading=lazy }
 
 ### Steps for tree representation
 
@@ -163,9 +163,9 @@ A benefit of quadruples and indirect triples over triples can be seen in an opti
 
 ### $a=b*-c+b*-c$
 
-![image-20230526105241929](./assets/image-20230526105241929.png)
+![image-20230526105241929](./assets/image-20230526105241929.png){ loading=lazy }
 
-![Indirect Triples](./assets/image-20230526105634184.png)
+![Indirect Triples](./assets/image-20230526105634184.png){ loading=lazy }
 
 ## Translations: Arrays
 
@@ -190,17 +190,17 @@ Let
 
 ### `c + a[i][j]` for `int a[4][3];`
 
-![image-20230526112027207](./assets/image-20230526112027207.png)
+![image-20230526112027207](./assets/image-20230526112027207.png){ loading=lazy }
 
 ### `a = b[i] + c[i]`
 
-![image-20230526113031746](./assets/image-20230526113031746.png)
+![image-20230526113031746](./assets/image-20230526113031746.png){ loading=lazy }
 
 Correction: Row 6 for triple should be `+ (2) (5)`
 
 ### `a[i] = b * c + b * d`
 
-![image-20230526114104150](./assets/image-20230526114104150.png)
+![image-20230526114104150](./assets/image-20230526114104150.png){ loading=lazy }
 
 ## Flow Control
 
@@ -277,4 +277,4 @@ goto L1 L2:
 
 ## Basic Blows & Flow Graphs
 
-![image-20230526170947683](./assets/image-20230526170947683.png)
+![image-20230526170947683](./assets/image-20230526170947683.png){ loading=lazy }

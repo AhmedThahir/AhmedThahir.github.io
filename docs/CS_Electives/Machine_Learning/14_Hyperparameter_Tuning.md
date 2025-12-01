@@ -18,7 +18,7 @@ Sometimes better to do in log-space, rather than linear space
 - Caching
 - Random sampling: Won’t work with caching
 
-![image-20240317160544276](./assets/image-20240317160544276.png)
+![image-20240317160544276](./assets/image-20240317160544276.png){ loading=lazy }
 
 ## Clustering
 
@@ -26,7 +26,7 @@ Sometimes better to do in log-space, rather than linear space
 
 Plot cost function as function of no of clusters
 
-![image-20240711155441455](./assets/image-20240711155441455.png)
+![image-20240711155441455](./assets/image-20240711155441455.png){ loading=lazy }
 
 ## Visualization
 
@@ -34,4 +34,4 @@ Plot cost function as function of no of clusters
 | Visualization        |                                                     | More than 3 hyperparameters | Simple |
 | -------------------- | --------------------------------------------------- | --------------------------- | ------ |
 | Contour              |                                                     | ❌                           | ✅      |
-| Parallel Coordinates | ![](assets/Hyperparameter_Tuning_Visualization.png) | ✅                           | ❌      |
+| Parallel Coordinates | ![](assets/Hyperparameter_Tuning_Visualization.png){ loading=lazy } | ✅                           | ❌      |

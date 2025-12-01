@@ -1,6 +1,6 @@
 ## Startup
 
-![image-20231228212937063](assets/image-20231228212937063.png)
+![image-20231228212937063](assets/image-20231228212937063.png){ loading=lazy }
 
 ## Startup Learning Loop
 

@@ -143,7 +143,7 @@ $$
 &= \text{Dividend Payout Ratio} \times \dfrac{1+g}{k-g} 
 \end{aligned}
 $$
-![image-20240528200951653](assets/image-20240528200951653.png)
+![image-20240528200951653](assets/image-20240528200951653.png){ loading=lazy }
 
 How to determine if P/E ratio is good
 

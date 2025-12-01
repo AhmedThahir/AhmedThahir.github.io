@@ -24,7 +24,7 @@ $$
 h_t = h_{t−1}
 $$
 
-![image-20230527201100703](./assets/image-20230527201100703.png)
+![image-20230527201100703](./assets/image-20230527201100703.png){ loading=lazy }
 
 - Robustness against skipping observations in sequence
 - Robustness of state representation relative to hidden state updates

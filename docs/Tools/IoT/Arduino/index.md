@@ -1,6 +1,6 @@
 # Arduino
 
-![ArduinoUno](./assets/ArduinoUno.svg)
+![ArduinoUno](./assets/ArduinoUno.svg){ loading=lazy }
 
 ## Rules
 

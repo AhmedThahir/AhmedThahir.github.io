@@ -2,7 +2,7 @@
 
 A recurrent neural network (RNN) is a NN architecture mainly used for sequences, such as speech recognition and natural language processing (NLP).
 
-![](assets/RNN_usecases.png)
+![](assets/RNN_usecases.png){ loading=lazy }
 
 A recurrent neural network looks similar to a traditional neural network except that a memory-state is added to the neurons.
 
@@ -10,9 +10,9 @@ At every time step, the following are the same
 - function
 - set of parameters
 
-![RNN diagram](./assets/rnn.png)
+![RNN diagram](./assets/rnn.png){ loading=lazy }
 
-![image-20230529205211461](./../assets/image-20230529205211461.png)
+![image-20230529205211461](./../assets/image-20230529205211461.png){ loading=lazy }
 
 A RNN cell is a neural network that is used by the RNN.
 
@@ -22,9 +22,9 @@ As you can see, it’s the same cell repeats over time. The weights are updated 
 
 We introduce a latent variable, that summarizes all the relevant information about the past
 
-![image-20230527163547959](./../assets/image-20230527163547959.png)
+![image-20230527163547959](./../assets/image-20230527163547959.png){ loading=lazy }
 
-![image-20230527163555542](./../assets/image-20230527163555542.png)
+![image-20230527163555542](./../assets/image-20230527163555542.png){ loading=lazy }
 
 $$
 h_t = f(x_1, \dots, x_{t−1}) = f(h_{t−1},x_{t−1})
@@ -68,17 +68,17 @@ $$
 
 ## An Example RNN Computational Graph
 
-![image-20230527175223766](./../assets/image-20230527175223766.png)
+![image-20230527175223766](./../assets/image-20230527175223766.png){ loading=lazy }
 
 ## Implementing RNN Cell
 
-![image-20230529214150388](./../assets/image-20230529214150388.png)
+![image-20230529214150388](./../assets/image-20230529214150388.png){ loading=lazy }
 
 ### Tokenization/Input Encoding
 
 Map text into sequence of IDs
 
-![image-20230527164906649](./../assets/image-20230527164906649.png)
+![image-20230527164906649](./../assets/image-20230527164906649.png){ loading=lazy }
 
 #### Granularity
 
@@ -107,7 +107,7 @@ Often outputs of current state are used as input for next hidden state (and thus
 
 ### Output Decoding
 
-![image-20230527165223776](./../assets/image-20230527165223776.png)
+![image-20230527165223776](./../assets/image-20230527165223776.png){ loading=lazy }
 
 $$
 P(y|o) \propto \exp(V_y^T \ o) = \exp(o[y])
@@ -145,13 +145,13 @@ Back-Propagation Through Time
 | None             | Costly<br />Divergent                                        |
 | Fixed-Intervals  | Standard Approach<br />Approximation<br />Works well         |
 | Variable Length  | Exit after reweighing<br />Doesn’t work better in practice   |
-| Random Variable  | ![image-20230527174146972](./../assets/image-20230527174146972.png) |
+| Random Variable  | ![image-20230527174146972](./../assets/image-20230527174146972.png){ loading=lazy } |
 
-![image-20230527173745367](./../assets/image-20230527173745367.png)
+![image-20230527173745367](./../assets/image-20230527173745367.png){ loading=lazy }
 
 ## Multi-Layer RNN
 
-![](assets/multi_layer_RNN.png)
+![](assets/multi_layer_RNN.png){ loading=lazy }
 
 $$
 h_t^l = \phi w^l

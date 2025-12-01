@@ -4,7 +4,7 @@ Focus marginalization rather than optimization
 
 Rather than use a single setting of parameters $w$, use all settings weighted by their posterior probabilities in a Bayesian model average
 
-![image-20240528185724094](./assets/image-20240528185724094.png)
+![image-20240528185724094](./assets/image-20240528185724094.png){ loading=lazy }
 
 ## Advantages
 
@@ -51,7 +51,7 @@ One more point in slide
 
 ## Bayesian NN
 
-![image-20240106143739721](./assets/image-20240106143739721.png)
+![image-20240106143739721](./assets/image-20240106143739721.png){ loading=lazy }
 
 ## Bayesian Classifier
 

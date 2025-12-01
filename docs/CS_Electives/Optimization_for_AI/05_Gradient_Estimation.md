@@ -63,4 +63,4 @@ $$
 \end{aligned}
 $$
 
-![image-20240710181826692](./assets/image-20240710181826692.png)
+![image-20240710181826692](./assets/image-20240710181826692.png){ loading=lazy }

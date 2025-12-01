@@ -6,5 +6,5 @@ Usually contain 2 cameras placed horizontally next to each other. It helps camer
 
 They are often paired with LiDar sensor to improve reliability and accuracy.
 
-![stereo cameras](./assets/stereo_cameras.png)
+![stereo cameras](./assets/stereo_cameras.png){ loading=lazy }
 

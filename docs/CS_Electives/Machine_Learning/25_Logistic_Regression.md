@@ -101,7 +101,7 @@ p(y=j)
 $$
 where $K$ = number of classes
 
-![image-20240221113754684](./assets/image-20240221113754684.png)
+![image-20240221113754684](./assets/image-20240221113754684.png){ loading=lazy }
 
 We need to choose one class $k$ to be the reference level, and normalize $\beta_k=0$
 
@@ -136,11 +136,11 @@ This assumption is fine for in-sample prediction, but inappropriate for counterf
 
 ### Binary
 
-![image-20240222103730633](./assets/binary_aggregate_outcomes.png)
+![image-20240222103730633](./assets/binary_aggregate_outcomes.png){ loading=lazy }
 
 ### Multi
 
-![image-20240222100855592](./assets/multinomial_aggregate_outcomes.png)
+![image-20240222100855592](./assets/multinomial_aggregate_outcomes.png){ loading=lazy }
 
 ## OLS vs Logistic
 
@@ -154,13 +154,13 @@ OLS is not appropriate for classification
   - OLS penalizes observations with large positive margins and hence is not a suitable loss function for classification
 
 
-![image-20240219133309249](./assets/image-20240219133309249.png)
+![image-20240219133309249](./assets/image-20240219133309249.png){ loading=lazy }
 
-![image-20240219133558024](./assets/image-20240219133558024.png)
+![image-20240219133558024](./assets/image-20240219133558024.png){ loading=lazy }
 
 - Classes can be **masked** by others, especially when no of classes is large and no of predictors is small
   - OLS estimates normal linear model, but classification has a distribution very different from Gaussian
-  - ![image-20240221113653102](./assets/linear_regression_multiclass_decision_boundary.png)
+  - ![image-20240221113653102](./assets/linear_regression_multiclass_decision_boundary.png){ loading=lazy }
     - Decision boundaries produced by linear regression between 1 and 2 and between 2 and 3 are the same, so we would never predict class 2
 
 ## IDK
@@ -186,6 +186,6 @@ Regularization __ of probabilistic boundary
 - Changes orientation
 - Changes position
 
-![](assets/Logistic_Regression_Regularization.png)
+![](assets/Logistic_Regression_Regularization.png){ loading=lazy }
 
 $c = \dfrac{1}{\alpha}$

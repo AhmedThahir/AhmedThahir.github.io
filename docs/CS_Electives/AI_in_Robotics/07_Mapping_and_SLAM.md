@@ -35,7 +35,7 @@ end
 | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | given              | Map                                                          | object’s trajectory (position at each time)                  |                                                              |
 | Use sensor data to | estimate current position of object                          | map                                                          | Build map and estimate trajectory                            |
-|                    | ![image-20240218213311156](./assets/image-20240218213311156.png) | ![image-20240218213353830](./assets/image-20240218213353830.png) | ![image-20240218213517975](./assets/image-20240218213517975.png) |
+|                    | ![image-20240218213311156](./assets/image-20240218213311156.png){ loading=lazy } | ![image-20240218213353830](./assets/image-20240218213353830.png){ loading=lazy } | ![image-20240218213517975](./assets/image-20240218213517975.png){ loading=lazy } |
 
 ## Need for Map
 

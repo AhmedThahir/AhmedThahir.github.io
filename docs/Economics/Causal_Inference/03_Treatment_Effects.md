@@ -113,7 +113,7 @@ $$
 |---                                                                           | ---                                                              | ---|
 |Compares what would happen if the __ sample receives treatment $x=1$ vs $x=0$ | same                                                             | 2 different|
 |Provides | Average causal effect | Average difference in outcome b/w sub populations defined by treatment group |
-|  | ![image-20240320180040650](assets/image-20240320180040650.png) | ![image-20240320180026379](assets/image-20240320180026379.png) |
+|  | ![image-20240320180040650](assets/image-20240320180040650.png){ loading=lazy } | ![image-20240320180026379](assets/image-20240320180026379.png){ loading=lazy } |
 
 ### IDK
 
@@ -143,7 +143,7 @@ Solution: Randomized Treatment
 
 ## PDF Graph
 
-![potentialOutcomesDistribution](assets/potentialOutcomesDistribution.png)
+![potentialOutcomesDistribution](assets/potentialOutcomesDistribution.png){ loading=lazy }
 
 $$
 \begin{aligned}

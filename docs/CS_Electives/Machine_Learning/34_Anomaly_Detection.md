@@ -52,9 +52,9 @@ Then, all these perfectly reasonable
 
 ## Density Estimation
 
-![image-20231103185150834](./assets/image-20231103185150834.png)
+![image-20231103185150834](./assets/image-20231103185150834.png){ loading=lazy }
 
-![image-20231104155930664](./assets/image-20231104155930664.png)
+![image-20231104155930664](./assets/image-20231104155930664.png){ loading=lazy }
 
 ## Procedure Methodology
 
@@ -83,7 +83,7 @@ If anomalies don’t have such values, then try to find a combination of feature
 
 Transformation of training, validation, and test set.
 
-![image-20231104164633793](./assets/image-20231104164633793.png)
+![image-20231104164633793](./assets/image-20231104164633793.png){ loading=lazy }
 
 If you have x values as 0, then $\log(x)$ as $\log(0)$ is undefined. So you use $\log(x+c)$, where $c>0$
 

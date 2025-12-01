@@ -67,9 +67,9 @@ dm --> cnn[Convolutional<br/>Neural<br/>Network] & dsn[Deep<br/>Stacking<br/>Net
 - Deep networks can represent complex functions with fewer parameters
 - Each layer of the network learns a “representation”
 
-![image-20240710182558173](./assets/image-20240710182558173.png)
+![image-20240710182558173](./assets/image-20240710182558173.png){ loading=lazy }
 
-![image-20240710182724425](./assets/image-20240710182724425.png)
+![image-20240710182724425](./assets/image-20240710182724425.png){ loading=lazy }
 
 ## Image Representation
 
@@ -96,7 +96,7 @@ So if the width and height of image are $w, h$
 
 ## Transfer Learning
 
-![image-20230527151527131](./../assets/image-20230527151527131.png)
+![image-20230527151527131](./../assets/image-20230527151527131.png){ loading=lazy }
 
 
 | ......... Similarity<br>Size | Similar                  | Different            |

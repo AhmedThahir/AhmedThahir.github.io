@@ -104,7 +104,7 @@ where $p=$ portfolio and $m=$ market
 - Investors are rational and risk-averse: prefer less risk investments
 - Investors expect risk premium: Investors are ready to take risk only with the expectation of higher return
 
-![securities_risk_premium](assets/securities_risk_premium.svg)
+![securities_risk_premium](assets/securities_risk_premium.svg){ loading=lazy }
 
 $$
 R_\min = R_f + \underbrace{\left (

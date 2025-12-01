@@ -15,7 +15,7 @@ Computational problem to find a sequence of valid configurations that move objec
 
 ## Local <-> Global Frame
 
-![image-20240220112204591](./assets/image-20240220112204591.png)
+![image-20240220112204591](./assets/image-20240220112204591.png){ loading=lazy }
 
 If robot position in a plane is defined by its state vector (location and orientation) is defined by
 $$
@@ -61,7 +61,7 @@ $$
 
 ## Control
 
-![image-20240220130734401](./assets/image-20240220130734401.png)
+![image-20240220130734401](./assets/image-20240220130734401.png){ loading=lazy }
 $$
 u(t) = k_p e(t) + k_i \int_0^t e(\tau) d \tau + k_d \dfrac{d}{dt} e(t)
 $$

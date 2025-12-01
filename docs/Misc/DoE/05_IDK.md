@@ -35,7 +35,7 @@ c_t = c_0 e^{-kt} &\implies (c_t/c_0) = e^{-kt} \\
 \end{aligned}
 $$
 
-![image-20240612005324653](assets/image-20240612005324653.png)
+![image-20240612005324653](assets/image-20240612005324653.png){ loading=lazy }
 
 ## Unknown Functional Form
 

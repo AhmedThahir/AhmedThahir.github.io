@@ -70,7 +70,7 @@ void loop(){
 }
 ```
 
-![image-20231216005331149](./assets/image-20231216005331149.png)
+![image-20231216005331149](./assets/image-20231216005331149.png){ loading=lazy }
 
 ## Serial Monitor
 

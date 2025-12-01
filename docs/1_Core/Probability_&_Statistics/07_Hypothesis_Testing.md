@@ -234,7 +234,7 @@ When $P(H_1) < 0.1$, we may need the p−value to be much smaller than the conve
 
 Hypothesis tests are only valid for large sample size, as they are based on the asymptotic properties of test statistics.  Hence, Bootstrapping can be used to obtain more accurate p−value estimates
 
-![](assets/image-20240218014920702.png)
+![](assets/image-20240218014920702.png){ loading=lazy }
 
 
 ## Population Mean
@@ -356,7 +356,7 @@ Publication Bias
 
 Only the extreme significant cases of the study make it through to the publication, and hence are not a representative sample of all empirical findings.
 
-![image-20240218092240286](./assets/image-20240218092240286.png)
+![image-20240218092240286](./assets/image-20240218092240286.png){ loading=lazy }
 
 $$
 E[\hat \beta \vert \text{significant} >> \beta]
@@ -406,7 +406,7 @@ $$
 \end{aligned}
 $$
 
-![image-20240218094058700](./assets/image-20240218094058700.png)
+![image-20240218094058700](./assets/image-20240218094058700.png){ loading=lazy }
 
 ### Corrections
 

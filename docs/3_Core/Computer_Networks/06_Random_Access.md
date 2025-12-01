@@ -20,7 +20,7 @@ Let
 | $S$                            | $G \times e^{-2G}$                                           | $G \times e^{-G}$                                            |                                                              |                                                              |                                                              |
 | $G_\text{max}$                 | 1/2                                                          | 1                                                            |                                                              |                                                              |                                                              |
 | $S_\text{max}$                 | 0.184<br />                                                  | 0.368                                                        |                                                              |                                                              |                                                              |
-| Flowchart                      | ![image-20230405000253139](./assets/image-20230405000253139.png) |                                                              |                                                              | ![image-20230405005516883](./assets/image-20230405005516883.png) |                                                              |
+| Flowchart                      | ![image-20230405000253139](./assets/image-20230405000253139.png){ loading=lazy } |                                                              |                                                              | ![image-20230405005516883](./assets/image-20230405005516883.png){ loading=lazy } |                                                              |
 
 ## CSMA/CD
 
@@ -48,7 +48,7 @@ $$
 
 ## CSMA/CA
 
-![image-20230508093131452](./assets/image-20230508093131452.png)
+![image-20230508093131452](./assets/image-20230508093131452.png){ loading=lazy }
 
 $$
 \begin{aligned}
@@ -101,13 +101,13 @@ When a station wants to transmit data
 
 ### Flowchart
 
-![image-20230508093817691](./assets/image-20230508093817691.png)
+![image-20230508093817691](./assets/image-20230508093817691.png){ loading=lazy }
 
 ### Timeline Diagram
 
 |                       Vertical Format                        |                      Horizontal Format                       |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![DCF Timing Diagram Vertical](assets/dcf_timing_diagram_vertical.png) | ![DCF Timing Diagram Horizontal](assets/dcf_timing_diagram_horizontal.png) |
+| ![DCF Timing Diagram Vertical](assets/dcf_timing_diagram_vertical.png){ loading=lazy } | ![DCF Timing Diagram Horizontal](assets/dcf_timing_diagram_horizontal.png){ loading=lazy } |
 
 ## Wireless Channel Problems
 
@@ -116,4 +116,4 @@ When a station wants to transmit data
 | Description  | Two nodes hidden from each other transmit complete frames to base station |                                                              |
 | Disadvantage | Wasted bandwidth for long duration                           |                                                              |
 | Solution     | Small reservation packets: RTS+CTS<br/>Nodes track reservation interval with internal NAV |                                                              |
-| Diagram      | ![image-20230508094355240](./assets/image-20230508094355240.png) | ![image-20230508094520471](./assets/image-20230508094520471.png) |
+| Diagram      | ![image-20230508094355240](./assets/image-20230508094355240.png){ loading=lazy } | ![image-20230508094520471](./assets/image-20230508094520471.png){ loading=lazy } |

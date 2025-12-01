@@ -98,5 +98,5 @@ $$
 
 Example: Test effect of amount of gasoline additive on emissions
 
-![image-20240619222952725](assets/image-20240619222952725.png)
+![image-20240619222952725](assets/image-20240619222952725.png){ loading=lazy }
 

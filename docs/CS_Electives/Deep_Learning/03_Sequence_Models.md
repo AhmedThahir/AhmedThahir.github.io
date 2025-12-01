@@ -19,7 +19,7 @@ $$
 
 Predict next term in a sequence from a fixed number of previous terms using ‘delay taps’
 
-![image-20230527152137167](./../assets/image-20230527152137167.png)
+![image-20230527152137167](./../assets/image-20230527152137167.png){ loading=lazy }
 
 $$
 p(x_t | x_1, ..., x_{t−1}) = p\Big(x_t | f (x_1, ...x_{t−1}) \Big)
@@ -29,7 +29,7 @@ $$
 
 Assume that only a limited past upto time period $\tau$ affects the present value
 
-![image-20230527152738009](./../assets/image-20230527152738009.png)
+![image-20230527152738009](./../assets/image-20230527152738009.png){ loading=lazy }
 
 $$
 \begin{aligned}
@@ -44,7 +44,7 @@ We predict the next step and iterate.
 
 Generalized auto-regressive models with one/more layers of non-linear hidden units
 
-![image-20230527212100535](./../assets/image-20230527212100535.png)
+![image-20230527212100535](./../assets/image-20230527212100535.png){ loading=lazy }
 
 ## Memory Models
 
@@ -58,7 +58,7 @@ Hidden state has linear dynamics with Gaussian noise and produces the observatio
 
 A linearly transformed Gaussian is a Gaussian. So the distribution over the hidden state given the data so far is Gaussian. It can be computed using “Kalman filtering”.
 
-![image-20230527212804654](./../assets/image-20230527212804654.png)
+![image-20230527212804654](./../assets/image-20230527212804654.png){ loading=lazy }
 
 ### Hidden Markov Models (Stochastic)
 
@@ -68,7 +68,7 @@ Transitions between states are stochastic and controlled by a transition matrix.
 
 To predict the next output we need to infer the probability distribution over hidden states. HMMs have efficient algorithms for inference and learning.
 
-![image-20230527212747501](./../assets/image-20230527212747501.png)
+![image-20230527212747501](./../assets/image-20230527212747501.png){ loading=lazy }
 
 #### Limitations
 
@@ -106,6 +106,6 @@ $$
 
 ## Applications
 
-![image-20230527183140060](./../assets/image-20230527183140060.png)
+![image-20230527183140060](./../assets/image-20230527183140060.png){ loading=lazy }
 
 Named Entity Tagging is when we identify the entities in a input sequence. For eg: Kelly worked at Google; Kelly is a person and Google is an organization.

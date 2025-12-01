@@ -12,7 +12,7 @@ Protocol for connecting multiple computer systems to form a LAN, with protocols 
 
 ## Diagram
 
-![image-20230507214512103](./assets/image-20230507214512103.png)
+![image-20230507214512103](./assets/image-20230507214512103.png){ loading=lazy }
 
 ## Domains
 
@@ -21,7 +21,7 @@ Protocol for connecting multiple computer systems to form a LAN, with protocols 
 | Broadcast | Router Connection | No of switches connected to router          |                                                              |
 | Collision | Switch Connection | No of half-duplex links connected to switch | Collision occurs as switches are not as intelligent as routers |
 
-![image-20230507220223357](./assets/image-20230507220223357.png)
+![image-20230507220223357](./assets/image-20230507220223357.png){ loading=lazy }
 
 ## Topology
 
@@ -30,7 +30,7 @@ Protocol for connecting multiple computer systems to form a LAN, with protocols 
 |                       |                                                              |                   Active switch in center                    |
 | Collision domain      |              All nodes in same collision domain              |          Each spoke runs separate Ethernet protocol          |
 | Collisions Prevented? |                              ❌                               |                              ✅                               |
-|                       | ![image-20230507220133693](./assets/image-20230507220133693.png) | ![image-20230507220146839](./assets/image-20230507220146839.png) |
+|                       | ![image-20230507220133693](./assets/image-20230507220133693.png){ loading=lazy } | ![image-20230507220146839](./assets/image-20230507220146839.png){ loading=lazy } |
 
 ## Normal Ethernet Operation
 
@@ -40,7 +40,7 @@ Protocol for connecting multiple computer systems to form a LAN, with protocols 
 | Broadcast address (e.g. ARP packet) | Data sent to network layer |
 | Neither of the above                | Discard frame              |
 
-![image-20230507221540225](./assets/image-20230507221540225.png)
+![image-20230507221540225](./assets/image-20230507221540225.png){ loading=lazy }
 
 ## Types
 
@@ -62,7 +62,7 @@ Protocol for connecting multiple computer systems to form a LAN, with protocols 
 
 ## Steps of Routing to another LAN
 
-![image-20230507181137254](./assets/image-20230507181137254.png)
+![image-20230507181137254](./assets/image-20230507181137254.png){ loading=lazy }
 
 Assuming A has all the required addresses already, and wants to send a message to B via R.
 
@@ -128,7 +128,7 @@ Helps switch data from source to destination
 
 Works using the same self-learning process
 
-![image-20230507235201428](./assets/image-20230507235201428.png)
+![image-20230507235201428](./assets/image-20230507235201428.png){ loading=lazy }
 
 
 
@@ -172,14 +172,14 @@ VLAN helps overcome the following
 |---                | :-:                                                                       |
 |Details            | [Trunk Port](#trunk-Port) connected to router<br />Traffic isolation<br />something else |
 |No of usable ports | $n-1$<br />(Trunk port unusable)                                      |
-| Actual connections | ![image-20230508001126844](./assets/image-20230508001126844.png) |
-| Behaves as | ![image-20230508000746013](./assets/image-20230508000746013.png) |
+| Actual connections | ![image-20230508001126844](./assets/image-20230508001126844.png){ loading=lazy } |
+| Behaves as | ![image-20230508000746013](./assets/image-20230508000746013.png){ loading=lazy } |
 
 ### Trunk Port
 
 Carries frames between VLANS defined over multiple physical switches. Frames forwarded over multiple switches must carry VLAN ID info as well, and hence uses [IEEE 802.1Q Frame](#IEEE 802.1Q Frame).
 
-![image-20230508001548419](./assets/image-20230508001548419.png)
+![image-20230508001548419](./assets/image-20230508001548419.png){ loading=lazy }
 
 ## Ethernet/IEEE 802.1 Frame
 
@@ -199,7 +199,7 @@ All sizes shown in Bytes
 
 ### Example of multiple frames
 
-![ethernet frame](assets/ethernet_frame.svg)
+![ethernet frame](assets/ethernet_frame.svg){ loading=lazy }
 
 ### Receiver Address Type
 
@@ -222,7 +222,7 @@ Adds/removes additional header fields for frames forwarded between trunk ports
 |          |                                  |                   |                 |           2B            | 12bits VLAN ID field<br />3bits field like IP TOS |      |                | Recomputed CRC |
 |          |                                  |                   |                 |         81-100          |                                                   |      |                |                |
 
-![image-20230508002156540](./assets/image-20230508002156540.png)
+![image-20230508002156540](./assets/image-20230508002156540.png){ loading=lazy }
 
 ## VLAN Frame
 

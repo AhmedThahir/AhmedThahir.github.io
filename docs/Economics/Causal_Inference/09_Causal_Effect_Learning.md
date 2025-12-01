@@ -203,7 +203,7 @@ A set of variables $s^F$ satisfies the front-door criterion when
 
 3. $s^F$ is exogenous to $y$ conditional on $x$, ie conditioning on $x$ blocks all back-door paths from $s^F$ to $y$
 
-![](assets/front_door_adjustment.png)
+![](assets/front_door_adjustment.png){ loading=lazy }
 
 ```mermaid
 flowchart LR

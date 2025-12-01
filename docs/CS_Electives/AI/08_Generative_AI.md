@@ -62,9 +62,9 @@ By comparing predicted embeddings of query to embeddings in the vector store, we
 - Prepending the context: Most relevant chunks are served up as context
 - Answer generation
 
-![image-20240527161317627](./assets/image-20240527161317627.png)
+![image-20240527161317627](./assets/image-20240527161317627.png){ loading=lazy }
 
-![image-20240527161350830](./assets/image-20240527161350830.png)
+![image-20240527161350830](./assets/image-20240527161350830.png){ loading=lazy }
 
 ### Types of Questions
 

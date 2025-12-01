@@ -26,7 +26,7 @@ Based on this outcome, perform full experiment
     - Use non-robust summary statistics
 - Every data point fed to model should be iid observation
 
-![doe](assets/doe.svg)
+![doe](assets/doe.svg){ loading=lazy }
 
 ## Data Template
 

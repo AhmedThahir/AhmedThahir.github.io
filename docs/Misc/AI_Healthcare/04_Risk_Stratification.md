@@ -28,11 +28,11 @@ Goal is to reduce cost and improve patient outcomes
 
 ### APGAR Scoring system
 
-![image-20240527205115117](./assets/image-20240527205115117.png)
+![image-20240527205115117](./assets/image-20240527205115117.png){ loading=lazy }
 
 ## Framing for Supervised ML
 
-![image-20240528121918776](./assets/image-20240528121918776.png)
+![image-20240528121918776](./assets/image-20240528121918776.png){ loading=lazy }
 
 Why are gaps important? To avoid label leakage
 
@@ -65,9 +65,9 @@ Based on
 
 |                                    |                                                              |      |
 | ---------------------------------- | ------------------------------------------------------------ | ---- |
-| PPV<br />Positive Predictive Value | ![image-20240528131747756](./assets/image-20240528131747756.png) |      |
-| AUC-ROC                            | ![image-20240528140311254](./assets/image-20240528140311254.png)<br />![image-20240528141720876](./assets/image-20240528141720876.png) |      |
-| Calibration                        | ![image-20240528142006704](./assets/image-20240528142006704.png) |      |
+| PPV<br />Positive Predictive Value | ![image-20240528131747756](./assets/image-20240528131747756.png){ loading=lazy } |      |
+| AUC-ROC                            | ![image-20240528140311254](./assets/image-20240528140311254.png){ loading=lazy }<br />![image-20240528141720876](./assets/image-20240528141720876.png){ loading=lazy } |      |
+| Calibration                        | ![image-20240528142006704](./assets/image-20240528142006704.png){ loading=lazy } |      |
 
 ## Intervention-Tainted Outcomes
 
@@ -82,7 +82,7 @@ Observation: Group A dies less often than group B
 
 ### Discussion
 
-![image-20240528150537120](./assets/image-20240528150537120.png)
+![image-20240528150537120](./assets/image-20240528150537120.png){ loading=lazy }
 
 1. Reason group A dies less is due to more intensive care
 2. Long survival time may be due to treatment
@@ -103,13 +103,13 @@ Observation: Group A dies less often than group B
 1. Interpretable models are very important
 2. Causality modelling: Reframe question to “Will admission to ICU lower likelihood of death for patient”
 
-![image-20240528151233622](./assets/image-20240528151233622.png)
+![image-20240528151233622](./assets/image-20240528151233622.png){ loading=lazy }
 
 ## Deep Learning for Risk Stratification
 
 Not very big gains
 
-![image-20240528151532044](./assets/image-20240528151532044.png)
+![image-20240528151532044](./assets/image-20240528151532044.png){ loading=lazy }
 
 Baseline is L1-regularized Logistic Regression, with good structural features
 

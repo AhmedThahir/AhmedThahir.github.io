@@ -76,7 +76,7 @@ Minimal set of value(s) that captures the characteristics of large amounts of da
 |          | IRQ'                                  | corrects it to be comparable to standard deviation                                                                                                                                        | $0.7413 \times \text{IQR}$                                                                                                                                                                                                                                                                                                                 |                                             |                  |                                                                                |                                                                                                                                                                          |                              |                                                                                                                       |                                                                                                                    |
 |          | CV<br />Coefficient of Variation      |                                                                                                                                                                                           | $\dfrac{\sigma}{\mu}$                                                                                                                                                                                                                                                                                                                      |                                             |                  |                                                                                |                                                                                                                                                                          |                              |                                                                                                                       |                                                                                                                    |
 
-![image-20240214234851447](./assets/image-20240214234851447.png)
+![image-20240214234851447](./assets/image-20240214234851447.png){ loading=lazy }
 
 ### Standard Error of Statistic
 
@@ -97,7 +97,7 @@ $$
 | $0$      | Mode = Median = Mean |                   |
 | $<0$     | Mean < Median < Mode | Negatively Skewed |
 
-![image-20231203144850351](./assets/image-20231203144850351.png)
+![image-20231203144850351](./assets/image-20231203144850351.png){ loading=lazy }
 
 ### Moment
 

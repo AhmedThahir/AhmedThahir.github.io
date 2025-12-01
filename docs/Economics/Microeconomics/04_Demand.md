@@ -57,7 +57,7 @@ $$
 
 | Normal Good                                | Inferior Good                                            |
 | ------------------------------------------ | -------------------------------------------------------- |
-| ![](assets/demand_price_decomposition.png) | ![](assets/demand_price_decomposition_inferior_good.png) |
+| ![](assets/demand_price_decomposition.png){ loading=lazy } | ![](assets/demand_price_decomposition_inferior_good.png){ loading=lazy } |
 
 ## Graph Characteristics
 

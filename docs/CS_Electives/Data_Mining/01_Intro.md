@@ -29,7 +29,7 @@ Use code to finalize
 
 ## Data Professionals
 
-![img](./assets/data_professionals.jpg)
+![img](./assets/data_professionals.jpg){ loading=lazy }
 
 ## Decision-Making
 
@@ -81,9 +81,9 @@ Decision
 | Where    | Predictions originate in different departments                                                                                                                                                                                     |
 | How      |                                                                                                                                                                                                                                    |
 
-![image-20240529002700056](./assets/image-20240529002700056.png)
+![image-20240529002700056](./assets/image-20240529002700056.png){ loading=lazy }
 
-![image-20240529014446419](./assets/image-20240529014446419.png)
+![image-20240529014446419](./assets/image-20240529014446419.png){ loading=lazy }
 
 ## Fields Overview
 
@@ -92,9 +92,9 @@ Decision
 | Goal      | Descriptive | Predictive                                     | Prescriptive                        |
 | Decisions |             | Large scale repetitive<br />(with uncertainty) | Small scale<br />(with uncertainty) |
 
-![Data Roles](../assets/Data_Roles.svg)
+![Data Roles](../assets/Data_Roles.svg){ loading=lazy }
 
-![img](./../assets/overview_ai_ml_dl_ds.svg)
+![img](./../assets/overview_ai_ml_dl_ds.svg){ loading=lazy }
 
 ## Objectives
 

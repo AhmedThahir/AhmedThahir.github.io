@@ -6,7 +6,7 @@ Solves vanishing gradients issue of RNN
 
 Intuition: LSTM is to RNN what ResNet is to PlainNet
 
-![](assets/lstm_intuition.png)
+![](assets/lstm_intuition.png){ loading=lazy }
 
 ## Gates
 
@@ -16,7 +16,7 @@ Intuition: LSTM is to RNN what ResNet is to PlainNet
 | Input  | Control whether to add new info to memory             |                                                                                                                         |
 | Output | Control effect of hidden state on output              |                                                                                                                         |
 
-![image-20230527181242134](./../assets/image-20230527181242134.png)
+![image-20230527181242134](./../assets/image-20230527181242134.png){ loading=lazy }
 
 $$
 \begin{aligned}

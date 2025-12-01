@@ -1,15 +1,15 @@
 - Encoder processes inputs
 - Decoder generates outputs
 
-![image-20230527225235767](./../assets/image-20230527225235767.png)
+![image-20230527225235767](./../assets/image-20230527225235767.png){ loading=lazy }
 
-![image-20230529222625107](./../assets/image-20230529222625107.png)
+![image-20230529222625107](./../assets/image-20230529222625107.png){ loading=lazy }
 
 ## Seq2Seq
 
 Used for language translation
 
-![image-20230527225342777](./../assets/image-20230527225342777.png)
+![image-20230527225342777](./../assets/image-20230527225342777.png){ loading=lazy }
 
 ### Encoder
 
@@ -38,9 +38,9 @@ Let
 | Exhaustive       | Compute probability for every possible sequence<br />Pick the best sequence | $O(n^T)$<br />❌ computationally infeasible |
 | Beam             | We keep the best $k$ (beam size) candidates for each time<br />Examine $kn$ sequences by adding new item to a candidate, and then keep the top-$k$ ones<br />Final score of each candidate<br />$= \frac{1}{L_\alpha} \log P(y_1, \dots, y_L)$<br />$= \frac{1}{L_\alpha} \sum_{t=1}^L \log P(y_t | y_1, \dots, y_{t-1}, c)$<br />Often, $\alpha = 0.7$ | $O(knT)$                                   |
 
-![Greedy Search](./../assets/image-20230527225713642.png)
+![Greedy Search](./../assets/image-20230527225713642.png){ loading=lazy }
 
-![Beam Search](./../assets/image-20230527225932610.png)
+![Beam Search](./../assets/image-20230527225932610.png){ loading=lazy }
 
 ## Disadvantage
 

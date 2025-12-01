@@ -1,6 +1,6 @@
 # LCD Display
 
-![img](./assets/LCD_Base_bb_Schem.png)
+![img](./assets/LCD_Base_bb_Schem.png){ loading=lazy }
 
 ```cpp
 /*

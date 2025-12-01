@@ -2,7 +2,7 @@
 
 Dynamic & shared vision with team on where we are, where we’re going, how we’re going there
 
-![image-20231127000620762](assets/image-20231127000620762.png)
+![image-20231127000620762](assets/image-20231127000620762.png){ loading=lazy }
 
 ## Elements
 

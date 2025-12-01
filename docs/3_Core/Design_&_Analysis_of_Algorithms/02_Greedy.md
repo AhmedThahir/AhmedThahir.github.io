@@ -9,7 +9,7 @@ Refer [Discrete Structures](./../../2_Core/Discrete_Structures/05_Trees.md#prims
 
 I didn’t understand the code implementation
 
-![image-20230408181004635](./assets/image-20230408181004635.png)
+![image-20230408181004635](./assets/image-20230408181004635.png){ loading=lazy }
 
 ## Knapsack Problem
 

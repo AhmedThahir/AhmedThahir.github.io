@@ -58,7 +58,7 @@ mdco --> o[/Output/]
 | [Code<br />Optimization](06_Code_Optimization.md)            | Intermediate code                 | Improve code so that target code uses lesser resources       |
 | [Code<br />Generation](07_Code_Generation.md)                | Intermediate representation       | - Produces target language (machine/assembly code)<br/>- Choose registers & mem locations for vars in prog |
 
-![image-20230308181550420](assets/image-20230308181550420.png)
+![image-20230308181550420](assets/image-20230308181550420.png){ loading=lazy }
 
 ## Error Detection & Reporting
 

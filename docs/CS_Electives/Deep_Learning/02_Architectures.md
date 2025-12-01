@@ -19,7 +19,7 @@
 
 ## IDK
 
-![image-20240309214029828](./assets/image-20240309214029828.png)
+![image-20240309214029828](./assets/image-20240309214029828.png){ loading=lazy }
 
 ## Note
 

@@ -1,6 +1,6 @@
 # Spot Markets
 
-![image-20240408131209558](./assets/image-20240408131209558.png)
+![image-20240408131209558](./assets/image-20240408131209558.png){ loading=lazy }
 
 ## Bilateral Contracts
 
@@ -42,9 +42,9 @@ System operator is informed about trades that occur
 - Consumption orders are ranked in dec price order
 - Supply bids are ranked in inc price order
 
-![image-20240408132602922](./assets/image-20240408132602922.png)
+![image-20240408132602922](./assets/image-20240408132602922.png){ loading=lazy }
 
-![image-20240522095301733](./assets/image-20240522095301733.png)
+![image-20240522095301733](./assets/image-20240522095301733.png){ loading=lazy }
 
 ## Social Welfare
 
@@ -55,7 +55,7 @@ Equilibrium point is that which allows to maximize social welfare
 - Any buyer is to pay almost what they were ready to pay
 - Any seller will get at least what they were ready to sell for
 
-![image-20240408132650769](./assets/image-20240408132650769.png)
+![image-20240408132650769](./assets/image-20240408132650769.png){ loading=lazy }
 
 ## Market Clearing
 
@@ -138,7 +138,7 @@ Due to transmission constraints, the market has to be split and be treated as in
 - Submarkets have their own supply-demand equilibrium
 - Transmission-related offers: Extra (price-independent) consumption/generation offers representing the transmission from one zone to the next to be added
 
-![image-20240408140516023](./assets/image-20240408140516023.png)
+![image-20240408140516023](./assets/image-20240408140516023.png){ loading=lazy }
 
 ### Approach 2: Flow-based coupling
 
@@ -146,7 +146,7 @@ Instead of boldly splitting market, one could instead acknowledge how power flow
 
 This allows clearing a single market with geographically-differentiated prices
 
-![image-20240408140855528](./assets/image-20240408140855528.png)
+![image-20240408140855528](./assets/image-20240408140855528.png){ loading=lazy }
 
 ## Regulation & Support Schemes 
 
@@ -165,7 +165,7 @@ Types
 | ------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | Meaning                                          | Feed-in-tariff                                               | Fixed Feed-in-Premium                                        | Contract for difference/ Sliding Premium                     |
 | Implication                                      | Guaranteed price                                             | Fixed support regardless of market revenue                   | Compensation of difference between guaranteed price and market revenue |
-| Blue: Support revenue<br />Green: Market Revenue | ![image-20240408142003260](./assets/image-20240408142003260.png) | ![image-20240408142013848](./assets/image-20240408142013848.png) | ![image-20240408142024725](./assets/image-20240408142024725.png) |
+| Blue: Support revenue<br />Green: Market Revenue | ![image-20240408142003260](./assets/image-20240408142003260.png){ loading=lazy } | ![image-20240408142013848](./assets/image-20240408142013848.png){ loading=lazy } | ![image-20240408142024725](./assets/image-20240408142024725.png){ loading=lazy } |
 | Implication for producer                         |                                                              |                                                              | Just ensure you get scheduled<br />Bid as low as possible    |
 
 Safe policy to guarantee non-negative equilibrium prices: FIP or CfD at 0

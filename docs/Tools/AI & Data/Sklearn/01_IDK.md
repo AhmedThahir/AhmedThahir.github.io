@@ -400,7 +400,7 @@ plt.xlim(xx.min(), xx.max())
 plt.ylim(yy.min(), yy.max())
 ```
 
-![img](./assets/1*nsC6mgj-WhjZ7PN0TBcEkg.png)
+![img](./assets/1*nsC6mgj-WhjZ7PN0TBcEkg.png){ loading=lazy }
 
 ## SVM
 

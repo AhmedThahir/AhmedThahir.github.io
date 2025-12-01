@@ -14,7 +14,7 @@ Kernel Density Estimation
 
 Hyperparameter: Bandwidth $w$
 
-![image-20240711232203056](./assets/image-20240711232203056.png)
+![image-20240711232203056](./assets/image-20240711232203056.png){ loading=lazy }
 
 Histogram has $b$ bins of width $w$ at fixed positions
 
@@ -54,7 +54,7 @@ Interpretation
 - Exponential
 - Cosine
 
-![image-20240711231651850](./assets/image-20240711231651850.png)
+![image-20240711231651850](./assets/image-20240711231651850.png){ loading=lazy }
 
 ### Advantages
 

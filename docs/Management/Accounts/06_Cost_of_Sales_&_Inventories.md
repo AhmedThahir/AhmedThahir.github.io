@@ -73,4 +73,4 @@ Valuation of unsold inventory stock when preparing financial statements
 |  LIFO<br />(Last In, First Out)  | Items bought last sold first  |            ❌             |                                                              |
 | WAC<br />(Weighted Average Cost) |                               |            ✅             | $\dfrac{\sum \text{Count}_i \times \text{Rate}_i}{\text{Total Count}}$ |
 
-![Inventory valuation by FIFO, LIFO and WAC method](assets/inventory_costing.png)
+![Inventory valuation by FIFO, LIFO and WAC method](assets/inventory_costing.png){ loading=lazy }

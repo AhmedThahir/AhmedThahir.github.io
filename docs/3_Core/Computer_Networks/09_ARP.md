@@ -35,9 +35,9 @@ Each IP node on LAN has ARP table, which contains
 
 Destination address of the frame will be all 1s, as this will be broadcast
 
-![image-20230507175638108](./assets/image-20230507175638108.png)
+![image-20230507175638108](./assets/image-20230507175638108.png){ loading=lazy }
 
-![ARP Packet](./assets/Arp_Packet.png)
+![ARP Packet](./assets/Arp_Packet.png){ loading=lazy }
 
 |                    | Meaning                                 | Value                                                        | Size                 |
 | ------------------ | --------------------------------------- | ------------------------------------------------------------ | -------------------- |

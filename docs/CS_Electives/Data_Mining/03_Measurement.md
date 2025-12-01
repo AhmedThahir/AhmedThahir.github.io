@@ -74,5 +74,5 @@ $$
 
 ## Replication
 
-![image-20240603130327028](./assets/image-20240603130327028.png)
+![image-20240603130327028](./assets/image-20240603130327028.png){ loading=lazy }
 

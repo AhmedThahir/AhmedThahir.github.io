@@ -86,7 +86,7 @@ Different sources of spread
 - CDS
 - Asset Swap Spreads
 
-![image-20240203170344866](assets/image-20240203170344866.png)
+![image-20240203170344866](assets/image-20240203170344866.png){ loading=lazy }
 
 Larger the credit spread, higher the probability of credit defaults
 
@@ -122,5 +122,5 @@ When designing your portfolio, you need to incorporate external factors and othe
 
     - $\implies$ Solving MLE
 
-![image-20240312132844107](assets/image-20240312132844107.png)
+![image-20240312132844107](assets/image-20240312132844107.png){ loading=lazy }
 

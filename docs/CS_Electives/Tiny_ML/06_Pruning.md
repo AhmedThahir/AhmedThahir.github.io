@@ -3,7 +3,7 @@
 1. Train ANN
 2. Remove $p \%$ of parameters with smallest magnitude
 
-![](assets/pruning.png)
+![](assets/pruning.png){ loading=lazy }
 
 ## Terms
 
@@ -22,7 +22,7 @@ $$
 
 ## Weight Distribution
 
-![image-20240509100837065](./assets/image-20240509100837065.png)
+![image-20240509100837065](./assets/image-20240509100837065.png){ loading=lazy }
 
 ## When
 
@@ -30,11 +30,11 @@ $$
 - During training
 - After training
 
-![image-20240511171828721](./assets/image-20240511171828721.png)
+![image-20240511171828721](./assets/image-20240511171828721.png){ loading=lazy }
 
 Pruning at initialization
 
-![image-20240511172923874](./assets/image-20240511172923874.png)
+![image-20240511172923874](./assets/image-20240511172923874.png){ loading=lazy }
 
 ## What
 
@@ -58,9 +58,9 @@ Solution for Layer collapse
 | Compression |                    | Better                                                       |
 | Limitation  |                    | May cause shape mismatch: no of channels not equal for inputs into future layer, thereby not allowing it |
 
-![image-20240509102441162](./assets/image-20240509102441162.png)
+![image-20240509102441162](./assets/image-20240509102441162.png){ loading=lazy }
 
-![image-20240509102711677](./assets/image-20240509102711677.png)
+![image-20240509102711677](./assets/image-20240509102711677.png){ loading=lazy }
 
 ## Encourage Sparsity
 
@@ -70,7 +70,7 @@ Add regularization penalty to weights
 - L2-norm
 - L$\infty$-norm
 
-![image-20240511165226959](./assets/image-20240511165226959.png)
+![image-20240511165226959](./assets/image-20240511165226959.png){ loading=lazy }
 
 ## Pruning Criteria
 
@@ -152,11 +152,11 @@ $$
 3. Retrain ANN: ‘Fine-tune’
 4. Repeat steps 2-3
 
-![image-20240509101353310](./assets/image-20240509101353310.png)
+![image-20240509101353310](./assets/image-20240509101353310.png){ loading=lazy }
 
 ### Weight distributions
 
-![image-20240509101449653](./assets/image-20240509101449653.png)
+![image-20240509101449653](./assets/image-20240509101449653.png){ loading=lazy }
 
 ## IDK
 

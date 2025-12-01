@@ -1,6 +1,6 @@
 # Program Evaluation
 
-![](assets/program_evaluation.png)
+![](assets/program_evaluation.png){ loading=lazy }
 
 Measuring the effect of a treatment
 - Data Science
@@ -32,9 +32,9 @@ Outcomes
 
 |               |                                 |                               |
 | ------------- | ------------------------------- | ----------------------------- |
-| Results Chain |                                 | ![](assets/results_chain.png) |
-| Impact Theory | How activities link to outcomes | ![](assets/impact.png)        |
-| Logic Model   |                                 | ![](assets/logic_model.png)   |
+| Results Chain |                                 | ![](assets/results_chain.png){ loading=lazy } |
+| Impact Theory | How activities link to outcomes | ![](assets/impact.png){ loading=lazy }        |
+| Logic Model   |                                 | ![](assets/logic_model.png){ loading=lazy }   |
 
 ## Types of Program Evaluation
 

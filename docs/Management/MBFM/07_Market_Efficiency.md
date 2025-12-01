@@ -17,7 +17,7 @@ No mis-pricings
 
 ## Reactions
 
-![image-20240401234857851](./assets/image-20240401234857851.png)
+![image-20240401234857851](./assets/image-20240401234857851.png){ loading=lazy }
 
 | Type           |         |
 | -------------- | ------- |

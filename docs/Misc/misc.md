@@ -56,7 +56,7 @@ Misc
 
 Audience transformation framework
 
-![image-20240313000540206](./assets/image-20240313000540206.png)
+![image-20240313000540206](./assets/image-20240313000540206.png){ loading=lazy }
 
 Presentation
 1. Big picture before details
@@ -73,4 +73,4 @@ Throughout
 
 ## Review Presentation
 
-![](assets/review_presentation.svg)
+![](assets/review_presentation.svg){ loading=lazy }

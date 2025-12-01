@@ -1,6 +1,6 @@
 # Knowledge Distillation
 
-![](assets/knowledge_distillation.png)
+![](assets/knowledge_distillation.png){ loading=lazy }
 
 Distill “knowledge” from large ANN to small ANN
 
@@ -14,7 +14,7 @@ Targets
   - Get using expert annotation
   - From a trained NN
 
-![image-20240516164935232](./assets/image-20240516164935232.png)
+![image-20240516164935232](./assets/image-20240516164935232.png){ loading=lazy }
 
 - Training
   - Use softmax with temperature, usually $T=5$ 
@@ -32,9 +32,9 @@ Teacher target can be from an ensemble of
 
 | Type                          |                                          |                                                              |
 | ----------------------------- | ---------------------------------------- | ------------------------------------------------------------ |
-| Offline                       | Pre-trained teacher network              | ![image-20240516171550952](./assets/image-20240516171550952.png) |
-| Collaborative/mutual learning | Teacher & student trained simultaneously | ![image-20240516171557459](./assets/image-20240516171557459.png) |
-| Self-distillation             | Eg: Progressive hierarchical inference   | ![image-20240516171459334](./assets/image-20240516171459334.png) |
+| Offline                       | Pre-trained teacher network              | ![image-20240516171550952](./assets/image-20240516171550952.png){ loading=lazy } |
+| Collaborative/mutual learning | Teacher & student trained simultaneously | ![image-20240516171557459](./assets/image-20240516171557459.png){ loading=lazy } |
+| Self-distillation             | Eg: Progressive hierarchical inference   | ![image-20240516171459334](./assets/image-20240516171459334.png){ loading=lazy } |
 
 ## Distillation Algorithms
 

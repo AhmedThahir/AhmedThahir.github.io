@@ -3,7 +3,7 @@
 
 ## Interchanges
 - Cloverleaf
-	- ![](assets/cloverleaf_interchange.png)
+	- ![](assets/cloverleaf_interchange.png){ loading=lazy }
 - Arterial
 ## Common traffic offences & accidents
 - Speeding

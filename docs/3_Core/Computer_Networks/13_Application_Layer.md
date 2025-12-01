@@ -11,7 +11,7 @@ A socket is one end of an inter-process communication channel.
 
 Many-to-One
 
-![image-20230531080409830](./assets/image-20230531080409830.png)
+![image-20230531080409830](./assets/image-20230531080409830.png){ loading=lazy }
 
 | Server                                                       | Client                                                       |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -30,7 +30,7 @@ Many-to-One
 
 Every node in the network acts alike
 
-![image-20230531080922328](./assets/image-20230531080922328.png)
+![image-20230531080922328](./assets/image-20230531080922328.png){ loading=lazy }
 
 ### Advantages
 
@@ -76,7 +76,7 @@ Used for Client-Server model
 
 ### Steps
 
-![image-20230531081340853](./assets/image-20230531081340853.png)
+![image-20230531081340853](./assets/image-20230531081340853.png){ loading=lazy }
 
 ### Types
 
@@ -85,31 +85,31 @@ Used for Client-Server model
 | Max no of objects sent over TCP connection     | 1                                                            | Multiple                                                     | Multiple                                                     |
 | Used in HTTP Version                           | HTTP/1.0                                                     |                                                              | HTTP/1.1                                                     |
 | Categories                                     |                                                              |                                                              |                                                              |
-| Steps                                          | ![image-20230531082217335](./assets/image-20230531082217335.png) | Server leaves connection open after sending response<br/>Subsequent HTTP messages  between same client/server sent over open connection<br />Client issues new request only when previous response has been received<br/>One RTT for each referenced object | Server leaves connection open after sending response<br/>Subsequent HTTP messages  between same client/server sent over open connection<br />Client sends requests as soon as it encounters a referenced object<br/>1 RTT for all referenced objects |
+| Steps                                          | ![image-20230531082217335](./assets/image-20230531082217335.png){ loading=lazy } | Server leaves connection open after sending response<br/>Subsequent HTTP messages  between same client/server sent over open connection<br />Client issues new request only when previous response has been received<br/>One RTT for each referenced object | Server leaves connection open after sending response<br/>Subsequent HTTP messages  between same client/server sent over open connection<br />Client sends requests as soon as it encounters a referenced object<br/>1 RTT for all referenced objects |
 | Total Response Time<br />($n =$ no of objects) | $n (2 \ \text{RTT} + \text{Transmit Time})$<br />- one RTT to initiate TCP connection<br/>- one RTT for HTTP request & first few bytes of HTTP response to return<br/>- file transmission time | $n (1 \ \text{RTT} + \text{Transmit Time})$                  | $1 \ \text{RTT} + n(\text{Transmit Time})$                   |
-| Disadvantages                                  | - requires 2 RTTs per object<br />- OS overhead for each TCP connection<br />- browsers often open parallel TCP connections to fetch referenced object | ![image-20230531083528283](./assets/image-20230531083528283.png) | ![image-20230531083555548](./assets/image-20230531083555548.png) |
+| Disadvantages                                  | - requires 2 RTTs per object<br />- OS overhead for each TCP connection<br />- browsers often open parallel TCP connections to fetch referenced object | ![image-20230531083528283](./assets/image-20230531083528283.png){ loading=lazy } | ![image-20230531083555548](./assets/image-20230531083555548.png){ loading=lazy } |
 
 | Non-Persistent & Non-Parallel                                | Non-Persistent & Parallel                                    |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![image-20230531082411779](./assets/image-20230531082411779.png) | ![image-20230531082730947](./assets/image-20230531082730947.png) |
+| ![image-20230531082411779](./assets/image-20230531082411779.png){ loading=lazy } | ![image-20230531082730947](./assets/image-20230531082730947.png){ loading=lazy } |
 
 ## HTTP Messages
 
 |         | HTTP Request                                                 | HTTP Response                                                |
 | ------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Format  | ![image-20230531083718069](./assets/image-20230531083718069.png) | ![image-20230531083738877](./assets/image-20230531083738877.png) |
-| Example | ![image-20230531083903322](./assets/image-20230531083903322.png) | ![image-20230531083908719](./assets/image-20230531083908719.png) |
+| Format  | ![image-20230531083718069](./assets/image-20230531083718069.png){ loading=lazy } | ![image-20230531083738877](./assets/image-20230531083738877.png){ loading=lazy } |
+| Example | ![image-20230531083903322](./assets/image-20230531083903322.png){ loading=lazy } | ![image-20230531083908719](./assets/image-20230531083908719.png){ loading=lazy } |
 
-![image-20230531083826765](./assets/image-20230531083826765.png)
+![image-20230531083826765](./assets/image-20230531083826765.png){ loading=lazy }
 
 ### Headers
 
-![image-20230531084050547](./assets/image-20230531084050547.png)
+![image-20230531084050547](./assets/image-20230531084050547.png){ loading=lazy }
 
 ### Responses
 
-![image-20230531084022375](./assets/image-20230531084022375.png)
+![image-20230531084022375](./assets/image-20230531084022375.png){ loading=lazy }
 
 ## HTTP Methods
 
-![image-20230531084007375](./assets/image-20230531084007375.png)
+![image-20230531084007375](./assets/image-20230531084007375.png){ loading=lazy }

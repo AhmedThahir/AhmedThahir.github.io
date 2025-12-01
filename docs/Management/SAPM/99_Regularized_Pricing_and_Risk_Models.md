@@ -131,7 +131,7 @@ where
 
 ## Pricing Model
 
-![image-20240225131906900](./assets/image-20240225131906900.png)
+![image-20240225131906900](./assets/image-20240225131906900.png){ loading=lazy }
 
 ## HJM Heath-Jarrow-Morton Model
 
@@ -150,7 +150,7 @@ where
 
 ## Regularized Volatility Surface
 
-![image-20240225132738320](./assets/image-20240225132738320.png)
+![image-20240225132738320](./assets/image-20240225132738320.png){ loading=lazy }
 
 ### Challenges
 

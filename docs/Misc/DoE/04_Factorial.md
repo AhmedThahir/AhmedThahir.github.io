@@ -12,8 +12,8 @@ Given nature of model, we can easily decide how to sample
 
 | Design                | Limitation                           |                                                              | No of measurements            |
 | --------------------- | ------------------------------------ | ------------------------------------------------------------ | ----------------------------- |
-| One at a time         | Cannot help investigate interactions | ![image-20240619224613425](assets/image-20240619224613425.png) |                               |
-| Full factorial design |                                      | ![image-20240619224642834](assets/image-20240619224642834.png) | $r \prod \limits_{i=1}^F l_i$ |
+| One at a time         | Cannot help investigate interactions | ![image-20240619224613425](assets/image-20240619224613425.png){ loading=lazy } |                               |
+| Full factorial design |                                      | ![image-20240619224642834](assets/image-20240619224642834.png){ loading=lazy } | $r \prod \limits_{i=1}^F l_i$ |
 
 ## Full Factorial Design
 
@@ -61,14 +61,14 @@ Choosing subset of full factorial design
 
 ### Half-Factorial design
 
-![image-20240619233147970](assets/image-20240619233147970.png)
+![image-20240619233147970](assets/image-20240619233147970.png){ loading=lazy }
 
 Limitation
 
 - Aliasing: some terms may get confounded by 2-factor interactions
   - Not all terms can be distinguished in 8 runs
 
-![image-20240619233626706](assets/image-20240619233626706.png)
+![image-20240619233626706](assets/image-20240619233626706.png){ loading=lazy }
 
 $(x_1 x_2 = x_3 x_4), (x_1 x_3 = x_2 x_4) \implies$ collinearity
 
@@ -76,7 +76,7 @@ $(x_1 x_2 = x_3 x_4), (x_1 x_3 = x_2 x_4) \implies$ collinearity
 
 If one of the factors proves to have no effect on the response, the $F$ factor half-factorial design collapses to a $k-1$ factor full-factorial design
 
-![image-20240619233914730](assets/image-20240619233914730.png)
+![image-20240619233914730](assets/image-20240619233914730.png){ loading=lazy }
 
 ## CCD
 
@@ -102,16 +102,16 @@ $$
 
 | Level | Type          |                                                              |
 | ----- | ------------- | ------------------------------------------------------------ |
-| 2     | Circumscribed | ![image-20240620131716879](assets/image-20240620131716879.png) |
-| 2     | Face-Centered | ![image-20240620131918123](assets/image-20240620131918123.png) |
-| 3     |               | ![image-20240620131946216](assets/image-20240620131946216.png) |
+| 2     | Circumscribed | ![image-20240620131716879](assets/image-20240620131716879.png){ loading=lazy } |
+| 2     | Face-Centered | ![image-20240620131918123](assets/image-20240620131918123.png){ loading=lazy } |
+| 3     |               | ![image-20240620131946216](assets/image-20240620131946216.png){ loading=lazy } |
 
 ## Box-Behnken Design
 
 1. Put a data point in the center
 2. Put a data point at midpoint each edge of process space
 
-![image-20240620132648301](assets/image-20240620132648301.png)
+![image-20240620132648301](assets/image-20240620132648301.png){ loading=lazy }
 
 ### Disadvantages
 
@@ -133,7 +133,7 @@ The number of repeated center points can be set to create “uniform precision�
 
 Steepest Ascent/Descent
 
-![image-20240620134344211](assets/image-20240620134344211.png)
+![image-20240620134344211](assets/image-20240620134344211.png){ loading=lazy }
 
 1. Start with factorial design (linear model) about current process (POR: Plan of Record)
    - In scaled coordinates, $(0, 0, \dots, 0)$ represents center point
@@ -177,7 +177,7 @@ x_j = \{ v/m \} \\
 v \in [0, m] \\
 \forall j \in F
 $$
-![image-20240620135619598](assets/image-20240620135619598.png)
+![image-20240620135619598](assets/image-20240620135619598.png){ loading=lazy }
 
 ## Taguchi Methods
 

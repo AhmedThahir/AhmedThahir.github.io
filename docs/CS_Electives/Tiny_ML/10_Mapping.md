@@ -8,7 +8,7 @@
 
 ## ML Compilation System
 
-![image-20240517125724799](./assets/image-20240517125724799.png)
+![image-20240517125724799](./assets/image-20240517125724799.png){ loading=lazy }
 
 ## Mapping onto Hardware
 
@@ -24,13 +24,13 @@ Compiler can re-order loops without changing functionality
 
 Compiler heuristics can model approximate effect on runtime and memory access
 
-Eg: 1D Convolution![image-20240517130356478](./assets/image-20240517130356478.png)
+Eg: 1D Convolution![image-20240517130356478](./assets/image-20240517130356478.png){ loading=lazy }
 
 |                   |                                                              |                                                              |
 | ----------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Weight stationary | ![image-20240517130411411](./assets/image-20240517130411411.png) | ![image-20240517130222461](./assets/image-20240517130222461.png) |
-| Output stationary | ![image-20240517130420951](./assets/image-20240517130420951.png) | ![image-20240517181309538](./assets/image-20240517181309538.png) |
-| Input stationary  | ![image-20240517130427409](./assets/image-20240517130427409.png) |                                                              |
+| Weight stationary | ![image-20240517130411411](./assets/image-20240517130411411.png){ loading=lazy } | ![image-20240517130222461](./assets/image-20240517130222461.png){ loading=lazy } |
+| Output stationary | ![image-20240517130420951](./assets/image-20240517130420951.png){ loading=lazy } | ![image-20240517181309538](./assets/image-20240517181309538.png){ loading=lazy } |
+| Input stationary  | ![image-20240517130427409](./assets/image-20240517130427409.png){ loading=lazy } |                                                              |
 
 ### Tiling
 
@@ -38,22 +38,22 @@ Choose tile size on which to operate, to fit data in various parts of memory sys
 
 Break a loop into nested loops, each of which can be mapped hierarchically onto memory system (DRAM, SRAM, Registers)
 
-![image-20240517181421139](./assets/image-20240517181421139.png)
+![image-20240517181421139](./assets/image-20240517181421139.png){ loading=lazy }
 
 Other names
 
 - CUDA: Thread Block
 - OpenCL: Work Group
 
-![image-20240517181840392](./assets/image-20240517181840392.png)
+![image-20240517181840392](./assets/image-20240517181840392.png){ loading=lazy }
 
 ### Vectorization
 
 Parallelize operations within smallest tile, to leverage hardware parallelism
 
-![image-20240517181854066](./assets/image-20240517181854066.png)
+![image-20240517181854066](./assets/image-20240517181854066.png){ loading=lazy }
 
-![image-20240517181953782](./assets/image-20240517181953782.png)
+![image-20240517181953782](./assets/image-20240517181953782.png){ loading=lazy }
 
 ### Binding
 
@@ -65,7 +65,7 @@ Applicable when no of PEs $\ne$ no of loop iterations
 
 ### Graph Compiler
 
-![image-20240517182236188](./assets/image-20240517182236188.png)
+![image-20240517182236188](./assets/image-20240517182236188.png){ loading=lazy }
 
 ### On-Chip buffer
 
@@ -77,9 +77,9 @@ Mem management passes:
 - Allocation: where to put data in buffer
 - Slicing/fusing: how to break/merge operations
 
-![image-20240517182505772](./assets/image-20240517182505772.png)
+![image-20240517182505772](./assets/image-20240517182505772.png){ loading=lazy }
 
-![image-20240517182602057](./assets/image-20240517182602057.png)
+![image-20240517182602057](./assets/image-20240517182602057.png){ loading=lazy }
 
 ## Mapping Space
 
@@ -101,4 +101,4 @@ As time progresses, for DLAs, compiler need not worry about loop nests/mapping d
 
 Operation fusion: Coarse-grained optimizations
 
-![image-20240517183119262](./assets/image-20240517183119262.png)
+![image-20240517183119262](./assets/image-20240517183119262.png){ loading=lazy }
