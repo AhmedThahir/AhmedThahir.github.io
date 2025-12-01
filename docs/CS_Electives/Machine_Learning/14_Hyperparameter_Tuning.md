@@ -2,15 +2,16 @@
 
 Sometimes better to do in log-space, rather than linear space
 
-|                |                                                                                                                    | Advantage | Disadvantage              |
-| -------------- | ------------------------------------------------------------------------------------------------------------------ | --------- | ------------------------- |
-| Manual         |                                                                                                                    |           | Time-Consuming            |
-| Grid Search    |                                                                                                                    |           | Computationally-expensive |
-| Random Search  |                                                                                                                    |           | Non-deterministic         |
-| Evolutionary   | Randomization, Natural Selection, Mutation                                                                         |           |                           |
-| Bayesian       | Probabilistic model of relationship b/w cost function and hyper-parameters, using information gathered from trials |           |                           |
-| Gradient-Based | Treat hyper parameter tuning like parameter fitting                                                                |           |                           |
-| Early-Stopping | Focus resources on settings that look promising<br />eg: Successive Halving                                        |           |                           |
+| Type                     |                                                                                                                    | Advantage | Disadvantage              |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------ | --------- | ------------------------- |
+| Manual                   | ???                                                                                                                |           | Time-Consuming            |
+| Grid Search              |                                                                                                                    |           | Computationally-expensive |
+| Random Search            |                                                                                                                    |           | Non-deterministic         |
+| Latin Hypercube Sampling | Similar to Random Search, but ensures that same regions don't get explored more than once                          |           |                           |
+| Evolutionary             | Randomization, Natural Selection, Mutation                                                                         |           |                           |
+| Bayesian                 | Probabilistic model of relationship b/w cost function and hyper-parameters, using information gathered from trials |           |                           |
+| Gradient-Based           | Treat hyper parameter tuning like parameter fitting                                                                |           |                           |
+| Early-Stopping           | Focus resources on settings that look promising<br />eg: Successive Halving                                        |           |                           |
 
 ## Speed Up
 

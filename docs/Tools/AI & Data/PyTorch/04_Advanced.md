@@ -505,6 +505,58 @@ gs = GridSearchCV(model, params, refit=False, scoring='r2', verbose=1, cv=10)
 gs.fit(X_trf, y_trf)
 ```
 
+####  Latin Hypercube Sampling
+
+```python
+from scipy.stats import qmc, norm, loguniform, randint, uniform
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import cross_val_score
+from joblib import Parallel, delayed
+import numpy as np
+
+# Example: param distributions
+param_distributions = {
+    # Use discrete loguniform for e.g. learning rate
+    'n_estimators': randint(50, 500+1),               # Discrete uniform integer
+    'max_depth': randint(2, 21),                      # Discrete uniform integer
+    'min_samples_split': randint(2, 11),              # Discrete uniform integer
+    # 'max_features': uniform(0.3, 0.7),              # Uniform float [0.3, 1.0] if wanted
+    # 'reg_param': loguniform(1e-5, 1e-2)             # Log-uniform float if wanted
+}
+param_names = list(param_distributions.keys())
+n_samples = 20
+d = len(param_names)
+
+sampler = qmc.LatinHypercube(d=d)
+lhs_samples = sampler.random(n=n_samples)
+
+# Transform LHS samples using inverse CDF ("ppf") for each distribution
+param_grid = []
+for row in lhs_samples:
+    params = {}
+    for i, name in enumerate(param_names):
+        dist = param_distributions[name]
+        val = dist.ppf(row[i])
+        # Ensure int if using a discrete distribution
+        if hasattr(dist, 'dist') and dist.dist.name == 'randint':
+            val = int(val)
+        params[name] = val
+    param_grid.append(params)
+
+# Vectorized model evaluation (same as before)
+def eval_model(params):
+    clf = RandomForestClassifier(**params)
+    scores = cross_val_score(clf, X, y, cv=3, scoring='accuracy')
+    return params, np.mean(scores)
+
+X, y = ...  # your data here
+
+results = Parallel(n_jobs=-1)(delayed(eval_model)(params) for params in param_grid)
+best_params, best_score = max(results, key=lambda x: x[1])
+print('Best params:', best_params)
+print('Best CV score:', best_score)
+```
+
 ## Batch Normalization
 
 Flawed
