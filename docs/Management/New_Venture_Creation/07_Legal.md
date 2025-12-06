@@ -1,4 +1,4 @@
-# Legal Issues
+# Legal
 
 ## Lifecycle
 

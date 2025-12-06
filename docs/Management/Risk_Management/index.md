@@ -26,3 +26,9 @@
 - [ ] [Consumer Credit Risk Management | Risky World](https://www.youtube.com/playlist?list=PLJfcnX7cpFDZY-q8B3N4DWIyIzLQyld5F)
 - [ ] [Risk-Based Engineering | IIT](https://www.youtube.com/playlist?list=PLOzRYVm0a65e_EaQQvpr49Vwc2xfDPMX6)
 - [ ] [FRM | FinRGB](https://www.youtube.com/playlist?list=PLLR-zVgpbvsWpBqFzpP3hHrwHHe4QzQDp)
+- [ ] [Quantitative Risk Management | The Logic of Risk](https://www.youtube.com/playlist?list=PLgCR5H4IzggHyHw8dalrVHqHAqZfmTeWa)
+- [ ] [Credit Risk Modelling | Roman Davydov](https://www.youtube.com/playlist?list=PLURgo54jrCIZV4RDEcvkddjkxf4elfkk1)
+- [ ] [Futures and Options Markets: An Introduction | UC Davis](https://www.youtube.com/playlist?list=PLURgo54jrCIbANNmhTGD9R0V_q0w7jX1J)
+- [ ] Luis Seco | University of Toronto 
+	- [ ] [Financial Climate Risk Management](https://www.youtube.com/playlist?list=PLZqGKBeV8wtaPliHkYHxe-1VdIB4FGBoG)
+	- [ ] [Mathematics for Sustainability](https://www.youtube.com/playlist?list=PLZqGKBeV8wtaMDw085JJZ-q01RDjM4c64)

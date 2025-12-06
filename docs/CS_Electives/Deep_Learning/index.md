@@ -17,7 +17,9 @@
 - [ ] [Deep Learning Systems: Algorithms and Implementation | CMU](https://www.youtube.com/@deeplearningsystemscourse1116/videos)
 - [ ] Stanford
   - [ ] [Deep Learning Coursera | Andrew Ng](https://www.coursera.org/specializations/deep-learning)
-  - [ ] [Deep Learning | Stanford CS230](https://www.youtube.com/playlist?list=PLoROMvodv4rOABXSygHTsbvUz4G_YQhOb)
+  - [ ] Deep Learning | Stanford CS230
+	  - [ ] [2025](https://www.youtube.com/playlist?list=PLoROMvodv4rNRRGdS0rBbXOUGA0wjdh1X)
+	  - [ ] [2018](https://www.youtube.com/playlist?list=PLoROMvodv4rOABXSygHTsbvUz4G_YQhOb)
 - [ ] [Deep Learning | VU University Amsterdam](https://www.youtube.com/@dlvu6202/playlists)
 - [ ] [Maziar Raissi | Applied Deep Learning](https://www.youtube.com/playlist?list=PLoEMreTa9CNmuxQeIKWaz7AVFd_ZeAcy4)
 - [ ] [Applied Deep Learning 2023 | TU Wien](https://www.youtube.com/playlist?list=PLNsFwZQ_pkE87JO3T_mvedVTlw0sjUzKh)
@@ -60,3 +62,5 @@
 - [ ] [Deep Learning | UC Berkeley](https://www.youtube.com/playlist?list=PL_iWQOsE6TfVmKkQHucjPAoRtIJYt8a5A)
 - [ ] [Local Explanations for Deep Learning Models | University of Utah](https://www.youtube.com/playlist?list=PLbuogVdPnkCoto690B1eTReTznuSC9qYX)
 - [ ] [Deep Learning | Deepmind x UCL](https://www.youtube.com/playlist?list=PLqYmG7hTraZCDxZ44o4p3N5Anz3lLRVZF)
+- [ ] [Explainable AI | DeepFindr](https://www.youtube.com/playlist?list=PLV8yxwGOxvvovp-j6ztxhF3QcKXT6vORU)
+- [ ] [MIT 15.773 Hands-On Deep Learning Spring 2024](https://www.youtube.com/playlist?list=PLUl4u3cNGP60YyhMjYmXuVmX562QcClSp)

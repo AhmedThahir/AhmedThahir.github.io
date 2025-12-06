@@ -4,13 +4,15 @@
   <img src="./assets/header_img.jpg" style="object-fit:cover; max-height:100%; width:100%;" loading="eager">
 </div>
 
-Hi, I'm Thahir - I work with Data & Machine Learning to identify patterns, drive decisions and improve products.
+Hi, I'm Thahir - I work with Data & Machine Learning to identify patterns, drive decisions and improve products, currently exporing Trustworthy AI.
 
-Over the last 2 years, I've worked in airlines, FMCG, and e-commerce - excelling at balancing algorithmic metrics and business objectives at both regional and global markets. Currently at Delivery Hero talabat as an Associate Analyst. The tools I primarily work with are:
+Over the last 2 years, I've worked in airlines, FMCG, and e-commerce - excelling at balancing algorithmic metrics and business objectives at both regional and global markets.
+
+The tools I primarily work with are:
 
 - Analytics: Python, SQL, PowerBI, Tableau
-- ML: Scikit-learn, PyTorch
-- Excel, PowerPoint
+- Machine Learning: Scikit-learn, PyTorch
+- Excel/Google Sheets, PowerPoint/Google Slides
 
 ## About this repo
 

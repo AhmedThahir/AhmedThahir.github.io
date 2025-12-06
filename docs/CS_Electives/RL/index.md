@@ -2,6 +2,8 @@
 
 ## References
 
+- [ ] [Reinforcement Learning I Stanford CS234](https://www.youtube.com/playlist?list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX) 
+- [ ] [Deep Reinforcement Learning | Stanford CS224R](https://www.youtube.com/playlist?list=PLoROMvodv4rPwxE0ONYRa_itZFdaKCylL)
 - [ ] [Reinforcement Learning | Deeplizard](https://www.youtube.com/playlist?list=PLZbbT5o_s2xoWNVdDudn51XM8lOuZ_Njv)
 - [ ] [Deep Reinforcement Learning For Finance 101 | Bam Tungom](https://www.youtube.com/playlist?list=PLteU7T-mAKJseMlYsyU3aEckIfUxfbgqK)
 - [ ] [Reinforcement Learning by the book | Mutual Information](https://www.youtube.com/playlist?list=PLzvYlJMoZ02Dxtwe-MmH4nOB5jYlMGBjr)
@@ -13,3 +15,6 @@
 - [ ] [Foundations of Reinforcement Learning | Princeton](https://www.youtube.com/playlist?list=PLYXvCE1En13epbogBmgafC_Yyyk9oQogl)
 - [ ] [Reinforcement Learning | Abhishek Gupta](https://www.youtube.com/playlist?list=PL_Nk3YvgORJs1tCLQnlnSRsOJArj_cP9u)
 - [ ] [Reinforcement Learning | University of Alberta](https://www.coursera.org/specializations/reinforcement-learning)
+- [ ] [Reinforcement Learning for Control | KFUPM](https://www.youtube.com/playlist?list=PLb8_wslIEVLM3s2AOre_aclj9vDf9T_FK)
+- [ ] [Reinforcement Learning and Applications to Generative AI | Abhishek Gupta](https://www.youtube.com/playlist?list=PL_Nk3YvgORJvTclSyu9fjHqlJiqpK-BQI)
+- [ ] [Reinforcement Learning in Python | Roman Davydov](https://www.youtube.com/playlist?list=PLURgo54jrCIa2ZzGup1IxDhyFSMMP65s2)

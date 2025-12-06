@@ -74,3 +74,7 @@ Throughout
 ## Review Presentation
 
 ![](assets/review_presentation.svg){ loading=lazy }
+
+## References
+
+- [ ] [Lessons in Communication | Stanford Graduate School of Business](https://www.youtube.com/playlist?list=PLxq_lXOUlvQA3QmMA51Dtb1zR-qd-YVx9)

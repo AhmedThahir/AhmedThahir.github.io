@@ -15,7 +15,9 @@ Suitable for
 - Store of value
 - Expected future earnings
 
-## GEIC Model
+## Frameworks
+
+### GEIC
 
 - **G**lobal economy
 - Domestic **e**conomy
@@ -35,7 +37,7 @@ end
 ee --> Company --> Performance --> v[Value<br/>of share]
 ```
 
-## Global Economy
+#### Global Economy
 
 - Prospects for Exports
 - Price competition
@@ -47,7 +49,7 @@ ee --> Company --> Performance --> v[Value<br/>of share]
 
 Stronger globalization and international collaboration, higher the importance of monitoring global economy. Eg: sub-prime crisis
 
-## Economy
+#### Local Economy
 
 Shocks: Change in macro-economic vars provide a force that goes against inertia inherent in the performance of firms, and hence the share prices
 
@@ -57,7 +59,48 @@ Types of shocks
 - Demand
 - Financial market
 
-Do a matrix of PESTEL Factors with SWOT
+
+#### Industry
+
+An industry is set of companies that serves a particular niche of consumers
+
+##### Industry Phase
+
+Identify which phase of the life cycle the industry belongs to
+
+| Phase                   |                                                 |
+| ----------------------- | ----------------------------------------------- |
+| Pioneering              | Trial phase<br />Potential to be commercialized |
+| Expansion               | Starting to be commercialized                   |
+| Stabilized/<br />Mature | Fully commercialized                            |
+| Decay                   | Being abandoned                                 |
+
+##### Structural Analysis
+
+Intensity of competition among firms in the same industry determines its profitability
+
+Porter’s 5 Forces Model
+
+- Competitive rivalry
+- Threat of entry: New supplier
+- Threat of substitution: New industry
+- Bargaining powers of consumers
+- Bargaining powers of suppliers
+
+#### Company
+
+- Quantitative: Financial
+- Qualitative: Non-Financial
+  - Quality of mgmt
+  - Product portfolio/range
+  - Collaborations
+  - Shareholders pattern and listing
+  - R&D, Innovation
+  - Diversification
+  - Does this company fall under strict Govt regulations
+  - Disputes & contingent liabilities
+  - Availability of inputs
+  - Industrial relations
 
 ### PESTEL
 
@@ -74,47 +117,21 @@ Do a matrix of PESTEL Factors with SWOT
 
 Strengths, Weaknesses, Opportunities, Threats
 
-## Industry
+### Combining
 
-An industry is set of companies that serves a particular niche of consumers
+Matrix of all frameworks
 
-### Industry Phase
-
-Identify which phase of the life cycle the industry belongs to
-
-| Phase                   |                                                 |
-| ----------------------- | ----------------------------------------------- |
-| Pioneering              | Trial phase<br />Potential to be commercialized |
-| Expansion               | Starting to be commercialized                   |
-| Stabilized/<br />Mature | Fully commercialized                            |
-| Decay                   | Being abandoned                                 |
-
-### Structural Analysis
-
-Intensity of competition among firms in the same industry determines its profitability
-
-Porter’s 5 Forces Model
-
-- Competitive rivalry
-- Threat of entry: New supplier
-- Threat of substitution: New industry
-- Bargaining powers of consumers
-- Bargaining powers of suppliers
-
-## Company
-
-- Quantitative: Financial
-- Qualitative: Non-Financial
-  - Quality of mgmt
-  - Product portfolio/range
-  - Collaborations
-  - Shareholders pattern and listing
-  - R&D, Innovation
-  - Diversification
-  - Does this company fall under strict Govt regulations
-  - Disputes & contingent liabilities
-  - Availability of inputs
-  - Industrial relations
+|     |     | S   | W   | O   | T   |
+| --- | --- | --- | --- | --- | --- |
+| P   | G   |     |     |     |     |
+|     | E   |     |     |     |     |
+|     | I   |     |     |     |     |
+|     | C   |     |     |     |     |
+| E   | ... |     |     |     |     |
+| S   | ... |     |     |     |     |
+| T   | ... |     |     |     |     |
+| E   | ... |     |     |     |     |
+| L   | ... |     |     |     |     |
 
 ## Equity Valuation
 

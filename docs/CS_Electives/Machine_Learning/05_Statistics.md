@@ -318,7 +318,7 @@ eg: $r(x_1, x_2) = r(x_1, x_3) = 0$, but $r(x_1, x_2+x_3) \ne 0$
 - Measure coefficients in separate experiment (then fix those coefficients)
 - Regularization: Even for perfect multicollinearity, the ridge regression solution will always exist
 - PCA
-  - Separates the high SE of coefficients from multicollinearity into components with low SE and high SE; you’d only include the low SE components
-  - Helps identify unknown linear constraints
-  - Limitation: cannot help with non-linear relationship
-
+	- Separates the high SE of coefficients from multicollinearity into components with low SE and high SE; you’d only include the low SE components
+	- Helps identify unknown linear constraints
+	- Limitation: cannot help with non-linear relationship
+	

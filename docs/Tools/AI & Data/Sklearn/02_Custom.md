@@ -708,6 +708,151 @@ class PairwiseMutualInformation():
 matrix_similarity = PairwiseMutualInformation(normalized=True, n_jobs=-1, sample=0.10, random_state=0).fit_transform(df)
 ```
 
+
+---
+
+https://github.com/jmerilinna/education/blob/master/learning/associationmethodcomparison.ipynb
+
+```python
+# Install the necessary libraries
+!pip install -q matplotlib pandas scipy scikit-learn numpy dcor
+
+import matplotlib.pylab as plt
+import numpy as np
+import pandas as pd
+from scipy.spatial.distance import squareform
+from scipy.cluster.hierarchy import dendrogram, linkage
+from sklearn.feature_selection import mutual_info_regression
+import dcor
+
+def plot_dendrogram(correlation_matrix, ax, title='Dendrogram', min_distance=0.0, method='ward'):
+    """
+    Plot a dendrogram based on a correlation matrix using hierarchical clustering.
+    
+    Parameters:
+        correlation_matrix (pd.DataFrame): Correlation matrix with numerical values.
+        ax (matplotlib.axes.Axes): Axis to plot the dendrogram on.
+        title (str): Title for the dendrogram plot. Default is 'Dendrogram'.
+        min_distance (float): Minimum distance threshold to adjust the linkage distances.
+        method (str): Linkage method used for clustering. Default is 'ward'.
+    
+    Returns:
+        None
+    """
+    # Convert correlation to distance (1 - absolute correlation)
+    distance_matrix = 1 - correlation_matrix.abs()
+    
+    # Set diagonal elements to 0 (distance to self is 0)
+    np.fill_diagonal(distance_matrix.values, 0)
+
+    # Convert the distance matrix to condensed form
+    condensed_distances = squareform(distance_matrix)
+
+    # Perform hierarchical clustering
+    linkage_matrix = linkage(condensed_distances, method=method)
+
+    # Apply minimum distance threshold
+    linkage_matrix[:, 2] = np.maximum(linkage_matrix[:, 2], min_distance)
+
+    # Plot the dendrogram on the provided axis
+    dendro = dendrogram(linkage_matrix,
+                        labels=distance_matrix.columns,
+                        leaf_font_size=6,
+                        ax=ax)
+
+    # Annotate the dendrogram with distance values
+    for i, d in zip(dendro['icoord'], dendro['dcoord']):
+        ax.text((i[1] + i[2]) / 2, d[1], f'{d[1]:.2f}', va='center', ha='right', fontsize=8)
+
+    # Set plot title and labels
+    ax.set_title(title)
+    ax.set_xlabel("Features")
+    ax.set_ylabel("Distance")
+
+def distance_correlation_matrix(data):
+    """
+    Calculate the distance correlation between all pairs of columns in a pandas DataFrame.
+
+    Distance correlation is a measure of statistical dependence between two features.
+    It can detect both linear and non-linear relationships.
+
+    Parameters:
+        data (pd.DataFrame): Input data with numerical columns. Each column represents a feature.
+
+    Returns:
+        pd.DataFrame: A symmetric matrix of distance correlation scores for each pair of columns.
+                      The diagonal elements represent the distance correlation of a column with itself.
+    """
+    # Ensure input consists of numeric columns only
+    data = data.select_dtypes(include=[np.number])
+
+    n = data.shape[1]  # Number of features (columns)
+    columns = data.columns  # Column names
+    dc_matrix = np.zeros((n, n))  # Initialize the distance correlation matrix
+
+    # Compute distance correlation for each pair of features (i, j)
+    for i in range(n):
+        for j in range(i, n):  # Compute only the upper triangular part of the matrix
+            dc = dcor.distance_correlation(data.iloc[:, i], data.iloc[:, j])
+
+            # Fill the symmetric matrix with the computed distance correlation
+            dc_matrix[i, j] = dc
+            dc_matrix[j, i] = dc  # Matrix is symmetric
+
+    # Convert the matrix to a pandas DataFrame for readability
+    dc_df = pd.DataFrame(dc_matrix, index=columns, columns=columns)
+    return dc_df
+
+def mutual_information_matrix(data):
+    """
+    Calculate the normalized mutual information between all pairs of columns in a pandas DataFrame.
+
+    Mutual information measures the dependency between two features and can detect both linear
+    and non-linear monotonic relationships. The values are normalized to a range between 0 and 1.
+
+    Parameters:
+        data (pd.DataFrame): Input data with numerical columns. Each column represents a feature.
+
+    Returns:
+        pd.DataFrame: A symmetric matrix of normalized mutual information scores (range: 0 to 1).
+                      The diagonal elements represent the mutual information of a column with itself.
+    """
+    # Ensure input consists of numeric columns only
+    data = data.select_dtypes(include=[np.number])
+
+    n = data.shape[1]  # Number of features (columns)
+    columns = data.columns  # Column names
+    mi_matrix = np.zeros((n, n))  # Initialize the mutual information matrix
+
+    # Compute mutual information for each pair of features (i, j)
+    for i in range(n):
+        for j in range(i, n):  # Compute only the upper triangular part of the matrix
+            x = data.iloc[:, i].values.reshape(-1, 1)
+            y = data.iloc[:, j].values
+
+            if i == j:
+                # Self-mutual information (highest value for a single feature)
+                mi = mutual_info_regression(x, x.ravel())[0]
+            else:
+                # Compute mutual information between different features
+                mi = mutual_info_regression(x, y)[0]
+
+            # Fill the symmetric matrix with the computed mutual information
+            mi_matrix[i, j] = mi
+            mi_matrix[j, i] = mi  # Matrix is symmetric
+
+    # Convert the matrix to a pandas DataFrame for readability
+    mi_df = pd.DataFrame(mi_matrix, index=columns, columns=columns)
+
+    # Normalize the matrix so the diagonal values are 1 (self-correlation)
+    mi_df /= mi_df.max().max()
+
+    return mi_df
+```
+
+---
+
+
 ## Gradient Regularization
 
 ```python

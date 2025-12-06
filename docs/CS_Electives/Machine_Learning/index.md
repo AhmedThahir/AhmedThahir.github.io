@@ -14,6 +14,8 @@ The first few topics are common to all aspects of machine learning.
   - [ ] [Machine Learning | Gary Holness | Clark University](https://www.youtube.com/playlist?list=PLuflXFChe0K987J-pJP-bM7f78X1LzaZH)
   - [ ] [Machine Learning From Data | Uzma Mushtaque](https://www.youtube.com/playlist?list=PLV7MgHu4-vg27CxbsIGu_1x6nN0PQL7_N)
   - [ ] [Machine Learning From Data | Course Handbook](https://drive.google.com/file/d/1EnBy1z-XLF2LrjA2Z5HSWAKKPFSgOT31/view?usp=drive_link)
+- [ ] [Machine Learning from Human Preferences I Stanford CS329H](https://www.youtube.com/playlist?list=PLoROMvodv4rNm525zyAObP4al43WAifZz)
+- [ ] [Fundamentals of Machine Learning (FunML) | Georgia Tech ECE 4252/8803](https://www.youtube.com/playlist?list=PLjwdI67r6YoJptZGr0u4k7xmeHSaF-h6T)
 - [ ] Nando de Freitas
 	- [ ] [Undergraduate](https://www.youtube.com/playlist?list=PLE6Wd9FR--Ecf_5nCbnSQMHqORpiChfJf)
 	- [ ] [Graduate](https://www.youtube.com/playlist?list=PLE6Wd9FR--EdyJ5lbFl8UuGjecvVw66F6)
@@ -103,6 +105,13 @@ The first few topics are common to all aspects of machine learning.
 - [ ] [Seminar Data Science for Economics | Tilburg University](https://www.youtube.com/playlist?list=PLeVorc-oIi7RC80LwZ8velMCBub4K0SRv)
 - [ ] [Machine Learning | University of Utah](https://www.youtube.com/playlist?list=PLbuogVdPnkCr-ANNi5GZid3MvSkzm_wnM)
 - [ ] [Machine Learning | Tile Stats](https://www.youtube.com/@tilestats/playlists)
+- [ ] [Machine Learning | Emma Robinson](https://www.youtube.com/@emmarobinson8262/playlists)
+- [ ] [ML:UM - Machine Learning: Unsupervised Methods | Prof. Laurenz Wiskott](https://www.youtube.com/playlist?list=PLXSSzzVoCfsUgrb6v5wa2ahyfu-om8B8t)
+- [ ] Machine Learning | UniHeidelberg
+	- [ ] [2024](https://www.youtube.com/playlist?list=PLuRaSnb3n4kRb5wanJ_vx1pswmSgJl6sn) 
+	- [ ] [2019](https://www.youtube.com/playlist?list=PLuRaSnb3n4kTOLHk3a2ySNujmjan_AcZ1)
+	- [ ] [2012](https://www.youtube.com/playlist?list=PLuRaSnb3n4kRDZVU6wxPzGdx1CN12fn0w)
+	- [ ] [2011](https://www.youtube.com/playlist?list=PLE91541A982BEA7CD)
 - [ ] Blogs/Videos
 	- [ ] https://sarem-seitz.com/
 	- [ ] [Winning with Simple, even Linear, Models | Vincent Warmerdam](https://youtu.be/68ABAU_V8qI)

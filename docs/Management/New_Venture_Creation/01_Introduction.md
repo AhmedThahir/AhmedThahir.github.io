@@ -65,20 +65,14 @@ $$
 ## Market Segmentation
 
 1. Primary market research
-
-   - What problem
-
-   - What they think of idea
-
-   - Understand needs of customer
-     - Rational
-     - Emotional
-     - Social
-
+	- What problem
+	- What they think of idea
+	- Understand needs of customer
+		- Rational
+		- Emotional
+		- Social
 2. Limit to a few consumer segments
-
 3. Secondary research
-
 4. Select a Beachhead Market: market that can be captured easily, and also facilitates growth into other markets
 
 Do not trust online, always do your own research
@@ -97,3 +91,26 @@ Do not trust online, always do your own research
 ## What makes a business
 
 Until you have paying customers, you do not have a business
+
+## Startup to Scale
+
+```mermaid
+flowchart LR
+
+subgraph pmf[Product-Market Fit]
+direction LR
+
+img[Identify market gap] -->
+p[Understand problem] -->
+a[Initial acquisition] -->
+i[Improve] -->
+ret[Retention] -->
+v[Virality] -->
+rev[Revenue]
+
+ret --> i
+
+end
+
+rev --> Scale
+```

@@ -17,3 +17,4 @@ Taking DAA (Design & Analysis of Algorithms) course really helps
 - [ ] [How to build a career in AI | Andrew Ng](https://wordpress.deeplearning.ai/wp-content/uploads/2022/10/eBook-How-to-Build-a-Career-in-AI.pdf)
 - [ ] [Deep Multi-Task and Meta Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rNjRoawgt72BBNwL2V7doGI)
 - [ ] [Beyond Fairness: A Sociotechnical view of Machine Learning | Tübingen Machine Learning](https://www.youtube.com/playlist?list=PL05umP7R6ij2mpH-oHzBWlz8OCApvrawJ)
+- [ ] [Validation of Safety Critical Systems I Stanford](https://www.youtube.com/playlist?list=PLoROMvodv4rOq1LMLI8U7djzDb8--xpaC)

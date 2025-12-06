@@ -12,3 +12,5 @@
 - [ ] [Text Retrieval and Search Engines | UIUC](https://www.youtube.com/playlist?list=PLLssT5z_DsK8Jk8mpFc_RPzn2obhotfDO)
 - [ ] [NLP and Text Mining | TU Dortmund](https://www.youtube.com/playlist?list=PLElvkFQko9beKKzWAugdDUbsi22CFfMT9)
 - [ ] [Text Mining | Orange Data Mining](https://www.youtube.com/playlist?list=PLmNPvQr9Tf-Yirm1aN3kHGnhMofrLmEy7)
+- [ ] [Language Modeling from Scratch I Stanford CS336](https://www.youtube.com/playlist?list=PLoROMvodv4rOY23Y0BoGoBGgQ1zmU_MT_)
+- [ ] [Natural Language Processing (NLP) | meanxai](https://www.youtube.com/playlist?list=PLgaemU2xZlTgTEqFcnqJTPJtAypuxOxcd)

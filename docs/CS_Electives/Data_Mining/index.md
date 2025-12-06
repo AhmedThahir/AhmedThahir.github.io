@@ -92,6 +92,11 @@ Kaggle, UCI ML repository
 - [ ] [Data Storytelling | Heather Krause](https://www.youtube.com/@heatherkrause8645/videos)
 - [ ] [Data analysis in Physics | Erik Rosolowsky](https://www.youtube.com/playlist?list=PLv6EAWh5ymY7z2xQtm30XIOwFFYgzhks3)
 - [ ] [Data Mining | University of Utah](https://www.youtube.com/playlist?list=PLbuogVdPnkCrgjzGF1HJD_onjmEksnmdr)
+- [ ] [Exploratory's Online Seminar | Kan Nishida](https://www.youtube.com/playlist?list=PLxM-q2GK4zu79mz7Cvbed1vLrhwYFEjtN)
+- [ ] [Data Visualization | Bing Wen Brunton](https://www.youtube.com/playlist?list=PLqgZEQsU_8E3Zfi3Y5wkR7XByuq4vKVm7)
+- [ ] Data Science | S. Mason Garrison
+	- [ ] [Data Science for Psychologists | S. Mason Garrison](https://www.youtube.com/playlist?list=PLKrrdtYgOUYYOxCIxkgh7LpJS-JMDuChC)
+	- [ ] [Psychological Testing](https://www.youtube.com/playlist?list=PLKrrdtYgOUYYgag4erySD7L0jDcZGMlS_)
 - [ ] Open Education Lab
 	- [ ] [Data Scientist's Toolbox](https://www.youtube.com/playlist?list=PLyborUeaVDjlsTtmhxSjMQeHK__brxT3t)
 	- [ ] [Getting and Cleaning Data](https://www.youtube.com/playlist?list=PLyborUeaVDjlBBJ_2JSMMWTjtEBtCTuUW)
