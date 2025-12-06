@@ -74,3 +74,8 @@
 - [ ] [Applied Econometric Analysis in Fisheries and Environmental Science | University of Washington](https://atsa-es.github.io/atsa)
 - [ ] [Forecasting for Supply Chain Planning | Nicolas Vandeput](https://youtu.be/wpjDBLkdjQ8)
 - [ ] [Supply Chain Lectures | Lokad](https://www.youtube.com/playlist?list=PLVPF96B7tFlp2re0zhkU2O0mchl8IrrNs)
+- [ ] [Forecasting for Data Scientists (FFDS) | Christoph Bergmeir](https://www.youtube.com/playlist?list=PLSpAVARuzDa2KlLPVynFc5uBZ0U_cXF6X)
+- [ ] [Supply Chain Analytics | IIT](https://www.youtube.com/playlist?list=PLnD8JdB5BhfQAqqcyN7fe0posEQX9rvwO)
+- [ ] Econometrics | Ivan Canay
+	- [ ] [480](https://www.youtube.com/playlist?list=PLU82dyBKN2bBD0jXEpXYLer8P3AahLXJa)
+	- [ ] [481](https://www.youtube.com/playlist?list=PLU82dyBKN2bCCd2O7cNeSz09XVqYB6u_S)
