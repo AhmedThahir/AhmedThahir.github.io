@@ -41,6 +41,7 @@
 	- [ ] [Part 2](https://www.youtube.com/playlist?list=PLliBbGBc5nn3tQiIBHFd-YvWK6dXb4ryr)
 - [ ] [Causal Inference | Leslie Myint](https://www.youtube.com/playlist?list=PLtjTgbI6JvXZ-rrZ9FOLG37IWwoyR1GcF)
 - [ ] [Causal Machine Learning | Tilburg University](https://www.youtube.com/playlist?list=PLeVorc-oIi7RC80LwZ8velMCBub4K0SRv)
+- [ ] [Causal Inference | AI, ML, SWE, Tech Expert](https://www.youtube.com/playlist?list=PLLFnyzDUVf86oJ9tRvaxQqjd71Azz3_AX)
 
 ## Current Video
 

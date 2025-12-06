@@ -37,7 +37,9 @@ Course will focus on investing, not on trading/speculationCourse is not going to
 
 ## References
 
-- [x] [MIT 18.S096 Topics in Mathematics w Applications in Finance](https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR)
+- [x] MIT 18.S096 Topics in Mathematics w Applications in Finance
+	- [ ] [2024](https://www.youtube.com/playlist?list=PLUl4u3cNGP601Q2jo-J_3raNCMMs6Jves)
+	- [ ] [2015](https://www.youtube.com/playlist?list=PLUl4u3cNGP63ctJIEC1UnZ0btsphnnoHR)
 - [ ] [Aswath Damodaran | Investment Philosophies](https://www.youtube.com/playlist?list=PLUkh9m2BorqlDJlnBXUaJaMRNE7UDckn6)
 - [ ] [ML in Finance| Hudson & Thames](https://www.youtube.com/@HudsonThamesResearch/playlists)
 - [ ] [Marcos Lopez de Prado Talks](https://www.youtube.com/playlist?list=PLGW3n6VnSnUR1dfPEHHusDnoRz1uyeLFf)
@@ -61,3 +63,8 @@ Course will focus on investing, not on trading/speculationCourse is not going to
 - [ ] [Global Asset Allocation and Stock Selection | Campbell Harvey](https://www.youtube.com/playlist?list=PLE1Vu6ctbqa59kJSTqpfd4_CBCqDbZGDa)
 - [ ] [Global Financial Management | Campbell Harvey](https://www.youtube.com/playlist?list=PLE1Vu6ctbqa4DFdBaE_wcbJgpA88i_1wJ)
 - [ ] [Global Tactical Assset Allocation | Campbell Harvey](https://www.youtube.com/playlist?list=PLE1Vu6ctbqa5clIWTe9Kb4SAVAdg5GIxJ)
+- [ ] [FinEngineering in Python | Roman Davydov](https://www.youtube.com/playlist?list=PLURgo54jrCIaQ-JzXvOWFZKEULJksDdbT)
+- [ ] Luis Seco | University of Toronto 
+	- [ ] [Basics of Finance and Information Management](https://www.youtube.com/playlist?list=PLZqGKBeV8wtYS64uzP0ADwt8CZID9RDho)
+	- [ ] [Introduction to Mathematical Finance](https://www.youtube.com/playlist?list=PLZqGKBeV8wtaL7KyvXodCQf2omHMHTkHg)
+	- [ ] [Quantitative Investments](https://www.youtube.com/playlist?list=PLZqGKBeV8wtaFwWI6iUlthJT7Jl9JbFLa)

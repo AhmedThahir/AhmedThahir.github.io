@@ -25,3 +25,7 @@ How to plan and execute a new venture
 - [ ] [Marketing Research | CMU](https://www.youtube.com/playlist?list=PLmXNcJ-VjBYpwk2UylXglwY1Vq6aYFz3B)
 - [ ] [Essentials of SaaS](https://www.youtube.com/playlist?list=PLZDZwPWTxRmERsB1gyJihZAtSxwbdvU_m)
 - [ ] [Business Fundamentals | IITB](https://www.youtube.com/playlist?list=PLOzRYVm0a65fe9_dKp8AzsmTgbImtX1DR)
+- [ ] [Startup School: The First 100 Days - Stanford CS183F - Spring 2017 | Stanford Online](https://www.youtube.com/playlist?list=PLoROMvodv4rNpMrTeeh-627Lajh6uSUgY)
+- [ ] [Digital Marketing & E-commerce Certificate | Google](https://www.youtube.com/playlist?list=PLTZYG7bZ1u6qDuyxKfDrvzJRFnjalX32r)
+- [ ] [Customer Journey Series | DunnSolutions](https://www.youtube.com/playlist?list=PLxtmPRxR2kD_tyjxCyWmebVY07t04cKEO)
+
