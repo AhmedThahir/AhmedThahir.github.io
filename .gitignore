@@ -12,4 +12,10 @@
 target/
 .build/
 .env/
-.obsidian
+
+
+# Obsidian
+docs/.obsidian/**/*.*
+!docs/.obsidian/snippets/*
+!docs/.obsidian/hotkeys.json
+!docs/.obsidian/app.json

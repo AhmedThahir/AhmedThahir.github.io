@@ -1,0 +1,4 @@
+/*- editor line width - fills entire editor -*/
+body {
+  --file-line-width: 100%;
+}
