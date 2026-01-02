@@ -36,6 +36,13 @@ td {
     white-space: nowrap;
 }
 
+tr:nth-child(odd) {
+    background-color: var(--md-default-bg-color);
+}
+tr:nth-child(even) {
+    background-color: var(--md-default-fg-color--lightest);
+}
+
 html
 {
     scroll-behavior: smooth !important;
