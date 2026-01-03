@@ -1,0 +1,41 @@
+#include <stdio.h>
+
+int main()
+{
+	float a, b, c;
+	printf("Number 1: ");	scanf("%f", &a);
+	printf("Number 2: ");	scanf("%f", &b);
+	
+	
+	char s;
+	printf("Enter + for addition \n - for subtraction \n * for multiplication\n / for division\n");
+	scanf(" %c", &s);
+
+	if( s == '+')
+	{
+		c = a+b;
+		printf("The sum is %.3f", c);
+	}
+	else if(s == '-')
+	{
+		c = a-b;
+		printf("The difference is %.3f", c);
+	}
+	else if(s == '*')
+	{
+		c = a*b;
+		printf("The product is %.3f", c);
+	}
+	else if(s == '/')
+	{
+		c = a/b;
+		printf("The quotient is %.3f", c);
+	}
+	else
+	{ 
+		printf("%f is an invalid option", s);
+	}
+	
+
+	return 0;
+}
