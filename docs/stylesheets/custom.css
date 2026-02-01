@@ -257,7 +257,6 @@ svg {
     flex-wrap: wrap;
     align-items: center;
     gap: .4rem 1rem;
-
     font-size: .7rem;
     line-height: 1.4;
     color: var(--md-default-fg-color--light, rgba(0, 0, 0, 0.6));
@@ -272,7 +271,6 @@ svg {
 
 .md-source-file__fact .md-icon {
     display: inline-flex;
-    width: 1rem;
     height: 1rem;
     color: currentColor;
     opacity: .9;
@@ -289,13 +287,10 @@ svg {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-
     border-radius: 999px;
     overflow: hidden;
-
     background: var(--md-default-bg-color, #fff);
     border: 2px solid var(--md-default-bg-color, #fff);
-
     text-decoration: none;
 }
 
