@@ -243,3 +243,70 @@ svg {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+/* CSS adapted from https://github.com/squidfunk/mkdocs-material */
+
+.md-source-file small {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.md-source-file__iconwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .4rem 1rem;
+
+    font-size: .7rem;
+    line-height: 1.4;
+    color: var(--md-default-fg-color--light, rgba(0, 0, 0, 0.6));
+}
+
+.md-source-file__fact {
+    display: inline-flex;
+    align-items: center;
+    gap: .35rem;
+    white-space: nowrap;
+}
+
+.md-source-file__fact .md-icon {
+    display: inline-flex;
+    width: 1rem;
+    height: 1rem;
+    color: currentColor;
+    opacity: .9;
+}
+
+.md-source-file__fact nav {
+    display: inline-flex;
+    align-items: center;
+}
+
+.md-source-file__fact nav .md-author {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 999px;
+    overflow: hidden;
+
+    background: var(--md-default-bg-color, #fff);
+    border: 2px solid var(--md-default-bg-color, #fff);
+
+    text-decoration: none;
+}
+
+.md-source-file__fact nav .md-author:not(:first-child) {
+    margin-left: -.35rem;
+}
+
+.md-source-file__fact nav .md-author img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 999px;
+}

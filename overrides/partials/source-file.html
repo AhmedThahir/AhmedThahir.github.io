@@ -11,11 +11,28 @@
 	{% endif %}
         {% if committers %}
             Contributors: 
-			{% for user in committers %}
-                {% if user.name != "web-flow" %}
-                    <a href="{{ user.url }}" data-bi-name="contributorprofile" target="_blank">{{ user.name }}</a>{% if not loop.last %}, {% endif %}
-                {% endif %}	
-			{% endfor %}
+            <div class="md-source-file__iconwrapper">
+                <span class="md-source-file__fact">
+                    <nav>
+                    {% for author in committers %}
+                        {% if author.name != "web-flow" %}
+                            <a
+                            href="{{ author.url }}"
+                            class="md-author"
+                            title="@{{ author.login }}"
+                            target="_blank"
+                            >
+                            {% set separator = "&" if "?" in author.avatar else "?" %}
+                            <img
+                                src="{{ author.avatar }}{{ separator }}size=72"
+                                alt="{{ author.name or 'GitHub user' }}"
+                            />
+                            </a>
+                        {% endif %}	
+                    {% endfor %}                
+                    </nav>
+                </span>
+            </div>
         {% endif %}
     </small>
 </div>
