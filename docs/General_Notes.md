@@ -16,6 +16,7 @@
 		- [ ] Organize and build systems
 		- [ ] How much is your time worth
 - [ ] Professional
+	- [ ] Perception is reality
 	- [ ] Interview
 		- [ ] Interview
 			- [ ] Be confident, not over-confident
