@@ -9,6 +9,14 @@ Involves
 - Summary Statistics
 - Visualization
 
+## Granularity
+
+|                | Signal     |
+| -------------- | ---------- |
+| Individual     | High noise |
+| Aggregates     | Low signal |
+| Sub-aggregates | Goldilocks |
+
 ## Summary Statistics
 
 Note: Statistics about the data $\ne$ data itself
