@@ -216,6 +216,9 @@ The grouping attribute must be displayed as well, otherwise it won’t make senc
 
 `count(*)` is the only aggregate function that does **not** ignore `null`, because some other fields might be filled. But, if there are only `null` values in the entire table, then even `count(*)` will return 0.
 
+Note:
+- `COUNT(*)` is the most-optimized and fastest way to count rows
+
 ### Predicate Order
 
 1. where (before grouping)
