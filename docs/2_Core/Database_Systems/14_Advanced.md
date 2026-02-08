@@ -13,6 +13,9 @@ WINDOW
 QUALIFY output > 1
 ```
 
+Note
+- Use `ORDER BY NULL)` if ordering does not matter
+
 3 types
 - Navigation function
 - Numbering function
@@ -39,12 +42,6 @@ SUM(gmv_amount_lc) OVER( PARTITION BY account_id ORDER BY order_id ROWS BETWEEN 
 - Correlated subquery
 - Except all
 
-### Aggregation
-
-- Grouping sets
-- Rollup
-- Cube
-
 ### Approx Functions
 
 - `APPROX_COUNT_DISTINCT`
@@ -54,25 +51,13 @@ SUM(gmv_amount_lc) OVER( PARTITION BY account_id ORDER BY order_id ROWS BETWEEN 
 
 - Fan-out?
 	- Ideally, all these should be equal
+		- `COUNT(*)`
 		- `COUNT(primary_key)`
 			- Use this for best readability, and check with the others
 		- `COUNT(DISTINCT primary_key)`
 		- `COUNT(1)`
-		- `COUNT(*)`
 - Numbers?
 	- Decompose binary outcomes into components and verify if they add up
-
-
-## De-Duplicating Data
-
-In order of performance
-
-- `QUALIFY`
-	- `QUALIFY ROW_NUMBER() OVER (PARTITION BY foi.order_id ORDER BY (SELECT NULL)) = 1`
-		- No need of `ORDER BY`
-- `GROUP BY` and `ANY_VALUE`
-- `GROUP BY ALL`
-- `DISTINCT`
 
 ## Performance
 
@@ -100,3 +85,14 @@ Trade-off
 | Lower slot-time     |                 | ✅     |
 | Lower data reading  | ✅               |       |
 | Lower data shuffled | ✅               |       |
+
+## De-Duplicating Data
+
+In order of performance
+
+- `QUALIFY`
+	- `QUALIFY ROW_NUMBER() OVER (PARTITION BY foi.order_id ORDER BY NULL) = 1`
+		- No need of `ORDER BY`
+- `GROUP BY` and `ANY_VALUE`
+- `GROUP BY ALL`
+- `DISTINCT`
