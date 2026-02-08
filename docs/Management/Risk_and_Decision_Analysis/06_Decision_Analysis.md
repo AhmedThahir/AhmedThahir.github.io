@@ -68,10 +68,3 @@ Decision analysis helps overcome this
 Goal: Maximize expected value of outcomes
 
 For each set of alternatives, calculate expected value. Then choose alternative with maximum EV
-
-## Reflexivity of decisions
-
-Decision affects the system
-- Stock investing
-- No of road lanes
-- Metro train frequency
