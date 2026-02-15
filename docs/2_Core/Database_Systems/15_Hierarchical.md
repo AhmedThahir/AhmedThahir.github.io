@@ -56,7 +56,7 @@ SELECT
 	a.partner_name,
 	
 	-- metrics: overall non-additive, primary key
-	COUNT(*) AS order_count,
+	COUNT(a.order_id) AS order_count,
 	-- COUNT(DISTINCT a.order_id) AS order_count_distinct -- for validation
 	
 	-- metrics: overall non-additive, overall unique
