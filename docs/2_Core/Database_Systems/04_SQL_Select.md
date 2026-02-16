@@ -52,12 +52,15 @@ where Student.instructor = Teacher.name;
 for string operations
 
 ```mysql
-where name like "a%"; ## no character/any number of characters
-where name like "a_"; ## 1 character
+where name like "a%"; -- no character/any number of characters
+where name like "a_"; -- 1 character
 
-## we can create our own escape characters
-where name like "100\%" escape '\';
+-- we can create our own escape characters
+-- where name like "100\%" escape '\';
 where name like "100&%" escape '&';
+
+-- multiple conditions
+WHERE a.city LIKE ANY('%dub%', '%ras%')
 ```
 
 ### `having`

@@ -58,3 +58,16 @@ SELECT order_month, gmv_amount_lc FROM my_dataset.agg_table_after_2026
 WHERE order_month >= '2026-01-01' -- optimizer hint to avoid unnecessary scans at query time
 );
 ```
+## Map Tables
+
+```mysql
+SELECT
+	a.col,
+	b.col_to
+
+FROM base a
+LEFT JOIN map b
+  -- one of the below, according to complexity
+  ON a.col =                  b.col_from
+  ON LOWER(a.col) LIKE '%' || b.col_from || '%'
+```
