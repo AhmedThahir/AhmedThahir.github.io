@@ -1,0 +1,26 @@
+{
+  "name" : "Uni Notes",
+  "short_name" : "Thahir",
+  "description" : "Ahmed Thahir's Personal Blog",
+  "start_url" : "./",
+  "scope" : "/",
+  "display" : "standalone",
+  "lang" : "English",
+  "icons" : [
+      {
+        "src": "icons/logo-36.png",
+        "sizes": "36x36",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/logo-192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icons/logo-512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+  ]
+}
