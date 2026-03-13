@@ -15,6 +15,40 @@
 		- [ ] Is your time spent aligned with your goals
 		- [ ] Organize and build systems
 		- [ ] How much is your time worth
+- [ ] Finances
+	- [ ] Documentation
+		- [ ] Payslips
+		- [ ] Assets
+		- [ ] Income flows
+		- [ ] Expenses
+	- [ ] Bank
+		- [ ] Account Fees
+			- [ ] Opening fee
+			- [ ] Maintenance fee
+			- [ ] Minimum balance
+				- [ ] Penalty fee
+			- [ ] Minimum spend
+				- [ ] Penalty fee
+			- [ ] Interest
+			- [ ] Loans
+				- [ ] Penalty fee
+			- [ ] Closing fee
+		- [ ] Credentials
+			- [ ] Use non-trivial credentials
+			- [ ] Keep changing credentials regularly
+		- [ ] Credit card: Prefer whenever possible
+			- [ ] Always have 100% auto-debit, and ensure sufficient balance
+		- [ ] Debit card: Avoid whenever possible
+			- [ ] Keep locked unless when required
+			- [ ] Put maximum restrictions on debit card, which requires atleast 3-4 steps to be able to use it, this is to fend off any fraud
+		- [ ] Global money account
+			- [ ] Keep locked throughout, only use whenever possible
+	- [ ] Investing
+		- [ ] [Portfolios](Management/SAPM/06_Portfolio.md#Benchmark)
+- [ ] Emails
+	- [ ] Personal
+	- [ ] Professional
+	- [ ] Etc
 - [ ] Professional
 	- [ ] Perception is reality
 	- [ ] Interview

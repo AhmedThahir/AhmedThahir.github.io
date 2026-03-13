@@ -195,3 +195,17 @@ Idea
 	- Take a rolling correlation
 	- For every pair of security, the correlation is the highest correlation they ever had
 		- $r_{i,j} = \max \{ {r_{i, j}}_t \vert t \in [1, T] \}$
+
+Do not include correlation where both are positive
+
+- +ve, +ve, good
+	- Do not include this in correlation, as this is good
+	- Be careful
+		- If two assets are (+ve, +ve) during a bull market, they are almost certainly (+ve, +ve) during a crash
+- +ve, -ve, neutral
+- -ve, +ve, neutral
+- -ve, -ve, bad
+
+
+## Kelly Criterion
+

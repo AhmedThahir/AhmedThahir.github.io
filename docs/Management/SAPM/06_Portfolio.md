@@ -73,7 +73,22 @@ $$
 
 ## Benchmark
 
-- 60% Equity, 40% Bonds
+- S&P 500
+- 60-40
+	- 60% Equity
+	- 40% Bonds
+- Permanent Portfolio
+	- 25% Equity ETF
+		- Total Stock Market
+		- S&P 500
+	- 25% Long-Term Bonds ETF
+	- 25% Gold ETF
+	- 25% Cash
+		- ETF
+		- FX
+			- Bid-ask spread of each currency is different
+			- Only do FX during weekday market-open trading hours, else the rates will be poor
+	- 1 Year Emergency Cash
 
 ## India
 
