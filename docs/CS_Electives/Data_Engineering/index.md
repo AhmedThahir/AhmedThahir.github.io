@@ -2,6 +2,7 @@
 
 ## References
 
+- [ ] [Data engineering with Python the right way | Deepyaman Datta | PyData](https://youtu.be/_IW9IaYstcY)
 - [ ] Designing Data Intensive applications
 	- [ ] [Kunal Cholera](https://www.youtube.com/playlist?list=PL4KdJM8LzAMecwInbBK5GJ3Anz-ts75RQ)
 	- [ ]  [San Diego Machine Learning](https://www.youtube.com/playlist?list=PLmp4AHm0u1g0Adn8HwWIe-G_xTn_jqOvf)

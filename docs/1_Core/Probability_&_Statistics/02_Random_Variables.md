@@ -4,7 +4,7 @@
 
 |               | Can be produced by computers | Easy to implement |
 | ------------- | ---------------------------- | ----------------- |
-| Truly Random  | ❌                            |                   |
+| Truly Random  | ❌                            | ❌                 |
 | Quasi-Random  | ✅                            | ❌                 |
 | Pseudo-Random | ✅                            | ✅                 |
 
@@ -74,3 +74,8 @@ variance of the mean is
 $$
 {\sigma^2}' = \rho \sigma^2 + (1 - \rho)\dfrac{\sigma^2}{n}
 $$
+## Other
+
+- Zero-inflated/Hurdle distribution
+- Multi-modal distributions
+- Mixture of distributions

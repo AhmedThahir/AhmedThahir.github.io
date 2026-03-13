@@ -64,21 +64,11 @@ $$
 
 ## Risk
 
-Chance of actual
-return
-differing from expected
-return
+Chance of actual return differing from expected return
 
 Statistically quantified through variance/standard deviation of returns’ PDF
 
-## Types of Unknowns
-
-|                            | Systematic risk                    | Unsystematic risk                          | Uncertainty     |
-| -------------------------- | ---------------------------------- | ------------------------------------------ | --------------- |
-| Meaning                    | Sensitivity to market fluctuations | Personal factors                           | Unknown effects |
-| Type                       | External<br />Macro                | Internal<br />Micro                        | External        |
-| Minimizable                | ❌                                  | ✅<br />through diversification (portfolio) | ❌               |
-| Risk Compensation expected | ✅                                  | ✅                                          | ❌               |
+[01_Risk](../Risk_Management/01_Risk.md)
 
 $$
 \begin{aligned}
@@ -98,7 +88,6 @@ $$
 | Semi Deviation                 | $\sigma (\text{Loss}_p)$<br />$\text{Loss}_t = \arg \max(R_t, 0)$ |
 
 where $p=$ portfolio and $m=$ market
-
 ## Risk-Return Tradeoff
 
 - Investors are rational and risk-averse: prefer less risk investments

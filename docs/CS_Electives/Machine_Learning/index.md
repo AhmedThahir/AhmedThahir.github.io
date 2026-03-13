@@ -16,6 +16,7 @@ The first few topics are common to all aspects of machine learning.
   - [ ] [Machine Learning From Data | Course Handbook](https://drive.google.com/file/d/1EnBy1z-XLF2LrjA2Z5HSWAKKPFSgOT31/view?usp=drive_link)
 - [ ] [Machine Learning from Human Preferences I Stanford CS329H](https://www.youtube.com/playlist?list=PLoROMvodv4rNm525zyAObP4al43WAifZz)
 - [ ] [Fundamentals of Machine Learning (FunML) | Georgia Tech ECE 4252/8803](https://www.youtube.com/playlist?list=PLjwdI67r6YoJptZGr0u4k7xmeHSaF-h6T)
+- [ ] [Professor Rob J Hyndman: Ten years of forecast reconciliation](https://youtu.be/5jB09R-sKOc?si=9VamaP08sJd49l1V)
 - [ ] Nando de Freitas
 	- [ ] [Undergraduate](https://www.youtube.com/playlist?list=PLE6Wd9FR--Ecf_5nCbnSQMHqORpiChfJf)
 	- [ ] [Graduate](https://www.youtube.com/playlist?list=PLE6Wd9FR--EdyJ5lbFl8UuGjecvVw66F6)
