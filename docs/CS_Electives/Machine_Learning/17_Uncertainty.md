@@ -1,19 +1,6 @@
 # Uncertainty
 
-## Types of Uncertainty
-
-| <span style="display:inline-block; text-align:right">Others’ knowledge</span><br /><br />Our knowledge | Known                                                     | Unknown                                                                  |
-| ------------------------------------------------------------------------------------------------------ | --------------------------------------------------------- | ------------------------------------------------------------------------ |
-| Known                                                                                                  | Things we are certain of                                  | We know there are things we can’t predict<br />eg: Random Process        |
-| Unknown                                                                                                | Others know but you don’t know<br />eg: Insufficient data | Completely unexpected/unforeseeable events<br />eg: Unknown distribution |
-
-|                                      | Epistemic                                           | Aleatoric                                      |
-| ------------------------------------ | --------------------------------------------------- | ---------------------------------------------- |
-| Uncertainty in                       | Model                                               | Data                                           |
-| Cause                                | - Model misspecification<br>- Missing training data | - Measurement errors<br>- Process random noise |
-| Reducible through more training data | ✅                                                   | ❌                                              |
-| Can be learnt by model???            | ❌                                                   | ✅                                              |
-
+[01_Risk](../../Management/Risk_Management/01_Risk.md)
 ## Uncertainty Quantification Methods
 
 |                                | Concept                          | Assumption                                                                                            | Works for non-linear | Limitations                                                                                                                                                     |

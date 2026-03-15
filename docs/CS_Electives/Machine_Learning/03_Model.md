@@ -64,28 +64,28 @@ si -->
 
 ## Desired Properties
 
-- Unbiased: Mean of residuals = 0
-- Efficient: Variance of residuals and learnt parameters is min
-- Maximum likelihood $P(D, \theta)$
-- Robust
-- Consistent: $n \to \infty \implies E[u_i] \to 0$
-
-Attributes of probabilistic forecast quality
-
-1. Reliable: probabilistic calibration
-   1. For quantile forecasts with level $\alpha$, observations $y_{t+k}$ should be less than $\hat y_{t+k}$ $\alpha$ times
-   2. For interval forecasts with coverage $p$, observations $y_{t+k}$ should be within the interval $p$ times
-   3. For predictive densities composed of $m+1$ quantile forecasts with nominal levels $\alpha_0, \alpha_1, \dots, \alpha_m$, all these quantile forecasts are evaluated individually using the above
-   4. Q-Q Plots
-2. Sharp: informative
-   1. Concentration of probability: how tight the predictive densities are
-   2. Perfect probabilistic forecast gives a probability of 100% on a single value
-   4. CRPS
-      1. Average of each predictive density and corresponding observation
-      2. $\text{CRPS}_{t, h} = \int_y \ \Big( \hat F_{t+h \vert t} - 1(y_{t+h} \le y) \Big)^2 \ \cdot dy$
-      3. $\text{CRPS}_h = \text{avg}(\text{CRPS}_{t, h})$
-3. Skilled
-4. High resolution
+- Common
+	- Unbiased: $E[u_i]=0$
+		- Mean of residuals = 0
+	- Efficiency: $V[u_i]=0; V[\beta_j]=0$
+		- Variance of residuals and learnt parameters is min
+	- Maximum likelihood: $P(D, \theta)$
+	- Robustness
+	- Consistency: $n \to \infty \implies \hat f \to f$
+- Probabilistic
+	- Validity/Reliability/Calibration
+		- For quantile forecasts with level $\alpha$, observations $y_{t+k}$ should be less than $\hat y_{t+k}$ $\alpha$ times
+		- For interval forecasts with coverage $p$, observations $y_{t+k}$ should be within the interval $p$ times
+		- For predictive densities composed of $m+1$ quantile forecasts with nominal levels $\alpha_0, \alpha_1, \dots, \alpha_m$, all these quantile forecasts are evaluated individually using the above
+		- Q-Q Plots
+	- Sharpness: informative
+		- Concentration of probability: how tight the predictive densities are
+		- Perfect probabilistic forecast gives a probability of 100% on a single value
+	- Skilled
+	- High resolution
+- Hierarchical
+	- Coherence
+		- Sum of additive metric from bottom-level = top-level
 
 ## Scope
 
@@ -284,14 +284,10 @@ Can be enforced through
 ### Examples
 
 1. Image classification
-
-   - Contains variability due to gender, eye color, hair color, pose, etc
-
-   - Unless these images are annotated, these factors of variation are not explicitly available
-
+	- Contains variability due to gender, eye color, hair color, pose, etc
+	- Unless these images are annotated, these factors of variation are not explicitly available
 2. Classification
-
-   1. Gaussian mixture models
+	- Gaussian mixture models
 
 ### Limitations
 
@@ -320,14 +316,6 @@ Not necessarily for least squares regression
 	- ⁠ function returns coefs
 	- ⁠ split coef into different cols
 
-## Hierarchical
-
-If there are multiple independent hierarchies, then run a model for each hierarchy
-- simple model for each hierarchy is better than one complex model for each group
-- especially useful for imbalanced hierarchies
-
-Complexity of atomic model for each hierarchy should be based on the amount of data available for that hierarchy
-- create a meta-estimator to conditionally apply a model
 
 ## Classification Threshold
 

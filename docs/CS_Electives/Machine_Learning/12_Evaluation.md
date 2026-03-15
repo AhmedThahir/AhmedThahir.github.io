@@ -137,6 +137,7 @@ $$
 A good regression metric
 - $\text{MAE} + \vert \text{MBE} \vert$, normalized by mean of series
 - $\text{MedAE} + \vert \text{MedBE} \vert$, normalized by median of series
+- $\text{RMSE} + \vert \text{RMSBE} \vert$, normalized by mean of series
 
 ### Probabilistic Evaluation
 
