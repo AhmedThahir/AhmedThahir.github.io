@@ -8,21 +8,6 @@
 	3. Users
 - Why are sessions usually preferable to hits?
 	- Hits may inflate/deflate the metrics, and may mislead the analysis
-
-
-
-- Define KPIs = key metrics
-	- If a KPI going up/down does not instigate any action, then it is useless
-- Have a Northstar KPI
-	- Best growth KPI:            Retained `MAU` `YOY`
-	- Best performance KPI: Total `GMV`
-- Decompose KPI into drivers to form a metric tree
-	- For eg:
-		- Total `GMV`
-			- = `# Orders` x `AOV`
-			- `# Orders`
-				- = `# Customers` x `Order Frequency`
-
 ## Frameworks
 
 - [Customer Funnel](#Customer%20Funnel)

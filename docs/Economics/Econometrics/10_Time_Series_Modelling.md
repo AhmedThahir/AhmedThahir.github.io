@@ -28,17 +28,16 @@ When doing any exploratory analysis, make sure to do in a time-series fashion
 |                | Unknown features                                                                                             | Known features such as time index, seasonal period length |
 | Limitations    | Temporal confounding<br>Prone to overfitting: Assumes that factors will affect in the same manner throughout |                                                           |
 
-### Temporal confounding
+### Temporal Lag Bias
 
-- Lagged value is a mediator and opens backdoor, resulting in learning spurious autocorrelation 
-- Makes learning of exogenous effects harder
-- Do not include unnecessary lag when you can model the underlying structure: Causal > Statistical
+Lagged value is a mediator and opens backdoor, resulting in learning spurious autocorrelation
 
 
 ```mermaid
-flowchart TB
+flowchart LR
 xt1["x_t-1"] -->
 yt1["y_t-1"]
+
 
 yt1 -.-> yt
 
@@ -46,7 +45,18 @@ xt1["x_t-1"] ---->
 yt["y_t"]
 ```
 
+
+- The Mediator Trap: If an exogenous variable $X_{t-1}$ affects $Y_{t-1}$, which then persists into $Y_t$, $Y_{t-1}$ acts as a mediator. Controlling for it can "block" the perceived impact of $X$, making $X$ look statistically insignificant even if it is the primary causal driver
+- The M-Bias/Backdoor: If there is an unobserved variable affecting the sequence, $Y_{t-1}$ can become a collider or a proxy that opens a backdoor path, leading the model to attribute variance to the "history" rather than the "cause."
+
+Problem
+- $Y_{t-1}$ usually has the highest mutual information with $Y_t$. The optimizer will prioritize the lagged feature because it yields a massive reduction in loss early on
+- Once the model relies on the lag, the residuals become much smaller. The remaining signal (the "innovation") may be noisy or subtle, causing the model to ignore $X$ because the marginal gain of learning the $X \rightarrow Y$ relationship is lower than simply trusting the $Y_{t-1} \rightarrow Y$ trend.
+- Makes learning of exogenous effects harder
+
+
 Solution
+- Do not include unnecessary lag when you can model the underlying structure: Causal > Statistical
 - Model response with causal factors
 - Model causal residuals with non-autoregressive uni-variate features such as trend, seasonality, etc.
 - Model final residuals with ARIMA

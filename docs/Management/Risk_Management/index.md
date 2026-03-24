@@ -22,6 +22,7 @@
 	- [ ] [Non-life insurance | Katrien Antonio | University of Amsterdam](https://www.youtube.com/playlist?list=PL19XDoQ69BpcHvdTmMw3vZNvBDef55lMk)
 	- [ ] [Data science for insurance | Katrien Antonio | University of Amsterdam](https://www.youtube.com/playlist?list=PL19XDoQ69Bpe2GvIuI83ouKzwkXYTN4Pt)
 	- [ ] [Advanced Life Insurance Mathematics | Katrien Antonio | University of Amsterdam](https://www.youtube.com/playlist?list=PL19XDoQ69Bpf0EIE99-MeoRIaQHmxYMZT)
+	- [ ] [Actuarial Loss Models | University of Connecticut](https://www.youtube.com/playlist?list=PLTEpf65KQgntsntKa9oYy4H1rucFwxdZV)
 - [ ] [Consumer Risk Management Essentials | Risky World](https://www.youtube.com/playlist?list=PLJfcnX7cpFDavbzcKMC0lMWOXp4-rzdey)
 - [ ] [Consumer Credit Risk Management | Risky World](https://www.youtube.com/playlist?list=PLJfcnX7cpFDZY-q8B3N4DWIyIzLQyld5F)
 - [ ] [Risk-Based Engineering | IIT](https://www.youtube.com/playlist?list=PLOzRYVm0a65e_EaQQvpr49Vwc2xfDPMX6)

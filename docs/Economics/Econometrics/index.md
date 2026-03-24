@@ -79,3 +79,4 @@
 - [ ] Econometrics | Ivan Canay
 	- [ ] [480](https://www.youtube.com/playlist?list=PLU82dyBKN2bBD0jXEpXYLer8P3AahLXJa)
 	- [ ] [481](https://www.youtube.com/playlist?list=PLU82dyBKN2bCCd2O7cNeSz09XVqYB6u_S)
+- [ ] [Dynamic time warping (DTW) | Herman Kamper](https://www.youtube.com/playlist?list=PLmZlBIcArwhMJoGk5zpiRlkaHUqy5dLzL)

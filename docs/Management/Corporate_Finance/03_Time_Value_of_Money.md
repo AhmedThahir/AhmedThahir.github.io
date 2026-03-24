@@ -17,13 +17,13 @@ In a finance interview, if you’re not sure of the answer, just say it’s comp
 
 ## Keywords
 
-|                                                              | Denotion   | Expressed as | Value of something at                                 |
-| ------------------------------------------------------------ | ---------- | ------------ | ----------------------------------------------------- |
-| Present Value                                                | PV         | Currency     | $t = 0$ (not even $t \approx 0$)                      |
-| Future Value                                                 | FV         | Currency     | $t > 0$                                               |
+|                                                                                                           | Denotion   | Expressed as | Value of something at                                 |
+| --------------------------------------------------------------------------------------------------------- | ---------- | ------------ | ----------------------------------------------------- |
+| Present Value                                                                                             | PV         | Currency     | $t = 0$ (not even $t \approx 0$)                      |
+| Future Value                                                                                              | FV         | Currency     | $t > 0$                                               |
 | Interest Rate<br />Discount Rate<br />Compound Rate<br />Opportunity cost of capital<br />Required return | $r$        | %            | Exchange rate between present & future value          |
-| Number of Periods                                            | $n$ or $t$ |              |                                                       |
-| Timeline                                                     |            |              | Graphical reprsesentation of the timing of cash flows |
+| Number of Periods                                                                                         | $n$ or $t$ |              |                                                       |
+| Timeline                                                                                                  |            |              | Graphical reprsesentation of the timing of cash flows |
 
 ## Singular Cashflow Formula
 
@@ -49,6 +49,16 @@ where $c_t$ can be
 | --------- | ------- |
 | Inflow    | $c_t>0$ |
 | Outflow   | $c_t<0$ |
+
+## Stochastic Discount Rate
+
+$$
+\begin{aligned}
+E[\text{PV}]
+&= E \left[ \sum_{t=0} \frac{c_t}{(1+r)^t} \right] \\
+&\ge \sum_{t=0} \frac{c_t}{(1+E[r])^t}
+\end{aligned}
+$$
 
 ## Types of Interest
 
@@ -76,7 +86,7 @@ eg: Preference share in a corporation
 
 ### Conceptual understanding of long-term loan
 
-Every [equal] installment is actually a combination of
+Every equal installment is actually a combination of
 
 - interest payment
 - principal repayment

@@ -9,23 +9,20 @@ The first few topics are common to all aspects of machine learning.
 - [x] Machine Learning | Dr. Pranav | BITS Pilani Dubai Campus
 - [x] [Modern Data Analysis for Economics](https://jiamingmao.github.io/data-analysis/)
 - [ ] Machine Learning From Data
-  - [x] [Machine Learning From Data | Prof Yaser Abu Mostafa | Caltech](https://www.youtube.com/playlist?list=PLD63A284B7615313A)
-  - [ ] [Machine Learning From Data | Rensselaer Prof. Malik Magdon-Ismail](https://www.youtube.com/playlist?list=PLeSImI9eZJ99T9MXpcoN3_Y2AvrID2HlE)
-  - [ ] [Machine Learning | Gary Holness | Clark University](https://www.youtube.com/playlist?list=PLuflXFChe0K987J-pJP-bM7f78X1LzaZH)
-  - [ ] [Machine Learning From Data | Uzma Mushtaque](https://www.youtube.com/playlist?list=PLV7MgHu4-vg27CxbsIGu_1x6nN0PQL7_N)
-  - [ ] [Machine Learning From Data | Course Handbook](https://drive.google.com/file/d/1EnBy1z-XLF2LrjA2Z5HSWAKKPFSgOT31/view?usp=drive_link)
-- [ ] [Machine Learning from Human Preferences I Stanford CS329H](https://www.youtube.com/playlist?list=PLoROMvodv4rNm525zyAObP4al43WAifZz)
+	- [x] [Machine Learning From Data | Prof Yaser Abu Mostafa | Caltech](https://www.youtube.com/playlist?list=PLD63A284B7615313A)
+	- [ ] [Machine Learning From Data | Rensselaer Prof. Malik Magdon-Ismail](https://www.youtube.com/playlist?list=PLeSImI9eZJ99T9MXpcoN3_Y2AvrID2HlE)
+- [ ] MLOps
+	- [ ] [ML in Production | Christian Kästner | CMU](https://www.youtube.com/playlist?list=PLDS2JMJnJzdmubSKnanmIwzr08cionWm_)
+	- [ ] [Software Engineering for AI-Enabled Systems | Christian Kästner | CMU](https://www.youtube.com/playlist?list=PLDS2JMJnJzdkQPdkhcuwcbJpjB84g9ffX)
+	- [ ] [MLOps | Andrew Ng Coursera](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops)
 - [ ] [Fundamentals of Machine Learning (FunML) | Georgia Tech ECE 4252/8803](https://www.youtube.com/playlist?list=PLjwdI67r6YoJptZGr0u4k7xmeHSaF-h6T)
 - [ ] [Professor Rob J Hyndman: Ten years of forecast reconciliation](https://youtu.be/5jB09R-sKOc?si=9VamaP08sJd49l1V)
-- [ ] Nando de Freitas
-	- [ ] [Undergraduate](https://www.youtube.com/playlist?list=PLE6Wd9FR--Ecf_5nCbnSQMHqORpiChfJf)
-	- [ ] [Graduate](https://www.youtube.com/playlist?list=PLE6Wd9FR--EdyJ5lbFl8UuGjecvVw66F6)
-- [ ] [Quantum Machine Learning | University of Toronto](https://www.youtube.com/playlist?list=PLmRxgFnCIhaMgvot-Xuym_hn69lmzIokg)
-- [ ] [Quantum Machine Learning | Qiskit](https://www.youtube.com/playlist?list=PLOFEBzvs-VvqJwybFxkTiDzhf5E11p8BI)
+- [ ] Quantum Machine Learning
+	- [ ] [Quantum Machine Learning | University of Toronto](https://www.youtube.com/playlist?list=PLmRxgFnCIhaMgvot-Xuym_hn69lmzIokg)
+	- [ ] [Quantum Machine Learning | Qiskit](https://www.youtube.com/playlist?list=PLOFEBzvs-VvqJwybFxkTiDzhf5E11p8BI)
 - [ ] Machine Learning | Stanford
-  - [ ] ~~[Machine Learning| Andrew Ng Coursera](https://www.coursera.org/specializations/machine-learning-introduction)~~ too introductory
-  - [ ] [Stanford CS229: Machine Learning | Andrew Ng | 2018](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)
-  - [ ] [Stanford CS229M: Machine Learning Theory](https://www.youtube.com/playlist?list=PLoROMvodv4rP8nAmISxFINlGKSK4rbLKh)
+	- [ ] [Stanford CS229: Machine Learning | Andrew Ng | 2018](https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU)
+	- [ ] [Stanford CS229M: Machine Learning Theory](https://www.youtube.com/playlist?list=PLoROMvodv4rP8nAmISxFINlGKSK4rbLKh)
 - [ ] [Advanced Machine Learning | Sergey Plis | Georgia State University](https://www.youtube.com/playlist?list=PLWL87aJW5Y--YMBUgw4yn28_njbLMHINR)
 - [ ] [Online Machine Learning | IIT Bombay](https://www.youtube.com/playlist?list=PLOzRYVm0a65e3aS_ThcTu3xWKex9hzAJ-)
 - [ ] [Machine Learning | mathematicalmonk](https://www.youtube.com/playlist?list=PLD0F06AA0D2E8FFBA)
@@ -36,8 +33,6 @@ The first few topics are common to all aspects of machine learning.
 - [ ] [Intro to Machine Learning and Statistical Pattern Classification | Sebastian Raschka](https://www.youtube.com/playlist?list=PLTKMiZHVd_2KyGirGEvKlniaWeLOHhUF3)
 - [ ] [Machine Learning | WQU Saul Leung](https://www.youtube.com/playlist?list=PL_Ig1a5kxu544gv59p8QoAadfJE3aN3Sn)
 - [ ] [Multimodal Machine Learning | CMU Fall 2022](https://www.youtube.com/playlist?list=PL-Fhd_vrvisNM7pbbevXKAbT_Xmub37fA)
-- [ ] [MLOps | Andrew Ng Coursera](https://www.coursera.org/specializations/machine-learning-engineering-for-production-mlops)
-- [ ] [Machine Learning Yearning | Andrew Ng](https://wordpress.deeplearning.ai/wp-content/uploads/2022/03/andrew-ng-machine-learning-yearning.pdf)
 - [ ] [Advanced Machine Learning | Florian Marquardt](https://www.youtube.com/playlist?list=PLemsnf33Vij4-kv-JTjDthaGUYUnQbbws)
 - [x] [Applied Machine Learning (Cornell Tech CS 5787, Fall 2020) | Volodymyr Kuleshov](https://www.youtube.com/playlist?list=PL2UML_KCiC0UlY7iCQDSiGDMovaupqc83)
 - [ ] [Machine Learning for Intelligent Systems | Kilian Weinberger | Cornell](https://www.youtube.com/playlist?list=PLl8OlHZGYOQ7bkVbuRthEsaLr7bONzbXS)
@@ -46,19 +41,16 @@ The first few topics are common to all aspects of machine learning.
 - [ ] [Towards Bayesian Regression | Kapil Sachdeva](https://www.youtube.com/playlist?list=PLivJwLo9VCUISiuiRsbm5xalMbIwOHOOn)
 - [ ] [Advanced Machine Learning 2020, CSE, IIT Kharagpur](https://www.youtube.com/playlist?list=PLA7cOsDoQDVqOTn_Ci-mpdrRoinOklU9r)
 - [ ] [Introductory Applied Machine Learning | University of Edinburgh | Victor Lavrenko](https://www.youtube.com/@vlavrenko/playlists)
-- [ ] [Gaussian Processes | Imperial College](https://www.youtube.com/watch?v=92-98SYOdlY)
-- [ ] [Gaussian Processes | Modeling, Identification, Control (A. Sala)](https://www.youtube.com/playlist?list=PLUznGnCqeYceFwU7C_VAkYyeVYeZY2VWp)
+- [ ] Gaussian Processes
+	- [ ] [Gaussian Processes | Imperial College](https://www.youtube.com/watch?v=92-98SYOdlY)
+	- [ ] [Gaussian Processes | Modeling, Identification, Control (A. Sala)](https://www.youtube.com/playlist?list=PLUznGnCqeYceFwU7C_VAkYyeVYeZY2VWp)
 - [x] [From Data to Decisions: Measurement, Uncertainty, Analysis and Modeling | Chris Mack | University of Texas](https://www.youtube.com/playlist?list=PLM2eE_hI4gSDnF-mEa9mrIYx7GCLQVN89)
 - [ ] [Learning Theory | Se Young Yun](https://www.youtube.com/playlist?list=PLsQI3WOaT8hgDPRY9k_RV1wnZ9r0W7CW4)
 - [ ] [Machine Learning Explainability | Stanford](https://www.youtube.com/playlist?list=PLoROMvodv4rPh6wa6PGcHH6vMG9sEIPxL)
 - [ ] [Machine Learning with Graphs | Stanford](https://www.youtube.com/playlist?list=PLoROMvodv4rOP-ImU-O1rYRg2RFxomvFp)
 - [x] [Fairness in Machine Learning | MIT](https://www.youtube.com/playlist?list=PLUl4u3cNGP63IFQn8FklBOUhYVcmaxpOX)
-- [ ] [MLOps | Pragmatic AI Labs](https://www.youtube.com/playlist?list=PLdfopzFjkPz9shHCeH9poe9sbAn0pIojX)
-- [ ] [Cluster Analysis | TU Dortmund](https://www.youtube.com/playlist?list=PLElvkFQko9bc5mOPBA_0hOKVIbRIS0qFP)
-- [ ] [Outlier Detection | TU Dortmund](https://www.youtube.com/playlist?list=PLElvkFQko9bez56CbIGKxrwGnGi7Ue6Hr)
-- [x] [Evaluating Machine Learning Models and Their Diagnostic Value | Gael Varoquaux](https://link.springer.com/protocol/10.1007/978-1-0716-3195-9_20)
+- [ ] [Evaluating Machine Learning Models and Their Diagnostic Value | Gael Varoquaux](https://link.springer.com/protocol/10.1007/978-1-0716-3195-9_20)
 - [x] [Machine learning in Python with scikit-learn | Gael Varoquaux | Inria](https://www.youtube.com/playlist?list=PL2okA_2qDJ-m44KooOI7x8tu85wr4ez4f)
-- [ ] [Anomaly Detection | Aric LaBarr](https://www.youtube.com/playlist?list=PLjwX9KFWtvNmXtqnDcH00ro0-cHeb0Vl7)
 - [ ] [Bayesian Data Analysis](https://www.youtube.com/playlist?list=PLBqnAso5Dy7O0IVoVn2b-WtetXQk5CDk6)
 - [ ] [Bayesian Evidential Learning](https://www.youtube.com/playlist?list=PLh35GyCXlQaRnV9RE_9emuQaFfxDe2KJ8)
 - [ ] [Model Development | Dimitri Bianco](https://www.youtube.com/playlist?list=PLBfqPS8Xvt2CM-uGVHCXuEhv8XjVoVu8_)
@@ -98,7 +90,6 @@ The first few topics are common to all aspects of machine learning.
 - [ ] [Machine Learning Lectures - Deep Understanding of the Theory | AMILE - Machine Learning with Christian Nabert](https://www.youtube.com/playlist?list=PL4gM7rbtgQFsWKJ7fEd-CxvbiBIi4gYgC)
 - [ ] [Intuition for the Algorithms of Machine Learning | Cynthia Rudin](https://www.youtube.com/playlist?list=PLNeXFnYrCJneoY_rKtWJy833YiMrCRi5f)
 - [ ] [Astrostatistics and Machine Learning | Institut Teknologi Bandung (ITB)](https://www.youtube.com/playlist?list=PLV2hbp85JNWR-6khpAFY0uNYgxKT5iLEp)
-- [ ] [Spatial Cluster Analysis | University of Chicago](https://www.youtube.com/playlist?list=PLzREt6r1Nenk3L0ndufhYuwdrrfZqdsIA)
 - [ ] [Statistics and machine learning | yuzaR Data Science](https://www.youtube.com/playlist?list=PLPWcjtBkAf6kKJhii6q8HOSqD2bqFO5NR)
 - [ ] [Checking Error Assumptions for a Linear Regression Model | Joshua French](https://www.youtube.com/playlist?list=PLkrJrLs7xfbV6lhFYBmyM15i56b6bPkHl)
 - [ ] [Data Science Methods and Statistical Learning | Samin Aref](https://www.youtube.com/playlist?list=PLSkGXOii6-CRlwmik1l1h9pG4Uuq0TgeT)
@@ -107,7 +98,25 @@ The first few topics are common to all aspects of machine learning.
 - [ ] [Machine Learning | University of Utah](https://www.youtube.com/playlist?list=PLbuogVdPnkCr-ANNi5GZid3MvSkzm_wnM)
 - [ ] [Machine Learning | Tile Stats](https://www.youtube.com/@tilestats/playlists)
 - [ ] [Machine Learning | Emma Robinson](https://www.youtube.com/@emmarobinson8262/playlists)
-- [ ] [ML:UM - Machine Learning: Unsupervised Methods | Prof. Laurenz Wiskott](https://www.youtube.com/playlist?list=PLXSSzzVoCfsUgrb6v5wa2ahyfu-om8B8t)
+- [ ] [Pattern Recognition and Machine Learning | Sina Tootoonian](https://www.youtube.com/channel/UC5e8rDbRGHm0G8lK6D4JWRQ/playlists)
+- [ ] [Materials Informatics | Taylor Sparks](https://www.youtube.com/playlist?list=PLL0SWcFqypCl4lrzk1dMWwTUrzQZFt7y0)
+- [ ] [Automated Machine Learning | AIxplained](https://www.youtube.com/playlist?list=PL2OiYnAKYG64I3-7mHCDMbD6PmGhGrlu4)
+- [ ] Unsupervised Learning 
+	- [ ] [Unsupervised Learning for Big Data | Krishnaswamy Lab | Yale](https://www.youtube.com/playlist?list=PLW5ccXvlqgHjzozy23TpplS-b89UmeDVr)
+	- [ ] [ML:UM - Machine Learning: Unsupervised Methods | Prof. Laurenz Wiskott](https://www.youtube.com/playlist?list=PLXSSzzVoCfsUgrb6v5wa2ahyfu-om8B8t)
+	- [ ] [Miguel Vaz - Networks meet Finance in Python](https://youtu.be/pmWJlD-4gIc?si=IyaZM9hDrmOZSGfV)
+	- [ ] [Spatial Cluster Analysis | University of Chicago](https://www.youtube.com/playlist?list=PLzREt6r1Nenk3L0ndufhYuwdrrfZqdsIA)
+	- [ ] [A Step-by-Step Guide to Spectral Clustering | Mashaan Alshammari](https://youtu.be/k7M1TMYac-Y?si=OIR6kpQHc_hEAYuo)
+	- [ ] [Cluster Analysis | TU Dortmund](https://www.youtube.com/playlist?list=PLElvkFQko9bc5mOPBA_0hOKVIbRIS0qFP
+	- [ ] Detection
+		- [ ] [Anomaly Detection| appliedAI Institute for Europe](https://www.youtube.com/playlist?list=PLz6xKPm1Bnd6cDDgct3MDhNWJuPXzsmyW)
+		- [ ] [Anomaly Detection | Aric LaBarr](https://www.youtube.com/playlist?list=PLjwX9KFWtvNmXtqnDcH00ro0-cHeb0Vl7)
+		- [ ] [Outlier Detection | TU Dortmund](https://www.youtube.com/playlist?list=PLElvkFQko9bez56CbIGKxrwGnGi7Ue6Hr)
+- [ ] MLOps
+	- [ ] [Build & Deploy ML Regression model with FastAPI, MLFlow, Docker, & AWS](https://youtu.be/Y0SbCp4fUvA?si=ZN-oNEdiJRbzQw1E)
+	- [ ] [MLOps | Pragmatic AI Labs](https://www.youtube.com/playlist?list=PLdfopzFjkPz9shHCeH9poe9sbAn0pIojX)
+- [ ] [Advanced Machine Learning | Emma Robinson](https://www.youtube.com/@emmarobinson8262/playlists)
+- [ ] [Trustworthy Machine Learning | SprintML-Lab](https://www.youtube.com/playlist?list=PLNfU-a7sxIwvS7dhnOPdFtvhdNcrnufEW)
 - [ ] Machine Learning | UniHeidelberg
 	- [ ] [2024](https://www.youtube.com/playlist?list=PLuRaSnb3n4kRb5wanJ_vx1pswmSgJl6sn) 
 	- [ ] [2019](https://www.youtube.com/playlist?list=PLuRaSnb3n4kTOLHk3a2ySNujmjan_AcZ1)
@@ -118,24 +127,12 @@ The first few topics are common to all aspects of machine learning.
 	- [ ] [Winning with Simple, even Linear, Models | Vincent Warmerdam](https://youtu.be/68ABAU_V8qI)
 	- [ ] [Calmcode | Vincent Warmerdam](https://calmcode.io)
 	- [ ] [Mindful Modeler](https://mindfulmodeler.substrack.com)
-- [ ] Certifications
-	- [ ] Basic
-		- [ ] https://www.udemy.com/course/statistics-for-data-science-and-business-analysis/	statistics
-		- [ ] https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/	ML
-		- [ ] https://www.udemy.com/course/machine-learning-regression-and-classification-math-inc/	ML
-		- [ ] https://www.udemy.com/course/ensemble-machine-learning-in-python/	ML
-		- [ ] https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t	ML
-		- [ ] https://www.coursera.org/learn/machine-learning	ML by Andrew
-	- [ ] Intermediate
-		- [ ] https://www.coursera.org/specializations/mathematics-machine-learning	ML by Andrew
-		- [ ] https://www.coursera.org/specializations/deep-learning	Deep Learning by Andrew
 - [ ] Papers
 	- [ ] [The ML Test Score: A Rubric for ML Production Readiness and Technical Debt Reduction | Google](https://storage.googleapis.com/gweb-research2023-media/pubtools/4156.pdf)
 	- [ ] [Software Engineering for Machine Learning: A Case Study | Microsoft](https://www.microsoft.com/en-us/research/wp-content/uploads/2019/03/amershi-icse-2019_Software_Engineering_for_Machine_Learning.pdf)
 	- [ ] [A Data Quality-Driven View of MLOps](https://arxiv.org/pdf/2102.07750)
 	- [ ] [How to avoid machine learning pitfalls: a guide for academic researchers](https://arxiv.org/pdf/2108.02497)
+	- [ ] [Machine Learning Yearning | Andrew Ng](https://wordpress.deeplearning.ai/wp-content/uploads/2022/03/andrew-ng-machine-learning-yearning.pdf)
 - [ ] Books
 	- [ ] [Interpretable Machine Learning | Christoph Molnar](https://christophm.github.io/interpretable-ml-book)
 	- [ ] [Interpretable Machine Learning with Python | Serg Masis](https://www.amazon.com/Interpretable-Machine-Learning-Python-hands/dp/180323542X)
-## Current Video
-

@@ -62,6 +62,16 @@ where
 | No              |   $0$   | Perpetuity |
 | Constant        | $\ge 0$ |            |
 
+### Stochastic Growth and Discount Rate
+
+$$
+\begin{aligned}
+E[\text{PV}]
+&= E \left[ \sum_{t=0} c_t \cdot \left({\frac{1+g}{1+r}}\right)^t \right] \\
+&= \sum_{t=0} c_t \cdot \left({\frac{1+E[g]}{1+E[r]}}\right)^t
+\end{aligned}
+$$
+
 ### PVGO
 
 Present Value of Growth Opportunities

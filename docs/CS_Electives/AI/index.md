@@ -18,3 +18,4 @@ Taking DAA (Design & Analysis of Algorithms) course really helps
 - [ ] [Deep Multi-Task and Meta Learning](https://www.youtube.com/playlist?list=PLoROMvodv4rNjRoawgt72BBNwL2V7doGI)
 - [ ] [Beyond Fairness: A Sociotechnical view of Machine Learning | Tübingen Machine Learning](https://www.youtube.com/playlist?list=PL05umP7R6ij2mpH-oHzBWlz8OCApvrawJ)
 - [ ] [Validation of Safety Critical Systems I Stanford](https://www.youtube.com/playlist?list=PLoROMvodv4rOq1LMLI8U7djzDb8--xpaC)
+- [ ] [11 Short Machine Learning Ethics Videos | Rachel Thomas](https://www.youtube.com/playlist?list=PLtmWHNX-gukIU6V33Bc8eP8OD41I4GywR)

@@ -7,6 +7,10 @@
 - [x] [Modern Data Analysis for Economics](https://jiamingmao.github.io/data-analysis/)
 - [x] [Program Evaluation for Public Service | Andrew Heiss | Georgia State University](https://www.youtube.com/@AndrewHeiss/playlists)
 - [ ] [Causal Inference | MIT](https://www.youtube.com/playlist?list=PLiyH4sDpByicWHWv-xaI4gRbxrpFv2-FA)
+- [ ] [Microeconometrics | Gumilang Aryo Sahadewo](https://www.youtube.com/playlist?list=PLg9Hgz1vblCwnxMdoi39RJnwhj5ebyE45)
+- [ ] [Series I: Path Diagrams and Logic Models | Dahlia Remler](https://www.youtube.com/playlist?list=PLHAGGR4ZZgHS6Jtb42qZG7s1dr1CgdbPD)
+- [ ] [Summer Short Course 2016 | Center for Causal Discovery | University of Pittsburgh](https://www.youtube.com/playlist?list=PLO5mmwQolPRX858CyOOIHqYnmdzlHjIgS)
+- [ ] [Introductory Econometrics: Description, Prediction, and Causality | David Kaplan](https://www.youtube.com/playlist?list=PLC9djFuhVkt6ye3LK_Wet8DCHaizNPsmI)
 - [ ] [Statistical Rethinking | Richard McElreath](https://www.youtube.com/playlist?list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus)
 - [ ] [Using Big Data to Solve Economic and Social Problems | Harvard](https://www.youtube.com/playlist?list=PLalrHnPrv5uDe-vDW5dPxTByQoZu6P6Hq)
 - [ ] [Causality | Shaw Talebi](https://www.youtube.com/playlist?list=PLz-ep5RbHosVVTz9HEzpI4d6xpWsc8rOa)
@@ -42,6 +46,11 @@
 - [ ] [Causal Inference | Leslie Myint](https://www.youtube.com/playlist?list=PLtjTgbI6JvXZ-rrZ9FOLG37IWwoyR1GcF)
 - [ ] [Causal Machine Learning | Tilburg University](https://www.youtube.com/playlist?list=PLeVorc-oIi7RC80LwZ8velMCBub4K0SRv)
 - [ ] [Causal Inference | AI, ML, SWE, Tech Expert](https://www.youtube.com/playlist?list=PLLFnyzDUVf86oJ9tRvaxQqjd71Azz3_AX)
+- [ ] A/B Testing
+	- [ ] [A/B Testing in Data Science Interviews by a Google Data Scientist | DataInterview](https://youtu.be/DUNk4GPZ9bw)
+	- [ ] [A/B Testing Course | Data36 - Online Data Science Courses](https://www.youtube.com/playlist?list=PLHS1p0ot3SVjQg0q1eEPrmOmPUY_AT1vB)
+	- [ ] [Crash Course in A/B Testing with Case Study | Tatev Karen Aslanyan | freeCodeCamp.org](https://youtu.be/KZe0C0Qq4p0)
+	- [ ] [A/B Test Like a Pro | Firebase](https://www.youtube.com/playlist?list=PLl-K7zZEsYLnt1-3lFiY89YtAFQzLZo-O)
 
 ## Current Video
 

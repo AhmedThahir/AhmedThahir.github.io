@@ -64,6 +64,7 @@ Course will focus on investing, not on trading/speculationCourse is not going to
 - [ ] [Global Financial Management | Campbell Harvey](https://www.youtube.com/playlist?list=PLE1Vu6ctbqa4DFdBaE_wcbJgpA88i_1wJ)
 - [ ] [Global Tactical Assset Allocation | Campbell Harvey](https://www.youtube.com/playlist?list=PLE1Vu6ctbqa5clIWTe9Kb4SAVAdg5GIxJ)
 - [ ] [FinEngineering in Python | Roman Davydov](https://www.youtube.com/playlist?list=PLURgo54jrCIaQ-JzXvOWFZKEULJksDdbT)
+- [ ] [Numerical Methods / Computational Finance | finmath](https://www.youtube.com/playlist?list=PLJ9XZsVSloaQL_a93QiNbMHwZ2_pMzg_m)
 - [ ] Luis Seco | University of Toronto 
 	- [ ] [Basics of Finance and Information Management](https://www.youtube.com/playlist?list=PLZqGKBeV8wtYS64uzP0ADwt8CZID9RDho)
 	- [ ] [Introduction to Mathematical Finance](https://www.youtube.com/playlist?list=PLZqGKBeV8wtaL7KyvXodCQf2omHMHTkHg)

@@ -22,20 +22,18 @@ Lesson: Match the ‘model complexity’ to the data resources, not to the targe
 
 Part of $y$ we cannot model
 
-### Types
-
-|                       | Stochastic/<br />Bayes’ Error                                | Deterministic                                                |
-| --------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| Given by              | $u$                                                          | $f^* - f$                                                    |
-| Meaning               | Observational error                                          | Part of $f$ that $H$ cannot capture, even when there is no stochastic noise |
-| Cause                 | $P(y \vert x)$                                               | 1. Complexity of $f$<br />2. $H$                             |
-| Frequency             | High                                                         | Low                                                          |
-| Smooth                | ❌                                                            | ✅                                                            |
-| For a given $x$       | Randomly distributed                                         | Fixed constant                                               |
-| Comment               |                                                              | No point trying to capture it, as you will learn a false pattern, given limited training dataset |
-|                       |                                                              | When teaching a kid, better to use easy-to-understand examples rather than the actual science |
-|                       |                                                              | ![image-20240627013628642](./assets/image-20240627013628642.png){ loading=lazy } |
-| Effect on overfitting | ![image-20240627013343713](./assets/image-20240627013343713.png){ loading=lazy } | ![image-20240627013401281](./assets/image-20240627013401281.png){ loading=lazy } |
+|                       | Stochastic/<br />Bayes’ Error                                                    | Deterministic                                                                                    |
+| --------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Given by              | $u$                                                                              | $f^* - f$<br>Best achievable model vs True model                                                 |
+| Meaning               | Observational error                                                              | Part of $f$ that $H$ cannot capture, even when there is no stochastic noise                      |
+| Cause                 | $P(y \vert x)$                                                                   | 1. Complexity of $f$<br>2. $H$                                                                   |
+| Frequency             | High                                                                             | Low                                                                                              |
+| Smooth                | ❌                                                                                | ✅                                                                                                |
+| For a given $x$       | Randomly distributed                                                             | Fixed constant                                                                                   |
+| Comment               |                                                                                  | No point trying to capture it, as you will learn a false pattern, given limited training dataset |
+|                       |                                                                                  | When teaching a kid, better to use easy-to-understand examples rather than the actual science    |
+|                       |                                                                                  | ![image-20240627013628642](./assets/image-20240627013628642.png){ loading=lazy }                 |
+| Effect on overfitting | ![image-20240627013343713](./assets/image-20240627013343713.png){ loading=lazy } | ![image-20240627013401281](./assets/image-20240627013401281.png){ loading=lazy }                 |
 
 - For a finite $n$, $H$ tends to fit both stochastic and deterministic noise
 - Deterministic and Stochastic noise affect the Variance by making the model more susceptible to overfitting
@@ -46,18 +44,28 @@ Part of $y$ we cannot model
 
 ## Error Decomposition
 
-|                       |                   Bias                    |              Variance<br />$\text{Var}(\hat f)$              |    Distribution Mismatch     |
-| :-------------------: | :---------------------------------------: | :----------------------------------------------------------: | :--------------------------: |
-|       Indicates       |                Inaccuracy                 |                         Imprecision                          |     Data Sampling Issue      |
-|        Meaning        | Proximity of prediction is to true values | Amount by which $\hat y$ would change for different training data |                              |
-|      Implication      |               Underfitting                |                         Overfitting                          |                              |
-|      Denotation       |                $\hat f-f$                 |             $E \Big[ \ (\hat f - f^*)^2 \ \Big]$             |                              |
-|   Estimated through   |      Train Error - Acceptable Error       |                   Dev error - Train Error                    | Validation Error - Dev Error |
-| Reason for estimation |           In-sample performance           |   Difference between in-sample and out-sample performance    |                              |
+$$
+\begin{aligned}
+\text{E}_\text{out}
+&=
+\text{Bias}^2 + \text{Variance} + \text{Dist Mis} +
+\text{DN}^2 + \text{SN}^2
+\end{aligned}
+$$
 
-$$
-\text{E}_\text{out} = \text{Bias}^2 + \text{Variance} + \text{Dist Mis} + \text{DN} + \text{SN}
-$$
+|                       |                   Bias                    |                                     Variance                                      |    Distribution Mismatch     | Deterministic<br>Noise                                 | Stochastic<br>Noise                                    |
+| :-------------------: | :---------------------------------------: | :-------------------------------------------------------------------------------: | :--------------------------: | ------------------------------------------------------ | ------------------------------------------------------ |
+|      Denotation       |              $E[\hat f-f^*]$              | $\text{Var}(\hat f)$<br>$E \Bigg[ \ \left( \hat f - E[\hat f] \right)^2 \ \Bigg]$ |                              | $E[f^*-f]$                                             | $\sigma^2$<br>Process, measurement                     |
+|       Indicates       |                Inaccuracy                 |                                    Imprecision                                    |     Data Sampling Issue      | [01_Risk](../../Management/Risk_Management/01_Risk.md) | [01_Risk](../../Management/Risk_Management/01_Risk.md) |
+|        Meaning        | Proximity of prediction is to true values |         Amount by which $\hat y$ would change for different training data         |                              | Unexplainable component, given the data and knowledge  | Random component                                       |
+|      Implication      |               Underfitting                |                                    Overfitting                                    |                              |                                                        |                                                        |
+|   Estimated through   |      Train Error - Acceptable Error       |                              Dev error - Train Error                              | Validation Error - Dev Error |                                                        |                                                        |
+| Reason for estimation |           In-sample performance           |              Difference between in-sample and out-sample performance              |                              |                                                        |                                                        |
+
+where
+- $\hat f$ is the model achieved
+- $f^*$ is the best possible model achievable, given the data and knowledge
+
 
 ![image-20240624151256427](./assets/image-20240624151256427.png){ loading=lazy }
 

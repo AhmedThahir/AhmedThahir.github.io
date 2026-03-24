@@ -8,7 +8,6 @@
 - [ ] [European Integration | Humbolt-University Berlin](https://www.youtube.com/playlist?list=PLJZlW3ik4xiwOme_nBeGIw8HSFrN6mNeS)
 - [ ] [Advanced Macroeconomic Analysis | Humbolt-University Berlin](https://www.youtube.com/playlist?list=PLJZlW3ik4xiz5bvi8E7gnEiUeox3Wq5Bp)
 - [ ] [Labor Markets with Search Frictions | Humbolt-University Berlin](https://www.youtube.com/playlist?list=PLJZlW3ik4xizwRsbY3BR1LOoJl8Afx2qh)
-- [ ] [Public Finance and Public Policy | MIT](https://www.youtube.com/playlist?list=PL_1TbuIu65A-9f_HbjKJDLLSZPl7Cb0Dz)
 - [ ] [Innovation Systems for Science, Technology, Energy, Manufacturing, and Health | MIT](https://www.youtube.com/playlist?list=PLUl4u3cNGP61GOiMKYgTzHpf8x6iiblaV)
 - [ ] [Game Theory 101 Full Course | William Spaniel](https://www.youtube.com/playlist?list=PLKI1h_nAkaQoDzI4xDIXzx6U2ergFmedo)
 - [ ] [Game Theory | Yale](https://www.youtube.com/playlist?list=PL6EF60E1027E1A10B)

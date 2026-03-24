@@ -4,12 +4,14 @@
 
 ### Participants
 
-| Participants | Expectation                                               | Example                                               |
-| ------------ | --------------------------------------------------------- | ----------------------------------------------------- |
-| Supply       | - Demand<br>- Experience<br>- ROI                         | Restaurants                                           |
-| Facilitators | - Good workplace<br>- Good pay                            | Office Staff<br>Riders<br>Pickers                     |
-| Demand       | - Selection<br>- Experience<br>- Value<br>- Affordability | Customers                                             |
-| Other        | - ROI                                                     | Advertisers<br>Payment providers<br>Banks<br>Partners |
+| Participants  | Expectation                                               | Example                                             |
+| ------------- | --------------------------------------------------------- | --------------------------------------------------- |
+| Supply        | - Demand<br>- Experience<br>- ROI                         | Restaurants                                         |
+| Facilitators  | - Good workplace<br>- Good pay                            | Riders<br>Pickers                                   |
+| Demand        | - Selection<br>- Experience<br>- Value<br>- Affordability | Customers<br>Businesses                             |
+| Ad            | - ROI                                                     | Advertisers on Platform<br>Advertisers for Platform |
+| Fintech       | - ROI                                                     | Payment providers<br>Banks                          |
+| Backend staff | - Good workplace<br>- Good pay                            | Office Staff                                        |
 
 ## Virtuous cycle
 

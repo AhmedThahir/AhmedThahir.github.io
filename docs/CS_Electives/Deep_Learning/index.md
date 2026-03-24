@@ -7,9 +7,12 @@
 - [x] Deep Learning | Dr. Tamizharasan
 - [x] [Neural Networks: Zero to Hero | Andrej Karpathy](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
 - [x] [Deep Learning for Computer Vision | Andrej Karpathy | Stanford](https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC)
+- [ ] [Learn to design neural networks | learndataa](https://www.youtube.com/playlist?list=PLXovS_5EZGh4vp-QY9Nd3isVollrZZsSi)
 - [ ] [Full Stack Deep Learning](https://www.youtube.com/playlist?list=PL1T8fO7ArWleMMI8KPJ_5D5XSlovTW_Ur)
 - [ ] [Deep Learning - Deep Understanding | Mike x Cohen](https://www.udemy.com/course/deeplearning_x)
 - [ ] [MIT 6.S191: Introduction to Deep Learning](https://www.youtube.com/playlist?list=PLtBw6njQRU-rwp5__7C0oIVt26ZgjG9NI)
+- [ ] [MIT 6.7960 Deep Learning, Fall 2024 | MIT OpenCourseWare](https://www.youtube.com/playlist?list=PLUl4u3cNGP63URZnh5iqBzDTDYPUTQT-8)
+- [ ] [Hands-On Deep Learning Spring 2024 | MIT OpenCourseWare](https://www.youtube.com/playlist?list=PLUl4u3cNGP60YyhMjYmXuVmX562QcClSp)
 - [ ] [Deep Learning in Life Sciences | MIT](https://www.youtube.com/playlist?list=PLypiXJdtIca5sxV7aE3-PS9fYX3vUdIOX)
 - [ ] [Deep Learning for Physicists | Florian Marquardt](https://www.youtube.com/playlist?list=PLemsnf33Vij4eFWwtoQCrt9AHjLe3uo9_)
 - [ ] [Deep Learning Crash Course | Leo Isikdogan](https://www.youtube.com/playlist?list=PLWKotBjTDoLj3rXBL-nEIPRN9V3a9Cx07)

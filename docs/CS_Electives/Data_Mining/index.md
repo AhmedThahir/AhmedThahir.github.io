@@ -94,6 +94,8 @@ Kaggle, UCI ML repository
 - [ ] [Data Mining | University of Utah](https://www.youtube.com/playlist?list=PLbuogVdPnkCrgjzGF1HJD_onjmEksnmdr)
 - [ ] [Exploratory's Online Seminar | Kan Nishida](https://www.youtube.com/playlist?list=PLxM-q2GK4zu79mz7Cvbed1vLrhwYFEjtN)
 - [ ] [Data Visualization | Bing Wen Brunton](https://www.youtube.com/playlist?list=PLqgZEQsU_8E3Zfi3Y5wkR7XByuq4vKVm7)
+- [ ] [GSP 470/570: Spatial Modeling | James Graham](https://www.youtube.com/playlist?list=PLJfaqFYp_YzMj-GnZJCjoRBgXIpNWY4Gj)
+- [ ] [Species Distribution Modelling | GU eResearch](https://www.youtube.com/playlist?list=PL8nSYhbf9nDSotrn-JSZiJki1sTnnw3yS)
 - [ ] Data Science | S. Mason Garrison
 	- [ ] [Data Science for Psychologists | S. Mason Garrison](https://www.youtube.com/playlist?list=PLKrrdtYgOUYYOxCIxkgh7LpJS-JMDuChC)
 	- [ ] [Psychological Testing](https://www.youtube.com/playlist?list=PLKrrdtYgOUYYgag4erySD7L0jDcZGMlS_)
@@ -111,10 +113,10 @@ Kaggle, UCI ML repository
 	- [ ] [Data Visualization | IIT Madras](https://www.youtube.com/playlist?list=PLZ2ps__7DhBZ12NClTmMLsnU0mF9ZUSG_)
 	- [ ] [Data Visualisation | yuzaR Data Science](https://www.youtube.com/playlist?list=PLPWcjtBkAf6kBhqAlF-YIifv51hnitPrZ)
 	- [ ] [Visualization for Data Science | University of Utah](https://www.youtube.com/playlist?list=PLbuogVdPnkCqxVyErIw9jYeCnznwMEHa3)
-- [ ] A/B Testing
-	- [ ] [A/B Testing in Data Science Interviews by a Google Data Scientist | DataInterview](https://youtu.be/DUNk4GPZ9bw)
-	- [ ] [A/B Testing Course | Data36 - Online Data Science Courses](https://www.youtube.com/playlist?list=PLHS1p0ot3SVjQg0q1eEPrmOmPUY_AT1vB)
-	- [ ] [Crash Course in A/B Testing with Case Study | Tatev Karen Aslanyan | freeCodeCamp.org](https://youtu.be/KZe0C0Qq4p0)
+- [ ] Network Analysis
+	- [ ] [Social Network Analysis: A Beginner's Lab in R | Mod•U: Powerful Concepts in Social Science](https://www.youtube.com/playlist?list=PL1M5TsfDV6VsyfMHfkDcUW71ADKcUNCUI)
+	- [ ] [Social Network Analysis - Prof Tanmoy Chakraborty | NPTEL-NOC IITM](https://www.youtube.com/playlist?list=PLyqSpQzTE6M_bqqS9VmsoFNtcS72EDhUV)
+- [ ] [Practical Data Ethics | Rachel Thomas](https://www.youtube.com/playlist?list=PLtmWHNX-gukKHo6LBrdq82QadvUEwyaJ7)
 - [ ] Certifications
 	- [ ] Basics
 		- [ ] [Data Visualization with Tableau](https://www.coursera.org/specializations/data-visualization)

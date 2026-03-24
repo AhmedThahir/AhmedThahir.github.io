@@ -145,13 +145,15 @@ subgraph ML Engineering
 end
 
 subgraph Data Quality
-od{Outlier<br/>Detection}
 ad{Anomaly<br/>Detection}
+od{Outlier<br/>Detection}
 ootd{Out-of-Training-Distribution<br/>Detection}
 end
 
-dp --> od --> |Non-Outlier| ad
-od --> |Non-Outlier| l
+dp --> ad --> |Non-Anomalous| od
+ad --> |Anomaly| anomaly
+
+od --> |Non-Outlier| ootd
 od --> |Outlier| outlier
 
 md --> rb
@@ -166,9 +168,6 @@ subgraph Models
 	fb["Fallback Model(s)"]
 	fb_pc{Fallback<br/>Confidence}
 end
-
-ad --> |Non-Anomalous| ootd
-ad --> |Anomalous| anomaly
 
 ootd --> |In-Training-Distribution| rb
 ootd --> |Out-of-Training-Distribution| ood

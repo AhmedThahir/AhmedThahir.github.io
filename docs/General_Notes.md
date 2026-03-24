@@ -88,7 +88,7 @@ Venture Capitalists know that 9/10 investments fail, but expect at least 1/10 ma
 
 ## General Tasks involved in Job Roles
 
-[O*Net](https://www.onetonline.org/){ loading=lazy }
+[O*Net](https://www.onetonline.org/)
 
 ## Parts of Profile
 
@@ -96,3 +96,10 @@ Venture Capitalists know that 9/10 investments fail, but expect at least 1/10 ma
 - Skill - Practical
 - Craft - Projects
 - Experience - Time?
+
+
+## References
+
+- [Skills needed to succeed | Jim Donovan](https://youtu.be/nyhiYNQIlmI?si=Ba1ADWJkAANTUU9P)
+- [Lessons in Communication | Stanford Graduate School of Business](https://www.youtube.com/playlist?list=PLxq_lXOUlvQA3QmMA51Dtb1zR-qd-YVx9)
+

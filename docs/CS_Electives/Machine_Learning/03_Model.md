@@ -21,31 +21,41 @@ $$
 \end{aligned}
 $$
 ### Estimated
+
 $$
 \begin{aligned}
-\hat y &= \hat f_{\small L, C, D, A, O}(\tilde X; \theta) + u \\
-\text{where }
-L &= &&\text{Loss - Functional Form, Weights} \\
-C &= &&\text{Constraints} \\
-D &= \{ \tilde X, \tilde y \} && \text{Train data used (Observed, Noisy)} \\
-A &= &&\text{Learning Algorithm - Functional Form, Hyperparameters, Randomness} \\
-O &= &&\text{Optimization - Algorithm, Hyperparameters, Randomness}
+y &= f(X) + u
+\\
+\hat y &=
+\hat f(\tilde X_\text{new}; \theta)_{L_w, C, D_{\tilde X_\text{train}, \tilde y}, A_{F, H, R}, O_{A, H, R}}
 \end{aligned}
 $$
 
 where
 
-| Denotation          | Term                                                        | Comment                                                          |
-| ------------------- | ----------------------------------------------------------- | ---------------------------------------------------------------- |
-| $x$                 | input<br>explanatory<br>feature<br>predictor<br>independent |                                                                  |
-| $y$                 | output<br>outcome<br>target<br>response<br>dependent        |                                                                  |
-| $\hat y$            | prediction                                                  |                                                                  |
-| $E[y \vert x]$      | CEF (Conditional Expectation Function)                      |                                                                  |
-| $f$                 | Target function                                             | True relationship between $y$ and $x$                            |
-| $\hat f$            | Hypothesis function<br />Model                              | Gives mapping b/w $x$ and $y$ to obtain CEF                      |
-| $p(y \vert x)$      | Target distribution/<br />Posterior distribution of $y$     | True data-generating process                                     |
-| $\hat p(y \vert x)$ | Hypothesis distribution                                     | Gives mapping b/w $x$ and $y$ to obtain Conditional Distribution |
-| $u$                 | Random component                                            |                                                                  |
+| Denotation               | Term                                                                                    | User-Specified |
+| ------------------------ | --------------------------------------------------------------------------------------- | -------------- |
+| $X$                      | input<br>explanatory<br>feature<br>predictor<br>independent                             |                |
+| $\tilde X$               | Observed $X$<br>Input features, Data points                                             |                |
+| $y$                      | output<br>outcome<br>target<br>response<br>dependent                                    |                |
+| $\tilde y$               | Observed $y$                                                                            |                |
+| $\hat y$                 | prediction                                                                              |                |
+| $f$                      | Target function                                                                         |                |
+| $\hat f$                 | Hypothesis function<br>Model                                                            | ✅              |
+| $\theta$                 | Learned parameters                                                                      |                |
+| $L_w$                    | Loss                                                                                    | ✅              |
+| $w$                      | Weight of data points in loss                                                           |                |
+| $C$                      | Consrtaints                                                                             |                |
+| $D_{\tilde X, \tilde y}$ | Train data                                                                              |                |
+| $A_{F, H, R}$            | Learning algorithm                                                                      |                |
+| $O_{A, H, R}$            | Optimization                                                                            |                |
+| $F$                      | Assumed functional form                                                                 |                |
+| $H$                      | Hyperparameters                                                                         | ✅              |
+| $R$                      | Randomness                                                                              |                |
+| $E[y \vert x]$           | CEF (Conditional Expectation Function)                                                  |                |
+| $p(y \vert x)$           | Target distribution/<br />Posterior distribution of $y$<br>True data-generating process |                |
+| $\hat p(y \vert x)$      | Hypothesis distribution                                                                 |                |
+| $u$                      | Random component                                                                        |                |
 
 ## IDK
 

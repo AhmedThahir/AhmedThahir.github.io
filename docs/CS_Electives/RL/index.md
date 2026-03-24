@@ -1,8 +1,11 @@
 # Reinforcement Learning
 
+
+
 ## References
 
 - [ ] [Reinforcement Learning I Stanford CS234](https://www.youtube.com/playlist?list=PLoROMvodv4rN4wG6Nk6sNpTEbuOSosZdX) 
+- [ ] [Machine Learning from Human Preferences I Stanford CS329H](https://www.youtube.com/playlist?list=PLoROMvodv4rNm525zyAObP4al43WAifZz)
 - [ ] [Deep Reinforcement Learning | Stanford CS224R](https://www.youtube.com/playlist?list=PLoROMvodv4rPwxE0ONYRa_itZFdaKCylL)
 - [ ] [Reinforcement Learning | Deeplizard](https://www.youtube.com/playlist?list=PLZbbT5o_s2xoWNVdDudn51XM8lOuZ_Njv)
 - [ ] [Deep Reinforcement Learning For Finance 101 | Bam Tungom](https://www.youtube.com/playlist?list=PLteU7T-mAKJseMlYsyU3aEckIfUxfbgqK)
