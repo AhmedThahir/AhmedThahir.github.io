@@ -118,3 +118,65 @@ Segments
 | 2025-01-01 | $\approx 0$ | $\approx 0$ | $\approx 0$ |         |       |       |       |
 | 2025-02-01 | $\approx 0$ | $\approx 0$ | $\approx 0$ |         |       |       |       |
 | 2025-02-01 | $\approx 0$ | $\approx 0$ | $\approx 0$ |         |       |       |       |
+
+## A/B Testing
+
+```mysql
+WITH
+agg_users AS (
+SELECT
+	a.account_id,
+	
+	COUNT(a.order_id) AS order_count,
+	SUM(a.gmv_amount_eur) AS gmv_amount_eur,
+FROM orders a
+GROUP BY ALL
+),
+agg_users_2 AS (
+SELECT
+	a.*,
+	a.gmv_amount_eur/a.order_count AS aov_eur,
+FROM agg_users a
+),
+agg_user_buckets AS (
+SELECT
+	a.*,
+	N_TILE(10) OVER (ORDER BY order_count    DESC) AS order_count_bucket,
+	N_TILE(5)  OVER (ORDER BY gmv_amount_eur DESC) AS gmv_amount_eur_bucket,
+	N_TILE(5)  OVER (ORDER BY aov_eur        DESC) AS aov_eur_bucket,
+FROM agg_users_2
+),
+agg_user_buckets_2 AS (
+SELECT
+	a.*,
+	CONCAT(order_count_bucket, '-', gmv_amount_eur_bucket, '-', aov_eur_bucket) AS bucket_id,
+FROM agg_user_buckets
+),
+agg_hash AS (
+SELECT
+	a.*
+	FARM_FINGERPRINT( CONCAT(a.bucket_id, 'seed_2026-04-21') ) AS bucket_hashed,
+	FARM_FINGERPRINT( CONCAT(CAST(a.account_id AS STRING), 'seed_2026-04-21') ) AS account_id_hashed,
+FROM agg_user_buckets_2 a
+)
+agg_rn AS (
+SELECT
+	a.*,
+	
+	ROW_NUMBER() OVER w AS rn_user,
+	DENSE_RANK() OVER (ORDER BY bucket_hashed) AS rank_bucket, -- all users within the same bucket should get the same value for this
+FROM agg_hash a
+WINDOW
+	w AS (PARTITION BY a.bucket_id ORDER BY a.account_id_hashed) -- Randomize within strata
+)
+
+SELECT
+	a.*,
+	CASE MOD(a.rn_user + DIV(a.rn_user, 2) + a.rank_bucket, 2)
+		-- 2. keep alternating between Treatment, Control and Control, Treatment
+		-- 3. last-one-out of each strata is assigned to treatment or control randomly
+		WHEN 1 THEN 'Treatment'
+		ELSE        'Control'
+	END AS experiment_group,
+FROM agg_rn
+```
