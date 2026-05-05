@@ -93,8 +93,8 @@ r -.->
 |                        |                                                     | Checkout Viewers                         |                                                                                   | Users                                       | Higher                   |
 |                        |                                                     | Checkout Clicks                          |                                                                                   | Sessions, Hits                              | Higher                   |
 |                        |                                                     | Checkout Clickers                        |                                                                                   | Users                                       | Higher                   |
-|                        |                                                     | Checkout Overall CTR                     | Checkout Clicks/Checkout Views                                                    | Ratio<br>(Sessions/Sessions)<br>(Hits/Hits) | Higher                   |
-|                        |                                                     | Checkout User CTR                        | Checkout Clickers/Checkout Viewers                                                | Ratio<br>(User/User)                        | Higher                   |
+|                        |                                                     | Checkout Overall CTR                     | Checkout Clicks/Checkout Views<br>CTR Window Length                               | Ratio<br>(Sessions/Sessions)<br>(Hits/Hits) | Higher                   |
+|                        |                                                     | Checkout User CTR                        | Checkout Clickers/Checkout Viewers<br>CTR Window Length                           | Ratio<br>(User/User)                        | Higher                   |
 |                        | Doubt/<br>Confusion                                 | Back and forth Clicks/User               |                                                                                   | Ratio<br>(Hits/User)                        | Lower                    |
 |                        |                                                     | Time spent/User                          |                                                                                   | Ratio<br>(Time/User)                        | Depends                  |
 |                        |                                                     | Time spent/page                          |                                                                                   | Ratio<br>(Time/Pages)                       | Depends                  |
@@ -104,8 +104,8 @@ r -.->
 | Bottom of Funnel       | Conversion/<br>Activation/<br>Action/<br>Experience | Conversions/Activations                  | Desired action (for eg: orders)                                                   | Hits, Sessions                              | Higher                   |
 |                        |                                                     | Cart abandonment rate                    | Customer adds item(s) to card, but does not complete purchase                     | Ratio<br>(Sessions/Sessions)<br>(Hits/Hits) | Lower                    |
 |                        |                                                     | Customers                                | `#` of users who made orders                                                      | Users                                       | Higher                   |
-|                        |                                                     | Overall CVR<br>(Conversion Rate)         | Conversions/App visits                                                            | Ratio<br>(Sessions/Sessions)<br>(Hits/Hits) | Higher                   |
-|                        |                                                     | Customer CVR                             | Customers/App visitors                                                            | Ratio<br>(User/User)                        | Higher                   |
+|                        |                                                     | Overall CVR<br>(Conversion Rate)         | Conversions/App visits<br>CVR Window Length                                       | Ratio<br>(Sessions/Sessions)<br>(Hits/Hits) | Higher                   |
+|                        |                                                     | Customer CVR                             | Customers/App visitors<br>CVR Window Length                                       | Ratio<br>(User/User)                        | Higher                   |
 |                        |                                                     | BV                                       | Basket Value<br>Bill amt (Pre-Discount)                                           | Currency                                    | Higher                   |
 |                        |                                                     | GMV                                      | Gross Merchandise Value<br>(post discount)                                        | Currency                                    | Higher                   |
 |                        |                                                     | ABV                                      | Average Basket Value<br>= BV/Orders                                               | Currency                                    | Higher                   |
@@ -124,8 +124,13 @@ r -.->
 |                        |                                                     | Engagement with rewards program          |                                                                                   |                                             | Higher                   |
 |                        | Referral                                            |                                          |                                                                                   |                                             |                          |
 
-Note: make sure to backfill
+Note: make sure to backfill when required
 - For eg, if there is a click, there should be a view
+
+3 ways
+- A, B, C
+- A, B after A, C after B
+- A, then B, then C
 
 ## Customer Lifecycle
 

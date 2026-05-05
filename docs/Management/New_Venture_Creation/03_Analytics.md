@@ -22,6 +22,26 @@
 			- `# Orders`
 				- = `# Customers` x `Order Frequency`
 
+## IDK
+
+- Dimensions
+	- Country
+	- City
+- Metrics/Measures/Facts
+	- Additive
+		- Orders
+		- GMV (EUR)
+		- Hits
+	- Non-additive
+		- Users
+		- Sessions
+	- Semi-Additive
+		- Cross-Sectional
+			- GMV (LC)
+				- Additive within same country, not across countries
+		- Temporal
+			- Balance (EUR)
+				- Additive within same time point, not across time points
 
 ## Tracking
 
@@ -143,7 +163,7 @@ SELECT
 	a.*,
 	N_TILE(10) OVER (ORDER BY order_count    DESC) AS order_count_bucket,
 	N_TILE(5)  OVER (ORDER BY gmv_amount_eur DESC) AS gmv_amount_eur_bucket,
-	N_TILE(5)  OVER (ORDER BY aov_eur        DESC) AS aov_eur_bucket,
+	N_TILE(5 )  OVER (ORDER BY aov_eur        DESC) AS aov_eur_bucket,
 FROM agg_users_2
 ),
 agg_user_buckets_2 AS (
@@ -180,3 +200,18 @@ SELECT
 	END AS experiment_group,
 FROM agg_rn
 ```
+
+
+Dimension
+- Segment by logical covariates
+	- For eg: Vendors live in base period and exp period, etc
+
+Output
+Evaluation of difference
+- Cross-Sectional
+	- Difference within time period, across groups
+- Temporal
+	- Difference within group, across time
+- Cross-Temporal
+	- Difference across groups and time
+
