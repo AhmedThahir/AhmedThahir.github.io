@@ -1,0 +1,12 @@
+
+- Work
+	- Own it
+	- Dive deep
+	- Deliver value fast
+	- Bias for impact
+		- Stakeholder benefit obsession - Customer, Vendors, Partners
+	- De-average results
+- Behavioral
+	- Bring good vibes
+	- Raise The Bar
+	- Stay Humble

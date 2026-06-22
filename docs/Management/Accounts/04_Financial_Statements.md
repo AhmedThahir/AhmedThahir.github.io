@@ -41,21 +41,31 @@ In our course, we will work on the simpler ‘horizontal’ version of each fina
 
 Also called as comprehensive Income Statement
 
-|                                                 |  Amount |
-| ----------------------------------------------- | ------: |
-| Sales                                           |         |
-| Cost of Goods Sold                              |         |
-| **Gross Margin**                                | **XXX** |
-| - Operational Costs (Office & Selling Expenses) |         |
-| **Operating Profits**                           | **XXX** |
-| + Non-Operating Income                          |         |
-| + Non-Operating Losses                          |         |
-| **EBIT** (Earnings before Interests and Tax)    | **XXX** |
-| - Interest                                      |         |
-| - Other financing costs                         |         |
-| **PBT (Profit before Tax)**                     | **XXX** |
-| Provision for Tax                               |         |
-| **PAT (Profit after Tax)/Net Margin**           | **XXX** |
+
+
+| Operating View                               |                    |            |     | Management View                              |                    |            |
+| -------------------------------------------- | :----------------- | ---------: | --: | -------------------------------------------- | ------------------ | ---------: |
+|                                              |                    |            |     |                                              |                    |            |
+|                                              |                    | **Amount** |     |                                              |                    | **Amount** |
+| + Sales                                      | Direct             |            |     | + Sales                                      | Direct             |            |
+| - Cost of Goods Sold                         | Direct, Variable   |            |     | - Cost of Goods Sold                         | Direct, Variable   |            |
+| **Gross Margin**                             |                    |    **XXX** |     | **Gross Margin**                             |                    |    **XXX** |
+| - SG&A                                       | Direct, Fixed      |            |     | - Non-Operating Expenses                     | Indirect, Variable |            |
+|                                              |                    |            |     | **CM1** (Contribution Margin)                |                    |            |
+|                                              |                    |            |     |                                              |                    |            |
+|                                              |                    |            |     | **CM2**                                      |                    |            |
+|                                              |                    |            |     |                                              |                    |            |
+| **Operating Margin**                         |                    |    **XXX** |     | **CM3**                                      |                    |    **XXX** |
+| - Non-Operating Expenses                     | Indirect, Variable |            |     | - SG&A                                       | Direct, Fixed      |            |
+| + Non-Operating Revenue                      | Indirect           |            |     | + Non-Operating Revenue                      | Indirect           |            |
+| **EBITDA**                                   |                    |    **XXX** |     | **EBITDA**                                   |                    |    **XXX** |
+| - Non-Operating Expenses                     | Indirect, Fixed    |            |     | - Non-Operating Expenses                     | Indirect, Fixed    |            |
+| **EBIT** (Earnings before Interests and Tax) |                    |    **XXX** |     | **EBIT** (Earnings before Interests and Tax) |                    |    **XXX** |
+| - Interest                                   |                    |            |     | - Interest                                   |                    |            |
+| - Other financing costs                      |                    |            |     | - Other financing costs                      |                    |            |
+| **PBT (Profit before Tax)**                  |                    |    **XXX** |     | **PBT (Profit before Tax)**                  |                    |    **XXX** |
+| Provision for Tax                            |                    |            |     | Provision for Tax                            |                    |            |
+| **Net Income**                               |                    |    **XXX** |     | **Net Income**                               |                    |    **XXX** |
 
 You only include the expenses used for the revenue generation.
 

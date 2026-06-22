@@ -18,9 +18,10 @@ aggdl[AggDL - Aggregated<br/>Data Layer]
 end
 ```
 
-## Incremental Aggregate Tables
+## Incremental Aggregate Dev Tables
 
-Prefer tables whenever possible, then views if too much effort
+- Always cache old results
+- Prefer tables whenever possible, then views if too much effort
 
 ```
 --- Run once
@@ -70,4 +71,20 @@ LEFT JOIN map b
   -- one of the below, according to complexity
   ON a.col =                  b.col_from
   ON LOWER(a.col) LIKE '%' || b.col_from || '%'
+```
+
+## Lazy-Loading Dashboards
+
+- First refresh: Load critical metrics
+- Second refresh: Load all metrics
+
+```
+SELECT
+	a.order_date,
+	COUNT(a.order_id) AS order_count,
+FROM my_dataset.fct_table a
+INNER JOIN other_table b
+	 ON b.order_id = a.order_id
+	AND EXTRACT(HOUR FROM CURRENT_TIME()) >= 9 -- only load after 9AM
+WHERE a.order_date >= '2026-01-01'
 ```

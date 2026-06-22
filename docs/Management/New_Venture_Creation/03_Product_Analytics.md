@@ -17,15 +17,15 @@
 
 Things to define
 
-|               | Definition            | Sub definition |                                                         | Example                        |
-| ------------- | --------------------- | -------------- | ------------------------------------------------------- | ------------------------------ |
-| **Fact**      | Metric                | Metric action  | What is to be tracked                                   | Retention %, user count, GMV   |
-|               |                       | Metric horizon | Time period for metric                                  | Monthly                        |
-| **Dimension** | Cohort                | Cohort action  | What constitutes as being part of time-series group     | Acquisition conversion         |
-|               |                       | Cohort period  | Time period to aggregate group                          | Monthly                        |
-|               | Segment               |                | What constitutes as being part of cross-sectional group | Geography, OS                  |
-|               | Lifecycle group       |                | Which phase of the customer lifecycle                   | Activation, retention, winback |
-|               | Order frequency group |                | Single<br>Repeat                                        |                                |
+|               | Definition            | Sub definition |                                                         | Example                                                                                                                                                   |
+| ------------- | --------------------- | -------------- | ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Fact**      | Metric                | Metric action  | What is to be tracked                                   | Retention %, user count, GMV                                                                                                                              |
+|               |                       | Metric horizon | Time period for metric                                  | Monthly                                                                                                                                                   |
+| **Dimension** | Cohort                | Cohort action  | What constitutes as being part of time-series group     | Acquisition conversion                                                                                                                                    |
+|               |                       | Cohort period  | Time period to aggregate group                          | Monthly                                                                                                                                                   |
+|               | Segment               |                | What constitutes as being part of cross-sectional group | Session entry point<br>Geography (Country, City, Zone, Area)<br>User acquisition channel/entry point<br>Customer archetype<br>Active<br>OS<br>Hour of day |
+|               | Lifecycle group       |                | Which phase of the customer lifecycle                   | Activation, retention, winback                                                                                                                            |
+|               | Order frequency group |                | Single<br>Repeat                                        |                                                                                                                                                           |
 
 ## Customer Funnel/Loop
 
@@ -208,3 +208,28 @@ When did user churn?
 Idea
 - If comes back on app in Feb, then they are churned in Feb, as they came on top of funnel but did not convert which could be poor app experience
 - If they do not come back on app in Feb, then they are churned in Jan as they did not even come to top of funnel, either due to poor order experience or no longer interested
+
+## App Usage Analysis
+
+- Funnel
+- Path exploration
+- Touch points
+- Entry point
+- Entry point conversion Attribution
+	- Methods
+		- Session conversion to Orders
+		- Orders conversion from Session
+	- Entry point
+		- First entry point
+		- Last entry point
+		- Multi entry point
+
+Notes:
+- Base
+	- Exclude internal stakeholders: employees, internal brands, partners
+- Orders
+	- Have minimum Basket Value/GMV threshold
+- Sessions
+	- Meaningful sessions: Filter out sessions with < 5s
+- Users
+	- Meaningful interactions: Filter out users with < 2 meaningful sessions

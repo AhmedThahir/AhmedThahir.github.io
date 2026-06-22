@@ -1,5 +1,15 @@
 # Analytics
 
+- IDK
+	- Theory and Data should match
+	- Emotions should not come into play
+- IDK
+	- Data
+	- Insights
+	- Recommendations
+
+## Aspects
+
 - Financial Reporting
 - Strategy
 	- Opportunity sizing
@@ -8,6 +18,7 @@
 - Product Analytics
 	- Customer Journey
 	- Customer Growth
+
 ## IDK
 
 - Define KPIs = key metrics

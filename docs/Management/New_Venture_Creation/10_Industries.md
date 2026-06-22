@@ -4,14 +4,26 @@
 
 ### Participants
 
-| Participants  | Expectation                                               | Example                                             |
-| ------------- | --------------------------------------------------------- | --------------------------------------------------- |
-| Supply        | - Demand<br>- Experience<br>- ROI                         | Restaurants                                         |
-| Facilitators  | - Good workplace<br>- Good pay                            | Riders<br>Pickers                                   |
-| Demand        | - Selection<br>- Experience<br>- Value<br>- Affordability | Customers<br>Businesses                             |
-| Ad            | - ROI                                                     | Advertisers on Platform<br>Advertisers for Platform |
-| Fintech       | - ROI                                                     | Payment providers<br>Banks                          |
-| Backend staff | - Good workplace<br>- Good pay                            | Office Staff                                        |
+| Participants  | Example                                             | Expectation                                               | How                                                       |
+| ------------- | --------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------- |
+| Supply        | Restaurants                                         | - Demand<br>- Experience<br>- ROI                         | - Volume and Quality<br>- Payouts<br>- Incremental Profit |
+| Demand        | Customers<br>Businesses                             | - Selection<br>- Experience<br>- Value<br>- Affordability | -<br>- <br>- <br>-                                        |
+| Facilitators  | Waiters<br>Riders<br>Pickers                        | - Good workplace<br>- Good pay                            |                                                           |
+| Ad            | Advertisers on Platform<br>Advertisers for Platform | - ROI                                                     | - Incremental Profit                                      |
+| Fintech       | Payment providers<br>Banks                          | - ROI                                                     | - Incremental Profit<br>- Market Share                    |
+| Backend staff | Office Staff                                        | - Good workplace<br>- Good pay                            |                                                           |
+
+- Growth
+	- Balance of available participants
+	- Quality of available participants
+	- Activation of participants
+	- Liquidity
+- IDK
+	- Localization
+	- Engagement
+	- Conversion
+- Profitability
+	- Efficiency
 
 ## Virtuous cycle
 
