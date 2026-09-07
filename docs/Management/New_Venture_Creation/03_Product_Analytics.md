@@ -89,6 +89,8 @@ r -.->
 |                        |                                                     | Sign-ups                                 |                                                                                   | Users                                       | Higher                   |
 |                        |                                                     | Item Overall CTR<br>(Click-Through Rate) | Item Clicks/Item Views                                                            | Ratio<br>(Sessions/Sessions)<br>(Hits/Hits) | Higher                   |
 |                        |                                                     | Item User CTR                            | Item Clickers/Item Viewers                                                        | Ratio<br>(User/User)                        | Higher                   |
+|                        |                                                     | Search Success %                         | Search Loaded / Search Attempted                                                  | Ratio<br>(Sessions/Sessions)<br>(Hits/Hits) |                          |
+|                        |                                                     | Search CTR                               | Click via Search / Search Loaded                                                  | Ratio<br>(Sessions/Sessions)<br>(Hits/Hits) |                          |
 |                        | Consideration/<br>Desire/<br>Evaluation             | Checkout Views                           |                                                                                   | Sessions, Hits                              | Higher                   |
 |                        |                                                     | Checkout Viewers                         |                                                                                   | Users                                       | Higher                   |
 |                        |                                                     | Checkout Clicks                          |                                                                                   | Sessions, Hits                              | Higher                   |
@@ -104,8 +106,8 @@ r -.->
 | Bottom of Funnel       | Conversion/<br>Activation/<br>Action/<br>Experience | Conversions/Activations                  | Desired action (for eg: orders)                                                   | Hits, Sessions                              | Higher                   |
 |                        |                                                     | Cart abandonment rate                    | Customer adds item(s) to card, but does not complete purchase                     | Ratio<br>(Sessions/Sessions)<br>(Hits/Hits) | Lower                    |
 |                        |                                                     | Customers                                | `#` of users who made orders                                                      | Users                                       | Higher                   |
-|                        |                                                     | Overall CVR<br>(Conversion Rate)         | Conversions/App visits<br>CVR Window Length                                       | Ratio<br>(Sessions/Sessions)<br>(Hits/Hits) | Higher                   |
-|                        |                                                     | Customer CVR                             | Customers/App visitors<br>CVR Window Length                                       | Ratio<br>(User/User)                        | Higher                   |
+|                        |                                                     | Overall CVR<br>(Conversion Rate)         | Conversions/App visits<br>CVR Window Length (1D, 3D, 7D)                          | Ratio<br>(Sessions/Sessions)<br>(Hits/Hits) | Higher                   |
+|                        |                                                     | Customer CVR                             | Customers/App visitors<br>CVR Window Length (1D, 3D, 7D)                          | Ratio<br>(User/User)                        | Higher                   |
 |                        |                                                     | BV                                       | Basket Value<br>Bill amt (Pre-Discount)                                           | Currency                                    | Higher                   |
 |                        |                                                     | GMV                                      | Gross Merchandise Value<br>(post discount)                                        | Currency                                    | Higher                   |
 |                        |                                                     | ABV                                      | Average Basket Value<br>= BV/Orders                                               | Currency                                    | Higher                   |
@@ -223,6 +225,9 @@ Idea
 		- First entry point
 		- Last entry point
 		- Multi entry point
+- IDK
+	- City: User, Vendor
+	- Path: Entry point, intermediate steps (search, collection)
 
 Notes:
 - Base

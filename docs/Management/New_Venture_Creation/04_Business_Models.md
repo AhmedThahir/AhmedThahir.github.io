@@ -1,12 +1,25 @@
 # Business Models
 
+Pillars
+- Selection
+- Experience
+- Value
+- Affordability
+- Loyalty
+
+Domains
 - Value Creation
 - Marketing
 - Sales
 - Value Delivery
 - Finance
 
-
+IDK
+- Acquisition
+- Activation
+- Retention
+- Revenue
+- Referral
 
 ![image-20240210114534312](assets/image-20240210114534312.png){ loading=lazy }
 

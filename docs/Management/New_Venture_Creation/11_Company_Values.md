@@ -1,12 +1,17 @@
 
-- Work
-	- Own it
-	- Dive deep
-	- Deliver value fast
-	- Bias for impact
-		- Stakeholder benefit obsession - Customer, Vendors, Partners
-	- De-average results
-- Behavioral
-	- Bring good vibes
-	- Raise The Bar
-	- Stay Humble
+- What
+	- Company OKRs
+	- Project OKRs
+	- Team OKRs
+- How
+	- Operating Principles
+		- Bias for impact
+			- Stakeholder benefit obsession - Customer, Vendors, Partners
+		- De-average results
+	- Leadership Principles
+		- Own it
+		- Dive deep
+		- Deliver value fast
+		- Bring good vibes
+		- Raise The Bar
+		- Stay Humble

@@ -226,3 +226,40 @@ Evaluation of difference
 - Cross-Temporal
 	- Difference across groups and time
 
+## Performance
+
+3 sections
+- High lights
+- Neutral
+- Low lights
+
+Sub sections
+1. What happened? Actual vs Target
+2. So what?
+3. Why/How it happened?
+4. ⁠What are we doing now?
+5. ⁠Action
+
+- What should we do going forward?
+- ⁠Expected inc impact of action
+- ⁠Owner, timeline
+
+
+Detailed
+- cohorts
+- ⁠segments
+
+
+### Funnel
+
+Dimensions
+- Entry point
+- Second touch point
+- CVR first session, Cvr, cvr exc current session, ctr
+
+- Overall funnel
+- Search space filter
+	- aggregations: abs, change, drop/signed change, % change
+	- ⁠metrics: orders, views
+	- ⁠segments - actionables - zone, city, brand, outlet
+- Focused Funnel
