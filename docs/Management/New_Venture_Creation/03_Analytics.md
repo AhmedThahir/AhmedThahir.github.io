@@ -261,5 +261,7 @@ Dimensions
 - Search space filter
 	- aggregations: abs, change, drop/signed change, % change
 	- ⁠metrics: orders, views
-	- ⁠segments - actionables - zone, city, brand, outlet
+	- supply-side and demand-side
+		- cohorts
+		- ⁠segments - actionables - zone, city, brand, outlet
 - Focused Funnel

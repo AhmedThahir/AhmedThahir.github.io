@@ -7,6 +7,10 @@ How to plan and execute a new venture
 - [ ] Nuts and Bolts of New Ventures
 	- [x] [Nuts and Bolts of Business Plans 2014 | MIT](https://www.youtube.com/playlist?list=PLUl4u3cNGP61x5b_88idmqeRdPULQjGnv)
 	- [ ] [Nuts and Bolts of New Ventures | 2025 | MIT](https://www.youtube.com/playlist?list=PLUl4u3cNGP63EUNfnwrkgO2xxwYxNwRdI)
+- [ ] [Network Effects Crash Course | Sameer Singh](https://youtu.be/P5dmch80l_4)
+- [ ] NFX
+	- [ ] [NFX Masterclass](https://www.nfx.com/post/network-effects-manual)
+	- [ ] https://www.nfx.com/library/marketplaces
 - [ ] [Startup School: The First 100 Days - YCombinator/Stanford CS183F - Spring 2017 | Stanford Online](https://www.youtube.com/playlist?list=PLoROMvodv4rNpMrTeeh-627Lajh6uSUgY)
 - [ ] [Metrics and Analytics of Marketing | NPTEL IIT Guwahati](https://www.youtube.com/playlist?list=PLwdnzlV3ogoVdgB8lt4cZC8ZBDX41yotl)
 - [ ] [Technology Entrepreneurship | Stanford](https://www.youtube.com/playlist?list=PLF6C0319C607DEDC1)
