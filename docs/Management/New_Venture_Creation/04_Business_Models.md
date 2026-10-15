@@ -49,6 +49,8 @@ Domains
 For each participant and domain, you have these pillars
 Pillars
 - Selection
+	- Discoverability - Search
+	- Recommendations - Pre-defined collections
 - Experience
 - Value
 - Affordability

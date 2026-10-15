@@ -265,3 +265,19 @@ Dimensions
 		- cohorts
 		- ⁠segments - actionables - zone, city, brand, outlet
 - Focused Funnel
+
+
+Do the entire funnel for demand-side ***AND*** supply-side
+- Treat brands, outlets, areas like how we treat segment of users
+- CVR, CTR, etc
+
+## IDK
+
+- If your objective is to measure **what a bad experience feels like** with zero distortion from fast traffic, adopt **Truncated Mean** (also called _Threshold-Filtered Average_):
+
+- **Define what "bad" means in your domain:** e.g., anything taking longer than 1.5 seconds.
+    
+- **Compute:** `Average(Latency where Latency >= 1.5s)`
+    
+
+This metric answers your exact question: _"When a user experiences a slow request, how slow is it on average?"_—and adding 1,000,000 fast requests will leave it completely untouched.
