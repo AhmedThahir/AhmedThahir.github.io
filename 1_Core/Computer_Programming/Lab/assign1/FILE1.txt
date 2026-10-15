@@ -1,0 +1,19 @@
+This is from the IEEE Spectrums third interactive ranking of the most popular programming languages.
+
+As it is impossible to look over the shoulder of every programmer, Spectrum uses various metrics as proxies for gauging the current use of a language.
+
+
+Working with data journalist Nick Diakopoulos, from 10 online sources we've chosen 12 metrics, each one of which gives insight along a different axis of popularity. Combining the metrics produces a single ranking.
+
+So what are Spectrums Top Ten Languages for 2016?
+
+R is following its momentum from previous years, as part of a positive trend in general for modern big-data languages that Diakopoulos analyses in more detail here.
+
+After two years in second place, C has finally edged out Java for the top spot.
+
+Staying in the top five, Python has swapped places with C++ to take the No. 3 position, and C# has fallen out of the top five to be replaced with R.
+
+R is following its momentum from previous years, as part of a positive trend in general for modern big-data languages that Diakopoulos analyses in more detail here.
+
+In the losing side, perhaps the most surprising is that Shell programming a catchall term for the creation of scripts of the sort beloved by system administrators, using shells such as bash has declined in popularity, falling seven positions to 19th place.
+This may reflect the development of more sophisticated systems to manage cloud-based data centers, but we'll have to wait to see if the trend contin ues next year or if this is just a statistical fluke.
